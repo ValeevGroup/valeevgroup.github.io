@@ -1,0 +1,8 @@
+<map id="TiledArray::detail::ValArray::reduce" name="TiledArray::detail::ValArray::reduce">
+<area shape="rect" id="node2" href="$class_tiled_array_1_1detail_1_1_size_array.html#a7c88bdea8b86bbc4d390d2a9a51ae423" title="TiledArray::detail\l::SizeArray::size" alt="" coords="187,5,308,44"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1detail_1_1_size_array.html#a48f271b2cd62d10052ffdf004a48b6e8" title="Binary reduce vector operation. " alt="" coords="180,68,315,107"/>
+<area shape="rect" id="node7" href="$class_tiled_array_1_1detail_1_1_size_array.html#a437988f2295f6ebdf55ccb85a2e7d99b" title="TiledArray::detail\l::SizeArray::data" alt="" coords="187,131,308,169"/>
+<area shape="rect" id="node4" href="$namespace_tiled_array_1_1math.html#a15a1d6b52aacf352033bac011e3fd63e" title="TiledArray::math::reduce_op" alt="" coords="363,75,552,100"/>
+<area shape="rect" id="node5" href="$namespace_tiled_array_1_1math.html#a3c3b0a15a11c5db65e0cc0b4de24a9c9" title="TiledArray::math::reduce\l_block" alt="" coords="600,68,767,107"/>
+<area shape="rect" id="node6" href="$struct_tiled_array_1_1math_1_1_vector_op_unwind.html#a94c5fa262ec6412d7069b0a501274c90" title="TiledArray::math::Vector\lOpUnwind::reduce" alt="" coords="815,68,979,107"/>
+</map>

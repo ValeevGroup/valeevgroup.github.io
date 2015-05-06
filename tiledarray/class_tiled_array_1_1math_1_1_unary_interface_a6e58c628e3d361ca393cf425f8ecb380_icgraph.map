@@ -1,0 +1,5 @@
+<map id="TiledArray::math::UnaryInterface::operator=" name="TiledArray::math::UnaryInterface::operator=">
+<area shape="rect" id="node2" href="$class_tiled_array_1_1math_1_1_neg.html#a9aaca7f38f227590b7bdf9b9aef94f19" title="Copy assignment. " alt="" coords="271,5,421,44"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1math_1_1_noop.html#a49aced1a97bb5442576c165dc78e84d1" title="Copy assignment. " alt="" coords="267,68,425,107"/>
+<area shape="rect" id="node4" href="$class_tiled_array_1_1math_1_1_scal.html#aff99c187384d6530ced7628b2e3eb1ed" title="Copy assignment. " alt="" coords="270,131,422,169"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="TiledArray::Range::ord" name="TiledArray::Range::ord">
+<area shape="rect" id="node2" href="$class_tiled_array_1_1_range.html#a3f386bc234f11ba5765162ecaa30c463" title="TiledArray::Range::ord" alt="" coords="208,5,363,31"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1_range.html#acc6a8327b0aa108da075746740b7eb5e" title="alias to ord&lt;Index&gt;(), to conform with the Tensor Working Group spec " alt="" coords="218,55,354,93"/>
+</map>

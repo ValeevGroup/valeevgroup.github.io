@@ -1,0 +1,15 @@
+<map id="TiledArray::math::vector_ptr_op" name="TiledArray::math::vector_ptr_op">
+<area shape="rect" id="node2" href="$namespace_tiled_array_1_1math.html#afc1bb7adc77454e212dbf3f87b5812fb" title="TiledArray::math::uninitialized\l_copy_vector" alt="" coords="216,68,411,107"/>
+<area shape="rect" id="node5" href="$namespace_tiled_array_1_1math.html#a9ce7228a01fdef45d921fdc49cc0fba2" title="TiledArray::math::uninitialized\l_fill_vector" alt="" coords="216,163,411,201"/>
+<area shape="rect" id="node8" href="$namespace_tiled_array_1_1math.html#ae35eda7c1607022604383845a87ecac7" title="TiledArray::math::destroy\l_vector" alt="" coords="229,225,398,264"/>
+<area shape="rect" id="node9" href="$namespace_tiled_array_1_1math.html#a0f10daac864660adab5170dad7f63344" title="TiledArray::math::uninitialized\l_unary_vector_op" alt="" coords="216,288,411,327"/>
+<area shape="rect" id="node12" href="$namespace_tiled_array_1_1math.html#ac771a3f823ef90399bf4aec1b5a1e848" title="TiledArray::math::uninitialized\l_binary_vector_op" alt="" coords="216,381,411,420"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1_tensor.html#aa26d3a7da3f688026687f966e8365014" title="TiledArray::Tensor\l\&lt; value_type \&gt;::Tensor" alt="" coords="459,5,616,44"/>
+<area shape="rect" id="node4" href="$class_tiled_array_1_1detail_1_1_val_array.html#a3e3117ec4540c5daa2ae0ecc8f328408" title="TiledArray::detail\l::ValArray::ValArray" alt="" coords="469,68,606,107"/>
+<area shape="rect" id="node6" href="$class_tiled_array_1_1_tensor.html#a3384bbbc05729844a0d2021688e8831d" title="Construct a tensor with a fill value. " alt="" coords="459,131,616,169"/>
+<area shape="rect" id="node7" href="$class_tiled_array_1_1detail_1_1_val_array.html#a37c3d8720804d036b3d3923a07d376f8" title="TiledArray::detail\l::ValArray::ValArray" alt="" coords="469,193,606,232"/>
+<area shape="rect" id="node10" href="$class_tiled_array_1_1_tensor.html#af9e26c8c26abdfa0a267b163462908b9" title="Construct an evaluated tensor. " alt="" coords="459,256,616,295"/>
+<area shape="rect" id="node11" href="$class_tiled_array_1_1detail_1_1_val_array.html#a7edcb20c5dade12021dc58c66b59eb25" title="TiledArray::detail\l::ValArray::ValArray" alt="" coords="469,319,606,357"/>
+<area shape="rect" id="node13" href="$class_tiled_array_1_1_tensor.html#ab1e99dc3f917d96572c481e160c68ae6" title="Construct an evaluated tensor. " alt="" coords="459,381,616,420"/>
+<area shape="rect" id="node14" href="$class_tiled_array_1_1detail_1_1_val_array.html#afd0f7c60fd6d24f9b91ed83aed79e3c8" title="TiledArray::detail\l::ValArray::ValArray" alt="" coords="469,444,606,483"/>
+</map>

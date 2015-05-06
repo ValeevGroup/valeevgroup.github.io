@@ -1,0 +1,18 @@
+<map id="TiledArray::detail::dummy_annotation" name="TiledArray::detail::dummy_annotation">
+<area shape="rect" id="node2" href="$namespace_tiled_array.html#adfbcfb8b7077a4ecf13843282c565013" title="TiledArray::zero" alt="" coords="219,117,334,143"/>
+<area shape="rect" id="node5" href="$namespace_tiled_array.html#af18b486edffe2c7ddd558d9ec9f4271e" title="TiledArray::minabs\l_value" alt="" coords="434,744,566,783"/>
+<area shape="rect" id="node6" href="$namespace_tiled_array.html#a1f6a2958f32065c334c6162017e20e56" title="TiledArray::maxabs\l_value" alt="" coords="209,5,345,44"/>
+<area shape="rect" id="node7" href="$namespace_tiled_array.html#a4befd17ae1160b720eaed19bf9f3ae4a" title="TiledArray::vec_multiply" alt="" coords="195,216,358,241"/>
+<area shape="rect" id="node8" href="$namespace_tiled_array.html#a10e2f898c10d562e519ca1bee3eae809" title="TiledArray::dot_product" alt="" coords="197,167,356,192"/>
+<area shape="rect" id="node9" href="$namespace_tiled_array.html#a217ad4d903a7ef45d75fe78cc2c229b8" title="TiledArray::scale" alt="" coords="217,385,337,411"/>
+<area shape="rect" id="node16" href="$namespace_tiled_array.html#a25322319d6ef39d6eaba23a983a30425" title="TiledArray::axpy" alt="" coords="218,68,335,93"/>
+<area shape="rect" id="node17" href="$namespace_tiled_array.html#a8c1849a2e321bf74370b677f99c562f8" title="TiledArray::norm2" alt="" coords="213,564,340,589"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1_d_i_i_s.html#a6fd568abd2246acbc0f6ea1ee6e20905" title="TiledArray::DIIS::extrapolate" alt="" coords="406,113,594,139"/>
+<area shape="rect" id="node4" href="$struct_tiled_array_1_1_conjugate_gradient_solver.html#ae3a281e82d2974cdb9decefcd69dff73" title="TiledArray::ConjugateGradient\lSolver::operator()" alt="" coords="642,183,843,221"/>
+<area shape="rect" id="node10" href="$class_tiled_array_1_1math_1_1_scal.html#a06bcdb2815de76b804cd1f30f59cb049" title="TiledArray::math::Scal\l::permute" alt="" coords="424,316,576,355"/>
+<area shape="rect" id="node11" href="$class_tiled_array_1_1math_1_1_scal.html#a24947d0d967ab3d7a5aed1ffd04db372" title="TiledArray::math::Scal\l::no_permute" alt="" coords="424,379,576,417"/>
+<area shape="rect" id="node12" href="$class_tiled_array_1_1math_1_1_scal_add.html#ad0ae3fa4d9d1d55bc01061a5497aad85" title="TiledArray::math::ScalAdd\l::permute" alt="" coords="412,441,588,480"/>
+<area shape="rect" id="node13" href="$class_tiled_array_1_1math_1_1_scal_add.html#a2842c585e000f6cc33ebe4bb5785efbb" title="TiledArray::math::ScalAdd\l::no_permute" alt="" coords="412,504,588,543"/>
+<area shape="rect" id="node14" href="$class_tiled_array_1_1math_1_1_scal_subt.html#a86258baf51dcfc8990df785f1a8ec092" title="TiledArray::math::ScalSubt\l::permute" alt="" coords="410,567,590,605"/>
+<area shape="rect" id="node15" href="$class_tiled_array_1_1math_1_1_scal_subt.html#a85badfadf2a3135d842f045ac6214f4c" title="TiledArray::math::ScalSubt\l::no_permute" alt="" coords="410,629,590,668"/>
+</map>

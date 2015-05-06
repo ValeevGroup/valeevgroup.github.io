@@ -1,0 +1,46 @@
+\form#0:$ f(x) = 0 $
+\form#1:$ f(x) $
+\form#2:$ x $
+\form#3:$ x_i $
+\form#4:$ e_i = f(x_i) $
+\form#5:$ e $
+\form#6:$ x_{i+1} = x_i + g(e_i) $
+\form#7:$ \epsilon $
+\form#8:$ ||x_{i+1} - x_i|| < \epsilon $
+\form#9:$ x \equiv \mathbf{P} $
+\form#10:$ f(\mathbf{P}) \equiv [\mathbf{F}, \mathbf{P}] $
+\form#11:$ \mathbf{F} = \mathbf{F}(\mathbf{P}) $
+\form#12:$ \mathbf{F} $
+\form#13:$ x \equiv \mathbf{F} $
+\form#14:$ f(\mathbf{F}) \equiv [\mathbf{F}, \mathbf{P}] $
+\form#15:$ f(\mathbf{F}) \equiv \{ F_i^a \} $
+\form#16:$ i $
+\form#17:$ a $
+\form#18:$ \{ x_k \}, k=0..i $
+\form#19:$ \{ e_k \} $
+\form#20:$ \{ C_k \} $
+\form#21:$ x_{\mathrm{extrap},i+1} = \sum\limits_{k=0}^i C_{k,i} x_{k} $
+\form#22:$ x_{\mathrm{extrap},i+1} = \sum\limits_{k=0}^i C_{k,i} ( (1-f) x_{k} + f x_{extrap,k} ) $
+\form#23:\[ T = \frac{MK}{P_{\rm{row}}} \left(\alpha + \frac{mk}{\beta}\right) \left((P/P_{\rm{row}}) - 1\right) + \frac{KN}{P/P_{\rm{row}}} \left(\alpha + \frac{kn}{\beta}\right) \left(P_{\rm{row}} - 1\right) \]
+\form#24:$P_{\rm{row}}$
+\form#25:$M$
+\form#26:$N$
+\form#27:$K$
+\form#28:$m$
+\form#29:$n$
+\form#30:$k$
+\form#31:$P$
+\form#32:$\alpha$
+\form#33:$\beta$
+\form#34:$dT/dP_{\rm{row}} = 0$
+\form#35:$\alpha \approx 0$
+\form#36:\[ Nn(2 P_{\rm{row}}^4 - P_{\rm{row}}^3) + Mm(P P_{\rm{row}} - P^2) = 0 \]
+\form#37:\[ {\rm{shape}}_{ij...} = \frac{\|A_{ij...}\|}{N_i N_j ...} \]
+\form#38:$ij...$
+\form#39:$\|A_{ij}\|$
+\form#40:$N_i N_j ...$
+\form#41:\[ {(\rm{result})}_{ij...} = |(\rm{factor})| (\rm{this})_{ij...} \]
+\form#42:\[ {(\rm{result})}_{ji...} = \rm{perm}(j,i) |(\rm{factor})| (\rm{this})_{ij...} \]
+\form#43:\[ {(\rm{result})}_{ij...} = (\rm{this})_{ij...} + (\rm{other})_{ij...} \]
+\form#44:\[ {(\rm{result})}_{ji...} = \rm{perm}(i,j) (\rm{this})_{ij...} + (\rm{other})_{ij...} \]
+\form#45:\[ {(\rm{result})}_{ij...} = |(\rm{factor})| ((\rm{this})_{ij...} + (\rm{other})_{ij...}) \]

@@ -1,8 +1,8 @@
 <map id="TiledArray/range.h" name="TiledArray/range.h">
-<area shape="rect" id="node2" href="$perm__index_8h.html" title="TiledArray/perm_index.h" alt="" coords="855,79,1021,104"/>
-<area shape="rect" id="node30" href="$tiled__range1_8h.html" title="TiledArray/tiled_range1.h" alt="" coords="653,79,823,104"/>
+<area shape="rect" id="node2" href="$perm__index_8h.html" title="TiledArray/perm_index.h" alt="" coords="842,79,1008,104"/>
+<area shape="rect" id="node30" href="$tiled__range_8h.html" title="TiledArray/tiled_range.h" alt="" coords="629,152,791,177"/>
 <area shape="rect" id="node3" href="$dist__eval_8h.html" title="TiledArray/dist_eval\l/dist_eval.h" alt="" coords="1174,225,1312,264"/>
-<area shape="rect" id="node26" href="$tensor_8h.html" title="TiledArray/tensor.h" alt="" coords="872,152,1004,177"/>
+<area shape="rect" id="node26" href="$tensor_8h.html" title="TiledArray/tensor.h" alt="" coords="858,152,991,177"/>
 <area shape="rect" id="node4" href="$array__eval_8h.html" title="TiledArray/dist_eval\l/array_eval.h" alt="" coords="1381,312,1519,351"/>
 <area shape="rect" id="node11" href="$binary__eval_8h.html" title="TiledArray/dist_eval\l/binary_eval.h" alt="" coords="1174,312,1312,351"/>
 <area shape="rect" id="node20" href="$contraction__eval_8h.html" title="TiledArray/dist_eval\l/contraction_eval.h" alt="" coords="994,399,1132,437"/>
@@ -28,13 +28,12 @@
 <area shape="rect" id="node27" href="$sparse__shape_8h.html" title="TiledArray/sparse_shape.h" alt="" coords="728,232,908,257"/>
 <area shape="rect" id="node28" href="$sparse__policy_8h.html" title="TiledArray/policies\l/sparse_policy.h" alt="" coords="624,312,753,351"/>
 <area shape="rect" id="node29" href="$shape_8h.html" title="TiledArray/shape.h" alt="" coords="777,319,910,344"/>
-<area shape="rect" id="node31" href="$tiled__range_8h.html" title="TiledArray/tiled_range.h" alt="" coords="641,152,803,177"/>
-<area shape="rect" id="node32" href="$dense__policy_8h.html" title="TiledArray/policies\l/dense_policy.h" alt="" coords="521,572,651,611"/>
-<area shape="rect" id="node33" href="$array_8h.html" title="TiledArray/array.h" alt="" coords="314,665,440,691"/>
-<area shape="rect" id="node34" href="$conjgrad_8h.html" title="TiledArray/algebra\l/conjgrad.h" alt="" coords="8,919,137,957"/>
-<area shape="rect" id="node35" href="$diis_8h.html" title="TiledArray/algebra\l/diis.h" alt="" coords="110,832,240,871"/>
-<area shape="rect" id="node36" href="$utils_8h.html" title="TiledArray/algebra\l/utils.h" alt="" coords="34,745,164,784"/>
-<area shape="rect" id="node37" href="$dense__to__sparse_8h.html" title="TiledArray/conversions\l/dense_to_sparse.h" alt="" coords="472,745,628,784"/>
-<area shape="rect" id="node38" href="$sparse__to__dense_8h.html" title="TiledArray/conversions\l/sparse_to_dense.h" alt="" coords="652,745,808,784"/>
-<area shape="rect" id="node39" href="$to__new__tile__type_8h.html" title="TiledArray/conversions\l/to_new_tile_type.h" alt="" coords="240,745,396,784"/>
+<area shape="rect" id="node31" href="$dense__policy_8h.html" title="TiledArray/policies\l/dense_policy.h" alt="" coords="521,572,651,611"/>
+<area shape="rect" id="node32" href="$array_8h.html" title="TiledArray/array.h" alt="" coords="314,665,440,691"/>
+<area shape="rect" id="node33" href="$conjgrad_8h.html" title="TiledArray/algebra\l/conjgrad.h" alt="" coords="8,919,137,957"/>
+<area shape="rect" id="node34" href="$diis_8h.html" title="TiledArray/algebra\l/diis.h" alt="" coords="110,832,240,871"/>
+<area shape="rect" id="node35" href="$utils_8h.html" title="TiledArray/algebra\l/utils.h" alt="" coords="34,745,164,784"/>
+<area shape="rect" id="node36" href="$dense__to__sparse_8h.html" title="TiledArray/conversions\l/dense_to_sparse.h" alt="" coords="472,745,628,784"/>
+<area shape="rect" id="node37" href="$sparse__to__dense_8h.html" title="TiledArray/conversions\l/sparse_to_dense.h" alt="" coords="652,745,808,784"/>
+<area shape="rect" id="node38" href="$to__new__tile__type_8h.html" title="TiledArray/conversions\l/to_new_tile_type.h" alt="" coords="240,745,396,784"/>
 </map>

@@ -1,15 +1,11 @@
 <map id="TiledArray/dist_eval/dist_eval.h" name="TiledArray/dist_eval/dist_eval.h">
-<area shape="rect" id="node2" href="$tensor__impl_8h.html" title="TiledArray/tensor_impl.h" alt="" coords="5,399,171,424"/>
-<area shape="rect" id="node9" href="$permutation_8h.html" title="TiledArray/permutation.h" alt="" coords="387,319,554,344"/>
-<area shape="rect" id="node19" href="$perm__index_8h.html" title="TiledArray/perm_index.h" alt="" coords="349,92,515,117"/>
-<area shape="rect" id="node3" href="$error_8h.html" title="TiledArray/error.h" alt="" coords="139,472,263,497"/>
-<area shape="rect" id="node6" href="$madness_8h.html" title="TiledArray/madness.h" alt="" coords="619,472,770,497"/>
-<area shape="rect" id="node10" href="$type__traits_8h.html" title="TiledArray/type_traits.h" alt="" coords="389,472,547,497"/>
-<area shape="rect" id="node15" href="$utility_8h.html" title="TiledArray/utility.h" alt="" coords="786,399,912,424"/>
-<area shape="rect" id="node20" href="$range_8h.html" title="TiledArray/range.h" alt="" coords="392,165,523,191"/>
-<area shape="rect" id="node21" href="$range__iterator_8h.html" title="TiledArray/range_iterator.h" alt="" coords="245,399,424,424"/>
-<area shape="rect" id="node22" href="$size__array_8h.html" title="TiledArray/size_array.h" alt="" coords="486,239,642,264"/>
-<area shape="rect" id="node23" href="$outer_8h.html" title="TiledArray/math/outer.h" alt="" coords="578,319,737,344"/>
-<area shape="rect" id="node25" href="$partial__reduce_8h.html" title="TiledArray/math/partial\l_reduce.h" alt="" coords="761,312,916,351"/>
-<area shape="rect" id="node24" href="$vector__op_8h.html" title="TiledArray/math/vector_op.h" alt="" coords="574,399,762,424"/>
+<area shape="rect" id="node2" href="$tensor__impl_8h.html" title="TiledArray/tensor_impl.h" alt="" coords="166,239,331,264"/>
+<area shape="rect" id="node9" href="$permutation_8h.html" title="TiledArray/permutation.h" alt="" coords="355,239,522,264"/>
+<area shape="rect" id="node18" href="$perm__index_8h.html" title="TiledArray/perm_index.h" alt="" coords="416,92,582,117"/>
+<area shape="rect" id="node3" href="$error_8h.html" title="TiledArray/error.h" alt="" coords="476,312,599,337"/>
+<area shape="rect" id="node6" href="$madness_8h.html" title="TiledArray/madness.h" alt="" coords="101,392,251,417"/>
+<area shape="rect" id="node10" href="$type__traits_8h.html" title="TiledArray/type_traits.h" alt="" coords="704,312,862,337"/>
+<area shape="rect" id="node14" href="$utility_8h.html" title="TiledArray/utility.h" alt="" coords="249,312,375,337"/>
+<area shape="rect" id="node19" href="$range_8h.html" title="TiledArray/range.h" alt="" coords="434,165,564,191"/>
+<area shape="rect" id="node20" href="$range__iterator_8h.html" title="TiledArray/range_iterator.h" alt="" coords="547,239,726,264"/>
 </map>

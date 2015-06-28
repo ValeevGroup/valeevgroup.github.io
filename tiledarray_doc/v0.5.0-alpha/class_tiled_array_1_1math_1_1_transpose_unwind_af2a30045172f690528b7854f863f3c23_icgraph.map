@@ -1,0 +1,7 @@
+<map id="TiledArray::math::TransposeUnwind::block_scatter" name="TiledArray::math::TransposeUnwind::block_scatter">
+<area shape="rect" id="node2" href="$namespace_tiled_array_1_1math.html#a0ce134b15b0d7b077dc45f35edde1704" title="TiledArray::math::transpose\l_block" alt="" coords="242,37,427,76"/>
+<area shape="rect" id="node3" href="$namespace_tiled_array_1_1math.html#a9145a406a2f3198b34bf3c248cd3dbf4" title="Matrix transpose and initialization. " alt="" coords="475,44,659,69"/>
+<area shape="rect" id="node4" href="$namespace_tiled_array_1_1detail.html#abccc13338ac000c35d064a2b147b52f6" title="Construct a permuted tensor copy. " alt="" coords="707,37,828,76"/>
+<area shape="rect" id="node5" href="$namespace_tiled_array_1_1detail.html#acea82008dbcee62101a2865a602852cb" title="In&#45;place tensor permutation operations with contiguous data. " alt="" coords="876,5,1014,44"/>
+<area shape="rect" id="node6" href="$namespace_tiled_array_1_1detail.html#a474df5f74ea75c66470f333f78dad3d5" title="Initialize tensor with permuted tensor arguments. " alt="" coords="884,68,1005,107"/>
+</map>

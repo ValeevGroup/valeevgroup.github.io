@@ -1,0 +1,5 @@
+<map id="TiledArray::math::Neg::permute" name="TiledArray::math::Neg::permute">
+<area shape="rect" id="node2" href="$group___tile_interface.html#gab5d7119054012d41b27804b6c37e8cb0" title="Negate the tile argument. " alt="" coords="255,12,366,37"/>
+<area shape="rect" id="node4" href="$class_tiled_array_1_1math_1_1_unary_interface.html#a2c769f34f54713b80be5b078029ff725" title="Permutation accessor. " alt="" coords="204,61,417,100"/>
+<area shape="rect" id="node3" href="$namespace_tiled_array_1_1detail.html#ada724a31400bb94f55097560394438de" title="Factory function for tiles. " alt="" coords="465,5,586,44"/>
+</map>

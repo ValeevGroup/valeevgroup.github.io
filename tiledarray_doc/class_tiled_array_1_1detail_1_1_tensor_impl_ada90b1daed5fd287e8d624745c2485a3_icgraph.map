@@ -1,8 +1,0 @@
-<map id="TiledArray::detail::TensorImpl::get_world" name="TiledArray::detail::TensorImpl::get_world">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1detail_1_1_array_eval_impl.html#aad24c57f2b834538aa1df46722f05043" title="Get tile at index i. " alt="" coords="229,5,391,44"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1detail_1_1_binary_eval_impl.html#a2309b8d434e60bb8400d4918adf6bea9" title="Get tile at index i. " alt="" coords="226,68,394,107"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1detail_1_1_summa.html#ad87bac6d471c6bdc5eb26e962af1fcfc" title="Get tile at index i. " alt="" coords="248,131,373,169"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1detail_1_1_dist_eval_impl.html#ac7fdeeb1ce01769585b49220fb07a2df" title="Set tensor value. " alt="" coords="213,193,408,259"/>
-<area shape="rect" id="node6" href="$class_tiled_array_1_1detail_1_1_dist_eval_impl.html#abf7d92dcef9c03945f93c5d0ae65f1be" title="Wait for all tiles to be assigned. " alt="" coords="213,283,408,348"/>
-<area shape="rect" id="node7" href="$class_tiled_array_1_1detail_1_1_unary_eval_impl.html#ab20be162a01186bcc029e20b72855c8e" title="Get tile at index i. " alt="" coords="227,372,393,411"/>
-</map>

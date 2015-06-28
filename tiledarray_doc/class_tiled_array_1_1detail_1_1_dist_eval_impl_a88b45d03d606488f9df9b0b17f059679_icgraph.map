@@ -1,6 +1,0 @@
-<map id="TiledArray::detail::DistEvalImpl::perm_index_to_source" name="TiledArray::detail::DistEvalImpl::perm_index_to_source">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1detail_1_1_array_eval_impl.html#a88d85546d00c782ed9ef725d075485e0" title="Get tile at index i. " alt="" coords="197,5,359,44"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1detail_1_1_binary_eval_impl.html#a91f7094d5fd691f169aa453c6a63e3f9" title="Get tile at index i. " alt="" coords="194,68,362,107"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1detail_1_1_summa.html#a0f92cf252a51f5bf7f96e8891a75ca62" title="Get tile at index i. " alt="" coords="215,131,341,169"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1detail_1_1_unary_eval_impl.html#afa7ffdc10c45e68d0a1862016f06dbb1" title="Get tile at index i. " alt="" coords="195,193,361,232"/>
-</map>

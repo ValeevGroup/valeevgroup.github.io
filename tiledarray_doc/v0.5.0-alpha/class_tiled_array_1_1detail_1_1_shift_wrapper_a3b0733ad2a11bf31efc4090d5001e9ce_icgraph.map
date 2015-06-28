@@ -1,0 +1,6 @@
+<map id="TiledArray::detail::ShiftWrapper::range" name="TiledArray::detail::ShiftWrapper::range">
+<area shape="rect" id="node2" href="$namespace_tiled_array_1_1detail.html#aa49fdad6dffe4694cd2f6568461a409c" title="Check for congruent range objects with a shifted tensor. " alt="" coords="201,68,348,107"/>
+<area shape="rect" id="node3" href="$namespace_tiled_array_1_1detail.html#acea82008dbcee62101a2865a602852cb" title="In&#45;place tensor permutation operations with contiguous data. " alt="" coords="413,5,551,44"/>
+<area shape="rect" id="node4" href="$namespace_tiled_array_1_1detail.html#a938eb07a4afc6e9ed4c238b24a504074" title="Test that the ranges of a permuted set of tensors are congruent. " alt="" coords="396,68,568,107"/>
+<area shape="rect" id="node5" href="$namespace_tiled_array_1_1detail.html#a227f69a3e3e5de0854bac8e8f2ec6cee" title="Get the inner size of two tensors. " alt="" coords="415,131,549,169"/>
+</map>

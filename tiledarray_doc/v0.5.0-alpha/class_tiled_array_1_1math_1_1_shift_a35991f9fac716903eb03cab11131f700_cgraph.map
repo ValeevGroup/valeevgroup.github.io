@@ -1,0 +1,5 @@
+<map id="TiledArray::math::Shift::permute" name="TiledArray::math::Shift::permute">
+<area shape="rect" id="node2" href="$group___tile_interface.html#ga040f23a684e2cfec50be13936d603709" title="Create a permuted copy of arg. " alt="" coords="244,5,382,31"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1math_1_1_unary_interface.html#a2c769f34f54713b80be5b078029ff725" title="Permutation accessor. " alt="" coords="206,55,420,93"/>
+<area shape="rect" id="node4" href="$namespace_tiled_array.html#a3ed423a0b023a4a5aadfb5012d968a4a" title="Shift a tensor from one range to another. " alt="" coords="256,117,370,143"/>
+</map>

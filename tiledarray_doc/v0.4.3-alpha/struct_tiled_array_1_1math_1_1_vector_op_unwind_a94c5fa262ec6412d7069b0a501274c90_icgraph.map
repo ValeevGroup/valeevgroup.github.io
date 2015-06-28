@@ -1,0 +1,12 @@
+<map id="TiledArray::math::VectorOpUnwind::reduce" name="TiledArray::math::VectorOpUnwind::reduce">
+<area shape="rect" id="node2" href="$namespace_tiled_array_1_1math.html#abec6dc9bc0dae96165c2ba32ed1f556c" title="TiledArray::math::reduce\l_block" alt="" coords="217,96,384,135"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1math_1_1_partial_reduce_unwind_3_010_01_4.html#adc52abac0058d5d1b928ab40090afa85" title="TiledArray::math::Partial\lReduceUnwind\&lt; 0 \&gt;::row_reduce" alt="" coords="432,5,651,44"/>
+<area shape="rect" id="node4" href="$class_tiled_array_1_1math_1_1_partial_reduce_unwind.html#a71b7d2a490f2f5b0e5a2b128a21c2160" title="TiledArray::math::Partial\lReduceUnwind::row_reduce" alt="" coords="447,68,636,107"/>
+<area shape="rect" id="node8" href="$namespace_tiled_array_1_1math.html#a3e0320ae905ee10ad12385eec49c1ca5" title="Reduce the columns of a matrix. " alt="" coords="470,196,613,235"/>
+<area shape="rect" id="node10" href="$namespace_tiled_array_1_1math.html#a15a1d6b52aacf352033bac011e3fd63e" title="TiledArray::math::reduce_op" alt="" coords="447,131,636,156"/>
+<area shape="rect" id="node5" href="$class_tiled_array_1_1math_1_1_partial_reduce_unwind.html#a8ce5179e7c6a6f42fbefb1bb4f0fdaa5" title="TiledArray::math::Partial\lReduceUnwind::row_reduce" alt="" coords="699,5,888,44"/>
+<area shape="rect" id="node6" href="$namespace_tiled_array_1_1math.html#ad14d32aaef7223d44d7b868471a783d1" title="Reduce the rows of a matrix. " alt="" coords="720,68,867,107"/>
+<area shape="rect" id="node7" href="$class_tiled_array_1_1detail_1_1_size_array.html#ada0bc07b5eea703ee594cf03657e8407" title="Row reduce operation. " alt="" coords="936,61,1090,113"/>
+<area shape="rect" id="node9" href="$class_tiled_array_1_1detail_1_1_size_array.html#a0bfe643fa49af010cdf17918b279294f" title="Column reduce operation. " alt="" coords="716,207,871,259"/>
+<area shape="rect" id="node11" href="$class_tiled_array_1_1detail_1_1_size_array.html#a48f271b2cd62d10052ffdf004a48b6e8" title="Binary reduce vector operation. " alt="" coords="716,131,871,183"/>
+</map>

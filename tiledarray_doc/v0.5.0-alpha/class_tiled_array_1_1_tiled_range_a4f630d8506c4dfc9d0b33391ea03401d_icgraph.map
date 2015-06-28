@@ -1,0 +1,5 @@
+<map id="TiledArray::TiledRange::data" name="TiledArray::TiledRange::data">
+<area shape="rect" id="node2" href="$class_tiled_array_1_1_tiled_range.html#ab7fc5c77c40b11330a263a6753a2a56e" title="Construct a range for the given tile. " alt="" coords="210,5,367,44"/>
+<area shape="rect" id="node3" href="$namespace_tiled_array.html#a2b1fa4c93060bc503429e3527f2993ad" title="TiledRange permutation operator. " alt="" coords="216,68,360,93"/>
+<area shape="rect" id="node4" href="$namespace_tiled_array.html#a95a1447230c9a5ca4906ee3684cbe890" title="Returns true when all tile and element ranges are the same. " alt="" coords="211,117,366,143"/>
+</map>

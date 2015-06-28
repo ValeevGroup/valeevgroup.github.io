@@ -1,0 +1,7 @@
+<map id="TiledArray::detail::TensorImpl::is_local" name="TiledArray::detail::TensorImpl::is_local">
+<area shape="rect" id="node2" href="$class_tiled_array_1_1detail_1_1_binary_eval_impl.html#a91f7094d5fd691f169aa453c6a63e3f9" title="Get tile at index i. " alt="" coords="199,5,367,44"/>
+<area shape="rect" id="node4" href="$class_tiled_array_1_1detail_1_1_summa.html#a0f92cf252a51f5bf7f96e8891a75ca62" title="Get tile at index i. " alt="" coords="221,68,346,107"/>
+<area shape="rect" id="node5" href="$class_tiled_array_1_1detail_1_1_unary_eval_impl.html#afa7ffdc10c45e68d0a1862016f06dbb1" title="Get tile at index i. " alt="" coords="200,131,366,169"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1detail_1_1_binary_eval_impl.html#a371bfc044f3dce6cfd4e33534eca1f7d" title="Discard a tile that is not needed. " alt="" coords="415,5,608,44"/>
+<area shape="rect" id="node6" href="$class_tiled_array_1_1detail_1_1_unary_eval_impl.html#ae3821fbf3f30af72e127b3f8ca843fb8" title="Discard a tile that is not needed. " alt="" coords="416,131,607,169"/>
+</map>

@@ -1,8 +1,0 @@
-<map id="TiledArray::Range::includes" name="TiledArray::Range::includes">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1_range.html#aea141eab2eaffd6b720cdcb1859da60e" title="TiledArray::Range::\lincludes" alt="" coords="200,5,335,44"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1_range.html#afa7e30223d17fc1fcb410f9ee1952c14" title="calculate the ordinal index of i " alt="" coords="190,68,345,93"/>
-<area shape="rect" id="node6" href="$class_tiled_array_1_1_range.html#adcdf4b7d584abf2d1b7c3d0ae782156c" title="calculate the coordinate index of the ordinal index, index. " alt="" coords="191,117,344,143"/>
-<area shape="rect" id="node7" href="$class_tiled_array_1_1_tiled_range.html#ac368fd1f5998f7561b40e444920fc166" title="Construct a range for the given index. " alt="" coords="189,167,346,205"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1_range.html#a3f386bc234f11ba5765162ecaa30c463" title="TiledArray::Range::ord" alt="" coords="394,40,549,65"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1_range.html#acc6a8327b0aa108da075746740b7eb5e" title="alias to ord&lt;Index&gt;(), to conform with the Tensor Working Group spec " alt="" coords="403,89,539,128"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="TiledArray::Range::ordinal" name="TiledArray::Range::ordinal">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1_range.html#afa7e30223d17fc1fcb410f9ee1952c14" title="calculate the ordinal index of i " alt="" coords="189,12,344,37"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1_range.html#a2c78848cdbd4299303d3df09699fd487" title="Check the coordinate to make sure it is within the range. " alt="" coords="392,5,528,44"/>
-<area shape="rect" id="node4" href="$namespace_tiled_array_1_1detail.html#a5d281f943194c67e7b0a491f03d49e02" title="Array size accessor. " alt="" coords="576,5,697,44"/>
-</map>

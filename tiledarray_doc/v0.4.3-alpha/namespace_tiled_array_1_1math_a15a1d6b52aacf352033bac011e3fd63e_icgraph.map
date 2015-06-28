@@ -1,0 +1,5 @@
+<map id="TiledArray::math::reduce_op" name="TiledArray::math::reduce_op">
+<area shape="rect" id="node2" href="$namespace_tiled_array_1_1math.html#ad14d32aaef7223d44d7b868471a783d1" title="Reduce the rows of a matrix. " alt="" coords="246,12,393,51"/>
+<area shape="rect" id="node4" href="$class_tiled_array_1_1detail_1_1_size_array.html#a48f271b2cd62d10052ffdf004a48b6e8" title="Binary reduce vector operation. " alt="" coords="242,75,397,127"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1detail_1_1_size_array.html#ada0bc07b5eea703ee594cf03657e8407" title="Row reduce operation. " alt="" coords="445,5,599,57"/>
+</map>

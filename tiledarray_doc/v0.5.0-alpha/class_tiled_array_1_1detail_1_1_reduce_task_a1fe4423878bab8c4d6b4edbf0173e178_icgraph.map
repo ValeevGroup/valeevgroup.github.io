@@ -1,0 +1,4 @@
+<map id="TiledArray::detail::ReduceTask::add" name="TiledArray::detail::ReduceTask::add">
+<area shape="rect" id="node2" href="$class_tiled_array_1_1expressions_1_1_expr.html#a365c5fba15068a9d9da01adb63023520" title="TiledArray::expressions\l::Expr\&lt; ScalExpr\&lt; Arg\l \&gt; \&gt;::reduce" alt="" coords="185,5,345,57"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1detail_1_1_reduce_pair_task.html#ae61d309a85889238ae9accb53e0f403f" title="Add a pair of arguments to the reduction task. " alt="" coords="189,81,341,133"/>
+</map>

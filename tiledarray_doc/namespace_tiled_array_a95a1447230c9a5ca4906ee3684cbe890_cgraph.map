@@ -1,6 +1,0 @@
-<map id="TiledArray::operator==" name="TiledArray::operator==">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1_tiled_range.html#a596b5d98e2691343f6cc701c4118eeaf" title="Access the range information on the tiles. " alt="" coords="208,5,365,44"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1_range.html#addacb51bcc4dfe2b0d08a041174e9f01" title="Dimension accessor. " alt="" coords="208,68,365,93"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1_tiled_range.html#a62f73e61e9c00d7d22408fa96c42356b" title="Access the range information on the elements. " alt="" coords="208,117,365,156"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1_tiled_range.html#a4f630d8506c4dfc9d0b33391ea03401d" title="Tile dimension boundary array accessor. " alt="" coords="208,180,365,219"/>
-</map>

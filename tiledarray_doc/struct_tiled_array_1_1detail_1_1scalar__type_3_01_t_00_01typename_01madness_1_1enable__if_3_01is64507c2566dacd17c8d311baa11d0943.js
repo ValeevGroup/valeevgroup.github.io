@@ -1,4 +1,0 @@
-var struct_tiled_array_1_1detail_1_1scalar__type_3_01_t_00_01typename_01madness_1_1enable__if_3_01is64507c2566dacd17c8d311baa11d0943 =
-[
-    [ "type", "struct_tiled_array_1_1detail_1_1scalar__type_3_01_t_00_01typename_01madness_1_1enable__if_3_01is64507c2566dacd17c8d311baa11d0943.html#a99a5fff2ebdf414df915a5321b67fb5e", null ]
-];

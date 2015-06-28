@@ -1,0 +1,7 @@
+<map id="TiledArray::math::UnaryInterface::permutation" name="TiledArray::math::UnaryInterface::permutation">
+<area shape="rect" id="node2" href="$class_tiled_array_1_1math_1_1_neg.html#a447893d4f7f059897676a5ec7111a670" title="TiledArray::math::Neg\l::permute" alt="" coords="281,5,431,44"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1math_1_1_noop.html#a6cad5e4305f0d02fda851e7c5db6b6bd" title="TiledArray::math::Noop\l::permute" alt="" coords="277,68,435,107"/>
+<area shape="rect" id="node4" href="$class_tiled_array_1_1math_1_1_scal.html#a06bcdb2815de76b804cd1f30f59cb049" title="TiledArray::math::Scal\l::permute" alt="" coords="280,131,432,169"/>
+<area shape="rect" id="node5" href="$class_tiled_array_1_1math_1_1_scal_shift.html#a2931e826623d8b1f6fd6faf2107f6ec1" title="TiledArray::math::ScalShift\l::permute" alt="" coords="267,193,446,232"/>
+<area shape="rect" id="node6" href="$class_tiled_array_1_1math_1_1_shift.html#a35991f9fac716903eb03cab11131f700" title="TiledArray::math::Shift\l::permute" alt="" coords="280,256,433,295"/>
+</map>

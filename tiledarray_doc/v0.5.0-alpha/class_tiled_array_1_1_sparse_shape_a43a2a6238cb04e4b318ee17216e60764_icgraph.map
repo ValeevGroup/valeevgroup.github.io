@@ -1,0 +1,10 @@
+<map id="TiledArray::SparseShape::threshold" name="TiledArray::SparseShape::threshold">
+<area shape="rect" id="node2" href="$class_tiled_array_1_1_sparse_shape.html#acca1ef8486a15db1ccac18225fcab950" title="Create a copy of a sub&#45;block of the shape. " alt="" coords="238,5,408,44"/>
+<area shape="rect" id="node4" href="$class_tiled_array_1_1_sparse_shape.html#a08b6dbcad8012abf5a284d6d12f4be11" title="Scale shape. " alt="" coords="238,68,408,107"/>
+<area shape="rect" id="node5" href="$class_tiled_array_1_1_sparse_shape.html#acb392dc35c08c2948872d8dcc6f3e31d" title="Add shapes. " alt="" coords="223,131,423,156"/>
+<area shape="rect" id="node8" href="$class_tiled_array_1_1_sparse_shape.html#a46dc93fddab65d3a88f5aa24c00b7d2e" title="TiledArray::SparseShape\l::gemm" alt="" coords="238,183,408,221"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1_sparse_shape.html#a5ac40941cd9af9ecf350390585fa0944" title="Create a copy of a sub&#45;block of the shape. " alt="" coords="485,5,655,44"/>
+<area shape="rect" id="node6" href="$class_tiled_array_1_1_sparse_shape.html#aeda51db2bf70b837c950977685da4b4d" title="TiledArray::SparseShape::add" alt="" coords="471,75,670,100"/>
+<area shape="rect" id="node7" href="$class_tiled_array_1_1_sparse_shape.html#a974dbbf5d500c2f195480846dacef7c0" title="TiledArray::SparseShape\l::subt" alt="" coords="485,124,655,163"/>
+<area shape="rect" id="node9" href="$class_tiled_array_1_1_sparse_shape.html#a61c85d16414cd8794fce15bc9a12f3ef" title="TiledArray::SparseShape\l::gemm" alt="" coords="485,187,655,225"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="TiledArray::detail::TensorInterface::inplace_unary" name="TiledArray::detail::TensorInterface::inplace_unary">
+<area shape="rect" id="node2" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a4ebba5a434aa21b71af27cee9aed3729" title="Scale this tensor. " alt="" coords="264,5,442,44"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a7137f78d0b44663c90b7d8170f0aba9f" title="Add a constant to this tensor. " alt="" coords="269,68,438,107"/>
+<area shape="rect" id="node4" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#ab908e6e24c3bfc6f16949cf913741d8e" title="Negate elements of this tensor. " alt="" coords="269,131,438,169"/>
+</map>

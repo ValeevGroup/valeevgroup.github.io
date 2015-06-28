@@ -1,0 +1,8 @@
+<map id="TiledArray::math::PartialReduceUnwind::row_reduce" name="TiledArray::math::PartialReduceUnwind::row_reduce">
+<area shape="rect" id="node2" href="$namespace_tiled_array_1_1math.html#a9085136f802b954e3a2bd643cd13d8b5" title="TiledArray::math::copy\l_block" alt="" coords="485,5,640,44"/>
+<area shape="rect" id="node5" href="$namespace_tiled_array_1_1math.html#abec6dc9bc0dae96165c2ba32ed1f556c" title="TiledArray::math::reduce\l_block" alt="" coords="479,81,646,120"/>
+<area shape="rect" id="node7" href="$class_tiled_array_1_1math_1_1_partial_reduce_unwind.html#a71b7d2a490f2f5b0e5a2b128a21c2160" title="TiledArray::math::Partial\lReduceUnwind::row_reduce" alt="" coords="242,49,431,88"/>
+<area shape="rect" id="node3" href="$namespace_tiled_array_1_1math.html#aa04b1e0edc4a14d650a4c49c9da1e0d8" title="TiledArray::math::for\l_each_block" alt="" coords="705,5,847,44"/>
+<area shape="rect" id="node4" href="$struct_tiled_array_1_1math_1_1_vector_op_unwind.html#a6efffbefa51604956c002c8bb737315e" title="TiledArray::math::Vector\lOpUnwind::for_each" alt="" coords="906,5,1070,44"/>
+<area shape="rect" id="node6" href="$struct_tiled_array_1_1math_1_1_vector_op_unwind.html#a94c5fa262ec6412d7069b0a501274c90" title="TiledArray::math::Vector\lOpUnwind::reduce" alt="" coords="694,81,858,120"/>
+</map>

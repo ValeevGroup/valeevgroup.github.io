@@ -1,0 +1,4 @@
+<map id="TiledArray::math::BinaryInterfaceBase::derived" name="TiledArray::math::BinaryInterfaceBase::derived">
+<area shape="rect" id="node2" href="$class_tiled_array_1_1math_1_1_binary_interface_base.html#a31defa995568e49164788f26f3d179f6" title="Evaluate two non&#45;zero tiles and possibly permute. " alt="" coords="217,5,437,71"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1_binary_interface_3_01_op_3_01_result_00_01_left_00_01_right_00_01false_00_01false_01_4_01_4.html#ae67c07e7f75f015a2901b74c0e14777e" title="Evaluate two lazy&#45;array tiles. " alt="" coords="238,95,417,147"/>
+</map>

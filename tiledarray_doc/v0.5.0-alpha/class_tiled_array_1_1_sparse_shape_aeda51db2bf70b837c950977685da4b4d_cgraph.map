@@ -1,0 +1,8 @@
+<map id="TiledArray::SparseShape::add" name="TiledArray::SparseShape::add">
+<area shape="rect" id="node2" href="$class_tiled_array_1_1_sparse_shape.html#acb392dc35c08c2948872d8dcc6f3e31d" title="Add shapes. " alt="" coords="253,107,452,132"/>
+<area shape="rect" id="node6" href="$class_tiled_array_1_1_sparse_shape.html#a90cb964e71bb12ff00a43fec5440e0a9" title="Create a permuted shape of this shape. " alt="" coords="268,159,437,197"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1_tensor.html#a26c81ab595b2582f7542b9a24f722d0e" title="Test if the tensor is empty. " alt="" coords="521,5,650,44"/>
+<area shape="rect" id="node4" href="$class_tiled_array_1_1_sparse_shape.html#a43a2a6238cb04e4b318ee17216e60764" title="Threshold accessor. " alt="" coords="500,68,670,107"/>
+<area shape="rect" id="node5" href="$class_tiled_array_1_1_tensor.html#a8005d292051062ad3892265e28010a4b" title="Use a binary, element wise operation to construct a new tensor. " alt="" coords="521,131,650,169"/>
+<area shape="rect" id="node7" href="$class_tiled_array_1_1_tensor.html#aa975640407d4460e99f85ca41398f4d1" title="Create a permuted copy of this tensor. " alt="" coords="521,193,650,232"/>
+</map>

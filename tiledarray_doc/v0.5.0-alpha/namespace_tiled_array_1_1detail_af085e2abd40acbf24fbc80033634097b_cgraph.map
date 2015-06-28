@@ -1,0 +1,6 @@
+<map id="TiledArray::detail::operator*" name="TiledArray::detail::operator*">
+<area shape="rect" id="node2" href="$class_tiled_array_1_1detail_1_1_size_array.html#a7c88bdea8b86bbc4d390d2a9a51ae423" title="TiledArray::detail\l::SizeArray::size" alt="" coords="209,5,330,44"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1_permutation.html#a3df6e212ab5eccd151e2c9a58dc5c45d" title="Permutation dimension accessor. " alt="" coords="174,68,364,93"/>
+<area shape="rect" id="node4" href="$namespace_tiled_array_1_1detail.html#a9ecba5efe7b319458a9f16df0563472b" title="Create a permuted copy of an array. " alt="" coords="209,117,330,156"/>
+<area shape="rect" id="node5" href="$namespace_tiled_array_1_1detail.html#a5d281f943194c67e7b0a491f03d49e02" title="Array size accessor. " alt="" coords="412,117,533,156"/>
+</map>

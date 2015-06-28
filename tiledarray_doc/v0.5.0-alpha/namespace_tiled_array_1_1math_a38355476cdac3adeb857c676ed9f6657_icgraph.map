@@ -1,0 +1,20 @@
+<map id="TiledArray::math::reduce_block_n" name="TiledArray::math::reduce_block_n">
+<area shape="rect" id="node2" href="$namespace_tiled_array_1_1math.html#a15a1d6b52aacf352033bac011e3fd63e" title="TiledArray::math::reduce_op" alt="" coords="220,148,409,173"/>
+<area shape="rect" id="node3" href="$namespace_tiled_array_1_1math.html#ad14d32aaef7223d44d7b868471a783d1" title="Reduce the rows of a matrix. " alt="" coords="457,17,605,56"/>
+<area shape="rect" id="node6" href="$class_tiled_array_1_1detail_1_1_size_array.html#a48f271b2cd62d10052ffdf004a48b6e8" title="Binary reduce vector operation. " alt="" coords="464,84,598,123"/>
+<area shape="rect" id="node8" href="$namespace_tiled_array_1_1detail.html#a2c476e766ff095a095ff4e5508684975" title="Tensor reduction operation for contiguous tensors. " alt="" coords="471,199,591,237"/>
+<area shape="rect" id="node9" href="$class_tiled_array_1_1_tensor.html#a79f7f71edfbba58b81f9549e79d686f3" title="Unary reduction operation. " alt="" coords="659,169,816,208"/>
+<area shape="rect" id="node10" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#ab3267e4c299c7a50a164cd797242ab33" title="Unary reduction operation. " alt="" coords="653,256,822,295"/>
+<area shape="rect" id="node4" href="$class_tiled_array_1_1detail_1_1_size_array.html#ada0bc07b5eea703ee594cf03657e8407" title="Row reduce operation. " alt="" coords="655,13,819,52"/>
+<area shape="rect" id="node5" href="$class_tiled_array_1_1detail_1_1_val_array.html#a2e5b79e6666b7cc88443bde033eec690" title="Reduce row operation. " alt="" coords="899,5,1055,44"/>
+<area shape="rect" id="node7" href="$class_tiled_array_1_1detail_1_1_val_array.html#a62d85fb317d2962558fd0e1ffb0f953f" title="Binary reduce operation. " alt="" coords="674,84,801,123"/>
+<area shape="rect" id="node11" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#af4d4fc7a84b556f9de609b0f4b991087" title="Sum of elements. " alt="" coords="900,68,1053,107"/>
+<area shape="rect" id="node12" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#ae34ba48d23e0c2e81927c508ed2d9cc6" title="Product of elements. " alt="" coords="890,131,1063,169"/>
+<area shape="rect" id="node13" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a7b65e3e95fb752cfd33778a24973463f" title="Square of vector 2&#45;norm. " alt="" coords="870,193,1084,232"/>
+<area shape="rect" id="node15" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a6f459d66db572f9a9b9ec1a49364e53c" title="Minimum element. " alt="" coords="902,256,1051,295"/>
+<area shape="rect" id="node16" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a933962847c46e07226ada3a7c5d9b91b" title="Maximum element. " alt="" coords="900,319,1053,357"/>
+<area shape="rect" id="node17" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#af03f29b806cd23db1d22608e50529537" title="Absolute minimum element. " alt="" coords="887,381,1066,420"/>
+<area shape="rect" id="node18" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a74e3b1909a0cfacf9220bef99524b668" title="Absolute maximum element. " alt="" coords="886,444,1068,483"/>
+<area shape="rect" id="node19" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a1288a74dc55003205050fe62693b5017" title="Vector dot product. " alt="" coords="903,507,1050,545"/>
+<area shape="rect" id="node14" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#ae62209cf4eead863f574185ee1bb15e8" title="Vector 2&#45;norm. " alt="" coords="1132,193,1290,232"/>
+</map>

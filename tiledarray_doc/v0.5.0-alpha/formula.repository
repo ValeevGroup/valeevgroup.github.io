@@ -1,0 +1,57 @@
+\form#0:$ f(x) = 0 $
+\form#1:$ f(x) $
+\form#2:$ x $
+\form#3:$ x_i $
+\form#4:$ e_i = f(x_i) $
+\form#5:$ e $
+\form#6:$ x_{i+1} = x_i + g(e_i) $
+\form#7:$ \epsilon $
+\form#8:$ ||x_{i+1} - x_i|| < \epsilon $
+\form#9:$ x \equiv \mathbf{P} $
+\form#10:$ f(\mathbf{P}) \equiv [\mathbf{F}, \mathbf{P}] $
+\form#11:$ \mathbf{F} = \mathbf{F}(\mathbf{P}) $
+\form#12:$ \mathbf{F} $
+\form#13:$ x \equiv \mathbf{F} $
+\form#14:$ f(\mathbf{F}) \equiv [\mathbf{F}, \mathbf{P}] $
+\form#15:$ f(\mathbf{F}) \equiv \{ F_i^a \} $
+\form#16:$ i $
+\form#17:$ a $
+\form#18:$ \{ x_k \}, k=0..i $
+\form#19:$ \{ e_k \} $
+\form#20:$ \{ C_k \} $
+\form#21:$ x_{\mathrm{extrap},i+1} = \sum\limits_{k=0}^i C_{k,i} x_{k} $
+\form#22:$ x_{\mathrm{extrap},i+1} = \sum\limits_{k=0}^i C_{k,i} ( (1-f) x_{k} + f x_{extrap,k} ) $
+\form#23:$ P^n $
+\form#24:$ P $
+\form#25:$ P \times P^{-1} = I $
+\form#26:$ I $
+\form#27:\[ T = \frac{MK}{P_{\rm{row}}} \left(\alpha + \frac{mk}{\beta}\right) \left((P/P_{\rm{row}}) - 1\right) + \frac{KN}{P/P_{\rm{row}}} \left(\alpha + \frac{kn}{\beta}\right) \left(P_{\rm{row}} - 1\right) \]
+\form#28:$P_{\rm{row}}$
+\form#29:$M$
+\form#30:$N$
+\form#31:$K$
+\form#32:$m$
+\form#33:$n$
+\form#34:$k$
+\form#35:$P$
+\form#36:$\alpha$
+\form#37:$\beta$
+\form#38:$dT/dP_{\rm{row}} = 0$
+\form#39:$\alpha \approx 0$
+\form#40:\[ Nn(2 P_{\rm{row}}^4 - P_{\rm{row}}^3) + Mm(P P_{\rm{row}} - P^2) = 0 \]
+\form#41:\[ {\rm{shape}}_{ij...} = \frac{\|A_{ij...}\|}{N_i N_j ...} \]
+\form#42:$ij...$
+\form#43:$\|A_{ij}\|$
+\form#44:$N_i N_j ...$
+\form#45:\[ {(\rm{result})}_{ij...} = |(\rm{factor})| (\rm{this})_{ij...} \]
+\form#46:\[ {(\rm{result})}_{ji...} = \rm{perm}(j,i) |(\rm{factor})| (\rm{this})_{ij...} \]
+\form#47:\[ {(\rm{result})}_{ij...} = (\rm{this})_{ij...} + (\rm{other})_{ij...} \]
+\form#48:\[ {(\rm{result})}_{ji...} = \rm{perm}(i,j) (\rm{this})_{ij...} + (\rm{other})_{ij...} \]
+\form#49:\[ {(\rm{result})}_{ij...} = |(\rm{factor})| ((\rm{this})_{ij...} + (\rm{other})_{ij...}) \]
+\form#50:$ S_n $
+\form#51:$ M $
+\form#52:$ n $
+\form#53:$ M_i $
+\form#54:$ (i = 0, \dots , n-1) $
+\form#55:$ S_3 $
+\form#56:\[ \begin{tabular}{ c c c } Young tableaux & partition [$\mu$] & Yamanouchi symbols M \\ & & \\ \begin{tabular}{ |c| } \hline 1 \\ \hline 2 \\ \hline 3 \\ \hline \end{tabular} & [111] & 123 \\ & & \\ \begin{tabular}{ |c|c|c| } \hline 1 & 2 & 3 \\ \hline \end{tabular} & [3] & 111 \\ & & \\ \begin{tabular}{ |c|c } \hline 1 & \multicolumn{1}{|c|}{2} \\ \hline 3 \\ \cline{1-1} \end{tabular} & [21] & 112 \\ & & \\ \begin{tabular}{ |c|c } \hline 1 & \multicolumn{1}{|c|}{3} \\ \hline 2 \\ \cline{1-1} \end{tabular} & [21] & 121 \\ \end{tabular} \]

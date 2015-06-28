@@ -1,0 +1,6 @@
+<map id="TiledArray::subt_to" name="TiledArray::subt_to">
+<area shape="rect" id="node2" href="$group___tile_interface.html#ga3857edf071769c169d08af65690063eb" title="Subtract and scale from the result tile. " alt="" coords="209,5,342,31"/>
+<area shape="rect" id="node3" href="$group___tile_interface.html#ga4f4e0878d1128d2b692b6a8e60113c28" title="In&#45;place subtract tile operator. " alt="" coords="200,55,351,80"/>
+<area shape="rect" id="node4" href="$class_tiled_array_1_1math_1_1_scal_subt.html#aedaf7cf007885656a93db35237de1666" title="TiledArray::math::ScalSubt\l::no_permute" alt="" coords="186,104,366,143"/>
+<area shape="rect" id="node5" href="$class_tiled_array_1_1math_1_1_subt.html#a24b5a58acb8d191d88d35b74e6440b16" title="TiledArray::math::Subt\l::no_permute" alt="" coords="199,167,353,205"/>
+</map>

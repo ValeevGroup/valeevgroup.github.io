@@ -1,7 +1,0 @@
-<map id="TiledArray::copy" name="TiledArray::copy">
-<area shape="rect" id="node2" href="$struct_tiled_array_1_1_conjugate_gradient_solver.html#ae3a281e82d2974cdb9decefcd69dff73" title="TiledArray::ConjugateGradient\lSolver::operator()" alt="" coords="171,5,371,44"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1detail_1_1_bitset.html#a38a56b30d14da9ea70a90d6114e17cfe" title="Copy constructor for bitset. " alt="" coords="211,68,331,107"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1detail_1_1_bitset.html#a74e819d5ddaaf4e60dd9b106181d1d60" title="Assignment operator. " alt="" coords="208,131,334,169"/>
-<area shape="rect" id="node5" href="$namespace_tiled_array.html#a9d9ea8dbf010685241c4f63e3175802f" title="TiledArray::elem_to\l_array" alt="" coords="203,193,339,232"/>
-<area shape="rect" id="node6" href="$class_tiled_array_1_1detail_1_1_size_array.html#a4bf1d9e0a2bc1e467774e5cb47a9412b" title="TiledArray::detail\l::SizeArray::operator=" alt="" coords="195,256,347,295"/>
-</map>

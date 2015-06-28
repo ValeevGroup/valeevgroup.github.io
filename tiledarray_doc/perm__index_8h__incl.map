@@ -1,9 +1,0 @@
-<map id="TiledArray/perm_index.h" name="TiledArray/perm_index.h">
-<area shape="rect" id="node2" href="$range_8h.html" title="TiledArray/range.h" alt="" coords="289,79,419,104"/>
-<area shape="rect" id="node3" href="$range__iterator_8h.html" title="TiledArray/range_iterator.h" alt="" coords="166,152,345,177"/>
-<area shape="rect" id="node9" href="$permutation_8h.html" title="TiledArray/permutation.h" alt="" coords="369,152,536,177"/>
-<area shape="rect" id="node4" href="$error_8h.html" title="TiledArray/error.h" alt="" coords="193,225,317,251"/>
-<area shape="rect" id="node10" href="$type__traits_8h.html" title="TiledArray/type_traits.h" alt="" coords="342,225,500,251"/>
-<area shape="rect" id="node13" href="$utility_8h.html" title="TiledArray/utility.h" alt="" coords="575,225,701,251"/>
-<area shape="rect" id="node14" href="$madness_8h.html" title="TiledArray/madness.h" alt="" coords="691,305,841,331"/>
-</map>

@@ -11,9 +11,9 @@ var class_tiled_array_1_1math_1_1_scal_shift =
     [ "~ScalShift", "class_tiled_array_1_1math_1_1_scal_shift.html#a7c06d14b95d805529cf8769074618d41", null ],
     [ "ScalShift", "class_tiled_array_1_1math_1_1_scal_shift.html#a69b06efeab1fd750b183d76f472c05a7", null ],
     [ "ScalShift", "class_tiled_array_1_1math_1_1_scal_shift.html#a78d9800827fa8e3a1311084a4871fd4c", null ],
-    [ "no_permute", "class_tiled_array_1_1math_1_1_scal_shift.html#a115465ff09d463674fffd3fbf0edeb33", null ],
-    [ "no_permute", "class_tiled_array_1_1math_1_1_scal_shift.html#aa2d83785ee0135d7331777ca6ecd852b", null ],
+    [ "no_permute_op", "class_tiled_array_1_1math_1_1_scal_shift.html#aa3866b9daf296ab331797478d3df55da", null ],
+    [ "no_permute_op", "class_tiled_array_1_1math_1_1_scal_shift.html#a031531117c66d71689ec0beb75fd9af9", null ],
     [ "operator=", "class_tiled_array_1_1math_1_1_scal_shift.html#a89290f219045f0c82c6c71e9e53a1714", null ],
     [ "operator=", "class_tiled_array_1_1math_1_1_scal_shift.html#a8c9150695a0251fbe32e20758d646cfa", null ],
-    [ "permute", "class_tiled_array_1_1math_1_1_scal_shift.html#a2931e826623d8b1f6fd6faf2107f6ec1", null ]
+    [ "permute_op", "class_tiled_array_1_1math_1_1_scal_shift.html#ae7a7d85778f7c155c2da8747d305396e", null ]
 ];

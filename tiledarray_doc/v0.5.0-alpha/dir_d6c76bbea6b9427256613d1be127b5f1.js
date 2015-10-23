@@ -42,6 +42,8 @@ var dir_d6c76bbea6b9427256613d1be127b5f1 =
     [ "expr.h", "expr_8h.html", [
       [ "Array", "class_tiled_array_1_1_array.html", "class_tiled_array_1_1_array" ],
       [ "ExprTrait", "struct_tiled_array_1_1expressions_1_1_expr_trait.html", null ],
+      [ "TsrExpr", "class_tiled_array_1_1expressions_1_1_tsr_expr.html", "class_tiled_array_1_1expressions_1_1_tsr_expr" ],
+      [ "BlkTsrExpr", "class_tiled_array_1_1expressions_1_1_blk_tsr_expr.html", "class_tiled_array_1_1expressions_1_1_blk_tsr_expr" ],
       [ "Expr", "class_tiled_array_1_1expressions_1_1_expr.html", "class_tiled_array_1_1expressions_1_1_expr" ]
     ] ],
     [ "expr_engine.h", "expr__engine_8h.html", [

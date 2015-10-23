@@ -11,5 +11,7 @@ var tensor__map_8h =
     [ "make_map", "tensor__map_8h.html#acbbe8d8ad0930df042711f7a4712f5fb", null ],
     [ "make_map", "tensor__map_8h.html#a9e69e843e127604a961c87e9c987cce6", null ],
     [ "make_map", "tensor__map_8h.html#a78cce5a1ed8ed29fc23faee418274512", null ],
-    [ "make_map", "tensor__map_8h.html#a91c319275bd48061cbd38e7171bef453", null ]
+    [ "make_map", "tensor__map_8h.html#a91c319275bd48061cbd38e7171bef453", null ],
+    [ "remap", "tensor__map_8h.html#aa9b5cbaea4986ba92424520ae4a83f8d", null ],
+    [ "remap", "tensor__map_8h.html#acac227696cd22877cfb9af3b37523345", null ]
 ];

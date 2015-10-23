@@ -8,5 +8,5 @@ var class_tiled_array_1_1math_1_1_neg =
     [ "Neg", "class_tiled_array_1_1math_1_1_neg.html#af04d96799ba4906422ddaa167bfd6804", null ],
     [ "Neg", "class_tiled_array_1_1math_1_1_neg.html#a5e1bb5bb1435b5492a292f5856cf259c", null ],
     [ "operator=", "class_tiled_array_1_1math_1_1_neg.html#a9aaca7f38f227590b7bdf9b9aef94f19", null ],
-    [ "permute", "class_tiled_array_1_1math_1_1_neg.html#a447893d4f7f059897676a5ec7111a670", null ]
+    [ "permute_op", "class_tiled_array_1_1math_1_1_neg.html#a34bb25b3488ab9689b0876c28e2cdc8a", null ]
 ];

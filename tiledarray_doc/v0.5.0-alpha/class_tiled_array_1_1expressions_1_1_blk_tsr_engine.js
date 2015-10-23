@@ -15,6 +15,8 @@ var class_tiled_array_1_1expressions_1_1_blk_tsr_engine =
     [ "value_type", "class_tiled_array_1_1expressions_1_1_blk_tsr_engine.html#a3679297a343e02970b37d8197df455c5", null ],
     [ "BlkTsrEngine", "class_tiled_array_1_1expressions_1_1_blk_tsr_engine.html#aaf1ce48de5cc68d2cad72309d5dad0eb", null ],
     [ "BlkTsrEngine", "class_tiled_array_1_1expressions_1_1_blk_tsr_engine.html#a8a5ecc2627b3e92cd2bf1fb0240cb15d", null ],
+    [ "make_shape", "class_tiled_array_1_1expressions_1_1_blk_tsr_engine.html#a88318163a11de3fe83ca9b4f6a5758a4", null ],
+    [ "make_shape", "class_tiled_array_1_1expressions_1_1_blk_tsr_engine.html#a287c8d5b8469d0cb4f2282327ba1ac05", null ],
     [ "make_tile_op", "class_tiled_array_1_1expressions_1_1_blk_tsr_engine.html#a97e75acf699844aab8742d981e993f84", null ],
     [ "make_tile_op", "class_tiled_array_1_1expressions_1_1_blk_tsr_engine.html#a04c486605cd96cfe03c7b0174ff095b5", null ]
 ];

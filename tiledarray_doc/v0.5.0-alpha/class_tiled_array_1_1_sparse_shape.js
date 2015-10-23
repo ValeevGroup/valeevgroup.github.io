@@ -4,7 +4,7 @@ var class_tiled_array_1_1_sparse_shape =
     [ "SparseShape_", "class_tiled_array_1_1_sparse_shape.html#af6ce575f068a7f9201aa4e5fa0f53814", null ],
     [ "value_type", "class_tiled_array_1_1_sparse_shape.html#ac444b1888ea359b192d2625b2f069410", null ],
     [ "SparseShape", "class_tiled_array_1_1_sparse_shape.html#a863165e77336a03447b7fb61fe6c7655", null ],
-    [ "SparseShape", "class_tiled_array_1_1_sparse_shape.html#ab191a9b0c731e52580dd8ac9e471b053", null ],
+    [ "SparseShape", "class_tiled_array_1_1_sparse_shape.html#a4039486c2b2c71a6ed8408fd597f3c57", null ],
     [ "SparseShape", "class_tiled_array_1_1_sparse_shape.html#ac0bbddd7b0f9c0d3c2bbfe06999720b8", null ],
     [ "SparseShape", "class_tiled_array_1_1_sparse_shape.html#a39716cde7d6f2ad67b1d47e19ac1bf44", null ],
     [ "add", "class_tiled_array_1_1_sparse_shape.html#acb392dc35c08c2948872d8dcc6f3e31d", null ],
@@ -14,7 +14,9 @@ var class_tiled_array_1_1_sparse_shape =
     [ "add", "class_tiled_array_1_1_sparse_shape.html#a9a825ffe563f2bcc844f9a6bfe2da446", null ],
     [ "add", "class_tiled_array_1_1_sparse_shape.html#aeda51db2bf70b837c950977685da4b4d", null ],
     [ "block", "class_tiled_array_1_1_sparse_shape.html#acca1ef8486a15db1ccac18225fcab950", null ],
-    [ "block", "class_tiled_array_1_1_sparse_shape.html#a5ac40941cd9af9ecf350390585fa0944", null ],
+    [ "block", "class_tiled_array_1_1_sparse_shape.html#a59a9a3d2d6b8112701964211fba078a3", null ],
+    [ "block", "class_tiled_array_1_1_sparse_shape.html#a8e7d8c188dbaef6a9c7d8667c02308cd", null ],
+    [ "block", "class_tiled_array_1_1_sparse_shape.html#aed4c8f3718cdcd6044800ffe0bf8987e", null ],
     [ "data", "class_tiled_array_1_1_sparse_shape.html#a4793c6f2e77b8cf0d1ef0db45a0ba584", null ],
     [ "empty", "class_tiled_array_1_1_sparse_shape.html#a35ea228264f2d1fd335e4e4fd49b0af5", null ],
     [ "gemm", "class_tiled_array_1_1_sparse_shape.html#a46dc93fddab65d3a88f5aa24c00b7d2e", null ],
@@ -36,5 +38,6 @@ var class_tiled_array_1_1_sparse_shape =
     [ "subt", "class_tiled_array_1_1_sparse_shape.html#a3ad4f6420fff5a96a7906014e19506f6", null ],
     [ "subt", "class_tiled_array_1_1_sparse_shape.html#a6aa9852198e0365a209df60c24038cdf", null ],
     [ "subt", "class_tiled_array_1_1_sparse_shape.html#af65e6ffa2ac2e9f9b58dba6468838f42", null ],
+    [ "update_block", "class_tiled_array_1_1_sparse_shape.html#aee9ad386e5038093a516c17b9e2b9430", null ],
     [ "validate", "class_tiled_array_1_1_sparse_shape.html#acc31358d8ddbf81f2de0b836f60bd9ae", null ]
 ];

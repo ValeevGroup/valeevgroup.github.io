@@ -9,7 +9,7 @@ var class_tiled_array_1_1math_1_1_subt =
     [ "Subt", "class_tiled_array_1_1math_1_1_subt.html#adb884c2e9408a89587d4b0f083cfb902", null ],
     [ "Subt", "class_tiled_array_1_1math_1_1_subt.html#a944c3b77977632e95bdbcf5e1cad7ee3", null ],
     [ "operator=", "class_tiled_array_1_1math_1_1_subt.html#a88395fa055bf645176514c229a9cdad7", null ],
-    [ "permute", "class_tiled_array_1_1math_1_1_subt.html#a0e5c9c93149fbd70da8025ab99799297", null ],
-    [ "permute", "class_tiled_array_1_1math_1_1_subt.html#a25b706980dbc4a48a6e25adbe4b1df0a", null ],
-    [ "permute", "class_tiled_array_1_1math_1_1_subt.html#a29a0cd101191706ab3957ee1dc9d0cdc", null ]
+    [ "permute_op", "class_tiled_array_1_1math_1_1_subt.html#a91c279a6472afeeb4686e5c04263ede1", null ],
+    [ "permute_op", "class_tiled_array_1_1math_1_1_subt.html#a2a53b74a2e6cd3b48d617b4a220fb8de", null ],
+    [ "permute_op", "class_tiled_array_1_1math_1_1_subt.html#a16bf0c7074fa381c7d7002aa84dc06ed", null ]
 ];

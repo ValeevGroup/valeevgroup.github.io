@@ -21,37 +21,57 @@
 \form#20:$ \{ C_k \} $
 \form#21:$ x_{\mathrm{extrap},i+1} = \sum\limits_{k=0}^i C_{k,i} x_{k} $
 \form#22:$ x_{\mathrm{extrap},i+1} = \sum\limits_{k=0}^i C_{k,i} ( (1-f) x_{k} + f x_{extrap,k} ) $
-\form#23:$ P^n $
-\form#24:$ P $
-\form#25:$ P \times P^{-1} = I $
-\form#26:$ I $
-\form#27:\[ T = \frac{MK}{P_{\rm{row}}} \left(\alpha + \frac{mk}{\beta}\right) \left((P/P_{\rm{row}}) - 1\right) + \frac{KN}{P/P_{\rm{row}}} \left(\alpha + \frac{kn}{\beta}\right) \left(P_{\rm{row}} - 1\right) \]
-\form#28:$P_{\rm{row}}$
-\form#29:$M$
-\form#30:$N$
-\form#31:$K$
-\form#32:$m$
-\form#33:$n$
-\form#34:$k$
-\form#35:$P$
-\form#36:$\alpha$
-\form#37:$\beta$
-\form#38:$dT/dP_{\rm{row}} = 0$
-\form#39:$\alpha \approx 0$
-\form#40:\[ Nn(2 P_{\rm{row}}^4 - P_{\rm{row}}^3) + Mm(P P_{\rm{row}} - P^2) = 0 \]
-\form#41:\[ {\rm{shape}}_{ij...} = \frac{\|A_{ij...}\|}{N_i N_j ...} \]
-\form#42:$ij...$
-\form#43:$\|A_{ij}\|$
-\form#44:$N_i N_j ...$
-\form#45:\[ {(\rm{result})}_{ij...} = |(\rm{factor})| (\rm{this})_{ij...} \]
-\form#46:\[ {(\rm{result})}_{ji...} = \rm{perm}(j,i) |(\rm{factor})| (\rm{this})_{ij...} \]
-\form#47:\[ {(\rm{result})}_{ij...} = (\rm{this})_{ij...} + (\rm{other})_{ij...} \]
-\form#48:\[ {(\rm{result})}_{ji...} = \rm{perm}(i,j) (\rm{this})_{ij...} + (\rm{other})_{ij...} \]
-\form#49:\[ {(\rm{result})}_{ij...} = |(\rm{factor})| ((\rm{this})_{ij...} + (\rm{other})_{ij...}) \]
-\form#50:$ S_n $
-\form#51:$ M $
-\form#52:$ n $
-\form#53:$ M_i $
-\form#54:$ (i = 0, \dots , n-1) $
-\form#55:$ S_3 $
-\form#56:\[ \begin{tabular}{ c c c } Young tableaux & partition [$\mu$] & Yamanouchi symbols M \\ & & \\ \begin{tabular}{ |c| } \hline 1 \\ \hline 2 \\ \hline 3 \\ \hline \end{tabular} & [111] & 123 \\ & & \\ \begin{tabular}{ |c|c|c| } \hline 1 & 2 & 3 \\ \hline \end{tabular} & [3] & 111 \\ & & \\ \begin{tabular}{ |c|c } \hline 1 & \multicolumn{1}{|c|}{2} \\ \hline 3 \\ \cline{1-1} \end{tabular} & [21] & 112 \\ & & \\ \begin{tabular}{ |c|c } \hline 1 & \multicolumn{1}{|c|}{3} \\ \hline 2 \\ \cline{1-1} \end{tabular} & [21] & 121 \\ \end{tabular} \]
+\form#23:$ \left( \begin{tabular}{ccccc} 0 & 1 & 2 & 3 & 4 \\ 0 & 2 & 3 & 1 & 4 \end{tabular} \right) $
+\form#24:$ \{0, 2, 3, 1, 4\} $
+\form#25:$ \{1, 2, 3\} $
+\form#26:$ \{0, 2, 3, 1\} $
+\form#27:$ \{ 1 \to 2, 2 \to 3, 3 \to 1 \} $
+\form#28:$ P^n $
+\form#29:$ P $
+\form#30:$ \{3, 2, 1, 0 \} $
+\form#31:$ P \times P^{-1} = I $
+\form#32:$ I $
+\form#33:\[ T = \frac{MK}{P_{\rm{row}}} \left(\alpha + \frac{mk}{\beta}\right) \left((P/P_{\rm{row}}) - 1\right) + \frac{KN}{P/P_{\rm{row}}} \left(\alpha + \frac{kn}{\beta}\right) \left(P_{\rm{row}} - 1\right) \]
+\form#34:$P_{\rm{row}}$
+\form#35:$M$
+\form#36:$N$
+\form#37:$K$
+\form#38:$m$
+\form#39:$n$
+\form#40:$k$
+\form#41:$P$
+\form#42:$\alpha$
+\form#43:$\beta$
+\form#44:$dT/dP_{\rm{row}} = 0$
+\form#45:$\alpha \approx 0$
+\form#46:\[ Nn(2 P_{\rm{row}}^4 - P_{\rm{row}}^3) + Mm(P P_{\rm{row}} - P^2) = 0 \]
+\form#47:\[ {\rm{shape}}_{ij...} = \frac{\|A_{ij...}\|}{N_i N_j ...} \]
+\form#48:$ij...$
+\form#49:$\|A_{ij}\|$
+\form#50:$N_i N_j ...$
+\form#51:\[ {(\rm{result})}_{ij...} = |(\rm{factor})| (\rm{this})_{ij...} \]
+\form#52:\[ {(\rm{result})}_{ji...} = \rm{perm}(j,i) |(\rm{factor})| (\rm{this})_{ij...} \]
+\form#53:\[ {(\rm{result})}_{ij...} = (\rm{this})_{ij...} + (\rm{other})_{ij...} \]
+\form#54:\[ {(\rm{result})}_{ji...} = \rm{perm}(i,j) (\rm{this})_{ij...} + (\rm{other})_{ij...} \]
+\form#55:\[ {(\rm{result})}_{ij...} = |(\rm{factor})| ((\rm{this})_{ij...} + (\rm{other})_{ij...}) \]
+\form#56:$ S_n $
+\form#57:$ M $
+\form#58:$ n $
+\form#59:$ M_i $
+\form#60:$ (i = 0, \dots , n-1) $
+\form#61:$ S_3 $
+\form#62:\[ \begin{tabular}{ c c c } Young tableaux & partition [$\mu$] & Yamanouchi symbols M \\ & & \\ \begin{tabular}{ |c| } \hline 1 \\ \hline 2 \\ \hline 3 \\ \hline \end{tabular} & [111] & 123 \\ & & \\ \begin{tabular}{ |c|c|c| } \hline 1 & 2 & 3 \\ \hline \end{tabular} & [3] & 111 \\ & & \\ \begin{tabular}{ |c|c } \hline 1 & \multicolumn{1}{|c|}{2} \\ \hline 3 \\ \cline{1-1} \end{tabular} & [21] & 112 \\ & & \\ \begin{tabular}{ |c|c } \hline 1 & \multicolumn{1}{|c|}{3} \\ \hline 2 \\ \cline{1-1} \end{tabular} & [21] & 121 \\ \end{tabular} \]
+\form#63:$ \{0 \to 3, 1 \to 2, 2 \to 1, 0 \to 3 \} $
+\form#64:$ \{1->3, 2->1, 3->2\} $
+\form#65:$ P \times P^{-1} = P^{-1} \times P = I $
+\form#66:$ \{x_0, x_1, \dots x_{n-1}\} $
+\form#67:$ G $
+\form#68:$ h $
+\form#69:$ \{ a: a = h g h^{-1}, \forall g \in G \} $
+\form#70:$ \{ 0, 1, \dots \} $
+\form#71:$ G = S_2 $
+\form#72:$ \{0,1\} $
+\form#73:$ h = {1->2, 2->1} $
+\form#74:$ S_2 $
+\form#75:$ \{0,2\} $
+\form#76:$ \{0, 1, \dots n-1\} $

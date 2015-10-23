@@ -91,7 +91,14 @@ var hierarchy =
       ] ]
     ] ],
     [ "TiledArray::expressions::Expr< BlkTsrExpr< A > >", "class_tiled_array_1_1expressions_1_1_expr.html", [
-      [ "TiledArray::expressions::BlkTsrExpr< A >", "class_tiled_array_1_1expressions_1_1_blk_tsr_expr.html", null ]
+      [ "TiledArray::expressions::BlkTsrExprBase< BlkTsrExpr< A > >", "class_tiled_array_1_1expressions_1_1_blk_tsr_expr_base.html", [
+        [ "TiledArray::expressions::BlkTsrExpr< A >", "class_tiled_array_1_1expressions_1_1_blk_tsr_expr.html", null ]
+      ] ]
+    ] ],
+    [ "TiledArray::expressions::Expr< BlkTsrExpr< const A > >", "class_tiled_array_1_1expressions_1_1_expr.html", [
+      [ "TiledArray::expressions::BlkTsrExprBase< BlkTsrExpr< const A > >", "class_tiled_array_1_1expressions_1_1_blk_tsr_expr_base.html", [
+        [ "TiledArray::expressions::BlkTsrExpr< const A >", "class_tiled_array_1_1expressions_1_1_blk_tsr_expr_3_01const_01_a_01_4.html", null ]
+      ] ]
     ] ],
     [ "TiledArray::expressions::Expr< MultExpr< Left, Right > >", "class_tiled_array_1_1expressions_1_1_expr.html", [
       [ "TiledArray::expressions::BinaryExpr< MultExpr< Left, Right > >", "class_tiled_array_1_1expressions_1_1_binary_expr.html", [
@@ -104,7 +111,9 @@ var hierarchy =
       ] ]
     ] ],
     [ "TiledArray::expressions::Expr< ScalBlkTsrExpr< A > >", "class_tiled_array_1_1expressions_1_1_expr.html", [
-      [ "TiledArray::expressions::ScalBlkTsrExpr< A >", "class_tiled_array_1_1expressions_1_1_scal_blk_tsr_expr.html", null ]
+      [ "TiledArray::expressions::BlkTsrExprBase< ScalBlkTsrExpr< A > >", "class_tiled_array_1_1expressions_1_1_blk_tsr_expr_base.html", [
+        [ "TiledArray::expressions::ScalBlkTsrExpr< A >", "class_tiled_array_1_1expressions_1_1_scal_blk_tsr_expr.html", null ]
+      ] ]
     ] ],
     [ "TiledArray::expressions::Expr< ScalExpr< Arg > >", "class_tiled_array_1_1expressions_1_1_expr.html", [
       [ "TiledArray::expressions::UnaryExpr< ScalExpr< Arg > >", "class_tiled_array_1_1expressions_1_1_unary_expr.html", [
@@ -249,7 +258,7 @@ var hierarchy =
     ] ],
     [ "Op", null, [
       [ "TiledArray::math::BinaryReduceWrapper< Left, Right, Op >", "struct_tiled_array_1_1math_1_1_binary_reduce_wrapper.html", null ],
-      [ "TiledArray::math::BinaryReduceWrapper< typename Op::first_argument_type, typename Op::second_argument_type, Op >", "struct_tiled_array_1_1math_1_1_binary_reduce_wrapper_3_01typename_01_op_1_1first__argument__type7d06bf00bfeae242728a68cb96ea8c37.html", null ],
+      [ "TiledArray::math::BinaryReduceWrapper< typename Op::first_argument_type,                                           typename Op::second_argument_type, Op >", "struct_tiled_array_1_1math_1_1_binary_reduce_wrapper_3_01typename_01_op_1_1first__argument__type67c79c3b500ed0e00a014a91c2cde2e1.html", null ],
       [ "TiledArray::math::UnaryReduceWrapper< Tile, Op >", "class_tiled_array_1_1math_1_1_unary_reduce_wrapper.html", null ],
       [ "TiledArray::math::UnaryReduceWrapper< typename Op::argument_type, Op >", "class_tiled_array_1_1math_1_1_unary_reduce_wrapper_3_01typename_01_op_1_1argument__type_00_01_op_01_4.html", null ]
     ] ],
@@ -268,7 +277,7 @@ var hierarchy =
     ] ],
     [ "TiledArray::detail::scalar_type< result_type >", "struct_tiled_array_1_1detail_1_1scalar__type.html", null ],
     [ "TiledArray::detail::scalar_type< T::value_type >", "struct_tiled_array_1_1detail_1_1scalar__type.html", [
-      [ "TiledArray::detail::scalar_type< T, typename std::enable_if< is_type< typename T::value_type >::value >::type >", "struct_tiled_array_1_1detail_1_1scalar__type_3_01_t_00_01typename_01std_1_1enable__if_3_01is__tyb19c41fcec04455fcaf963307f97b794.html", null ]
+      [ "TiledArray::detail::scalar_type< T, typename std::enable_if< is_type< typename T::value_type >::value                                                           &&!is_numeric< T >::value >::type >", "struct_tiled_array_1_1detail_1_1scalar__type_3_01_t_00_01typename_01std_1_1enable__if_3_01is__ty957fb57f824e2a4464b83ed5c4b43ec2.html", null ]
     ] ],
     [ "TiledArray::detail::scalar_type< Tile< T >::tensor_type >", "struct_tiled_array_1_1detail_1_1scalar__type.html", [
       [ "TiledArray::detail::scalar_type< Tile< T >, void >", "struct_tiled_array_1_1detail_1_1scalar__type_3_01_tile_3_01_t_01_4_00_01void_01_4.html", null ]
@@ -290,6 +299,7 @@ var hierarchy =
         [ "TiledArray::is_dense< T, detail::is_type< typename T::shape_type > >", "struct_tiled_array_1_1is__dense_3_01_t_00_01detail_1_1is__type_3_01typename_01_t_1_1shape__type_01_4_01_4.html", null ]
       ] ],
       [ "TiledArray::detail::is_tensor_helper< T >", "struct_tiled_array_1_1detail_1_1is__tensor__helper.html", [
+        [ "TiledArray::detail::is_tensor_helper< ShiftWrapper< const T > >", "struct_tiled_array_1_1detail_1_1is__tensor__helper_3_01_shift_wrapper_3_01const_01_t_01_4_01_4.html", null ],
         [ "TiledArray::detail::is_tensor_helper< ShiftWrapper< T > >", "struct_tiled_array_1_1detail_1_1is__tensor__helper_3_01_shift_wrapper_3_01_t_01_4_01_4.html", null ],
         [ "TiledArray::detail::is_tensor_of_tensor_helper< Tensor< T, A > >", "struct_tiled_array_1_1detail_1_1is__tensor__of__tensor__helper_3_01_tensor_3_01_t_00_01_a_01_4_01_4.html", null ],
         [ "TiledArray::detail::is_tensor_of_tensor_helper< TensorInterface< T, RangeType > >", "struct_tiled_array_1_1detail_1_1is__tensor__of__tensor__helper_3_01_tensor_interface_3_01_t_00_01_range_type_01_4_01_4.html", null ]
@@ -318,6 +328,7 @@ var hierarchy =
       [ "TiledArray::is_dense< S, Enable >", "struct_tiled_array_1_1is__dense.html", null ]
     ] ],
     [ "integral_constant", null, [
+      [ "TiledArray::detail::is_float_or_complex< T >", "struct_tiled_array_1_1detail_1_1is__float__or__complex.html", null ],
       [ "TiledArray::detail::is_lazy_tile< T >", "struct_tiled_array_1_1detail_1_1is__lazy__tile.html", null ],
       [ "TiledArray::detail::is_non_array_lazy_tile< T >", "struct_tiled_array_1_1detail_1_1is__non__array__lazy__tile.html", null ]
     ] ],
@@ -338,6 +349,7 @@ var hierarchy =
       [ "TiledArray::detail::is_iterator< T *, void >", "struct_tiled_array_1_1detail_1_1is__iterator_3_01_t_01_5_00_01void_01_4.html", null ],
       [ "TiledArray::detail::is_iterator< T *const, void >", "struct_tiled_array_1_1detail_1_1is__iterator_3_01_t_01_5const_00_01void_01_4.html", null ],
       [ "TiledArray::detail::is_iterator< T, typename std::enable_if< is_type< typename T::iterator_category >::value >::type >", "struct_tiled_array_1_1detail_1_1is__iterator_3_01_t_00_01typename_01std_1_1enable__if_3_01is__tyf33ee9a886ca9d82cca7639bd5722af8.html", null ],
+      [ "TiledArray::detail::is_numeric< Conjugate< T > >", "struct_tiled_array_1_1detail_1_1is__numeric_3_01_conjugate_3_01_t_01_4_01_4.html", null ],
       [ "TiledArray::detail::is_numeric< double >", "struct_tiled_array_1_1detail_1_1is__numeric_3_01double_01_4.html", null ],
       [ "TiledArray::detail::is_numeric< float >", "struct_tiled_array_1_1detail_1_1is__numeric_3_01float_01_4.html", null ],
       [ "TiledArray::detail::is_numeric< int >", "struct_tiled_array_1_1detail_1_1is__numeric_3_01int_01_4.html", null ],
@@ -357,6 +369,7 @@ var hierarchy =
     ] ],
     [ "TiledArray::Tensor< value_type >", "class_tiled_array_1_1_tensor.html", null ],
     [ "TiledArray::Array< T, DIM, Tile, Policy >", "class_tiled_array_1_1_array.html", null ],
+    [ "TiledArray::Conjugate< T >", "class_tiled_array_1_1_conjugate.html", null ],
     [ "TiledArray::ConjugateGradientSolver< D, F >", "struct_tiled_array_1_1_conjugate_gradient_solver.html", null ],
     [ "TiledArray::DensePolicy", "class_tiled_array_1_1_dense_policy.html", null ],
     [ "TiledArray::DenseShape", "class_tiled_array_1_1_dense_shape.html", null ],
@@ -369,18 +382,18 @@ var hierarchy =
     [ "TiledArray::detail::Bitset< Block >::reference", "class_tiled_array_1_1detail_1_1_bitset_1_1reference.html", null ],
     [ "TiledArray::detail::DistEval< Tile, Policy >", "class_tiled_array_1_1detail_1_1_dist_eval.html", null ],
     [ "TiledArray::detail::is_contiguous_tensor< Ts >", "struct_tiled_array_1_1detail_1_1is__contiguous__tensor.html", null ],
-    [ "TiledArray::detail::is_contiguous_tensor< T1, T2, Ts...>", "struct_tiled_array_1_1detail_1_1is__contiguous__tensor_3_01_t1_00_01_t2_00_01_ts_8_8_8_4.html", null ],
-    [ "TiledArray::detail::is_integral_list_helper<>", "struct_tiled_array_1_1detail_1_1is__integral__list__helper.html", null ],
-    [ "TiledArray::detail::is_integral_list_helper< T, Ts...>", "struct_tiled_array_1_1detail_1_1is__integral__list__helper_3_01_t_00_01_ts_8_8_8_4.html", null ],
+    [ "TiledArray::detail::is_contiguous_tensor< T1, T2, Ts... >", "struct_tiled_array_1_1detail_1_1is__contiguous__tensor_3_01_t1_00_01_t2_00_01_ts_8_8_8_01_4.html", null ],
+    [ "TiledArray::detail::is_integral_list_helper<... >", "struct_tiled_array_1_1detail_1_1is__integral__list__helper.html", null ],
+    [ "TiledArray::detail::is_integral_list_helper< T, Ts... >", "struct_tiled_array_1_1detail_1_1is__integral__list__helper_3_01_t_00_01_ts_8_8_8_01_4.html", null ],
     [ "TiledArray::detail::is_integral_list_helper<>", "struct_tiled_array_1_1detail_1_1is__integral__list__helper_3_4.html", null ],
     [ "TiledArray::detail::is_shifted< Ts >", "struct_tiled_array_1_1detail_1_1is__shifted.html", null ],
-    [ "TiledArray::detail::is_shifted< T1, T2, Ts...>", "struct_tiled_array_1_1detail_1_1is__shifted_3_01_t1_00_01_t2_00_01_ts_8_8_8_4.html", null ],
+    [ "TiledArray::detail::is_shifted< T1, T2, Ts... >", "struct_tiled_array_1_1detail_1_1is__shifted_3_01_t1_00_01_t2_00_01_ts_8_8_8_01_4.html", null ],
     [ "TiledArray::detail::is_tensor< Ts >", "struct_tiled_array_1_1detail_1_1is__tensor.html", null ],
     [ "TiledArray::detail::is_tensor< T >", "struct_tiled_array_1_1detail_1_1is__tensor_3_01_t_01_4.html", null ],
-    [ "TiledArray::detail::is_tensor< T1, T2, Ts...>", "struct_tiled_array_1_1detail_1_1is__tensor_3_01_t1_00_01_t2_00_01_ts_8_8_8_4.html", null ],
+    [ "TiledArray::detail::is_tensor< T1, T2, Ts... >", "struct_tiled_array_1_1detail_1_1is__tensor_3_01_t1_00_01_t2_00_01_ts_8_8_8_01_4.html", null ],
     [ "TiledArray::detail::is_tensor_of_tensor< Ts >", "struct_tiled_array_1_1detail_1_1is__tensor__of__tensor.html", null ],
     [ "TiledArray::detail::is_tensor_of_tensor< T >", "struct_tiled_array_1_1detail_1_1is__tensor__of__tensor_3_01_t_01_4.html", null ],
-    [ "TiledArray::detail::is_tensor_of_tensor< T1, T2, Ts...>", "struct_tiled_array_1_1detail_1_1is__tensor__of__tensor_3_01_t1_00_01_t2_00_01_ts_8_8_8_4.html", null ],
+    [ "TiledArray::detail::is_tensor_of_tensor< T1, T2, Ts... >", "struct_tiled_array_1_1detail_1_1is__tensor__of__tensor_3_01_t1_00_01_t2_00_01_ts_8_8_8_01_4.html", null ],
     [ "TiledArray::detail::LazyArrayTile< Tile, Op >", "class_tiled_array_1_1detail_1_1_lazy_array_tile.html", null ],
     [ "TiledArray::detail::non_iterator_tag", "struct_tiled_array_1_1detail_1_1non__iterator__tag.html", null ],
     [ "TiledArray::detail::param< T, Enabler >", "struct_tiled_array_1_1detail_1_1param.html", null ],
@@ -417,13 +430,16 @@ var hierarchy =
     [ "TiledArray::expressions::EngineTrait< TsrEngine< Array< T, DIM, Tile, Policy > > >", "struct_tiled_array_1_1expressions_1_1_engine_trait_3_01_tsr_engine_3_01_array_3_01_t_00_01_d_i_m6d8447a4eb23182f2de62da3ae170b37.html", null ],
     [ "TiledArray::expressions::Expr< Derived >", "class_tiled_array_1_1expressions_1_1_expr.html", [
       [ "TiledArray::expressions::BinaryExpr< Derived >", "class_tiled_array_1_1expressions_1_1_binary_expr.html", null ],
+      [ "TiledArray::expressions::BlkTsrExprBase< Derived >", "class_tiled_array_1_1expressions_1_1_blk_tsr_expr_base.html", null ],
       [ "TiledArray::expressions::UnaryExpr< Derived >", "class_tiled_array_1_1expressions_1_1_unary_expr.html", null ]
     ] ],
     [ "TiledArray::expressions::ExprOStream", "class_tiled_array_1_1expressions_1_1_expr_o_stream.html", null ],
     [ "TiledArray::expressions::ExprTraceTarget", "class_tiled_array_1_1expressions_1_1_expr_trace_target.html", null ],
     [ "TiledArray::expressions::ExprTrait< typename >", "struct_tiled_array_1_1expressions_1_1_expr_trait.html", null ],
     [ "TiledArray::expressions::ExprTrait< BlkTsrExpr< A > >", "struct_tiled_array_1_1expressions_1_1_expr_trait_3_01_blk_tsr_expr_3_01_a_01_4_01_4.html", null ],
+    [ "TiledArray::expressions::ExprTrait< BlkTsrExpr< const A > >", "struct_tiled_array_1_1expressions_1_1_expr_trait_3_01_blk_tsr_expr_3_01const_01_a_01_4_01_4.html", null ],
     [ "TiledArray::expressions::ExprTrait< ScalBlkTsrExpr< A > >", "struct_tiled_array_1_1expressions_1_1_expr_trait_3_01_scal_blk_tsr_expr_3_01_a_01_4_01_4.html", null ],
+    [ "TiledArray::expressions::ExprTrait< ScalBlkTsrExpr< const A > >", "struct_tiled_array_1_1expressions_1_1_expr_trait_3_01_scal_blk_tsr_expr_3_01const_01_a_01_4_01_4.html", null ],
     [ "TiledArray::expressions::ExprTrait< ScalTsrExpr< A > >", "struct_tiled_array_1_1expressions_1_1_expr_trait_3_01_scal_tsr_expr_3_01_a_01_4_01_4.html", null ],
     [ "TiledArray::expressions::ExprTrait< TsrExpr< A > >", "struct_tiled_array_1_1expressions_1_1_expr_trait_3_01_tsr_expr_3_01_a_01_4_01_4.html", null ],
     [ "TiledArray::expressions::ExprTrait< TsrExpr< const A > >", "struct_tiled_array_1_1expressions_1_1_expr_trait_3_01_tsr_expr_3_01const_01_a_01_4_01_4.html", null ],
@@ -472,7 +488,11 @@ var hierarchy =
     ] ],
     [ "TiledArray::SparsePolicy", "class_tiled_array_1_1_sparse_policy.html", null ],
     [ "TiledArray::SparseShape< T >", "class_tiled_array_1_1_sparse_shape.html", null ],
-    [ "TiledArray::SymmGroup", "class_tiled_array_1_1_symm_group.html", null ],
+    [ "TiledArray::symmetry::Permutation", "class_tiled_array_1_1symmetry_1_1_permutation.html", null ],
+    [ "TiledArray::symmetry::PermutationGroup", "class_tiled_array_1_1symmetry_1_1_permutation_group.html", [
+      [ "TiledArray::symmetry::SymmetricGroup", "class_tiled_array_1_1symmetry_1_1_symmetric_group.html", null ]
+    ] ],
+    [ "TiledArray::symmetry::Representation< Group, Representative >", "class_tiled_array_1_1symmetry_1_1_representation.html", null ],
     [ "TiledArray::Tensor< T, A >", "class_tiled_array_1_1_tensor.html", null ],
     [ "TiledArray::Tile< T >", "class_tiled_array_1_1_tile.html", null ],
     [ "TiledArray::TiledRange", "class_tiled_array_1_1_tiled_range.html", null ],

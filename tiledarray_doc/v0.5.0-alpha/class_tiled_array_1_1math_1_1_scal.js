@@ -9,8 +9,8 @@ var class_tiled_array_1_1math_1_1_scal =
     [ "Scal", "class_tiled_array_1_1math_1_1_scal.html#a5de05652550acf78a6dafd4e6630bc25", null ],
     [ "Scal", "class_tiled_array_1_1math_1_1_scal.html#af2ab0d3726dce579739f32778bac994d", null ],
     [ "Scal", "class_tiled_array_1_1math_1_1_scal.html#a407f5d95d3aa77e55dc3347e5ee758df", null ],
-    [ "no_permute", "class_tiled_array_1_1math_1_1_scal.html#a24947d0d967ab3d7a5aed1ffd04db372", null ],
-    [ "no_permute", "class_tiled_array_1_1math_1_1_scal.html#a3005b1046430658c79701ae162d87a80", null ],
+    [ "no_permute_op", "class_tiled_array_1_1math_1_1_scal.html#a0d38f24b42f4bc46e4fa24e77041ea9c", null ],
+    [ "no_permute_op", "class_tiled_array_1_1math_1_1_scal.html#a12ccc049e80ab53a161d0150a6a7f938", null ],
     [ "operator=", "class_tiled_array_1_1math_1_1_scal.html#aff99c187384d6530ced7628b2e3eb1ed", null ],
-    [ "permute", "class_tiled_array_1_1math_1_1_scal.html#a06bcdb2815de76b804cd1f30f59cb049", null ]
+    [ "permute_op", "class_tiled_array_1_1math_1_1_scal.html#acbbb31ed5a929b9cfc0dd98347d65313", null ]
 ];

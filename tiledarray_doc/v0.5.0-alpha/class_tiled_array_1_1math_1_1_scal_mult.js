@@ -10,11 +10,11 @@ var class_tiled_array_1_1math_1_1_scal_mult =
     [ "ScalMult", "class_tiled_array_1_1math_1_1_scal_mult.html#a2978011ecc07186d76071955905d286e", null ],
     [ "ScalMult", "class_tiled_array_1_1math_1_1_scal_mult.html#a1c57d4ae907ac15a29b8d7ef83dabbeb", null ],
     [ "ScalMult", "class_tiled_array_1_1math_1_1_scal_mult.html#acd0981ce558351358e88459c6f661700", null ],
-    [ "no_permute", "class_tiled_array_1_1math_1_1_scal_mult.html#ac131dbff79fc702e88e83b78ff209e22", null ],
-    [ "no_permute", "class_tiled_array_1_1math_1_1_scal_mult.html#aed13f5dfb0bfb4710be834c08cb3b334", null ],
-    [ "no_permute", "class_tiled_array_1_1math_1_1_scal_mult.html#a81464aaa4dd3bf27c876bec9a030baed", null ],
+    [ "no_permute_op", "class_tiled_array_1_1math_1_1_scal_mult.html#a574c29144509b50794e21cc8029c9d29", null ],
+    [ "no_permute_op", "class_tiled_array_1_1math_1_1_scal_mult.html#a5506176baaa03d2f8f08e4d7cd9d080e", null ],
+    [ "no_permute_op", "class_tiled_array_1_1math_1_1_scal_mult.html#a92a9bde126a533e9203019f43ed02517", null ],
     [ "operator=", "class_tiled_array_1_1math_1_1_scal_mult.html#a5b39473139c21c65fd8c387270a5a884", null ],
-    [ "permute", "class_tiled_array_1_1math_1_1_scal_mult.html#afdc03d72d3c2b9b17a4de5bc8a83e512", null ],
-    [ "permute", "class_tiled_array_1_1math_1_1_scal_mult.html#a8cc9e2c7c01154c192a4448ccf7dec81", null ],
-    [ "permute", "class_tiled_array_1_1math_1_1_scal_mult.html#a2cd8e598256098afdf76f8b43c9cf7a8", null ]
+    [ "permute_op", "class_tiled_array_1_1math_1_1_scal_mult.html#a002b4e16882df3f3811180754bdfb578", null ],
+    [ "permute_op", "class_tiled_array_1_1math_1_1_scal_mult.html#a103f9bd048225504aeb7b7208b709730", null ],
+    [ "permute_op", "class_tiled_array_1_1math_1_1_scal_mult.html#a6e91720930480f536b204e3dbdb23145", null ]
 ];

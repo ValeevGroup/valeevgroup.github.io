@@ -16,6 +16,8 @@ var class_tiled_array_1_1expressions_1_1_scal_blk_tsr_engine =
     [ "value_type", "class_tiled_array_1_1expressions_1_1_scal_blk_tsr_engine.html#ab3fb88da1802ed5018b810441f0bc107", null ],
     [ "ScalBlkTsrEngine", "class_tiled_array_1_1expressions_1_1_scal_blk_tsr_engine.html#ad32c4f404803c74312134bbd80b28c49", null ],
     [ "ScalBlkTsrEngine", "class_tiled_array_1_1expressions_1_1_scal_blk_tsr_engine.html#acbb8525977df150586b1cfba43db6796", null ],
+    [ "make_shape", "class_tiled_array_1_1expressions_1_1_scal_blk_tsr_engine.html#ac08c55f3cc8057bccdf2f6d13de2f0dd", null ],
+    [ "make_shape", "class_tiled_array_1_1expressions_1_1_scal_blk_tsr_engine.html#a8a232d348989a372aa08e4d3df22d4aa", null ],
     [ "make_tag", "class_tiled_array_1_1expressions_1_1_scal_blk_tsr_engine.html#a8cc29358f2d495b769da40818cd054fa", null ],
     [ "make_tile_op", "class_tiled_array_1_1expressions_1_1_scal_blk_tsr_engine.html#a126284d60876fbb942a1ed7f1783ff94", null ],
     [ "make_tile_op", "class_tiled_array_1_1expressions_1_1_scal_blk_tsr_engine.html#ab007efb36f7ec0078c1032cbc26e2396", null ],

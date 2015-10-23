@@ -12,6 +12,6 @@ var permutation_8h =
     [ "operator<", "permutation_8h.html#ga63845f58c204f812d564fa36d02103c6", null ],
     [ "operator<<", "permutation_8h.html#ga64f168b5f03c8c2548c1b67a6509e9a4", null ],
     [ "operator==", "permutation_8h.html#ga82d81ab8db19341b018ee44dd5721d28", null ],
-    [ "operator^", "permutation_8h.html#ga440962070683ecc21caf7df3d97d98bc", null ],
+    [ "operator^", "permutation_8h.html#gaf1f4db587fe34281a4ffab0ca581d2b1", null ],
     [ "permute_array", "permutation_8h.html#a9ecba5efe7b319458a9f16df0563472b", null ]
 ];

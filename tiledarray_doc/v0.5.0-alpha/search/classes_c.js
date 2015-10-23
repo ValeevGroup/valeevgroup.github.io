@@ -8,6 +8,8 @@ var searchData=
   ['partialreduceunwind_3c_200_20_3e',['PartialReduceUnwind&lt; 0 &gt;',['../class_tiled_array_1_1math_1_1_partial_reduce_unwind_3_010_01_4.html',1,'TiledArray::math']]],
   ['permindex',['PermIndex',['../class_tiled_array_1_1detail_1_1_perm_index.html',1,'TiledArray::detail']]],
   ['permutation',['Permutation',['../class_tiled_array_1_1_permutation.html',1,'TiledArray']]],
+  ['permutation',['Permutation',['../class_tiled_array_1_1symmetry_1_1_permutation.html',1,'TiledArray::symmetry']]],
+  ['permutationgroup',['PermutationGroup',['../class_tiled_array_1_1symmetry_1_1_permutation_group.html',1,'TiledArray::symmetry']]],
   ['pmap',['Pmap',['../class_tiled_array_1_1_pmap.html',1,'TiledArray']]],
   ['procgrid',['ProcGrid',['../class_tiled_array_1_1detail_1_1_proc_grid.html',1,'TiledArray::detail']]],
   ['productreduction',['ProductReduction',['../class_tiled_array_1_1math_1_1_product_reduction.html',1,'TiledArray::math']]]

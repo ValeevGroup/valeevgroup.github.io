@@ -5,7 +5,7 @@ var namespace_tiled_array_1_1math =
     [ "Add", "class_tiled_array_1_1math_1_1_add.html", "class_tiled_array_1_1math_1_1_add" ],
     [ "BinaryInterfaceBase", "class_tiled_array_1_1math_1_1_binary_interface_base.html", "class_tiled_array_1_1math_1_1_binary_interface_base" ],
     [ "BinaryReduceWrapper", "struct_tiled_array_1_1math_1_1_binary_reduce_wrapper.html", "struct_tiled_array_1_1math_1_1_binary_reduce_wrapper" ],
-    [ "BinaryReduceWrapper< typename Op::first_argument_type, typename Op::second_argument_type, Op >", "struct_tiled_array_1_1math_1_1_binary_reduce_wrapper_3_01typename_01_op_1_1first__argument__type7d06bf00bfeae242728a68cb96ea8c37.html", "struct_tiled_array_1_1math_1_1_binary_reduce_wrapper_3_01typename_01_op_1_1first__argument__type7d06bf00bfeae242728a68cb96ea8c37" ],
+    [ "BinaryReduceWrapper< typename Op::first_argument_type,                                           typename Op::second_argument_type, Op >", "struct_tiled_array_1_1math_1_1_binary_reduce_wrapper_3_01typename_01_op_1_1first__argument__type67c79c3b500ed0e00a014a91c2cde2e1.html", "struct_tiled_array_1_1math_1_1_binary_reduce_wrapper_3_01typename_01_op_1_1first__argument__type67c79c3b500ed0e00a014a91c2cde2e1" ],
     [ "BinaryTileOpPolicy", "struct_tiled_array_1_1math_1_1_binary_tile_op_policy.html", null ],
     [ "BinaryTileOpPolicy< Op< Result, Left, Right, LeftConsumable, RightConsumable > >", "struct_tiled_array_1_1math_1_1_binary_tile_op_policy_3_01_op_3_01_result_00_01_left_00_01_right_4f2bea64b1ff8fad8766638ed2981087.html", "struct_tiled_array_1_1math_1_1_binary_tile_op_policy_3_01_op_3_01_result_00_01_left_00_01_right_4f2bea64b1ff8fad8766638ed2981087" ],
     [ "Block", "class_tiled_array_1_1math_1_1_block.html", "class_tiled_array_1_1math_1_1_block" ],

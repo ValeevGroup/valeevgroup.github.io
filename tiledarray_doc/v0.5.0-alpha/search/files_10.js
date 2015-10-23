@@ -18,6 +18,5 @@ var searchData=
   ['sparse_5fto_5fdense_2eh',['sparse_to_dense.h',['../sparse__to__dense_8h.html',1,'']]],
   ['subt_2eh',['subt.h',['../subt_8h.html',1,'']]],
   ['subt_5fengine_2eh',['subt_engine.h',['../subt__engine_8h.html',1,'']]],
-  ['subt_5fexpr_2eh',['subt_expr.h',['../subt__expr_8h.html',1,'']]],
-  ['symm_5fgroup_2eh',['symm_group.h',['../symm__group_8h.html',1,'']]]
+  ['subt_5fexpr_2eh',['subt_expr.h',['../subt__expr_8h.html',1,'']]]
 ];

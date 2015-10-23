@@ -12,7 +12,7 @@ var searchData=
   ['scalar_5ftype_3c_20plainobjecttype_20_3e',['scalar_type&lt; PlainObjectType &gt;',['../struct_tiled_array_1_1detail_1_1scalar__type.html',1,'TiledArray::detail']]],
   ['scalar_5ftype_3c_20result_5ftype_20_3e',['scalar_type&lt; result_type &gt;',['../struct_tiled_array_1_1detail_1_1scalar__type.html',1,'TiledArray::detail']]],
   ['scalar_5ftype_3c_20t_2c_20typename_20std_3a_3aenable_5fif_3c_20is_5fnumeric_3c_20t_20_3e_3a_3avalue_20_3e_3a_3atype_20_3e',['scalar_type&lt; T, typename std::enable_if&lt; is_numeric&lt; T &gt;::value &gt;::type &gt;',['../struct_tiled_array_1_1detail_1_1scalar__type_3_01_t_00_01typename_01std_1_1enable__if_3_01is__nu417ffaf7a4e9a72afff56ede7e77f14c.html',1,'TiledArray::detail']]],
-  ['scalar_5ftype_3c_20t_2c_20typename_20std_3a_3aenable_5fif_3c_20is_5ftype_3c_20typename_20t_3a_3avalue_5ftype_20_3e_3a_3avalue_20_3e_3a_3atype_20_3e',['scalar_type&lt; T, typename std::enable_if&lt; is_type&lt; typename T::value_type &gt;::value &gt;::type &gt;',['../struct_tiled_array_1_1detail_1_1scalar__type_3_01_t_00_01typename_01std_1_1enable__if_3_01is__tyb19c41fcec04455fcaf963307f97b794.html',1,'TiledArray::detail']]],
+  ['scalar_5ftype_3c_20t_2c_20typename_20std_3a_3aenable_5fif_3c_20is_5ftype_3c_20typename_20t_3a_3avalue_5ftype_20_3e_3a_3avalue_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_20_26_26_21is_5fnumeric_3c_20t_20_3e_3a_3avalue_20_3e_3a_3atype_20_3e',['scalar_type&lt; T, typename std::enable_if&lt; is_type&lt; typename T::value_type &gt;::value                                                           &amp;&amp;!is_numeric&lt; T &gt;::value &gt;::type &gt;',['../struct_tiled_array_1_1detail_1_1scalar__type_3_01_t_00_01typename_01std_1_1enable__if_3_01is__ty957fb57f824e2a4464b83ed5c4b43ec2.html',1,'TiledArray::detail']]],
   ['scalar_5ftype_3c_20t_3a_3avalue_5ftype_20_3e',['scalar_type&lt; T::value_type &gt;',['../struct_tiled_array_1_1detail_1_1scalar__type.html',1,'TiledArray::detail']]],
   ['scalar_5ftype_3c_20tile_3c_20t_20_3e_2c_20void_20_3e',['scalar_type&lt; Tile&lt; T &gt;, void &gt;',['../struct_tiled_array_1_1detail_1_1scalar__type_3_01_tile_3_01_t_01_4_00_01void_01_4.html',1,'TiledArray::detail']]],
   ['scalar_5ftype_3c_20tile_3c_20t_20_3e_3a_3atensor_5ftype_20_3e',['scalar_type&lt; Tile&lt; T &gt;::tensor_type &gt;',['../struct_tiled_array_1_1detail_1_1scalar__type.html',1,'TiledArray::detail']]],
@@ -40,5 +40,5 @@ var searchData=
   ['subtexpr',['SubtExpr',['../class_tiled_array_1_1expressions_1_1_subt_expr.html',1,'TiledArray::expressions']]],
   ['summa',['Summa',['../class_tiled_array_1_1detail_1_1_summa.html',1,'TiledArray::detail']]],
   ['sumreduction',['SumReduction',['../class_tiled_array_1_1math_1_1_sum_reduction.html',1,'TiledArray::math']]],
-  ['symmgroup',['SymmGroup',['../class_tiled_array_1_1_symm_group.html',1,'TiledArray']]]
+  ['symmetricgroup',['SymmetricGroup',['../class_tiled_array_1_1symmetry_1_1_symmetric_group.html',1,'TiledArray::symmetry']]]
 ];

@@ -12,5 +12,6 @@ var searchData=
   ['reference',['reference',['../class_tiled_array_1_1detail_1_1_bitset_1_1reference.html',1,'TiledArray::detail::Bitset']]],
   ['remove_5fcvr',['remove_cvr',['../struct_tiled_array_1_1detail_1_1remove__cvr.html',1,'TiledArray::detail']]],
   ['replicatedpmap',['ReplicatedPmap',['../class_tiled_array_1_1detail_1_1_replicated_pmap.html',1,'TiledArray::detail']]],
-  ['replicator',['Replicator',['../class_tiled_array_1_1detail_1_1_replicator.html',1,'TiledArray::detail']]]
+  ['replicator',['Replicator',['../class_tiled_array_1_1detail_1_1_replicator.html',1,'TiledArray::detail']]],
+  ['representation',['Representation',['../class_tiled_array_1_1symmetry_1_1_representation.html',1,'TiledArray::symmetry']]]
 ];

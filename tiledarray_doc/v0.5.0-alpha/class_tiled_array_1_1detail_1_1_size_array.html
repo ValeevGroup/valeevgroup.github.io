@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('class_tiled_array_1_1detail_1_1_size_a
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="class_tiled_array_1_1_array.html" title="An n-dimensional, tiled array. ">Array</a> wrapper.  
+<p>Array wrapper.  
  <a href="class_tiled_array_1_1detail_1_1_size_array.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="size__array_8h_source.html">size_array.h</a>&gt;</code></p>
@@ -244,14 +244,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a745c6934247adcc6324855da0f17bc44"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a745c6934247adcc6324855da0f17bc44">unary</a> (const Arg *const arg, const Op &amp;op)</td></tr>
 <tr class="memdesc:a745c6934247adcc6324855da0f17bc44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unary vector operation.  <a href="#a745c6934247adcc6324855da0f17bc44">More...</a><br /></td></tr>
 <tr class="separator:a745c6934247adcc6324855da0f17bc44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48f271b2cd62d10052ffdf004a48b6e8"><td class="memTemplParams" colspan="2">template&lt;typename Arg , typename Result , typename Op &gt; </td></tr>
-<tr class="memitem:a48f271b2cd62d10052ffdf004a48b6e8"><td class="memTemplItemLeft" align="right" valign="top">Result&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a48f271b2cd62d10052ffdf004a48b6e8">reduce</a> (const Arg *const arg, Result result, const Op &amp;op) const </td></tr>
-<tr class="memdesc:a48f271b2cd62d10052ffdf004a48b6e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binary reduce vector operation.  <a href="#a48f271b2cd62d10052ffdf004a48b6e8">More...</a><br /></td></tr>
-<tr class="separator:a48f271b2cd62d10052ffdf004a48b6e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad795461ff0c21ee6c34220f6192925ce"><td class="memTemplParams" colspan="2">template&lt;typename Result , typename Op &gt; </td></tr>
-<tr class="memitem:ad795461ff0c21ee6c34220f6192925ce"><td class="memTemplItemLeft" align="right" valign="top">Result&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#ad795461ff0c21ee6c34220f6192925ce">reduce</a> (Result result, const Op &amp;op) const </td></tr>
-<tr class="memdesc:ad795461ff0c21ee6c34220f6192925ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unary reduce vector operation.  <a href="#ad795461ff0c21ee6c34220f6192925ce">More...</a><br /></td></tr>
-<tr class="separator:ad795461ff0c21ee6c34220f6192925ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1c8f4e5026d205fa722a6fe2611980e"><td class="memTemplParams" colspan="2">template&lt;typename Arg , typename Result , typename ReduceOp , typename JoinOp &gt; </td></tr>
+<tr class="memitem:ab1c8f4e5026d205fa722a6fe2611980e"><td class="memTemplItemLeft" align="right" valign="top">Result&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#ab1c8f4e5026d205fa722a6fe2611980e">reduce</a> (const Arg *const arg, Result result, const ReduceOp &amp;reduce_op, const JoinOp &amp;join_op) const </td></tr>
+<tr class="memdesc:ab1c8f4e5026d205fa722a6fe2611980e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binary reduce vector operation.  <a href="#ab1c8f4e5026d205fa722a6fe2611980e">More...</a><br /></td></tr>
+<tr class="separator:ab1c8f4e5026d205fa722a6fe2611980e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a965720affd57542b71fe9d5016fb2e71"><td class="memTemplParams" colspan="2">template&lt;typename Result , typename ReduceOp , typename JoinOp &gt; </td></tr>
+<tr class="memitem:a965720affd57542b71fe9d5016fb2e71"><td class="memTemplItemLeft" align="right" valign="top">Result&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a965720affd57542b71fe9d5016fb2e71">reduce</a> (Result result, const ReduceOp &amp;reduce_op, const JoinOp &amp;join_op) const </td></tr>
+<tr class="memdesc:a965720affd57542b71fe9d5016fb2e71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unary reduce vector operation.  <a href="#a965720affd57542b71fe9d5016fb2e71">More...</a><br /></td></tr>
+<tr class="separator:a965720affd57542b71fe9d5016fb2e71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada0bc07b5eea703ee594cf03657e8407"><td class="memTemplParams" colspan="2">template&lt;typename Left , typename Right , typename Op &gt; </td></tr>
 <tr class="memitem:ada0bc07b5eea703ee594cf03657e8407"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#ada0bc07b5eea703ee594cf03657e8407">row_reduce</a> (const <a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a4fa4fb89cd6e5587cee85576e0ed6880">size_type</a> n, const Left *const left, const Right *right, const Op &amp;op)</td></tr>
 <tr class="memdesc:ada0bc07b5eea703ee594cf03657e8407"><td class="mdescLeft">&#160;</td><td class="mdescRight">Row reduce operation.  <a href="#ada0bc07b5eea703ee594cf03657e8407">More...</a><br /></td></tr>
@@ -285,7 +285,7 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
 class TiledArray::detail::SizeArray&lt; T &gt;</h3>
 
-<p><a class="el" href="class_tiled_array_1_1_array.html" title="An n-dimensional, tiled array. ">Array</a> wrapper. </p>
+<p>Array wrapper. </p>
 <p>This object is a wrapper for raw memory buffers so that it has the same interface, and can be used in place of, standard containers (e.g. std::vector). <a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html" title="Array wrapper. ">SizeArray</a> does not own the buffer, therefore it is the user's responsibility to manage (allocate, free, etc.) the memory buffer. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">T</td><td>The type of the array referenced by this array object </td></tr>
@@ -1030,7 +1030,7 @@ template&lt;typename Left , typename Right , typename Op &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="size__array_8h_source.html#l00343">343</a> of file <a class="el" href="size__array_8h_source.html">size_array.h</a>.</p>
+<p>Definition at line <a class="el" href="size__array_8h_source.html#l00345">345</a> of file <a class="el" href="size__array_8h_source.html">size_array.h</a>.</p>
 
 </div>
 </div>
@@ -1093,7 +1093,7 @@ template&lt;typename Arg , typename Op &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="size__array_8h_source.html#l00357">357</a> of file <a class="el" href="size__array_8h_source.html">size_array.h</a>.</p>
+<p>Definition at line <a class="el" href="size__array_8h_source.html#l00359">359</a> of file <a class="el" href="size__array_8h_source.html">size_array.h</a>.</p>
 
 </div>
 </div>
@@ -1618,7 +1618,7 @@ template&lt;typename Left , typename Right , typename Op &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="size__array_8h_source.html#l00374">374</a> of file <a class="el" href="size__array_8h_source.html">size_array.h</a>.</p>
+<p>Definition at line <a class="el" href="size__array_8h_source.html#l00376">376</a> of file <a class="el" href="size__array_8h_source.html">size_array.h</a>.</p>
 
 </div>
 </div>
@@ -1695,7 +1695,7 @@ template&lt;typename Left , typename Right , typename Op &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="size__array_8h_source.html#l00394">394</a> of file <a class="el" href="size__array_8h_source.html">size_array.h</a>.</p>
+<p>Definition at line <a class="el" href="size__array_8h_source.html#l00396">396</a> of file <a class="el" href="size__array_8h_source.html">size_array.h</a>.</p>
 
 </div>
 </div>
@@ -1780,7 +1780,7 @@ template&lt;typename Left , typename Right , typename Base , typename Op &gt; </
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="size__array_8h_source.html#l00416">416</a> of file <a class="el" href="size__array_8h_source.html">size_array.h</a>.</p>
+<p>Definition at line <a class="el" href="size__array_8h_source.html#l00418">418</a> of file <a class="el" href="size__array_8h_source.html">size_array.h</a>.</p>
 
 </div>
 </div>
@@ -1838,13 +1838,13 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a48f271b2cd62d10052ffdf004a48b6e8"></a>
+<a class="anchor" id="ab1c8f4e5026d205fa722a6fe2611980e"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T&gt; </div>
 <div class="memtemplate">
-template&lt;typename Arg , typename Result , typename Op &gt; </div>
+template&lt;typename Arg , typename Result , typename ReduceOp , typename JoinOp &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1864,8 +1864,14 @@ template&lt;typename Arg , typename Result , typename Op &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Op &amp;&#160;</td>
-          <td class="paramname"><em>op</em>&#160;</td>
+          <td class="paramtype">const ReduceOp &amp;&#160;</td>
+          <td class="paramname"><em>reduce_op</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const JoinOp &amp;&#160;</td>
+          <td class="paramname"><em>join_op</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1885,7 +1891,8 @@ template&lt;typename Arg , typename Result , typename Op &gt; </div>
   <table class="tparams">
     <tr><td class="paramname">Arg</td><td>The right-hand argument type </td></tr>
     <tr><td class="paramname">Result</td><td>The reduction result type </td></tr>
-    <tr><td class="paramname">Op</td><td>The binary operation type </td></tr>
+    <tr><td class="paramname">ReduceOp</td><td>The binary reduction operation type </td></tr>
+    <tr><td class="paramname">JoinOp</td><td>The join operation type </td></tr>
   </table>
   </dd>
 </dl>
@@ -1899,17 +1906,17 @@ template&lt;typename Arg , typename Result , typename Op &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The reduced value </dd></dl>
 
-<p>Definition at line <a class="el" href="size__array_8h_source.html#l00280">280</a> of file <a class="el" href="size__array_8h_source.html">size_array.h</a>.</p>
+<p>Definition at line <a class="el" href="size__array_8h_source.html#l00281">281</a> of file <a class="el" href="size__array_8h_source.html">size_array.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ad795461ff0c21ee6c34220f6192925ce"></a>
+<a class="anchor" id="a965720affd57542b71fe9d5016fb2e71"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T&gt; </div>
 <div class="memtemplate">
-template&lt;typename Result , typename Op &gt; </div>
+template&lt;typename Result , typename ReduceOp , typename JoinOp &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1923,8 +1930,14 @@ template&lt;typename Result , typename Op &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Op &amp;&#160;</td>
-          <td class="paramname"><em>op</em>&#160;</td>
+          <td class="paramtype">const ReduceOp &amp;&#160;</td>
+          <td class="paramname"><em>reduce_op</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const JoinOp &amp;&#160;</td>
+          <td class="paramname"><em>join_op</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1943,7 +1956,8 @@ template&lt;typename Result , typename Op &gt; </div>
 <p>Unary reduction operation where this object is the argument. The reduced result is computed by <code>op(result, *this[i])</code>. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Result</td><td>The reduction result type </td></tr>
-    <tr><td class="paramname">Op</td><td>The binary reduction operation type </td></tr>
+    <tr><td class="paramname">ReduceOp</td><td>The binary reduction operation type </td></tr>
+    <tr><td class="paramname">JoinOp</td><td>The join operation type </td></tr>
   </table>
   </dd>
 </dl>
@@ -1956,7 +1970,7 @@ template&lt;typename Result , typename Op &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The reduced value </dd></dl>
 
-<p>Definition at line <a class="el" href="size__array_8h_source.html#l00295">295</a> of file <a class="el" href="size__array_8h_source.html">size_array.h</a>.</p>
+<p>Definition at line <a class="el" href="size__array_8h_source.html#l00297">297</a> of file <a class="el" href="size__array_8h_source.html">size_array.h</a>.</p>
 
 </div>
 </div>
@@ -2081,7 +2095,7 @@ template&lt;typename Left , typename Right , typename Op &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="size__array_8h_source.html#l00312">312</a> of file <a class="el" href="size__array_8h_source.html">size_array.h</a>.</p>
+<p>Definition at line <a class="el" href="size__array_8h_source.html#l00314">314</a> of file <a class="el" href="size__array_8h_source.html">size_array.h</a>.</p>
 
 </div>
 </div>
@@ -2144,7 +2158,7 @@ template&lt;typename Arg , typename Op &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="size__array_8h_source.html#l00326">326</a> of file <a class="el" href="size__array_8h_source.html">size_array.h</a>.</p>
+<p>Definition at line <a class="el" href="size__array_8h_source.html#l00328">328</a> of file <a class="el" href="size__array_8h_source.html">size_array.h</a>.</p>
 
 </div>
 </div>
@@ -2388,7 +2402,7 @@ template&lt;typename Arg , typename Op &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tiled_array.html">TiledArray</a></li><li class="navelem"><a class="el" href="namespace_tiled_array_1_1detail.html">detail</a></li><li class="navelem"><a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html">SizeArray</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:46 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:08 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

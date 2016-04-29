@@ -5,6 +5,7 @@ var class_tiled_array_1_1expressions_1_1_add_engine =
     [ "dist_eval_type", "class_tiled_array_1_1expressions_1_1_add_engine.html#ab3de3e6a71599a9162e3ad752bc2dcf4", null ],
     [ "ExprEngine_", "class_tiled_array_1_1expressions_1_1_add_engine.html#a630e1cefa2a1af2f50cf10af3713c403", null ],
     [ "left_type", "class_tiled_array_1_1expressions_1_1_add_engine.html#a9cf538f621650dd757d15e24a6a88fe9", null ],
+    [ "op_base_type", "class_tiled_array_1_1expressions_1_1_add_engine.html#a63ddf83bb33ac054b741a3d4793cb2b8", null ],
     [ "op_type", "class_tiled_array_1_1expressions_1_1_add_engine.html#a3a03afd6e203643ecce1bff6007ab461", null ],
     [ "pmap_interface", "class_tiled_array_1_1expressions_1_1_add_engine.html#a3d87a32f87509bf59a7c3a1a20d0e212", null ],
     [ "policy", "class_tiled_array_1_1expressions_1_1_add_engine.html#ac590bcc53f809d7b3bf491e8dd463412", null ],

@@ -135,9 +135,6 @@ Public Types</h2></td></tr>
 <tr class="memitem:a1860e2c6f5e3b39a28f713c07a0a53a9"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_engine_trait.html">EngineTrait</a>&lt; Derived &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_expr_engine.html#aac66dd24f2749d5365cc62965ae801f5">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html#a1860e2c6f5e3b39a28f713c07a0a53a9">value_type</a></td></tr>
 <tr class="memdesc:a1860e2c6f5e3b39a28f713c07a0a53a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The result tile type.  <a href="#a1860e2c6f5e3b39a28f713c07a0a53a9">More...</a><br /></td></tr>
 <tr class="separator:a1860e2c6f5e3b39a28f713c07a0a53a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec5504d6674169c9c4c8253e5fbdfe82"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_engine_trait.html">EngineTrait</a>&lt; Derived &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html#aec5504d6674169c9c4c8253e5fbdfe82">scalar_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html#aec5504d6674169c9c4c8253e5fbdfe82">scalar_type</a></td></tr>
-<tr class="memdesc:aec5504d6674169c9c4c8253e5fbdfe82"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_tile.html" title="An N-dimensional shallow copy wrapper for tile objects. ">Tile</a> scalar type.  <a href="#aec5504d6674169c9c4c8253e5fbdfe82">More...</a><br /></td></tr>
-<tr class="separator:aec5504d6674169c9c4c8253e5fbdfe82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada357b8aa079f4204364fc355362e6ef"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_engine_trait.html">EngineTrait</a>&lt; Derived &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_expr_engine.html#a9ab077a46c8477abaf73d387a3940c99">op_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html#ada357b8aa079f4204364fc355362e6ef">op_type</a></td></tr>
 <tr class="memdesc:ada357b8aa079f4204364fc355362e6ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">The tile operation type.  <a href="#ada357b8aa079f4204364fc355362e6ef">More...</a><br /></td></tr>
 <tr class="separator:ada357b8aa079f4204364fc355362e6ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,10 +192,10 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:aa0bcc0ae3471d37adaf5ddf109494102"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html#aa0bcc0ae3471d37adaf5ddf109494102">consumable</a> = true</td></tr>
-<tr class="separator:aa0bcc0ae3471d37adaf5ddf109494102"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a201974fe71e4c7f65f2103d28b2604c4"><td class="memItemLeft" align="right" valign="top">static const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html#a201974fe71e4c7f65f2103d28b2604c4">leaves</a> = argument_type::leaves</td></tr>
-<tr class="separator:a201974fe71e4c7f65f2103d28b2604c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8f0f619bac0872b50b78ee3c1374325"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html#af8f0f619bac0872b50b78ee3c1374325">consumable</a> = true</td></tr>
+<tr class="separator:af8f0f619bac0872b50b78ee3c1374325"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27ce569344c2718cd123918bdf96bae4"><td class="memItemLeft" align="right" valign="top">static constexpr unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html#a27ce569344c2718cd123918bdf96bae4">leaves</a> = argument_type::leaves</td></tr>
+<tr class="separator:a27ce569344c2718cd123918bdf96bae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -211,7 +208,7 @@ Protected Attributes</h2></td></tr>
 class TiledArray::expressions::UnaryEngine&lt; Derived &gt;</h3>
 
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00064">64</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00041">41</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="af7458cc9e92cb5c660e130a1f2e81fbb"></a>
 <div class="memitem">
@@ -227,7 +224,7 @@ template&lt;typename Derived&gt; </div>
 
 <p>The argument expression engine type. </p>
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00071">71</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00048">48</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
@@ -245,7 +242,7 @@ template&lt;typename Derived&gt; </div>
 
 <p>The distributed evaluator type. </p>
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00078">78</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00054">54</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
@@ -256,14 +253,14 @@ template&lt;typename Derived&gt; </div>
 template&lt;typename Derived&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="class_tiled_array_1_1expressions_1_1_expr_engine.html">ExprEngine</a>&lt;Derived&gt; <a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html">TiledArray::expressions::UnaryEngine</a>&lt; Derived &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_expr_engine.html#a5e7623ae701c9ae2fb4b32ea14da83a3">ExprEngine_</a></td>
+          <td class="memname">typedef <a class="el" href="class_tiled_array_1_1expressions_1_1_expr_engine.html">ExprEngine</a>&lt;Derived&gt; <a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html">TiledArray::expressions::UnaryEngine</a>&lt; Derived &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html#a1b4c66739c0d7bbc6760d308be57434b">ExprEngine_</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Base class type. </p>
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00068">68</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00045">45</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
@@ -281,7 +278,7 @@ template&lt;typename Derived&gt; </div>
 
 <p>The tile operation type. </p>
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00076">76</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00052">52</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
@@ -299,7 +296,7 @@ template&lt;typename Derived&gt; </div>
 
 <p>Process map interface type. </p>
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00084">84</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00060">60</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
@@ -317,25 +314,7 @@ template&lt;typename Derived&gt; </div>
 
 <p>The result policy type. </p>
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00077">77</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aec5504d6674169c9c4c8253e5fbdfe82"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Derived&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_engine_trait.html">EngineTrait</a>&lt;Derived&gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html#aec5504d6674169c9c4c8253e5fbdfe82">scalar_type</a> <a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html">TiledArray::expressions::UnaryEngine</a>&lt; Derived &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html#aec5504d6674169c9c4c8253e5fbdfe82">scalar_type</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><a class="el" href="class_tiled_array_1_1_tile.html" title="An N-dimensional shallow copy wrapper for tile objects. ">Tile</a> scalar type. </p>
-
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00075">75</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00053">53</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
@@ -353,7 +332,7 @@ template&lt;typename Derived&gt; </div>
 
 <p>Shape type. </p>
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00083">83</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00059">59</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
@@ -371,7 +350,7 @@ template&lt;typename Derived&gt; </div>
 
 <p>Size type. </p>
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00081">81</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00057">57</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
@@ -389,7 +368,7 @@ template&lt;typename Derived&gt; </div>
 
 <p>Tiled range type. </p>
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00082">82</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00058">58</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
@@ -407,7 +386,7 @@ template&lt;typename Derived&gt; </div>
 
 <p>This class type. </p>
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00067">67</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00044">44</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
@@ -425,7 +404,7 @@ template&lt;typename Derived&gt; </div>
 
 <p>The result tile type. </p>
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00074">74</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00051">51</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
@@ -456,7 +435,7 @@ template&lt;typename D &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00112">112</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00088">88</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
@@ -504,7 +483,7 @@ template&lt;typename Derived&gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00164">164</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00140">140</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
@@ -540,7 +519,7 @@ template&lt;typename Derived&gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00153">153</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00129">129</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
@@ -576,7 +555,7 @@ template&lt;typename Derived&gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00136">136</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00112">112</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
@@ -605,7 +584,7 @@ template&lt;typename Derived&gt; </div>
 
 <p>Initialize the variable list of this expression. </p>
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00142">142</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00118">118</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
@@ -635,7 +614,7 @@ template&lt;typename Derived&gt; </div>
 <p>Construct the distributed evaluator for this expression. </p>
 <dl class="section return"><dt>Returns</dt><dd>The distributed evaluator that will evaluate this expression </dd></dl>
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00187">187</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00163">163</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
@@ -665,7 +644,7 @@ template&lt;typename Derived&gt; </div>
 <p>Non-permuting tiled range factory function. </p>
 <dl class="section return"><dt>Returns</dt><dd>The result tiled range </dd></dl>
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00174">174</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00150">150</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
@@ -702,7 +681,7 @@ template&lt;typename Derived&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The result shape </dd></dl>
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00180">180</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00156">156</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
@@ -738,7 +717,7 @@ template&lt;typename Derived&gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00125">125</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00101">101</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
@@ -785,7 +764,7 @@ template&lt;typename Derived&gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00206">206</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00182">182</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
@@ -812,11 +791,11 @@ template&lt;typename Derived&gt; </div>
 
 <p>The argument. </p>
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00101">101</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00077">77</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa0bcc0ae3471d37adaf5ddf109494102"></a>
+<a class="anchor" id="af8f0f619bac0872b50b78ee3c1374325"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -826,7 +805,7 @@ template&lt;typename Derived&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const bool <a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html">TiledArray::expressions::UnaryEngine</a>&lt; Derived &gt;::consumable = true</td>
+          <td class="memname">constexpr bool <a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html">TiledArray::expressions::UnaryEngine</a>&lt; Derived &gt;::consumable = true</td>
         </tr>
       </table>
   </td>
@@ -836,11 +815,11 @@ template&lt;typename Derived&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00087">87</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00063">63</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a201974fe71e4c7f65f2103d28b2604c4"></a>
+<a class="anchor" id="a27ce569344c2718cd123918bdf96bae4"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -850,7 +829,7 @@ template&lt;typename Derived&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const unsigned int <a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html">TiledArray::expressions::UnaryEngine</a>&lt; Derived &gt;::leaves = argument_type::leaves</td>
+          <td class="memname">constexpr unsigned int <a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html">TiledArray::expressions::UnaryEngine</a>&lt; Derived &gt;::leaves = argument_type::leaves</td>
         </tr>
       </table>
   </td>
@@ -860,7 +839,7 @@ template&lt;typename Derived&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00088">88</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
+<p>Definition at line <a class="el" href="unary__engine_8h_source.html#l00064">64</a> of file <a class="el" href="unary__engine_8h_source.html">unary_engine.h</a>.</p>
 
 </div>
 </div>
@@ -873,7 +852,7 @@ template&lt;typename Derived&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tiled_array.html">TiledArray</a></li><li class="navelem"><a class="el" href="namespace_tiled_array_1_1expressions.html">expressions</a></li><li class="navelem"><a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html">UnaryEngine</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:47 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:09 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

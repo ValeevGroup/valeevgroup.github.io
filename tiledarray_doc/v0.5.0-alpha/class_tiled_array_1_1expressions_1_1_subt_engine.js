@@ -4,6 +4,7 @@ var class_tiled_array_1_1expressions_1_1_subt_engine =
     [ "dist_eval_type", "class_tiled_array_1_1expressions_1_1_subt_engine.html#aa768ac6700a7147ff57a501de828ffe0", null ],
     [ "ExprEngine_", "class_tiled_array_1_1expressions_1_1_subt_engine.html#ab87b542b59ef47d87bdf27baa78d56b7", null ],
     [ "left_type", "class_tiled_array_1_1expressions_1_1_subt_engine.html#a1721d510e3a7009930cbcb3c6a3a3a6b", null ],
+    [ "op_base_type", "class_tiled_array_1_1expressions_1_1_subt_engine.html#a71c1297afb0f4b1c3b238579d31c4dbf", null ],
     [ "op_type", "class_tiled_array_1_1expressions_1_1_subt_engine.html#ae671eb2aa33e46b7d86b2843083e452f", null ],
     [ "pmap_interface", "class_tiled_array_1_1expressions_1_1_subt_engine.html#a3c6753060c06a2e4dc3ca16844bc72af", null ],
     [ "policy", "class_tiled_array_1_1expressions_1_1_subt_engine.html#a63c609e4b4fdfaf5c0dde9b747947e88", null ],

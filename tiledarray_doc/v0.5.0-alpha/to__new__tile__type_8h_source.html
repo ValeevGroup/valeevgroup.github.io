@@ -109,74 +109,87 @@ $(document).ready(function(){initNavTree('to__new__tile__type_8h_source.html',''
 <div class="title">to_new_tile_type.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="to__new__tile__type_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#ifndef TILEDARRAY_TONEWTILETYPE_H__INCLUDED</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="to__new__tile__type_8h.html#a7c2c5d42ccba7670fffae10cdf04bb2d">    3</a></span>&#160;<span class="preprocessor">#define TILEDARRAY_TONEWTILETYPE_H__INCLUDED</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="array_8h.html">TiledArray/array.h</a>&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_tiled_array.html">TiledArray</a> {</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">namespace </span>detail {</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="namespace_tiled_array_1_1detail.html#adaab9e7f8fb937e66e6e550cb8087576">   11</a></span>&#160;<span class="keyword">using</span> <a class="code" href="namespace_tiled_array_1_1detail.html#adaab9e7f8fb937e66e6e550cb8087576">result_of_t</a> = <span class="keyword">typename</span> std::result_of&lt;T&gt;::type;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> DIM, <span class="keyword">typename</span> <a class="code" href="class_tiled_array_1_1_tile.html">Tile</a>, <span class="keyword">typename</span> Policy,</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;          <span class="keyword">typename</span> Op&gt;</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="namespace_tiled_array.html#adbe40c2ad489cf91f13f5f0d655a3cfc">   18</a></span>&#160;<a class="code" href="class_tiled_array_1_1_array.html">Array&lt;T, DIM, detail::result_of_t&lt;Op(Tile)&gt;</a>, Policy&gt; <a class="code" href="namespace_tiled_array.html#adbe40c2ad489cf91f13f5f0d655a3cfc">to_new_tile_type</a>(</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="class_tiled_array_1_1_array.html">Array&lt;T, DIM, Tile, Policy&gt;</a> <span class="keyword">const</span> &amp;old_array, Op &amp;&amp;op) {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">using</span> OutTileType = <a class="code" href="namespace_tiled_array_1_1detail.html#adaab9e7f8fb937e66e6e550cb8087576">detail::result_of_t&lt;Op(Tile)&gt;</a>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">using</span> OutArray = <a class="code" href="class_tiled_array_1_1_array.html">Array&lt;T, DIM, OutTileType, Policy&gt;</a>;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    static_assert(!std::is_same&lt;Tile, OutTileType&gt;::value,</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                  <span class="stringliteral">&quot;Can&#39;t call new tile type if tile type does not change.&quot;</span>);</div>
+<a href="to__new__tile__type_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> *  This file is a part of TiledArray.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *  Copyright (C) 2015  Virginia Tech</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *  This program is free software: you can redistribute it and/or modify</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *  it under the terms of the GNU General Public License as published by</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *  the Free Software Foundation, either version 3 of the License, or</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> *  (at your option) any later version.</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> *  This program is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> *  but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> *  GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> *  You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> *  along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> *  Drew Lewis</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> *  Department of Chemistry, Virginia Tech</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> *  sparse_to_dense.h</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> *  Jan 22, 2015</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">auto</span> &amp;world = old_array.<a class="code" href="class_tiled_array_1_1_array.html#aa615837bd378eb01f778b74469056127">get_world</a>();</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="comment">// Create new array</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    OutArray new_array(world, old_array.<a class="code" href="class_tiled_array_1_1_array.html#abbd24e50054c29f002b4eb0cfbb61ee5">trange</a>(), old_array.<a class="code" href="class_tiled_array_1_1_array.html#a4a48fa5e5f0616c84c2eaf6b765d2917">get_shape</a>(),</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                       old_array.<a class="code" href="class_tiled_array_1_1_array.html#a5f8e3a9a3857276baf76a9ce4e3a2dd9">get_pmap</a>());</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">using</span> pmap_iter = decltype(old_array.<a class="code" href="class_tiled_array_1_1_array.html#a5f8e3a9a3857276baf76a9ce4e3a2dd9">get_pmap</a>()-&gt;begin());</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    pmap_iter it = old_array.<a class="code" href="class_tiled_array_1_1_array.html#a5f8e3a9a3857276baf76a9ce4e3a2dd9">get_pmap</a>()-&gt;begin();</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    pmap_iter end = old_array.<a class="code" href="class_tiled_array_1_1_array.html#a5f8e3a9a3857276baf76a9ce4e3a2dd9">get_pmap</a>()-&gt;end();</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordflow">for</span> (; it != end; ++it) {</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="comment">// Must check for zero because pmap_iter does not.</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">if</span> (!old_array.<a class="code" href="class_tiled_array_1_1_array.html#a5b5777ac5086602a38686fc09f654845">is_zero</a>(*it)) {</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="comment">// Spawn a task to evaluate the tile</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            Future&lt;OutTileType&gt; tile =</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                world.taskq.add(op, old_array.<a class="code" href="class_tiled_array_1_1_array.html#ab2e9411dba2544a4eac7f1c495deadb9">find</a>(*it));</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            new_array.set(*it, tile);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        }</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#ifndef TILEDARRAY_CONVERSIONS_TO_NEW_TILE_TYPE_H__INCLUDED</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#define TILEDARRAY_CONVERSIONS_TO_NEW_TILE_TYPE_H__INCLUDED</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &quot;../dist_array.h&quot;</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_tiled_array.html">TiledArray</a> {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> Tile, <span class="keyword">typename</span> Policy, <span class="keyword">typename</span> Op&gt;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keyword">inline</span> DistArray&lt;typename std::result_of&lt;Op(Tile)&gt;::type, Policy&gt;</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="namespace_tiled_array.html#a177c1ea27ad85cca7df258e71c7d9739">   42</a></span>&#160;  <a class="code" href="namespace_tiled_array.html#a177c1ea27ad85cca7df258e71c7d9739">to_new_tile_type</a>(<a class="code" href="class_tiled_array_1_1_dist_array.html">DistArray&lt;Tile, Policy&gt;</a> <span class="keyword">const</span> &amp;old_array, Op &amp;&amp;op) {</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">using</span> OutTileType = <span class="keyword">typename</span> std::result_of&lt;Op(Tile)&gt;::type;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">using</span> OutArray = <a class="code" href="class_tiled_array_1_1_dist_array.html">DistArray&lt;OutTileType, Policy&gt;</a>;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">return</span> new_array;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    static_assert(!std::is_same&lt;Tile, OutTileType&gt;::value,</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="stringliteral">&quot;Can&#39;t call new tile type if tile type does not change.&quot;</span>);</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}  <span class="comment">// namespace TiledArray</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* end of include guard: TILEDARRAY_TONEWTILETYPE_H__INCLUDED */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="class_tiled_array_1_1_array_html"><div class="ttname"><a href="class_tiled_array_1_1_array.html">TiledArray::Array</a></div><div class="ttdoc">An n-dimensional, tiled array. </div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00050">array.h:50</a></div></div>
-<div class="ttc" id="class_tiled_array_1_1_array_html_abbd24e50054c29f002b4eb0cfbb61ee5"><div class="ttname"><a href="class_tiled_array_1_1_array.html#abbd24e50054c29f002b4eb0cfbb61ee5">TiledArray::Array::trange</a></div><div class="ttdeci">const trange_type &amp; trange() const </div><div class="ttdoc">Tiled range accessor. </div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00389">array.h:389</a></div></div>
-<div class="ttc" id="array_8h_html"><div class="ttname"><a href="array_8h.html">array.h</a></div></div>
-<div class="ttc" id="namespace_tiled_array_1_1detail_html_adaab9e7f8fb937e66e6e550cb8087576"><div class="ttname"><a href="namespace_tiled_array_1_1detail.html#adaab9e7f8fb937e66e6e550cb8087576">TiledArray::detail::result_of_t</a></div><div class="ttdeci">typename std::result_of&lt; T &gt;::type result_of_t</div><div class="ttdef"><b>Definition:</b> <a href="to__new__tile__type_8h_source.html#l00011">to_new_tile_type.h:11</a></div></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keyword">auto</span> &amp;world = old_array.<a class="code" href="class_tiled_array_1_1_dist_array.html#afd4a72c2000f003f2fa7fbfb54cf9c89">get_world</a>();</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">// Create new array</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    OutArray new_array(world, old_array.<a class="code" href="class_tiled_array_1_1_dist_array.html#aae54cd20582bc2c630c853d36ba81c39">trange</a>(), old_array.<a class="code" href="class_tiled_array_1_1_dist_array.html#a2e0239fa71c82ab96f0fd5a1e7ce0ee4">get_shape</a>(), old_array.<a class="code" href="class_tiled_array_1_1_dist_array.html#a1f471ca8d4f6a8ccccdee29f8c8f198c">get_pmap</a>());</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keyword">using</span> pmap_iter = decltype(old_array.<a class="code" href="class_tiled_array_1_1_dist_array.html#a1f471ca8d4f6a8ccccdee29f8c8f198c">get_pmap</a>()-&gt;begin());</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    pmap_iter it = old_array.<a class="code" href="class_tiled_array_1_1_dist_array.html#a1f471ca8d4f6a8ccccdee29f8c8f198c">get_pmap</a>()-&gt;begin();</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    pmap_iter end = old_array.<a class="code" href="class_tiled_array_1_1_dist_array.html#a1f471ca8d4f6a8ccccdee29f8c8f198c">get_pmap</a>()-&gt;end();</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">for</span>(; it != end; ++it) {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;      <span class="comment">// Must check for zero because pmap_iter does not.</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;      <span class="keywordflow">if</span>(!old_array.<a class="code" href="class_tiled_array_1_1_dist_array.html#afb5430ba47577a3ba8d408e2884b8780">is_zero</a>(*it)) {</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="comment">// Spawn a task to evaluate the tile</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        Future&lt;OutTileType&gt; tile = world.taskq.add(op, old_array.<a class="code" href="class_tiled_array_1_1_dist_array.html#ae1bd7cff92ef8ec9edaadc0da988ee65">find</a>(*it));</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        new_array.set(*it, tile);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      }</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordflow">return</span> new_array;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  }</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;} <span class="comment">// namespace TiledArray</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">#endif // TILEDARRAY_CONVERSIONS_TO_NEW_TILE_TYPE_H__INCLUDED</span></div>
+<div class="ttc" id="class_tiled_array_1_1_dist_array_html_aae54cd20582bc2c630c853d36ba81c39"><div class="ttname"><a href="class_tiled_array_1_1_dist_array.html#aae54cd20582bc2c630c853d36ba81c39">TiledArray::DistArray::trange</a></div><div class="ttdeci">const trange_type &amp; trange() const </div><div class="ttdoc">Tiled range accessor. </div><div class="ttdef"><b>Definition:</b> <a href="dist__array_8h_source.html#l00417">dist_array.h:417</a></div></div>
+<div class="ttc" id="class_tiled_array_1_1_dist_array_html_ae1bd7cff92ef8ec9edaadc0da988ee65"><div class="ttname"><a href="class_tiled_array_1_1_dist_array.html#ae1bd7cff92ef8ec9edaadc0da988ee65">TiledArray::DistArray::find</a></div><div class="ttdeci">Future&lt; value_type &gt; find(const Index &amp;i) const </div><div class="ttdoc">Find local or remote tile. </div><div class="ttdef"><b>Definition:</b> <a href="dist__array_8h_source.html#l00305">dist_array.h:305</a></div></div>
+<div class="ttc" id="namespace_tiled_array_html_a177c1ea27ad85cca7df258e71c7d9739"><div class="ttname"><a href="namespace_tiled_array.html#a177c1ea27ad85cca7df258e71c7d9739">TiledArray::to_new_tile_type</a></div><div class="ttdeci">DistArray&lt; typename std::result_of&lt; Op(Tile)&gt;::type, Policy &gt; to_new_tile_type(DistArray&lt; Tile, Policy &gt; const &amp;old_array, Op &amp;&amp;op)</div><div class="ttdoc">Function to convert an array to a new array with a different tile type. </div><div class="ttdef"><b>Definition:</b> <a href="to__new__tile__type_8h_source.html#l00042">to_new_tile_type.h:42</a></div></div>
+<div class="ttc" id="class_tiled_array_1_1_dist_array_html_afd4a72c2000f003f2fa7fbfb54cf9c89"><div class="ttname"><a href="class_tiled_array_1_1_dist_array.html#afd4a72c2000f003f2fa7fbfb54cf9c89">TiledArray::DistArray::get_world</a></div><div class="ttdeci">World &amp; get_world() const </div><div class="ttdoc">World accessor. </div><div class="ttdef"><b>Definition:</b> <a href="dist__array_8h_source.html#l00492">dist_array.h:492</a></div></div>
 <div class="ttc" id="namespace_tiled_array_html"><div class="ttname"><a href="namespace_tiled_array.html">TiledArray</a></div><div class="ttdef"><b>Definition:</b> <a href="conjgrad_8h_source.html#l00034">conjgrad.h:34</a></div></div>
-<div class="ttc" id="class_tiled_array_1_1_array_html_a5b5777ac5086602a38686fc09f654845"><div class="ttname"><a href="class_tiled_array_1_1_array.html#a5b5777ac5086602a38686fc09f654845">TiledArray::Array::is_zero</a></div><div class="ttdeci">bool is_zero(const Index &amp;i) const </div><div class="ttdoc">Check for zero tiles. </div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00524">array.h:524</a></div></div>
-<div class="ttc" id="class_tiled_array_1_1_array_html_aa615837bd378eb01f778b74469056127"><div class="ttname"><a href="class_tiled_array_1_1_array.html#aa615837bd378eb01f778b74469056127">TiledArray::Array::get_world</a></div><div class="ttdeci">World &amp; get_world() const </div><div class="ttdoc">World accessor. </div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00464">array.h:464</a></div></div>
-<div class="ttc" id="class_tiled_array_1_1_array_html_a4a48fa5e5f0616c84c2eaf6b765d2917"><div class="ttname"><a href="class_tiled_array_1_1_array.html#a4a48fa5e5f0616c84c2eaf6b765d2917">TiledArray::Array::get_shape</a></div><div class="ttdeci">const shape_type &amp; get_shape() const </div><div class="ttdoc">Shape map accessor. </div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00492">array.h:492</a></div></div>
-<div class="ttc" id="namespace_tiled_array_html_adbe40c2ad489cf91f13f5f0d655a3cfc"><div class="ttname"><a href="namespace_tiled_array.html#adbe40c2ad489cf91f13f5f0d655a3cfc">TiledArray::to_new_tile_type</a></div><div class="ttdeci">Array&lt; T, DIM, detail::result_of_t&lt; Op(Tile)&gt;, Policy &gt; to_new_tile_type(Array&lt; T, DIM, Tile, Policy &gt; const &amp;old_array, Op &amp;&amp;op)</div><div class="ttdoc">Function to convert an array to a new array with a different tile type. </div><div class="ttdef"><b>Definition:</b> <a href="to__new__tile__type_8h_source.html#l00018">to_new_tile_type.h:18</a></div></div>
-<div class="ttc" id="class_tiled_array_1_1_array_html_a5f8e3a9a3857276baf76a9ce4e3a2dd9"><div class="ttname"><a href="class_tiled_array_1_1_array.html#a5f8e3a9a3857276baf76a9ce4e3a2dd9">TiledArray::Array::get_pmap</a></div><div class="ttdeci">const std::shared_ptr&lt; pmap_interface &gt; &amp; get_pmap() const </div><div class="ttdoc">Process map accessor. </div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00472">array.h:472</a></div></div>
-<div class="ttc" id="class_tiled_array_1_1_tile_html"><div class="ttname"><a href="class_tiled_array_1_1_tile.html">TiledArray::Tile</a></div><div class="ttdoc">An N-dimensional shallow copy wrapper for tile objects. </div><div class="ttdef"><b>Definition:</b> <a href="tile_8h_source.html#l00079">tile.h:79</a></div></div>
-<div class="ttc" id="class_tiled_array_1_1_array_html_ab2e9411dba2544a4eac7f1c495deadb9"><div class="ttname"><a href="class_tiled_array_1_1_array.html#ab2e9411dba2544a4eac7f1c495deadb9">TiledArray::Array::find</a></div><div class="ttdeci">Future&lt; value_type &gt; find(const Index &amp;i) const </div><div class="ttdoc">Find local or remote tile. </div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00277">array.h:277</a></div></div>
+<div class="ttc" id="class_tiled_array_1_1_dist_array_html"><div class="ttname"><a href="class_tiled_array_1_1_dist_array.html">TiledArray::DistArray</a></div><div class="ttdoc">Forward declarations. </div><div class="ttdef"><b>Definition:</b> <a href="clone_8h_source.html#l00032">clone.h:32</a></div></div>
+<div class="ttc" id="class_tiled_array_1_1_dist_array_html_a2e0239fa71c82ab96f0fd5a1e7ce0ee4"><div class="ttname"><a href="class_tiled_array_1_1_dist_array.html#a2e0239fa71c82ab96f0fd5a1e7ce0ee4">TiledArray::DistArray::get_shape</a></div><div class="ttdeci">const shape_type &amp; get_shape() const </div><div class="ttdoc">Shape map accessor. </div><div class="ttdef"><b>Definition:</b> <a href="dist__array_8h_source.html#l00520">dist_array.h:520</a></div></div>
+<div class="ttc" id="class_tiled_array_1_1_dist_array_html_a1f471ca8d4f6a8ccccdee29f8c8f198c"><div class="ttname"><a href="class_tiled_array_1_1_dist_array.html#a1f471ca8d4f6a8ccccdee29f8c8f198c">TiledArray::DistArray::get_pmap</a></div><div class="ttdeci">const std::shared_ptr&lt; pmap_interface &gt; &amp; get_pmap() const </div><div class="ttdoc">Process map accessor. </div><div class="ttdef"><b>Definition:</b> <a href="dist__array_8h_source.html#l00500">dist_array.h:500</a></div></div>
+<div class="ttc" id="class_tiled_array_1_1_dist_array_html_afb5430ba47577a3ba8d408e2884b8780"><div class="ttname"><a href="class_tiled_array_1_1_dist_array.html#afb5430ba47577a3ba8d408e2884b8780">TiledArray::DistArray::is_zero</a></div><div class="ttdeci">bool is_zero(const Index &amp;i) const </div><div class="ttdoc">Check for zero tiles. </div><div class="ttdef"><b>Definition:</b> <a href="dist__array_8h_source.html#l00552">dist_array.h:552</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53ef4fd72a57002f3857d5373dfad4b8.html">TiledArray</a></li><li class="navelem"><a class="el" href="dir_36ae01bed13817b64a94581dc6b2de0b.html">conversions</a></li><li class="navelem"><a class="el" href="to__new__tile__type_8h.html">to_new_tile_type.h</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:43 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:04 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

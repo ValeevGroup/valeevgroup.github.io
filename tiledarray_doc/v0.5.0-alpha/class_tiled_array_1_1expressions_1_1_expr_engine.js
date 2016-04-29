@@ -10,7 +10,7 @@ var class_tiled_array_1_1expressions_1_1_expr_engine =
     [ "size_type", "class_tiled_array_1_1expressions_1_1_expr_engine.html#a0d7b2184f71181b3773e117a38db4a20", null ],
     [ "trange_type", "class_tiled_array_1_1expressions_1_1_expr_engine.html#a4ad082993dcd0f69736038aed40a9954", null ],
     [ "value_type", "class_tiled_array_1_1expressions_1_1_expr_engine.html#aac66dd24f2749d5365cc62965ae801f5", null ],
-    [ "ExprEngine", "class_tiled_array_1_1expressions_1_1_expr_engine.html#aca77e7791d76ac93b3100fddf83ce604", null ],
+    [ "ExprEngine", "class_tiled_array_1_1expressions_1_1_expr_engine.html#a3401b27fd083787de14b9c2b67da686a", null ],
     [ "derived", "class_tiled_array_1_1expressions_1_1_expr_engine.html#a5f87f9237b657ba641e1bcf889900102", null ],
     [ "derived", "class_tiled_array_1_1expressions_1_1_expr_engine.html#a4052e984d76166d77e5cb4c5a5645630", null ],
     [ "init", "class_tiled_array_1_1expressions_1_1_expr_engine.html#a6f0d328032f45d60fffbbe8ac0014b16", null ],
@@ -31,6 +31,7 @@ var class_tiled_array_1_1expressions_1_1_expr_engine =
     [ "permute_tiles_", "class_tiled_array_1_1expressions_1_1_expr_engine.html#ab0833f71f26c0796e814758a2f258067", null ],
     [ "pmap_", "class_tiled_array_1_1expressions_1_1_expr_engine.html#a2cf941dc14c7a30d87c8d1ef04dfb9be", null ],
     [ "shape_", "class_tiled_array_1_1expressions_1_1_expr_engine.html#ae40a8e83ebaf6f857db76a60d4c67962", null ],
+    [ "struct_override_ptr_", "class_tiled_array_1_1expressions_1_1_expr_engine.html#a514cdf1eb84fc3b52ab01e68ef3ae601", null ],
     [ "trange_", "class_tiled_array_1_1expressions_1_1_expr_engine.html#ac3d31bed7bfc26436ac4cd17d55f53ae", null ],
     [ "vars_", "class_tiled_array_1_1expressions_1_1_expr_engine.html#a1007e91ee484d0ac072ea77979db2422", null ],
     [ "world_", "class_tiled_array_1_1expressions_1_1_expr_engine.html#a9a9b299737b24e91d19798a07f5b44e7", null ]

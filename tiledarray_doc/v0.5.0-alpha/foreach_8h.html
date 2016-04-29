@@ -121,8 +121,8 @@ $(document).ready(function(){initNavTree('foreach_8h.html','');});
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_eigen_1_1aligned__allocator.html">Eigen::aligned_allocator&lt; typename &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_array.html">TiledArray::Array&lt; T, DIM, Tile, Policy &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An n-dimensional, tiled array.  <a href="class_tiled_array_1_1_array.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_dist_array.html">TiledArray::DistArray&lt; Tile, Policy &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward declarations.  <a href="class_tiled_array_1_1_dist_array.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor&lt; T, A &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An N-dimensional tensor object.  <a href="class_tiled_array_1_1_tensor.html#details">More...</a><br /></td></tr>
@@ -138,22 +138,22 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af3f047326ced613ac86a20bdf2911969"><td class="memTemplParams" colspan="2">template&lt;typename T , unsigned int DIM, typename Tile , typename Op &gt; </td></tr>
-<tr class="memitem:af3f047326ced613ac86a20bdf2911969"><td class="memTemplItemLeft" align="right" valign="top">Array&lt; T, DIM, Tile, DensePolicy &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array.html#af3f047326ced613ac86a20bdf2911969">TiledArray::foreach</a> (const Array&lt; T, DIM, Tile, DensePolicy &gt; &amp;arg, Op &amp;&amp;op)</td></tr>
-<tr class="memdesc:af3f047326ced613ac86a20bdf2911969"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a function to each tile of a dense <a class="el" href="class_tiled_array_1_1_array.html" title="An n-dimensional, tiled array. ">Array</a>.  <a href="namespace_tiled_array.html#af3f047326ced613ac86a20bdf2911969">More...</a><br /></td></tr>
-<tr class="separator:af3f047326ced613ac86a20bdf2911969"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1522ab455321f8bd311347bd505edb6f"><td class="memTemplParams" colspan="2">template&lt;typename T , unsigned int DIM, typename Tile , typename Op &gt; </td></tr>
-<tr class="memitem:a1522ab455321f8bd311347bd505edb6f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array.html#a1522ab455321f8bd311347bd505edb6f">TiledArray::foreach_inplace</a> (Array&lt; T, DIM, Tile, DensePolicy &gt; &amp;arg, Op &amp;&amp;op, bool fence=true)</td></tr>
-<tr class="memdesc:a1522ab455321f8bd311347bd505edb6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modify each tile of a dense <a class="el" href="class_tiled_array_1_1_array.html" title="An n-dimensional, tiled array. ">Array</a>.  <a href="namespace_tiled_array.html#a1522ab455321f8bd311347bd505edb6f">More...</a><br /></td></tr>
-<tr class="separator:a1522ab455321f8bd311347bd505edb6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a696ebfc5f3aadab1ee602d91cde4111c"><td class="memTemplParams" colspan="2">template&lt;typename T , unsigned int DIM, typename Tile , typename Op &gt; </td></tr>
-<tr class="memitem:a696ebfc5f3aadab1ee602d91cde4111c"><td class="memTemplItemLeft" align="right" valign="top">Array&lt; T, DIM, Tile, SparsePolicy &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array.html#a696ebfc5f3aadab1ee602d91cde4111c">TiledArray::foreach</a> (const Array&lt; T, DIM, Tile, SparsePolicy &gt; arg, Op &amp;&amp;op)</td></tr>
-<tr class="memdesc:a696ebfc5f3aadab1ee602d91cde4111c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a function to each tile of a sparse <a class="el" href="class_tiled_array_1_1_array.html" title="An n-dimensional, tiled array. ">Array</a>.  <a href="namespace_tiled_array.html#a696ebfc5f3aadab1ee602d91cde4111c">More...</a><br /></td></tr>
-<tr class="separator:a696ebfc5f3aadab1ee602d91cde4111c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79ae3d9ed0bff05ae301fcc57193db30"><td class="memTemplParams" colspan="2">template&lt;typename T , unsigned int DIM, typename Tile , typename Op &gt; </td></tr>
-<tr class="memitem:a79ae3d9ed0bff05ae301fcc57193db30"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array.html#a79ae3d9ed0bff05ae301fcc57193db30">TiledArray::foreach_inplace</a> (Array&lt; T, DIM, Tile, SparsePolicy &gt; &amp;arg, Op &amp;&amp;op, bool fence=true)</td></tr>
-<tr class="memdesc:a79ae3d9ed0bff05ae301fcc57193db30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modify each tile of a sparse <a class="el" href="class_tiled_array_1_1_array.html" title="An n-dimensional, tiled array. ">Array</a>.  <a href="namespace_tiled_array.html#a79ae3d9ed0bff05ae301fcc57193db30">More...</a><br /></td></tr>
-<tr class="separator:a79ae3d9ed0bff05ae301fcc57193db30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33cf1d21760cdc032308a5045f0f4380"><td class="memTemplParams" colspan="2">template&lt;typename Tile , typename Op &gt; </td></tr>
+<tr class="memitem:a33cf1d21760cdc032308a5045f0f4380"><td class="memTemplItemLeft" align="right" valign="top">DistArray&lt; Tile, DensePolicy &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array.html#a33cf1d21760cdc032308a5045f0f4380">TiledArray::foreach</a> (const DistArray&lt; Tile, DensePolicy &gt; &amp;arg, Op &amp;&amp;op)</td></tr>
+<tr class="memdesc:a33cf1d21760cdc032308a5045f0f4380"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a function to each tile of a dense Array.  <a href="namespace_tiled_array.html#a33cf1d21760cdc032308a5045f0f4380">More...</a><br /></td></tr>
+<tr class="separator:a33cf1d21760cdc032308a5045f0f4380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68370c5a4f4380edb45a5ef3171d97c8"><td class="memTemplParams" colspan="2">template&lt;typename Tile , typename Op &gt; </td></tr>
+<tr class="memitem:a68370c5a4f4380edb45a5ef3171d97c8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array.html#a68370c5a4f4380edb45a5ef3171d97c8">TiledArray::foreach_inplace</a> (DistArray&lt; Tile, DensePolicy &gt; &amp;arg, Op &amp;&amp;op, bool fence=true)</td></tr>
+<tr class="memdesc:a68370c5a4f4380edb45a5ef3171d97c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modify each tile of a dense Array.  <a href="namespace_tiled_array.html#a68370c5a4f4380edb45a5ef3171d97c8">More...</a><br /></td></tr>
+<tr class="separator:a68370c5a4f4380edb45a5ef3171d97c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9e4429634e6981c0ac9f7ff704f2b1a"><td class="memTemplParams" colspan="2">template&lt;typename Tile , typename Op &gt; </td></tr>
+<tr class="memitem:aa9e4429634e6981c0ac9f7ff704f2b1a"><td class="memTemplItemLeft" align="right" valign="top">DistArray&lt; Tile, SparsePolicy &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array.html#aa9e4429634e6981c0ac9f7ff704f2b1a">TiledArray::foreach</a> (const DistArray&lt; Tile, SparsePolicy &gt; arg, Op &amp;&amp;op)</td></tr>
+<tr class="memdesc:aa9e4429634e6981c0ac9f7ff704f2b1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a function to each tile of a sparse Array.  <a href="namespace_tiled_array.html#aa9e4429634e6981c0ac9f7ff704f2b1a">More...</a><br /></td></tr>
+<tr class="separator:aa9e4429634e6981c0ac9f7ff704f2b1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51965d14e5a05c4bfd18e4daaaa64875"><td class="memTemplParams" colspan="2">template&lt;typename Tile , typename Op &gt; </td></tr>
+<tr class="memitem:a51965d14e5a05c4bfd18e4daaaa64875"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array.html#a51965d14e5a05c4bfd18e4daaaa64875">TiledArray::foreach_inplace</a> (DistArray&lt; Tile, SparsePolicy &gt; &amp;arg, Op &amp;&amp;op, bool fence=true)</td></tr>
+<tr class="memdesc:a51965d14e5a05c4bfd18e4daaaa64875"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modify each tile of a sparse Array.  <a href="namespace_tiled_array.html#a51965d14e5a05c4bfd18e4daaaa64875">More...</a><br /></td></tr>
+<tr class="separator:a51965d14e5a05c4bfd18e4daaaa64875"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -161,7 +161,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53ef4fd72a57002f3857d5373dfad4b8.html">TiledArray</a></li><li class="navelem"><a class="el" href="dir_36ae01bed13817b64a94581dc6b2de0b.html">conversions</a></li><li class="navelem"><a class="el" href="foreach_8h.html">foreach.h</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:45 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:06 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

@@ -1,5 +1,0 @@
-<map id="TiledArray::math::copy_vector" name="TiledArray::math::copy_vector">
-<area shape="rect" id="node2" href="$namespace_tiled_array_1_1math.html#a4109c1f984a5b8a9242385a13ed812f7" title="TiledArray::math::uninitialized\l_copy_vector" alt="" coords="208,5,403,44"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1detail_1_1_size_array.html#a5f630bf09c1305742a97baa4b1ac0ee4" title="TiledArray::detail\l::SizeArray::operator=" alt="" coords="230,68,381,107"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1detail_1_1_size_array.html#ade798ee1df1af2e0721805ba67634a11" title="TiledArray::detail\l::SizeArray::array\&lt;\l U, N \&gt;" alt="" coords="239,131,371,183"/>
-</map>

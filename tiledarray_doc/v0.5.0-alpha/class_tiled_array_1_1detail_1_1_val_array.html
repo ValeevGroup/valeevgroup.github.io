@@ -988,7 +988,7 @@ template&lt;typename U , typename V , typename Op &gt; </div>
 </div><div class="memdoc">
 
 <p>Reduce column operation. </p>
-<p>Reduce columns of <code>left</code> to this array, where columns have <code><a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">right.size()</a></code> elements. The reduced result is computed by <code>op(*this[j], left[i][j], right[i])</code>. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+<p>Reduce columns of <code>left</code> to this array, where columns have <code><a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">right.size()</a></code> elements. The reduced result is computed by <code>op(*this[j], left[i][j], right[i])</code>. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">U</td><td>The element type of <code>left</code> </td></tr>
     <tr><td class="paramname">V</td><td>The element type of <code>right</code> </td></tr>
@@ -1006,7 +1006,7 @@ template&lt;typename U , typename V , typename Op &gt; </div>
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="class_tiled_array_1_1_exception.html">TiledArray::Exception</a></td><td>When <code><a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">left.size()</a> != (<a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a7c88bdea8b86bbc4d390d2a9a51ae423">size()</a> * <a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">right.size()</a>)</code>. </td></tr>
+    <tr><td class="paramname"><a class="el" href="class_tiled_array_1_1_exception.html">TiledArray::Exception</a></td><td>When <code><a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">left.size()</a> != (<a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a7c88bdea8b86bbc4d390d2a9a51ae423">size()</a> * <a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">right.size()</a>)</code>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1052,7 +1052,7 @@ template&lt;typename U , typename Op &gt; </div>
 </div><div class="memdoc">
 
 <p>Reduce column operation. </p>
-<p>Reduce columns of <code>arg</code> to this array, where a columns have <code><a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">arg.size()</a>/size</code>() elements. The reduced result is computed by <code>op(*this[i], arg[i][j])</code>. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+<p>Reduce columns of <code>arg</code> to this array, where a columns have <code><a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">arg.size()</a>/size</code>() elements. The reduced result is computed by <code>op(*this[i], arg[i][j])</code>. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">U</td><td>The element type of <code>arg</code> </td></tr>
     <tr><td class="paramname">Op</td><td>The reduction operation </td></tr>
@@ -1068,7 +1068,7 @@ template&lt;typename U , typename Op &gt; </div>
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="class_tiled_array_1_1_exception.html">TiledArray::Exception</a></td><td>When <code>(<a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">arg.size()</a> % <a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a7c88bdea8b86bbc4d390d2a9a51ae423">size()</a>) != 0</code>. </td></tr>
+    <tr><td class="paramname"><a class="el" href="class_tiled_array_1_1_exception.html">TiledArray::Exception</a></td><td>When <code>(<a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">arg.size()</a> % <a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a7c88bdea8b86bbc4d390d2a9a51ae423">size()</a>) != 0</code>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1208,7 +1208,7 @@ template&lt;typename U , typename V , typename Op &gt; </div>
 </div><div class="memdoc">
 
 <p>Outer operation. </p>
-<p>This function use two arrays, <code>left</code> and <code>right</code>, to modify this array ( which is treated as a matrix of size <code><a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">left.size()</a> * <a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">right.size()</a></code> ). Elements of this array are modified by <code>op(*this[i][j], left[i], right[j])</code>. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+<p>This function use two arrays, <code>left</code> and <code>right</code>, to modify this array ( which is treated as a matrix of size <code><a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">left.size()</a> * <a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">right.size()</a></code> ). Elements of this array are modified by <code>op(*this[i][j], left[i], right[j])</code>. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">U</td><td>The left-hand argument type </td></tr>
     <tr><td class="paramname">V</td><td>The right-hand argument type </td></tr>
@@ -1225,7 +1225,7 @@ template&lt;typename U , typename V , typename Op &gt; </div>
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="class_tiled_array_1_1_exception.html">TiledArray::Exception</a></td><td>When <code><a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a7c88bdea8b86bbc4d390d2a9a51ae423">size()</a> != (<a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">left.size()</a> * <a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">right.size()</a>)</code>. </td></tr>
+    <tr><td class="paramname"><a class="el" href="class_tiled_array_1_1_exception.html">TiledArray::Exception</a></td><td>When <code><a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a7c88bdea8b86bbc4d390d2a9a51ae423">size()</a> != (<a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">left.size()</a> * <a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">right.size()</a>)</code>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1277,7 +1277,7 @@ template&lt;typename U , typename V , typename Op &gt; </div>
 </div><div class="memdoc">
 
 <p>Outer fill operation. </p>
-<p>This function use two arrays, <code>left</code> and <code>right</code>, to fill this array ( which is treated as a matrix of size <code><a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">left.size()</a> * <a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">right.size()</a></code> ). Elements of this array are filled by <code>op(*this[i][j], left[i], right[j])</code>. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+<p>This function use two arrays, <code>left</code> and <code>right</code>, to fill this array ( which is treated as a matrix of size <code><a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">left.size()</a> * <a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">right.size()</a></code> ). Elements of this array are filled by <code>op(*this[i][j], left[i], right[j])</code>. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">U</td><td>The left-hand argument type </td></tr>
     <tr><td class="paramname">V</td><td>The right-hand argument type </td></tr>
@@ -1294,7 +1294,7 @@ template&lt;typename U , typename V , typename Op &gt; </div>
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="class_tiled_array_1_1_exception.html">TiledArray::Exception</a></td><td>When <code><a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a7c88bdea8b86bbc4d390d2a9a51ae423">size()</a> != (<a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">left.size()</a> * <a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">right.size()</a>)</code>. </td></tr>
+    <tr><td class="paramname"><a class="el" href="class_tiled_array_1_1_exception.html">TiledArray::Exception</a></td><td>When <code><a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a7c88bdea8b86bbc4d390d2a9a51ae423">size()</a> != (<a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">left.size()</a> * <a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">right.size()</a>)</code>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1352,7 +1352,7 @@ template&lt;typename U , typename V , typename A , typename Op &gt; </div>
 </div><div class="memdoc">
 
 <p>Outer operation. </p>
-<p>This function use two arrays, <code>left</code> and <code>right</code>, to modify this array ( which is treated as a matrix of size <code><a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">left.size()</a> * <a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">right.size()</a></code> ). Elements of this array are modified by <code>op(*this[i][j], left[i], right[j])</code>. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+<p>This function use two arrays, <code>left</code> and <code>right</code>, to modify this array ( which is treated as a matrix of size <code><a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">left.size()</a> * <a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">right.size()</a></code> ). Elements of this array are modified by <code>op(*this[i][j], left[i], right[j])</code>. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">U</td><td>The left-hand argument type </td></tr>
     <tr><td class="paramname">V</td><td>The right-hand argument type </td></tr>
@@ -1370,7 +1370,7 @@ template&lt;typename U , typename V , typename A , typename Op &gt; </div>
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="class_tiled_array_1_1_exception.html">TiledArray::Exception</a></td><td>When <code><a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a7c88bdea8b86bbc4d390d2a9a51ae423">size()</a> != (<a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">left.size()</a> * <a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">right.size()</a>)</code>. </td></tr>
+    <tr><td class="paramname"><a class="el" href="class_tiled_array_1_1_exception.html">TiledArray::Exception</a></td><td>When <code><a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a7c88bdea8b86bbc4d390d2a9a51ae423">size()</a> != (<a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">left.size()</a> * <a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">right.size()</a>)</code>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1441,7 +1441,7 @@ template&lt;typename U , typename Result , typename Op &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>The reduced value </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="class_tiled_array_1_1_exception.html">TiledArray::Exception</a></td><td>When <code><a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">arg.size()</a> != <a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a7c88bdea8b86bbc4d390d2a9a51ae423">size()</a></code>. </td></tr>
+    <tr><td class="paramname"><a class="el" href="class_tiled_array_1_1_exception.html">TiledArray::Exception</a></td><td>When <code><a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">arg.size()</a> != <a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a7c88bdea8b86bbc4d390d2a9a51ae423">size()</a></code>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1493,7 +1493,7 @@ template&lt;typename U , typename V , typename Op &gt; </div>
 </div><div class="memdoc">
 
 <p>Reduce row operation. </p>
-<p>Reduce rows of <code>left</code> to this array, where the size of rows is equal to <code><a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">right.size()</a></code>. The reduced result is computed by <code>op(*this[i], left[i][j], right[j])</code>. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+<p>Reduce rows of <code>left</code> to this array, where the size of rows is equal to <code><a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">right.size()</a></code>. The reduced result is computed by <code>op(*this[i], left[i][j], right[j])</code>. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">U</td><td>The element type of <code>left</code> </td></tr>
     <tr><td class="paramname">V</td><td>The element type of <code>right</code> </td></tr>
@@ -1511,7 +1511,7 @@ template&lt;typename U , typename V , typename Op &gt; </div>
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="class_tiled_array_1_1_exception.html">TiledArray::Exception</a></td><td>When <code><a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">left.size()</a> != (<a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a7c88bdea8b86bbc4d390d2a9a51ae423">size()</a> * <a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">right.size()</a>)</code>. </td></tr>
+    <tr><td class="paramname"><a class="el" href="class_tiled_array_1_1_exception.html">TiledArray::Exception</a></td><td>When <code><a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">left.size()</a> != (<a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a7c88bdea8b86bbc4d390d2a9a51ae423">size()</a> * <a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">right.size()</a>)</code>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1557,7 +1557,7 @@ template&lt;typename U , typename Op &gt; </div>
 </div><div class="memdoc">
 
 <p>Reduce row operation. </p>
-<p>Reduce rows of <code>arg</code> to this array, where a row have <code><a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">arg.size()</a>/size</code>() elements. The reduced result is computed by <code>op(*this[i], arg[i][j])</code>. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+<p>Reduce rows of <code>arg</code> to this array, where a row have <code><a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">arg.size()</a>/size</code>() elements. The reduced result is computed by <code>op(*this[i], arg[i][j])</code>. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">U</td><td>The element type of <code>arg</code> </td></tr>
     <tr><td class="paramname">Op</td><td>The reduction operation </td></tr>
@@ -1573,7 +1573,7 @@ template&lt;typename U , typename Op &gt; </div>
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="class_tiled_array_1_1_exception.html">TiledArray::Exception</a></td><td>When <code>(<a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">arg.size()</a> % <a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a7c88bdea8b86bbc4d390d2a9a51ae423">size()</a>) != 0</code>. </td></tr>
+    <tr><td class="paramname"><a class="el" href="class_tiled_array_1_1_exception.html">TiledArray::Exception</a></td><td>When <code>(<a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">arg.size()</a> % <a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a7c88bdea8b86bbc4d390d2a9a51ae423">size()</a>) != 0</code>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1706,7 +1706,7 @@ template&lt;typename T&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tiled_array.html">TiledArray</a></li><li class="navelem"><a class="el" href="namespace_tiled_array_1_1detail.html">detail</a></li><li class="navelem"><a class="el" href="class_tiled_array_1_1detail_1_1_val_array.html">ValArray</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:46 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:08 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

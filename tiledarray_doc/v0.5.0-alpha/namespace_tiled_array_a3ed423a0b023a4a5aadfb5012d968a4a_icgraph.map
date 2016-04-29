@@ -1,7 +1,0 @@
-<map id="TiledArray::shift" name="TiledArray::shift">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1_sparse_shape.html#acca1ef8486a15db1ccac18225fcab950" title="Create a copy of a sub&#45;block of the shape. " alt="" coords="167,5,337,44"/>
-<area shape="rect" id="node4" href="$group___tile_interface.html#gab1428654d9053accf03684ba5d57e4b0" title="Shift the range of arg. " alt="" coords="195,68,308,93"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1math_1_1_shift.html#a35991f9fac716903eb03cab11131f700" title="TiledArray::math::Shift\l::permute" alt="" coords="175,117,328,156"/>
-<area shape="rect" id="node6" href="$class_tiled_array_1_1math_1_1_shift.html#a4542a4e8bb7aa779a809c5f508815741" title="TiledArray::math::Shift\l::no_permute" alt="" coords="175,180,328,219"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1_sparse_shape.html#a5ac40941cd9af9ecf350390585fa0944" title="Create a copy of a sub&#45;block of the shape. " alt="" coords="385,5,554,44"/>
-</map>

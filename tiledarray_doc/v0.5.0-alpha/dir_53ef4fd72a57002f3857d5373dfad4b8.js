@@ -10,7 +10,7 @@ var dir_53ef4fd72a57002f3857d5373dfad4b8 =
     [ "symm", "dir_81ae7fcd947cf45141947694ee2e76f8.html", "dir_81ae7fcd947cf45141947694ee2e76f8" ],
     [ "tensor", "dir_500a1e419ce214a4f335d68bca7540ea.html", "dir_500a1e419ce214a4f335d68bca7540ea" ],
     [ "tile_op", "dir_aacf0ce393081dab78024e2969470b8b.html", "dir_aacf0ce393081dab78024e2969470b8b" ],
-    [ "array.h", "array_8h.html", "array_8h" ],
+    [ "array_impl.cpp", "array__impl_8cpp.html", null ],
     [ "array_impl.h", "array__impl_8h.html", [
       [ "TensorReference", "class_tiled_array_1_1detail_1_1_tensor_reference.html", null ],
       [ "TensorConstReference", "class_tiled_array_1_1detail_1_1_tensor_const_reference.html", null ],
@@ -27,12 +27,14 @@ var dir_53ef4fd72a57002f3857d5373dfad4b8 =
       [ "BlockRange", "class_tiled_array_1_1_block_range.html", "class_tiled_array_1_1_block_range" ]
     ] ],
     [ "dense_shape.h", "dense__shape_8h.html", [
-      [ "DenseShape", "class_tiled_array_1_1_dense_shape.html", null ]
+      [ "DenseShape", "class_tiled_array_1_1_dense_shape.html", "class_tiled_array_1_1_dense_shape" ]
     ] ],
+    [ "dist_array.cpp", "dist__array_8cpp.html", null ],
+    [ "dist_array.h", "dist__array_8h.html", "dist__array_8h" ],
     [ "distributed_storage.h", "distributed__storage_8h.html", [
       [ "DistributedStorage", "class_tiled_array_1_1detail_1_1_distributed_storage.html", "class_tiled_array_1_1detail_1_1_distributed_storage" ]
     ] ],
-    [ "elemental.h", "elemental_8h.html", "elemental_8h" ],
+    [ "elemental.h", "elemental_8h.html", null ],
     [ "error.h", "error_8h.html", "error_8h" ],
     [ "madness.h", "madness_8h.html", "madness_8h" ],
     [ "perm_index.h", "perm__index_8h.html", [
@@ -57,15 +59,18 @@ var dir_53ef4fd72a57002f3857d5373dfad4b8 =
       [ "Replicator", "class_tiled_array_1_1detail_1_1_replicator.html", "class_tiled_array_1_1detail_1_1_replicator" ]
     ] ],
     [ "shape.h", "shape_8h.html", [
+      [ "DistArray", "class_tiled_array_1_1_dist_array.html", "class_tiled_array_1_1_dist_array" ],
       [ "is_dense", "struct_tiled_array_1_1is__dense.html", null ],
-      [ "is_dense< DenseShape, void >", "struct_tiled_array_1_1is__dense_3_01_dense_shape_00_01void_01_4.html", null ],
-      [ "is_dense< T, detail::is_type< typename T::shape_type > >", "struct_tiled_array_1_1is__dense_3_01_t_00_01detail_1_1is__type_3_01typename_01_t_1_1shape__type_01_4_01_4.html", null ]
+      [ "is_dense< DenseShape >", "struct_tiled_array_1_1is__dense_3_01_dense_shape_01_4.html", null ],
+      [ "is_dense< DistArray< Tile, Policy > >", "struct_tiled_array_1_1is__dense_3_01_dist_array_3_01_tile_00_01_policy_01_4_01_4.html", null ]
     ] ],
     [ "size_array.h", "size__array_8h.html", "size__array_8h" ],
+    [ "sparse_shape.cpp", "sparse__shape_8cpp.html", null ],
     [ "sparse_shape.h", "sparse__shape_8h.html", [
       [ "SparseShape", "class_tiled_array_1_1_sparse_shape.html", "class_tiled_array_1_1_sparse_shape" ]
     ] ],
     [ "tensor.h", "tensor_8h.html", "tensor_8h" ],
+    [ "tensor_impl.cpp", "tensor__impl_8cpp.html", null ],
     [ "tensor_impl.h", "tensor__impl_8h.html", [
       [ "TensorImpl", "class_tiled_array_1_1detail_1_1_tensor_impl.html", "class_tiled_array_1_1detail_1_1_tensor_impl" ]
     ] ],

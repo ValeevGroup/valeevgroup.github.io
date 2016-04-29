@@ -1,7 +1,0 @@
-<map id="TiledArray::detail::PermIndex::PermIndex" name="TiledArray::detail::PermIndex::PermIndex">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1_range.html#a96b765fada5d27644aa090fff0c27b60" title="Rank accessor. " alt="" coords="233,5,394,31"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1_permutation.html#a3df6e212ab5eccd151e2c9a58dc5c45d" title="Permutation dimension accessor. " alt="" coords="218,55,408,80"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1_range.html#a8fdd4742235c667af1de552191490c1c" title="Size accessor. " alt="" coords="245,104,381,143"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1_range.html#aa63c86dd5da4c99c3278133cf22c1a1f" title="Range stride accessor. " alt="" coords="245,167,381,205"/>
-<area shape="rect" id="node6" href="$namespace_tiled_array_1_1detail.html#a5d281f943194c67e7b0a491f03d49e02" title="Array size accessor. " alt="" coords="253,229,374,268"/>
-</map>

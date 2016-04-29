@@ -8,7 +8,6 @@ var class_tiled_array_1_1expressions_1_1_binary_engine =
     [ "pmap_interface", "class_tiled_array_1_1expressions_1_1_binary_engine.html#a4c3f87e7fa39f2b7d7c95c8b9b1d51dd", null ],
     [ "policy", "class_tiled_array_1_1expressions_1_1_binary_engine.html#a5c3630f7a51cc75b081ac8974a8fa6d0", null ],
     [ "right_type", "class_tiled_array_1_1expressions_1_1_binary_engine.html#aa9a3affdc49bd5784e74724711fb5845", null ],
-    [ "scalar_type", "class_tiled_array_1_1expressions_1_1_binary_engine.html#a3bfa2c9cdafd30b8f66d4782788b7dbd", null ],
     [ "shape_type", "class_tiled_array_1_1expressions_1_1_binary_engine.html#a3a00d39d52d64c37adc25ab8a351522a", null ],
     [ "size_type", "class_tiled_array_1_1expressions_1_1_binary_engine.html#a425857bfdb0265a16384d93a3228150c", null ],
     [ "trange_type", "class_tiled_array_1_1expressions_1_1_binary_engine.html#ac627d0cc6db34d61bd0706fc78d71688", null ],

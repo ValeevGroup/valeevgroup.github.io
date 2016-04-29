@@ -144,11 +144,11 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 
 <h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
 <li>range()
-: <a class="el" href="class_tiled_array_1_1_array.html#a49518c730fc0ee4cec712934cd5ff247">TiledArray::Array&lt; T, DIM, Tile, Policy &gt;</a>
-, <a class="el" href="class_tiled_array_1_1detail_1_1_dist_eval.html#ac318bb6b1ec7113c100adcea4b858dfb">TiledArray::detail::DistEval&lt; Tile, Policy &gt;</a>
+: <a class="el" href="class_tiled_array_1_1detail_1_1_dist_eval.html#ac318bb6b1ec7113c100adcea4b858dfb">TiledArray::detail::DistEval&lt; Tile, Policy &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_shift_wrapper.html#a0a17e0ba7352004b7c7ae9d950989984">TiledArray::detail::ShiftWrapper&lt; T &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_tensor_impl.html#ac31e9bf1736abbe81ff5ab2cf0cab541">TiledArray::detail::TensorImpl&lt; Policy &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_tensor_interface.html#a364089148736bb763f1683de9578287e">TiledArray::detail::TensorInterface&lt; T, R &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_dist_array.html#af0086bd8ae24a4db6c75bee5f19982bd">TiledArray::DistArray&lt; Tile, Policy &gt;</a>
 </li>
 <li>Range()
 : <a class="el" href="class_tiled_array_1_1_range.html#a654cc135e5a482fc7f7fece3ad3ae9e8">TiledArray::Range</a>
@@ -174,7 +174,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 : <a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#ac45c89bd91965d53ce6feafe79d8834c">TiledArray::detail::SizeArray&lt; T &gt;</a>
 </li>
 <li>reduce()
-: <a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a48f271b2cd62d10052ffdf004a48b6e8">TiledArray::detail::SizeArray&lt; T &gt;</a>
+: <a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#ab1c8f4e5026d205fa722a6fe2611980e">TiledArray::detail::SizeArray&lt; T &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_tensor_interface.html#ab3267e4c299c7a50a164cd797242ab33">TiledArray::detail::TensorInterface&lt; T, R &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_val_array.html#a62d85fb317d2962558fd0e1ffb0f953f">TiledArray::detail::ValArray&lt; T &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a365c5fba15068a9d9da01adb63023520">TiledArray::expressions::Expr&lt; Derived &gt;</a>
@@ -226,7 +226,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 : <a class="el" href="class_tiled_array_1_1math_1_1_matrix_block_task.html#a452518cd6c715380db1a21d408fb8d74">TiledArray::math::MatrixBlockTask&lt; T, Size &gt;</a>
 </li>
 <li>result_rank()
-: <a class="el" href="class_tiled_array_1_1math_1_1_contract_reduce.html#a20df947398a4a3cd1993335c3cdf57f4">TiledArray::math::ContractReduce&lt; Result, Left, Right &gt;</a>
+: <a class="el" href="class_tiled_array_1_1_contract_reduce_base.html#ab871bd9bee6c04594f44dab88e7a9de6">TiledArray::ContractReduceBase&lt; Left, Right, Scalar &gt;</a>
 , <a class="el" href="class_tiled_array_1_1math_1_1_gemm_helper.html#a38ff78f3c53c643b63202b22132f68ce">TiledArray::math::GemmHelper</a>
 </li>
 <li>right()
@@ -248,7 +248,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 : <a class="el" href="class_tiled_array_1_1math_1_1_gemm_helper.html#af64de2969f99266aca68589b3f6fea98">TiledArray::math::GemmHelper</a>
 </li>
 <li>right_rank()
-: <a class="el" href="class_tiled_array_1_1math_1_1_contract_reduce.html#a438535097af6ee1f1d81119408f64cde">TiledArray::math::ContractReduce&lt; Result, Left, Right &gt;</a>
+: <a class="el" href="class_tiled_array_1_1_contract_reduce_base.html#a5c7ba11b4302785b5f0e7a689d6125f6">TiledArray::ContractReduceBase&lt; Left, Right, Scalar &gt;</a>
 , <a class="el" href="class_tiled_array_1_1math_1_1_gemm_helper.html#ac41bcbc8ad94d430ab40cc351ac7c113">TiledArray::math::GemmHelper</a>
 </li>
 <li>right_result_coformal()
@@ -256,9 +256,9 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 </li>
 <li>row_reduce()
 : <a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a7e3c8e13d576b467e2e9af42d0996056">TiledArray::detail::SizeArray&lt; T &gt;</a>
-, <a class="el" href="class_tiled_array_1_1detail_1_1_val_array.html#a2e5b79e6666b7cc88443bde033eec690">TiledArray::detail::ValArray&lt; T &gt;</a>
+, <a class="el" href="class_tiled_array_1_1detail_1_1_val_array.html#a810b49d091042a2b1e6abbe6a1f04088">TiledArray::detail::ValArray&lt; T &gt;</a>
 , <a class="el" href="class_tiled_array_1_1math_1_1_partial_reduce_unwind.html#a71b7d2a490f2f5b0e5a2b128a21c2160">TiledArray::math::PartialReduceUnwind&lt; N &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_partial_reduce_unwind_3_010_01_4.html#a89a25d748d579152963090fcee743aaf">TiledArray::math::PartialReduceUnwind&lt; 0 &gt;</a>
+, <a class="el" href="class_tiled_array_1_1math_1_1_partial_reduce_unwind_3_010_01_4.html#adc52abac0058d5d1b928ab40090afa85">TiledArray::math::PartialReduceUnwind&lt; 0 &gt;</a>
 </li>
 <li>rows()
 : <a class="el" href="class_tiled_array_1_1detail_1_1_proc_grid.html#aa52ab72943df81aa03889f767553e925">TiledArray::detail::ProcGrid</a>
@@ -269,7 +269,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Oct 23 2015 09:54:09 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:10 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

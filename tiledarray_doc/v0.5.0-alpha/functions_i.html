@@ -145,10 +145,10 @@ $(document).ready(function(){initNavTree('functions_i.html','');});
 
 <h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
 <li>id()
-: <a class="el" href="class_tiled_array_1_1_array.html#ae2dde8b7a4cc3aee8dd4f431ceb9e14a">TiledArray::Array&lt; T, DIM, Tile, Policy &gt;</a>
-, <a class="el" href="class_tiled_array_1_1detail_1_1_array_impl.html#a28810bd5a7a606ca452c129864f71781">TiledArray::detail::ArrayImpl&lt; Tile, Policy &gt;</a>
+: <a class="el" href="class_tiled_array_1_1detail_1_1_array_impl.html#a28810bd5a7a606ca452c129864f71781">TiledArray::detail::ArrayImpl&lt; Tile, Policy &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_dist_eval.html#ae92c40f9269550fa98d080450a0826b3">TiledArray::detail::DistEval&lt; Tile, Policy &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_dist_eval_impl.html#a2db0273c579019345dfb58fc3d495ea0">TiledArray::detail::DistEvalImpl&lt; Tile, Policy &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_dist_array.html#a151355085cff43ead494742a166317e8">TiledArray::DistArray&lt; Tile, Policy &gt;</a>
 </li>
 <li>identity()
 : <a class="el" href="class_tiled_array_1_1_permutation.html#a38712ba681d8dc193f21b2b91ba07e5a">TiledArray::Permutation</a>
@@ -159,8 +159,8 @@ $(document).ready(function(){initNavTree('functions_i.html','');});
 : <a class="el" href="class_tiled_array_1_1_range.html#adcdf4b7d584abf2d1b7c3d0ae782156c">TiledArray::Range</a>
 </li>
 <li>impl_type
-: <a class="el" href="class_tiled_array_1_1_array.html#aa852de0beef43cfd07ee785adffc6465">TiledArray::Array&lt; T, DIM, Tile, Policy &gt;</a>
-, <a class="el" href="class_tiled_array_1_1detail_1_1_dist_eval.html#a1fdfe419235bcc22061ca7d12d51bc24">TiledArray::detail::DistEval&lt; Tile, Policy &gt;</a>
+: <a class="el" href="class_tiled_array_1_1detail_1_1_dist_eval.html#a1fdfe419235bcc22061ca7d12d51bc24">TiledArray::detail::DistEval&lt; Tile, Policy &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_dist_array.html#a9fea4cf2ebbda7a5faa848138ac9ec52">TiledArray::DistArray&lt; Tile, Policy &gt;</a>
 </li>
 <li>inc()
 : <a class="el" href="class_tiled_array_1_1expressions_1_1_expr_o_stream.html#adbd52ae1443381a4c11c8b17295e49b2">TiledArray::expressions::ExprOStream</a>
@@ -168,9 +168,9 @@ $(document).ready(function(){initNavTree('functions_i.html','');});
 <li>includes()
 : <a class="el" href="class_tiled_array_1_1_range.html#aea141eab2eaffd6b720cdcb1859da60e">TiledArray::Range</a>
 </li>
-<li>index
-: <a class="el" href="class_tiled_array_1_1_array.html#a6e9de129e48c2af8e18a107335f5409b">TiledArray::Array&lt; T, DIM, Tile, Policy &gt;</a>
-, <a class="el" href="class_tiled_array_1_1detail_1_1_array_iiterator.html#a25d0c16e720d96a6103070ef5deb3b21">TiledArray::detail::ArrayIiterator&lt; Impl, Reference &gt;</a>
+<li>index()
+: <a class="el" href="class_tiled_array_1_1detail_1_1_array_iiterator.html#a25d0c16e720d96a6103070ef5deb3b21">TiledArray::detail::ArrayIiterator&lt; Impl, Reference &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_dist_array.html#a714d296d4cd65b912b2afc0750e26dc0">TiledArray::DistArray&lt; Tile, Policy &gt;</a>
 , <a class="el" href="class_tiled_array_1_1_range.html#a18a4ea84188637c6b78f01102735a4f7">TiledArray::Range</a>
 , <a class="el" href="class_tiled_array_1_1_tiled_range.html#aa93fa777244b8153d1cff40f740ebd0d">TiledArray::TiledRange</a>
 </li>
@@ -192,26 +192,26 @@ $(document).ready(function(){initNavTree('functions_i.html','');});
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_expr_engine.html#acf0603659bd63cddedf46e67ba4683c9">TiledArray::expressions::ExprEngine&lt; Derived &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_leaf_engine.html#ac0369b5e55b710c9dae3179dfd504b42">TiledArray::expressions::LeafEngine&lt; Derived &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_mult_engine.html#ab505b57043746cf8c806d9da58f768d1">TiledArray::expressions::MultEngine&lt; Left, Right &gt;</a>
-, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_engine.html#a298d8c26cef2e24c32e16291f4c7ee40">TiledArray::expressions::ScalMultEngine&lt; Left, Right &gt;</a>
+, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_engine.html#a1325a2ffa88d23f05d6253db14983973">TiledArray::expressions::ScalMultEngine&lt; Left, Right, Scalar &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html#affc5152b12e546835d6952888e53b82c">TiledArray::expressions::UnaryEngine&lt; Derived &gt;</a>
-</li>
-<li>init_local_tiles()
-: <a class="el" href="class_tiled_array_1_1_array.html#a6562470821b5af963d044273a971cca7">TiledArray::Array&lt; T, DIM, Tile, Policy &gt;</a>
 </li>
 <li>init_struct()
 : <a class="el" href="class_tiled_array_1_1expressions_1_1_binary_engine.html#a184b08ed84cea91b6f4c3af3ac89163d">TiledArray::expressions::BinaryEngine&lt; Derived &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_cont_engine.html#a6815987ae40e3fc3515fbda22c0f665a">TiledArray::expressions::ContEngine&lt; Derived &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_expr_engine.html#a0b20d1798116054d34a90502e9e43357">TiledArray::expressions::ExprEngine&lt; Derived &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_mult_engine.html#ab72c18b9f758de78c31c2bec4c09e10d">TiledArray::expressions::MultEngine&lt; Left, Right &gt;</a>
-, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_engine.html#a3054fd7416b206c0379f0d0edb876885">TiledArray::expressions::ScalMultEngine&lt; Left, Right &gt;</a>
+, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_engine.html#a99c7b9cbdcacd488519f0b292ecf5795">TiledArray::expressions::ScalMultEngine&lt; Left, Right, Scalar &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html#a30cbbd98beada136528a019aaeeb4763">TiledArray::expressions::UnaryEngine&lt; Derived &gt;</a>
+</li>
+<li>init_tiles()
+: <a class="el" href="class_tiled_array_1_1_dist_array.html#a2209eb165973b2bd3e99c801b6cd8613">TiledArray::DistArray&lt; Tile, Policy &gt;</a>
 </li>
 <li>init_vars()
 : <a class="el" href="class_tiled_array_1_1expressions_1_1_binary_engine.html#ac3b4ae3af7d4de3055cd11bd81375960">TiledArray::expressions::BinaryEngine&lt; Derived &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_cont_engine.html#afd30c4f546af19c08780628b0938d8b2">TiledArray::expressions::ContEngine&lt; Derived &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_leaf_engine.html#a569efb47bd87c431b3dab95d9d98a25e">TiledArray::expressions::LeafEngine&lt; Derived &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_mult_engine.html#ad7980f7bb87851940ff7a8bb97e50a3e">TiledArray::expressions::MultEngine&lt; Left, Right &gt;</a>
-, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_engine.html#a36054a2769f3babbd391d3bfc53865ac">TiledArray::expressions::ScalMultEngine&lt; Left, Right &gt;</a>
+, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_engine.html#a786892f9318e2c9418df2ebfa2877080">TiledArray::expressions::ScalMultEngine&lt; Left, Right, Scalar &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html#a4f1a145567b0da5642ee8e25c5d48b3d">TiledArray::expressions::UnaryEngine&lt; Derived &gt;</a>
 </li>
 <li>inplace_binary()
@@ -231,35 +231,47 @@ $(document).ready(function(){initNavTree('functions_i.html','');});
 , <a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation.html#a4840418bccf975ca9da15e3935b4d7a3">TiledArray::symmetry::Permutation</a>
 </li>
 <li>Irrep()
-: <a class="el" href="class_tiled_array_1_1_irrep.html#aeeb98af39db14e720498df3a772b8ca0">TiledArray::Irrep</a>
+: <a class="el" href="class_tiled_array_1_1_irrep.html#acac92f9001bced585d78c7e60860eb63">TiledArray::Irrep</a>
+</li>
+<li>is_array_tile_t
+: <a class="el" href="class_tiled_array_1_1detail_1_1_binary_wrapper.html#a6821cbcd944616bad49fd09798b58fde">TiledArray::detail::BinaryWrapper&lt; Op &gt;</a>
+, <a class="el" href="class_tiled_array_1_1detail_1_1_unary_wrapper.html#ac535e71cdd2782d4e1619da6963909de">TiledArray::detail::UnaryWrapper&lt; Op &gt;</a>
 </li>
 <li>is_consumable()
 : <a class="el" href="class_tiled_array_1_1detail_1_1_lazy_array_tile.html#a9e33180f48a21a3aa2f05b3d5b9dbc78">TiledArray::detail::LazyArrayTile&lt; Tile, Op &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_unary_interface.html#a1c90c2c7e070530608bead17a027c710">TiledArray::math::UnaryInterface&lt; Derived &gt;</a>
-, <a class="el" href="struct_tiled_array_1_1math_1_1_unary_tile_op_trait_3_01_op_3_01_result_00_01_arg_00_01_consumable_01_4_01_4.html#adf29523096a638f840469bc00f6aa203">TiledArray::math::UnaryTileOpTrait&lt; Op&lt; Result, Arg, Consumable &gt; &gt;</a>
+, <a class="el" href="class_tiled_array_1_1detail_1_1_unary_wrapper.html#a9d5203a0338f6f8950b2cde727038c1c">TiledArray::detail::UnaryWrapper&lt; Op &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_neg.html#abf9e9eb81291fd3e8d10e6a1b932f267">TiledArray::Neg&lt; Arg, Consumable &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_noop.html#a6a46bbf265b737cafd5c0d7ad4246405">TiledArray::Noop&lt; Arg, Consumable &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_scal.html#afeae98d0c8aae4050f3b659ff15a8d4b">TiledArray::Scal&lt; Arg, Scalar, Consumable &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_scal_shift.html#a14c012e53e105af96db26f2fb5f4b0cf">TiledArray::ScalShift&lt; Arg, Scalar, Consumable &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_shift.html#a9295914d453cdc93675dd2c46fb3ccad">TiledArray::Shift&lt; Arg, Consumable &gt;</a>
 </li>
 <li>is_dense()
-: <a class="el" href="class_tiled_array_1_1_array.html#a10e2c0eb9124d56d2575d4cfe8ae93b4">TiledArray::Array&lt; T, DIM, Tile, Policy &gt;</a>
-, <a class="el" href="class_tiled_array_1_1_dense_shape.html#a2b5e396a6a38ed1ca7ebd34d4b110b26">TiledArray::DenseShape</a>
+: <a class="el" href="class_tiled_array_1_1_dense_shape.html#a2b5e396a6a38ed1ca7ebd34d4b110b26">TiledArray::DenseShape</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_dist_eval.html#a9e2a167976b1e26d2db59cad8f10fb67">TiledArray::detail::DistEval&lt; Tile, Policy &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_tensor_impl.html#a494873f5f1e9c9be7ee060464e4ca931">TiledArray::detail::TensorImpl&lt; Policy &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_dist_array.html#a271ca2e13b5ef67aff4c5d02a584a91d">TiledArray::DistArray&lt; Tile, Policy &gt;</a>
 , <a class="el" href="class_tiled_array_1_1_sparse_shape.html#ad7be5ad2a67d9d5efc4050e39b3ffec0">TiledArray::SparseShape&lt; T &gt;</a>
 </li>
 <li>is_in_domain()
 : <a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation.html#a78ba0fd61b32cbb238c49efef428bbdf">TiledArray::symmetry::Permutation</a>
 </li>
 <li>is_initialized()
-: <a class="el" href="class_tiled_array_1_1_array.html#a685fd50289745d96b94fd544b839cabe">TiledArray::Array&lt; T, DIM, Tile, Policy &gt;</a>
+: <a class="el" href="class_tiled_array_1_1_dist_array.html#abce7d10a4a1729a0275c133d7b8707f4">TiledArray::DistArray&lt; Tile, Policy &gt;</a>
+</li>
+<li>is_lazy_tile_t
+: <a class="el" href="class_tiled_array_1_1detail_1_1_binary_wrapper.html#ae31c1c8b4d2d234b631e62f6dc9231e5">TiledArray::detail::BinaryWrapper&lt; Op &gt;</a>
+, <a class="el" href="class_tiled_array_1_1detail_1_1_unary_wrapper.html#aa3c710793fbea41ce8ea62387f958eee">TiledArray::detail::UnaryWrapper&lt; Op &gt;</a>
 </li>
 <li>is_local()
-: <a class="el" href="class_tiled_array_1_1_array.html#ac213ae5ce5c2f5bdeb3c54b0850541a5">TiledArray::Array&lt; T, DIM, Tile, Policy &gt;</a>
-, <a class="el" href="class_tiled_array_1_1detail_1_1_blocked_pmap.html#a205753fecb53e017f33572ac8905d125">TiledArray::detail::BlockedPmap</a>
+: <a class="el" href="class_tiled_array_1_1detail_1_1_blocked_pmap.html#a205753fecb53e017f33572ac8905d125">TiledArray::detail::BlockedPmap</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_cyclic_pmap.html#a5e683465684bfa0485c689c178350943">TiledArray::detail::CyclicPmap</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_dist_eval.html#ab3ab7f4ce671b2c255cb73e866bd7ee0">TiledArray::detail::DistEval&lt; Tile, Policy &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_distributed_storage.html#a8c7ec9475f37f3baa357d1fa1d42dcd3">TiledArray::detail::DistributedStorage&lt; T &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_hash_pmap.html#a18fd772ccd2af59d18f0173d9cc7e083">TiledArray::detail::HashPmap</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_replicated_pmap.html#ac75e01fca58b52dbef1fc27995333a38">TiledArray::detail::ReplicatedPmap</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_tensor_impl.html#a0161aec63554cde913a1ebf185f25948">TiledArray::detail::TensorImpl&lt; Policy &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_dist_array.html#a3c6a6f4d28af75821426aa44f2807e70">TiledArray::DistArray&lt; Tile, Policy &gt;</a>
 , <a class="el" href="class_tiled_array_1_1_pmap.html#a728c54f9cc0bb42de8e3302b516c0258">TiledArray::Pmap</a>
 </li>
 <li>is_permutation()
@@ -270,18 +282,18 @@ $(document).ready(function(){initNavTree('functions_i.html','');});
 , <a class="el" href="class_tiled_array_1_1_pmap.html#a9ab2d6d407959d959d428c67401c541a">TiledArray::Pmap</a>
 </li>
 <li>is_zero()
-: <a class="el" href="class_tiled_array_1_1_array.html#a5b5777ac5086602a38686fc09f654845">TiledArray::Array&lt; T, DIM, Tile, Policy &gt;</a>
-, <a class="el" href="class_tiled_array_1_1_dense_shape.html#ace672cad66e62cdcb5263d64d7f6b912">TiledArray::DenseShape</a>
+: <a class="el" href="class_tiled_array_1_1_dense_shape.html#ace672cad66e62cdcb5263d64d7f6b912">TiledArray::DenseShape</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_dist_eval.html#a516df457c2caf8f331a6048631b9b822">TiledArray::detail::DistEval&lt; Tile, Policy &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_tensor_impl.html#ab918df58721624c25906748e1217ecde">TiledArray::detail::TensorImpl&lt; Policy &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_dist_array.html#afb5430ba47577a3ba8d408e2884b8780">TiledArray::DistArray&lt; Tile, Policy &gt;</a>
 , <a class="el" href="class_tiled_array_1_1_sparse_shape.html#a4dd1f32d8bca0b82472e0d3f8174ee9b">TiledArray::SparseShape&lt; T &gt;</a>
 </li>
 <li>iterator
-: <a class="el" href="class_tiled_array_1_1_array.html#a59abbdd546bd9fe6052c836fba571698">TiledArray::Array&lt; T, DIM, Tile, Policy &gt;</a>
-, <a class="el" href="class_tiled_array_1_1detail_1_1_array_impl.html#ab5335e1a4dd54c6d8fadd4b2966ba0c0">TiledArray::detail::ArrayImpl&lt; Tile, Policy &gt;</a>
+: <a class="el" href="class_tiled_array_1_1detail_1_1_array_impl.html#ab5335e1a4dd54c6d8fadd4b2966ba0c0">TiledArray::detail::ArrayImpl&lt; Tile, Policy &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_bitset.html#ad61595ac6dfb83b199cb69a2a30ac8ba">TiledArray::detail::Bitset&lt; Block &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a66e6b724c637044f529830de23e733b7">TiledArray::detail::SizeArray&lt; T &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_val_array.html#a9c7c2220683fcc933befbd6de9e75a27">TiledArray::detail::ValArray&lt; T &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_dist_array.html#a78f9643a2bfb9a7a6e9be1eebe2d55db">TiledArray::DistArray&lt; Tile, Policy &gt;</a>
 , <a class="el" href="class_tiled_array_1_1_tensor.html#a7c3a6bcdbeae5dec3343d6ae28df8284">TiledArray::Tensor&lt; T, A &gt;</a>
 </li>
 <li>iterator_category
@@ -302,7 +314,7 @@ $(document).ready(function(){initNavTree('functions_i.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Oct 23 2015 09:54:09 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:10 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

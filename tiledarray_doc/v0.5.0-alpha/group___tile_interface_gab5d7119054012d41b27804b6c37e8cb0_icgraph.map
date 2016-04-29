@@ -1,8 +1,0 @@
-<map id="TiledArray::neg" name="TiledArray::neg">
-<area shape="rect" id="node2" href="$group___tile_interface.html#ga7626f4de725a05e293ef8d67046ba365" title="Negate and permute tile argument. " alt="" coords="186,5,297,31"/>
-<area shape="rect" id="node3" href="$group___tile_interface.html#ga793c6f07aa3ede5a1a01953d4e51c583" title="Negate tile operator. " alt="" coords="170,55,313,80"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1math_1_1_neg.html#a447893d4f7f059897676a5ec7111a670" title="TiledArray::math::Neg\l::permute" alt="" coords="166,104,317,143"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1math_1_1_neg.html#ae15cc32604c04b7944e95a3fc9592b8d" title="TiledArray::math::Neg\l::no_permute" alt="" coords="166,167,317,205"/>
-<area shape="rect" id="node6" href="$class_tiled_array_1_1math_1_1_subt.html#a25b706980dbc4a48a6e25adbe4b1df0a" title="TiledArray::math::Subt\l::permute" alt="" coords="165,229,318,268"/>
-<area shape="rect" id="node7" href="$class_tiled_array_1_1math_1_1_subt.html#afb4535358503ca08e20c2eaa0e79d465" title="TiledArray::math::Subt\l::no_permute" alt="" coords="165,292,318,331"/>
-</map>

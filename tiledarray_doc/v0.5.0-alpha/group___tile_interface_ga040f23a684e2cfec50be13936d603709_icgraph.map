@@ -1,8 +1,0 @@
-<map id="TiledArray::permute" name="TiledArray::permute">
-<area shape="rect" id="node2" href="$group___tile_interface.html#gaaa3f87e710a8a29e189628ac925fb128" title="Permute tile operator. " alt="" coords="237,5,381,31"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1math_1_1_add.html#a76e322117b03450fbb4289f06fffc322" title="TiledArray::math::Add\l::permute" alt="" coords="234,55,384,93"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1math_1_1_contract_reduce.html#ad9e97b47589790271cdcf70f63854e51" title="Post processing step. " alt="" coords="191,117,427,209"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1math_1_1_noop.html#a6cad5e4305f0d02fda851e7c5db6b6bd" title="TiledArray::math::Noop\l::permute" alt="" coords="230,233,388,272"/>
-<area shape="rect" id="node6" href="$class_tiled_array_1_1math_1_1_shift.html#a35991f9fac716903eb03cab11131f700" title="TiledArray::math::Shift\l::permute" alt="" coords="233,296,386,335"/>
-<area shape="rect" id="node7" href="$class_tiled_array_1_1math_1_1_subt.html#a29a0cd101191706ab3957ee1dc9d0cdc" title="TiledArray::math::Subt\l::permute" alt="" coords="232,359,386,397"/>
-</map>

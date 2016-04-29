@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('dense__to__sparse_8h.html','');});
 <div class="title">dense_to_sparse.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="array_8h_source.html">TiledArray/array.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="dist__array_8h_source.html">../dist_array.h</a>&quot;</code><br />
 </div>
 <p><a href="dense__to__sparse_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -129,14 +129,14 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aff2b0c9316dedf042f7988b5bb8b52a1"><td class="memTemplParams" colspan="2">template&lt;typename T , unsigned int DIM, typename Tile &gt; </td></tr>
-<tr class="memitem:aff2b0c9316dedf042f7988b5bb8b52a1"><td class="memTemplItemLeft" align="right" valign="top">Array&lt; T, DIM, Tile, SparsePolicy &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array.html#aff2b0c9316dedf042f7988b5bb8b52a1">TiledArray::to_sparse</a> (Array&lt; T, DIM, Tile, DensePolicy &gt; const &amp;dense_array)</td></tr>
-<tr class="memdesc:aff2b0c9316dedf042f7988b5bb8b52a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to convert a dense array into a block sparse array.  <a href="namespace_tiled_array.html#aff2b0c9316dedf042f7988b5bb8b52a1">More...</a><br /></td></tr>
-<tr class="separator:aff2b0c9316dedf042f7988b5bb8b52a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a221acf0a5ff8b4512cc201744685f1b3"><td class="memTemplParams" colspan="2">template&lt;typename T , unsigned int DIM, typename Tile &gt; </td></tr>
-<tr class="memitem:a221acf0a5ff8b4512cc201744685f1b3"><td class="memTemplItemLeft" align="right" valign="top">Array&lt; T, DIM, Tile, SparsePolicy &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array.html#a221acf0a5ff8b4512cc201744685f1b3">TiledArray::to_sparse</a> (Array&lt; T, DIM, Tile, SparsePolicy &gt; const &amp;sparse_array)</td></tr>
-<tr class="memdesc:a221acf0a5ff8b4512cc201744685f1b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the array is already sparse return a copy of the array.  <a href="namespace_tiled_array.html#a221acf0a5ff8b4512cc201744685f1b3">More...</a><br /></td></tr>
-<tr class="separator:a221acf0a5ff8b4512cc201744685f1b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fe2d157bfac3a81e84b52461e754c96"><td class="memTemplParams" colspan="2">template&lt;typename Tile &gt; </td></tr>
+<tr class="memitem:a3fe2d157bfac3a81e84b52461e754c96"><td class="memTemplItemLeft" align="right" valign="top">DistArray&lt; Tile, SparsePolicy &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array.html#a3fe2d157bfac3a81e84b52461e754c96">TiledArray::to_sparse</a> (DistArray&lt; Tile, DensePolicy &gt; const &amp;dense_array)</td></tr>
+<tr class="memdesc:a3fe2d157bfac3a81e84b52461e754c96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to convert a dense array into a block sparse array.  <a href="namespace_tiled_array.html#a3fe2d157bfac3a81e84b52461e754c96">More...</a><br /></td></tr>
+<tr class="separator:a3fe2d157bfac3a81e84b52461e754c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f448baf0d9da33c2112d366334c744a"><td class="memTemplParams" colspan="2">template&lt;typename Tile &gt; </td></tr>
+<tr class="memitem:a9f448baf0d9da33c2112d366334c744a"><td class="memTemplItemLeft" align="right" valign="top">DistArray&lt; Tile, SparsePolicy &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array.html#a9f448baf0d9da33c2112d366334c744a">TiledArray::to_sparse</a> (DistArray&lt; Tile, SparsePolicy &gt; const &amp;sparse_array)</td></tr>
+<tr class="memdesc:a9f448baf0d9da33c2112d366334c744a"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the array is already sparse return a copy of the array.  <a href="namespace_tiled_array.html#a9f448baf0d9da33c2112d366334c744a">More...</a><br /></td></tr>
+<tr class="separator:a9f448baf0d9da33c2112d366334c744a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="ac5027027bdcce6a865a8ca0e098efbd5"></a>
@@ -159,7 +159,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53ef4fd72a57002f3857d5373dfad4b8.html">TiledArray</a></li><li class="navelem"><a class="el" href="dir_36ae01bed13817b64a94581dc6b2de0b.html">conversions</a></li><li class="navelem"><a class="el" href="dense__to__sparse_8h.html">dense_to_sparse.h</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:45 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:06 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

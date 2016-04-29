@@ -1,4 +1,0 @@
-<map id="TiledArray::detail::permute" name="TiledArray::detail::permute">
-<area shape="rect" id="node2" href="$namespace_tiled_array_1_1detail.html#acea82008dbcee62101a2865a602852cb" title="In&#45;place tensor permutation operations with contiguous data. " alt="" coords="174,5,312,44"/>
-<area shape="rect" id="node3" href="$namespace_tiled_array_1_1detail.html#a474df5f74ea75c66470f333f78dad3d5" title="Initialize tensor with permuted tensor arguments. " alt="" coords="183,68,304,107"/>
-</map>

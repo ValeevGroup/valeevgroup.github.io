@@ -1,4 +1,0 @@
-<map id="TiledArray::Array::get_shape" name="TiledArray::Array::get_shape">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1_array.html#a76a910348664a453c98f52939a4c737d" title="Convert a distributed Array into a replicated array. " alt="" coords="183,5,312,44"/>
-<area shape="rect" id="node3" href="$namespace_tiled_array.html#adbe40c2ad489cf91f13f5f0d655a3cfc" title="Function to convert an array to a new array with a different tile type. " alt="" coords="182,68,314,107"/>
-</map>

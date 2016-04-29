@@ -11,6 +11,8 @@ var searchData=
   ['permutation',['Permutation',['../class_tiled_array_1_1symmetry_1_1_permutation.html',1,'TiledArray::symmetry']]],
   ['permutationgroup',['PermutationGroup',['../class_tiled_array_1_1symmetry_1_1_permutation_group.html',1,'TiledArray::symmetry']]],
   ['pmap',['Pmap',['../class_tiled_array_1_1_pmap.html',1,'TiledArray']]],
+  ['policy_5ftype',['policy_type',['../struct_tiled_array_1_1detail_1_1policy__type.html',1,'TiledArray::detail']]],
+  ['policy_5ftype_3c_20distarray_3c_20tile_2c_20policy_20_3e_20_3e',['policy_type&lt; DistArray&lt; Tile, Policy &gt; &gt;',['../struct_tiled_array_1_1detail_1_1policy__type_3_01_dist_array_3_01_tile_00_01_policy_01_4_01_4.html',1,'TiledArray::detail']]],
   ['procgrid',['ProcGrid',['../class_tiled_array_1_1detail_1_1_proc_grid.html',1,'TiledArray::detail']]],
-  ['productreduction',['ProductReduction',['../class_tiled_array_1_1math_1_1_product_reduction.html',1,'TiledArray::math']]]
+  ['productreduction',['ProductReduction',['../class_tiled_array_1_1_product_reduction.html',1,'TiledArray']]]
 ];

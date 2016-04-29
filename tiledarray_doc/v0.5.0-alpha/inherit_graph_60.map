@@ -1,4 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_tiled_array_1_1detail_1_1scalar__type.html" title="TiledArray::detail\l::scalar_type\&lt; T::value\l_type \&gt;" alt="" coords="5,19,159,71"/>
-<area shape="rect" id="node2" href="$struct_tiled_array_1_1detail_1_1scalar__type_3_01_t_00_01typename_01std_1_1enable__if_3_01is__tyb19c41fcec04455fcaf963307f97b794.html" title="TiledArray::detail\l::scalar_type\&lt; T, typename\l std::enable_if\&lt; is_type\l\&lt; typename T::value_type\l \&gt;::value \&gt;::type \&gt;" alt="" coords="207,5,388,84"/>
-</map>

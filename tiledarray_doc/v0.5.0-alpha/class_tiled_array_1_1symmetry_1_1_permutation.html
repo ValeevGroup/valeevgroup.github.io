@@ -197,7 +197,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7748b9ae2d6fddd999f5aebd80719357"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize permutation.  <a href="#a7748b9ae2d6fddd999f5aebd80719357">More...</a><br /></td></tr>
 <tr class="separator:a7748b9ae2d6fddd999f5aebd80719357"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Iterator accessors</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p><a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation.html" title="Permutation of a sequence of objects indexed by base-0 indices. ">Permutation</a> iterators dereference into <code>std::pair&lt;index_type,index_type&gt;</code>, where <code>first</code> is the domain index, <code>second</code> is its image E.g. <code><a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation.html#a24156512178c1a0edc2f106577baf82e" title="Begin element iterator factory function. ">Permutation::begin()</a></code> of <img class="formulaInl" alt="$ \{1->3, 2->1, 3->2\} $" src="form_64.png"/> dereferences to <code>std::pair</code> {1,3} . </p>
+<tr><td colspan="2"><div class="groupText"><p><a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation.html" title="Permutation of a sequence of objects indexed by base-0 indices. ">Permutation</a> iterators dereference into <code>std::pair&lt;index_type,index_type&gt;</code>, where <code>first</code> is the domain index, <code>second</code> is its image E.g. <code><a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation.html#a24156512178c1a0edc2f106577baf82e" title="Begin element iterator factory function. ">Permutation::begin()</a></code> of <img class="formulaInl" alt="$ \{1->3, 2->1, 3->2\} $" src="form_74.png"/> dereferences to <code>std::pair</code> {1,3} . </p>
 </div></td></tr>
 <tr class="memitem:a24156512178c1a0edc2f106577baf82e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation.html#a0de1ca820d1eb61663a172f708774b01">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation.html#a24156512178c1a0edc2f106577baf82e">begin</a> () const </td></tr>
 <tr class="memdesc:a24156512178c1a0edc2f106577baf82e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Begin element iterator factory function.  <a href="#a24156512178c1a0edc2f106577baf82e">More...</a><br /></td></tr>
@@ -215,7 +215,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
 <tr class="memitem:a6a81536aac4e970ff3d489a8f5c72e4b"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation.html#a6a81536aac4e970ff3d489a8f5c72e4b">operator&lt;&lt;</a> (std::ostream &amp;output, const <a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation.html">Permutation</a> &amp;p)</td></tr>
-<tr class="memdesc:a6a81536aac4e970ff3d489a8f5c72e4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add permutation to an output stream.  <a href="#a6a81536aac4e970ff3d489a8f5c72e4b">More...</a><br /></td></tr>
+<tr class="memdesc:a6a81536aac4e970ff3d489a8f5c72e4b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> permutation to an output stream.  <a href="#a6a81536aac4e970ff3d489a8f5c72e4b">More...</a><br /></td></tr>
 <tr class="separator:a6a81536aac4e970ff3d489a8f5c72e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -228,7 +228,7 @@ Friends</h2></td></tr>
 </div><!-- fragment --><dl class="section note"><dt>Note</dt><dd></dd></dl>
 <dl class="section user"><dt></dt><dd>Unlike <a class="el" href="class_tiled_array_1_1_permutation.html" title="Permutation of a sequence of objects indexed by base-0 indices. ">TiledArray::Permutation</a>, which is internally represented in one-line form, <a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation.html" title="Permutation of a sequence of objects indexed by base-0 indices. ">TiledArray::symmetry::Permutation</a> is internally represented in compressed two-line form. E.g. the following permutation in Cauchy's two-line form, <img class="formulaInl" alt="$ \left( \begin{tabular}{ccccc} 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4 \\ 0 &amp; 2 &amp; 3 &amp; 1 &amp; 4 \end{tabular} \right) $" src="form_23.png"/> , is represented in compressed form as <img class="formulaInl" alt="$ \{ 1 \to 2, 2 \to 3, 3 \to 1 \} $" src="form_27.png"/> . This means that 0th element of a sequence is mapped by this permutation into the 0th element of the permuted sequence (hence 0 is referred to as a <em>fixed point</em> of this permutation; so is 4); similarly, 1st element of a sequence is mapped by this permutation into the 2nd element of the permuted sequence (hence 2 is referred as the <em>image</em> of 1 under the action of this <a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation.html" title="Permutation of a sequence of objects indexed by base-0 indices. ">Permutation</a>; similarly, 1 is the image of 3, etc.). Set <img class="formulaInl" alt="$ \{1, 2, 3\} $" src="form_25.png"/> is referred to as <em>domain</em> (or <em>support</em>) of this <a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation.html" title="Permutation of a sequence of objects indexed by base-0 indices. ">Permutation</a>. Note that (by definition) <a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation.html" title="Permutation of a sequence of objects indexed by base-0 indices. ">Permutation</a> maps its domain into itself (i.e. it's a bijection).</dd></dl>
 <dl class="section user"><dt></dt><dd>As a reminder, permutation <img class="formulaInl" alt="$ \left( \begin{tabular}{ccccc} 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4 \\ 0 &amp; 2 &amp; 3 &amp; 1 &amp; 4 \end{tabular} \right) $" src="form_23.png"/> is represented in one-line form as <img class="formulaInl" alt="$ \{0, 2, 3, 1, 4\} $" src="form_24.png"/>. Note that the one-line representation is redundant as multiple distinct one-line representations correspond to the same compressed form, e.g. <img class="formulaInl" alt="$ \{0, 2, 3, 1, 4\} $" src="form_24.png"/> and <img class="formulaInl" alt="$ \{0, 2, 3, 1\} $" src="form_26.png"/> correspond to the same <img class="formulaInl" alt="$ \{ 1 \to 2, 2 \to 3, 3 \to 1 \} $" src="form_27.png"/> compressed form.</dd></dl>
-<dl class="section user"><dt></dt><dd>Another non-redundant representation of <a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation.html" title="Permutation of a sequence of objects indexed by base-0 indices. ">Permutation</a> is as a set of cycles. For example, permutation <img class="formulaInl" alt="$ \{0 \to 3, 1 \to 2, 2 \to 1, 0 \to 3 \} $" src="form_63.png"/> is represented uniquely as the following set of cycles: (0,3)(1,2). The canonical format for the cycle decomposition used by <a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation.html" title="Permutation of a sequence of objects indexed by base-0 indices. ">Permutation</a> class is defined as follows: <ul>
+<dl class="section user"><dt></dt><dd>Another non-redundant representation of <a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation.html" title="Permutation of a sequence of objects indexed by base-0 indices. ">Permutation</a> is as a set of cycles. For example, permutation <img class="formulaInl" alt="$ \{0 \to 3, 1 \to 2, 2 \to 1, 0 \to 3 \} $" src="form_73.png"/> is represented uniquely as the following set of cycles: (0,3)(1,2). The canonical format for the cycle decomposition used by <a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation.html" title="Permutation of a sequence of objects indexed by base-0 indices. ">Permutation</a> class is defined as follows: <ul>
 <li>
 Cycles of length 1 are skipped. </li>
 <li>
@@ -844,7 +844,7 @@ template&lt;typename Set &gt; </div>
 </div><div class="memdoc">
 
 <p>Construct the inverse of this permutation. </p>
-<p>The inverse of permutation <img class="formulaInl" alt="$ P $" src="form_29.png"/> is defined as <img class="formulaInl" alt="$ P \times P^{-1} = P^{-1} \times P = I $" src="form_65.png"/>, where <img class="formulaInl" alt="$ I $" src="form_32.png"/> is the identity permutation. </p><dl class="section return"><dt>Returns</dt><dd>The inverse of this permutation </dd></dl>
+<p>The inverse of permutation <img class="formulaInl" alt="$ P $" src="form_29.png"/> is defined as <img class="formulaInl" alt="$ P \times P^{-1} = P^{-1} \times P = I $" src="form_75.png"/>, where <img class="formulaInl" alt="$ I $" src="form_32.png"/> is the identity permutation. </p><dl class="section return"><dt>Returns</dt><dd>The inverse of this permutation </dd></dl>
 
 <p>Definition at line <a class="el" href="symm_2permutation_8h_source.html#l00399">399</a> of file <a class="el" href="symm_2permutation_8h_source.html">permutation.h</a>.</p>
 
@@ -1121,7 +1121,7 @@ template&lt;typename Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Add permutation to an output stream. </p>
+<p><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> permutation to an output stream. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">output</td><td>The output stream </td></tr>
@@ -1144,7 +1144,7 @@ template&lt;typename Archive &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tiled_array.html">TiledArray</a></li><li class="navelem"><a class="el" href="namespace_tiled_array_1_1symmetry.html">symmetry</a></li><li class="navelem"><a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation.html">Permutation</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:47 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:09 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>TiledArray: TiledArray::expressions::ScalMultExpr&lt; Left, Right &gt; Class Template Reference</title>
+<title>TiledArray: TiledArray::expressions::ScalMultExpr&lt; Left, Right, Scalar &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -111,7 +111,7 @@ $(document).ready(function(){initNavTree('class_tiled_array_1_1expressions_1_1_s
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_tiled_array_1_1expressions_1_1_scal_mult_expr-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">TiledArray::expressions::ScalMultExpr&lt; Left, Right &gt; Class Template Reference</div>  </div>
+<div class="title">TiledArray::expressions::ScalMultExpr&lt; Left, Right, Scalar &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -120,86 +120,117 @@ $(document).ready(function(){initNavTree('class_tiled_array_1_1expressions_1_1_s
 
 <p><code>#include &lt;<a class="el" href="cont__engine_8h_source.html">cont_engine.h</a>&gt;</code></p>
 
-<p>Inherits <a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html">TiledArray::expressions::BinaryExpr&lt; ScalMultExpr&lt; Left, Right &gt; &gt;</a>.</p>
+<p>Inherits <a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html">TiledArray::expressions::BinaryExpr&lt; ScalMultExpr&lt; Left, Right, Scalar &gt; &gt;</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a7e62b1d327c596aa623ab76471e9c4b4"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a7e62b1d327c596aa623ab76471e9c4b4">ScalMultExpr_</a></td></tr>
-<tr class="memdesc:a7e62b1d327c596aa623ab76471e9c4b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class type.  <a href="#a7e62b1d327c596aa623ab76471e9c4b4">More...</a><br /></td></tr>
-<tr class="separator:a7e62b1d327c596aa623ab76471e9c4b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a379cad5a6455f4b701cb6ef21ec69ece"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html">BinaryExpr</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a7e62b1d327c596aa623ab76471e9c4b4">ScalMultExpr_</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a379cad5a6455f4b701cb6ef21ec69ece">BinaryExpr_</a></td></tr>
-<tr class="memdesc:a379cad5a6455f4b701cb6ef21ec69ece"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binary expression base type.  <a href="#a379cad5a6455f4b701cb6ef21ec69ece">More...</a><br /></td></tr>
-<tr class="separator:a379cad5a6455f4b701cb6ef21ec69ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cb4bc50ed3082cecd8a775158fa07ea"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a7e62b1d327c596aa623ab76471e9c4b4">ScalMultExpr_</a> &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a1cb4bc50ed3082cecd8a775158fa07ea">left_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a1cb4bc50ed3082cecd8a775158fa07ea">left_type</a></td></tr>
-<tr class="memdesc:a1cb4bc50ed3082cecd8a775158fa07ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">The left-hand expression type.  <a href="#a1cb4bc50ed3082cecd8a775158fa07ea">More...</a><br /></td></tr>
-<tr class="separator:a1cb4bc50ed3082cecd8a775158fa07ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace3504f548e0b61badfe626359a94d30"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a7e62b1d327c596aa623ab76471e9c4b4">ScalMultExpr_</a> &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ace3504f548e0b61badfe626359a94d30">right_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ace3504f548e0b61badfe626359a94d30">right_type</a></td></tr>
-<tr class="memdesc:ace3504f548e0b61badfe626359a94d30"><td class="mdescLeft">&#160;</td><td class="mdescRight">The right-hand expression type.  <a href="#ace3504f548e0b61badfe626359a94d30">More...</a><br /></td></tr>
-<tr class="separator:ace3504f548e0b61badfe626359a94d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb90d427d7b6c8a4a7e533753a6c54d6"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a7e62b1d327c596aa623ab76471e9c4b4">ScalMultExpr_</a> &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#abb90d427d7b6c8a4a7e533753a6c54d6">engine_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#abb90d427d7b6c8a4a7e533753a6c54d6">engine_type</a></td></tr>
-<tr class="memdesc:abb90d427d7b6c8a4a7e533753a6c54d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expression engine type.  <a href="#abb90d427d7b6c8a4a7e533753a6c54d6">More...</a><br /></td></tr>
-<tr class="separator:abb90d427d7b6c8a4a7e533753a6c54d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70ceee9f8dd8f4d13640c0ed25c10eb2"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a7e62b1d327c596aa623ab76471e9c4b4">ScalMultExpr_</a> &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a70ceee9f8dd8f4d13640c0ed25c10eb2">scalar_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a70ceee9f8dd8f4d13640c0ed25c10eb2">scalar_type</a></td></tr>
-<tr class="memdesc:a70ceee9f8dd8f4d13640c0ed25c10eb2"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_tile.html" title="An N-dimensional shallow copy wrapper for tile objects. ">Tile</a> scalar type.  <a href="#a70ceee9f8dd8f4d13640c0ed25c10eb2">More...</a><br /></td></tr>
-<tr class="separator:a70ceee9f8dd8f4d13640c0ed25c10eb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_types_class_tiled_array_1_1expressions_1_1_binary_expr"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_tiled_array_1_1expressions_1_1_binary_expr')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html">TiledArray::expressions::BinaryExpr&lt; ScalMultExpr&lt; Left, Right &gt; &gt;</a></td></tr>
-<tr class="memitem:a22960f5b9e55736e05aed534e4eff925 inherit pub_types_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right &gt; &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a22960f5b9e55736e05aed534e4eff925">left_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a22960f5b9e55736e05aed534e4eff925">left_type</a></td></tr>
+<tr class="memitem:ac5e7e64a686e4039f8cb5377a0573f46"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right, Scalar &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a></td></tr>
+<tr class="memdesc:ac5e7e64a686e4039f8cb5377a0573f46"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class type.  <a href="#ac5e7e64a686e4039f8cb5377a0573f46">More...</a><br /></td></tr>
+<tr class="separator:ac5e7e64a686e4039f8cb5377a0573f46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7314cb592116d23a50824f9decc3839"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html">BinaryExpr</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac7314cb592116d23a50824f9decc3839">BinaryExpr_</a></td></tr>
+<tr class="memdesc:ac7314cb592116d23a50824f9decc3839"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binary expression base type.  <a href="#ac7314cb592116d23a50824f9decc3839">More...</a><br /></td></tr>
+<tr class="separator:ac7314cb592116d23a50824f9decc3839"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c0844d1c33e99ae5889ff33d1c5278a"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a> &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a2c0844d1c33e99ae5889ff33d1c5278a">left_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a2c0844d1c33e99ae5889ff33d1c5278a">left_type</a></td></tr>
+<tr class="memdesc:a2c0844d1c33e99ae5889ff33d1c5278a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The left-hand expression type.  <a href="#a2c0844d1c33e99ae5889ff33d1c5278a">More...</a><br /></td></tr>
+<tr class="separator:a2c0844d1c33e99ae5889ff33d1c5278a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b8ea6280fb25e5905ac0d57cbf315df"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a> &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a8b8ea6280fb25e5905ac0d57cbf315df">right_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a8b8ea6280fb25e5905ac0d57cbf315df">right_type</a></td></tr>
+<tr class="memdesc:a8b8ea6280fb25e5905ac0d57cbf315df"><td class="mdescLeft">&#160;</td><td class="mdescRight">The right-hand expression type.  <a href="#a8b8ea6280fb25e5905ac0d57cbf315df">More...</a><br /></td></tr>
+<tr class="separator:a8b8ea6280fb25e5905ac0d57cbf315df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e107459c50273bd972f37bd83d95aa6"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a> &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a0e107459c50273bd972f37bd83d95aa6">engine_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a0e107459c50273bd972f37bd83d95aa6">engine_type</a></td></tr>
+<tr class="memdesc:a0e107459c50273bd972f37bd83d95aa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expression engine type.  <a href="#a0e107459c50273bd972f37bd83d95aa6">More...</a><br /></td></tr>
+<tr class="separator:a0e107459c50273bd972f37bd83d95aa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c70f40433a0f845d9064a012114419a"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a> &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a5c70f40433a0f845d9064a012114419a">scalar_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a5c70f40433a0f845d9064a012114419a">scalar_type</a></td></tr>
+<tr class="memdesc:a5c70f40433a0f845d9064a012114419a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_tile.html" title="An N-dimensional shallow copy wrapper for tile objects. ">Tile</a> scalar type.  <a href="#a5c70f40433a0f845d9064a012114419a">More...</a><br /></td></tr>
+<tr class="separator:a5c70f40433a0f845d9064a012114419a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_class_tiled_array_1_1expressions_1_1_binary_expr"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_tiled_array_1_1expressions_1_1_binary_expr')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html">TiledArray::expressions::BinaryExpr&lt; ScalMultExpr&lt; Left, Right, Scalar &gt; &gt;</a></td></tr>
+<tr class="memitem:a72b2613500694099c385c95af0289690 inherit pub_types_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html">BinaryExpr</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right, Scalar &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a72b2613500694099c385c95af0289690">BinaryExpr_</a></td></tr>
+<tr class="memdesc:a72b2613500694099c385c95af0289690 inherit pub_types_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class type.  <a href="#a72b2613500694099c385c95af0289690">More...</a><br /></td></tr>
+<tr class="separator:a72b2613500694099c385c95af0289690 inherit pub_types_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22960f5b9e55736e05aed534e4eff925 inherit pub_types_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right, Scalar &gt; &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a22960f5b9e55736e05aed534e4eff925">left_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a22960f5b9e55736e05aed534e4eff925">left_type</a></td></tr>
 <tr class="memdesc:a22960f5b9e55736e05aed534e4eff925 inherit pub_types_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="mdescLeft">&#160;</td><td class="mdescRight">The left-hand expression type.  <a href="#a22960f5b9e55736e05aed534e4eff925">More...</a><br /></td></tr>
 <tr class="separator:a22960f5b9e55736e05aed534e4eff925 inherit pub_types_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b184116cf77395658e5385880ea361f inherit pub_types_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right &gt; &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a1b184116cf77395658e5385880ea361f">right_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a1b184116cf77395658e5385880ea361f">right_type</a></td></tr>
+<tr class="memitem:a1b184116cf77395658e5385880ea361f inherit pub_types_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right, Scalar &gt; &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a1b184116cf77395658e5385880ea361f">right_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a1b184116cf77395658e5385880ea361f">right_type</a></td></tr>
 <tr class="memdesc:a1b184116cf77395658e5385880ea361f inherit pub_types_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="mdescLeft">&#160;</td><td class="mdescRight">The right-hand expression type.  <a href="#a1b184116cf77395658e5385880ea361f">More...</a><br /></td></tr>
 <tr class="separator:a1b184116cf77395658e5385880ea361f inherit pub_types_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_types_class_tiled_array_1_1expressions_1_1_expr"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_tiled_array_1_1expressions_1_1_expr')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html">TiledArray::expressions::Expr&lt; ScalMultExpr&lt; Left, Right &gt; &gt;</a></td></tr>
-<tr class="memitem:afd5f80954be2bb9b8db6ef6b6d0fb086 inherit pub_types_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html">Expr</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#afd5f80954be2bb9b8db6ef6b6d0fb086">Expr_</a></td></tr>
+<tr class="inherit_header pub_types_class_tiled_array_1_1expressions_1_1_expr"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_tiled_array_1_1expressions_1_1_expr')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html">TiledArray::expressions::Expr&lt; ScalMultExpr&lt; Left, Right, Scalar &gt; &gt;</a></td></tr>
+<tr class="memitem:afd5f80954be2bb9b8db6ef6b6d0fb086 inherit pub_types_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html">Expr</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right, Scalar &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#afd5f80954be2bb9b8db6ef6b6d0fb086">Expr_</a></td></tr>
 <tr class="memdesc:afd5f80954be2bb9b8db6ef6b6d0fb086 inherit pub_types_class_tiled_array_1_1expressions_1_1_expr"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class type.  <a href="#afd5f80954be2bb9b8db6ef6b6d0fb086">More...</a><br /></td></tr>
 <tr class="separator:afd5f80954be2bb9b8db6ef6b6d0fb086 inherit pub_types_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf94ec757d1c15af9230e4419e6dee42 inherit pub_types_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#acf94ec757d1c15af9230e4419e6dee42">derived_type</a></td></tr>
+<tr class="memitem:acf94ec757d1c15af9230e4419e6dee42 inherit pub_types_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right, Scalar &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#acf94ec757d1c15af9230e4419e6dee42">derived_type</a></td></tr>
 <tr class="memdesc:acf94ec757d1c15af9230e4419e6dee42 inherit pub_types_class_tiled_array_1_1expressions_1_1_expr"><td class="mdescLeft">&#160;</td><td class="mdescRight">The derived object type.  <a href="#acf94ec757d1c15af9230e4419e6dee42">More...</a><br /></td></tr>
 <tr class="separator:acf94ec757d1c15af9230e4419e6dee42 inherit pub_types_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafd36c6adea52505559da74a5bfd9151 inherit pub_types_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right &gt; &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#aafd36c6adea52505559da74a5bfd9151">engine_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#aafd36c6adea52505559da74a5bfd9151">engine_type</a></td></tr>
+<tr class="memitem:aafd36c6adea52505559da74a5bfd9151 inherit pub_types_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right, Scalar &gt; &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#aafd36c6adea52505559da74a5bfd9151">engine_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#aafd36c6adea52505559da74a5bfd9151">engine_type</a></td></tr>
 <tr class="memdesc:aafd36c6adea52505559da74a5bfd9151 inherit pub_types_class_tiled_array_1_1expressions_1_1_expr"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expression engine type.  <a href="#aafd36c6adea52505559da74a5bfd9151">More...</a><br /></td></tr>
 <tr class="separator:aafd36c6adea52505559da74a5bfd9151 inherit pub_types_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef3944db32dde6e58640222c1189eccc inherit pub_types_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_struct_override.html">StructOverride</a>&lt; typename engine_type::policy &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#aef3944db32dde6e58640222c1189eccc">override_type</a></td></tr>
+<tr class="memdesc:aef3944db32dde6e58640222c1189eccc inherit pub_types_class_tiled_array_1_1expressions_1_1_expr"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expression engine type.  <a href="#aef3944db32dde6e58640222c1189eccc">More...</a><br /></td></tr>
+<tr class="separator:aef3944db32dde6e58640222c1189eccc inherit pub_types_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa82e5a558a2e0643f048a4334c684f3a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#aa82e5a558a2e0643f048a4334c684f3a">ScalMultExpr</a> (const <a class="el" href="class_tiled_array_1_1expressions_1_1_mult_expr.html">MultExpr</a>&lt; Left, Right &gt; &amp;arg, const <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a70ceee9f8dd8f4d13640c0ed25c10eb2">scalar_type</a> <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a2e7f6bd3d29dfe2371c8d3481c5dae70">factor</a>)</td></tr>
-<tr class="memdesc:aa82e5a558a2e0643f048a4334c684f3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expression constructor.  <a href="#aa82e5a558a2e0643f048a4334c684f3a">More...</a><br /></td></tr>
-<tr class="separator:aa82e5a558a2e0643f048a4334c684f3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5494d0472018b01e7553896db0208c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#af5494d0472018b01e7553896db0208c8">ScalMultExpr</a> (const <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a7e62b1d327c596aa623ab76471e9c4b4">ScalMultExpr_</a> &amp;arg, const <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a70ceee9f8dd8f4d13640c0ed25c10eb2">scalar_type</a> <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a2e7f6bd3d29dfe2371c8d3481c5dae70">factor</a>)</td></tr>
-<tr class="memdesc:af5494d0472018b01e7553896db0208c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expression constructor.  <a href="#af5494d0472018b01e7553896db0208c8">More...</a><br /></td></tr>
-<tr class="separator:af5494d0472018b01e7553896db0208c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af27b76b3a4b9a81246ff105c76cba0cd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#af27b76b3a4b9a81246ff105c76cba0cd">ScalMultExpr</a> (const <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a7e62b1d327c596aa623ab76471e9c4b4">ScalMultExpr_</a> &amp;other)</td></tr>
-<tr class="memdesc:af27b76b3a4b9a81246ff105c76cba0cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#af27b76b3a4b9a81246ff105c76cba0cd">More...</a><br /></td></tr>
-<tr class="separator:af27b76b3a4b9a81246ff105c76cba0cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e7f6bd3d29dfe2371c8d3481c5dae70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a70ceee9f8dd8f4d13640c0ed25c10eb2">scalar_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a2e7f6bd3d29dfe2371c8d3481c5dae70">factor</a> () const </td></tr>
-<tr class="memdesc:a2e7f6bd3d29dfe2371c8d3481c5dae70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scaling factor accessor.  <a href="#a2e7f6bd3d29dfe2371c8d3481c5dae70">More...</a><br /></td></tr>
-<tr class="separator:a2e7f6bd3d29dfe2371c8d3481c5dae70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html">TiledArray::expressions::BinaryExpr&lt; ScalMultExpr&lt; Left, Right &gt; &gt;</a></td></tr>
+<tr class="memitem:a446e51340ed8a4c95e315cc48c85d53e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a446e51340ed8a4c95e315cc48c85d53e">ScalMultExpr</a> (const <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a> &amp;)=default</td></tr>
+<tr class="separator:a446e51340ed8a4c95e315cc48c85d53e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cd7b5b98d4d29c758fb652fa532c88c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a0cd7b5b98d4d29c758fb652fa532c88c">ScalMultExpr</a> (<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a0cd7b5b98d4d29c758fb652fa532c88c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a111ba42f15255cb8ee575c86d5a9914e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a111ba42f15255cb8ee575c86d5a9914e">~ScalMultExpr</a> ()=default</td></tr>
+<tr class="separator:a111ba42f15255cb8ee575c86d5a9914e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab12ff3934ee2b6156a5e561008104a60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ab12ff3934ee2b6156a5e561008104a60">operator=</a> (const <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a> &amp;)=delete</td></tr>
+<tr class="separator:ab12ff3934ee2b6156a5e561008104a60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a076b5c6da6604b3527a0d9a32f83e4ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a076b5c6da6604b3527a0d9a32f83e4ec">operator=</a> (<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:a076b5c6da6604b3527a0d9a32f83e4ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad931dc3a406d8c19ab22225c5a948f31"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ad931dc3a406d8c19ab22225c5a948f31">ScalMultExpr</a> (const <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a2c0844d1c33e99ae5889ff33d1c5278a">left_type</a> &amp;<a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a72e7f1b92368bdd2cd3cc2317099c83f">left</a>, const <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a8b8ea6280fb25e5905ac0d57cbf315df">right_type</a> &amp;<a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#ade1a884916198b26ec75266bab219fe0">right</a>, const <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a5c70f40433a0f845d9064a012114419a">scalar_type</a> <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a720ae2b71b406bd21df3424ae0a96042">factor</a>)</td></tr>
+<tr class="memdesc:ad931dc3a406d8c19ab22225c5a948f31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expression constructor.  <a href="#ad931dc3a406d8c19ab22225c5a948f31">More...</a><br /></td></tr>
+<tr class="separator:ad931dc3a406d8c19ab22225c5a948f31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a720ae2b71b406bd21df3424ae0a96042"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a5c70f40433a0f845d9064a012114419a">scalar_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a720ae2b71b406bd21df3424ae0a96042">factor</a> () const </td></tr>
+<tr class="memdesc:a720ae2b71b406bd21df3424ae0a96042"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scaling factor accessor.  <a href="#a720ae2b71b406bd21df3424ae0a96042">More...</a><br /></td></tr>
+<tr class="separator:a720ae2b71b406bd21df3424ae0a96042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html">TiledArray::expressions::BinaryExpr&lt; ScalMultExpr&lt; Left, Right, Scalar &gt; &gt;</a></td></tr>
+<tr class="memitem:a385c4221ab53aa1610c967c5b2bda553 inherit pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a385c4221ab53aa1610c967c5b2bda553">BinaryExpr</a> (const <a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a72b2613500694099c385c95af0289690">BinaryExpr_</a> &amp;)=default</td></tr>
+<tr class="separator:a385c4221ab53aa1610c967c5b2bda553 inherit pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a023edc8f21dc6f553dce35e95cc276d9 inherit pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a023edc8f21dc6f553dce35e95cc276d9">BinaryExpr</a> (<a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a72b2613500694099c385c95af0289690">BinaryExpr_</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a023edc8f21dc6f553dce35e95cc276d9 inherit pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac686341ac5d81285ea9d4818323ac4c3 inherit pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#ac686341ac5d81285ea9d4818323ac4c3">BinaryExpr</a> (const <a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a22960f5b9e55736e05aed534e4eff925">left_type</a> &amp;<a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a72e7f1b92368bdd2cd3cc2317099c83f">left</a>, const <a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a1b184116cf77395658e5385880ea361f">right_type</a> &amp;<a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#ade1a884916198b26ec75266bab219fe0">right</a>)</td></tr>
 <tr class="memdesc:ac686341ac5d81285ea9d4818323ac4c3 inherit pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binary expression constructor.  <a href="#ac686341ac5d81285ea9d4818323ac4c3">More...</a><br /></td></tr>
 <tr class="separator:ac686341ac5d81285ea9d4818323ac4c3 inherit pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6601345bc8827348341371db95c06a49 inherit pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a6601345bc8827348341371db95c06a49">BinaryExpr</a> (const <a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html">BinaryExpr</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right &gt; &gt; &amp;other)</td></tr>
-<tr class="memdesc:a6601345bc8827348341371db95c06a49 inherit pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#a6601345bc8827348341371db95c06a49">More...</a><br /></td></tr>
-<tr class="separator:a6601345bc8827348341371db95c06a49 inherit pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a091057b5f3bba71896d3cfa7072b2974 inherit pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a091057b5f3bba71896d3cfa7072b2974">~BinaryExpr</a> ()=default</td></tr>
+<tr class="separator:a091057b5f3bba71896d3cfa7072b2974 inherit pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a992ceb4b873f91a017ab2e0d052cd578 inherit pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a72b2613500694099c385c95af0289690">BinaryExpr_</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a992ceb4b873f91a017ab2e0d052cd578">operator=</a> (const <a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a72b2613500694099c385c95af0289690">BinaryExpr_</a> &amp;)=delete</td></tr>
+<tr class="separator:a992ceb4b873f91a017ab2e0d052cd578 inherit pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0331d6aac181d2983487271165537c4f inherit pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a72b2613500694099c385c95af0289690">BinaryExpr_</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a0331d6aac181d2983487271165537c4f">operator=</a> (<a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a72b2613500694099c385c95af0289690">BinaryExpr_</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:a0331d6aac181d2983487271165537c4f inherit pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72e7f1b92368bdd2cd3cc2317099c83f inherit pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a22960f5b9e55736e05aed534e4eff925">left_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a72e7f1b92368bdd2cd3cc2317099c83f">left</a> () const</td></tr>
 <tr class="memdesc:a72e7f1b92368bdd2cd3cc2317099c83f inherit pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="mdescLeft">&#160;</td><td class="mdescRight">Left-hand expression argument accessor.  <a href="#a72e7f1b92368bdd2cd3cc2317099c83f">More...</a><br /></td></tr>
 <tr class="separator:a72e7f1b92368bdd2cd3cc2317099c83f inherit pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade1a884916198b26ec75266bab219fe0 inherit pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a1b184116cf77395658e5385880ea361f">right_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#ade1a884916198b26ec75266bab219fe0">right</a> () const</td></tr>
 <tr class="memdesc:ade1a884916198b26ec75266bab219fe0 inherit pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="mdescLeft">&#160;</td><td class="mdescRight">Right-hand expression argument accessor.  <a href="#ade1a884916198b26ec75266bab219fe0">More...</a><br /></td></tr>
 <tr class="separator:ade1a884916198b26ec75266bab219fe0 inherit pub_methods_class_tiled_array_1_1expressions_1_1_binary_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_tiled_array_1_1expressions_1_1_expr')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html">TiledArray::expressions::Expr&lt; ScalMultExpr&lt; Left, Right &gt; &gt;</a></td></tr>
+<tr class="inherit_header pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_tiled_array_1_1expressions_1_1_expr')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html">TiledArray::expressions::Expr&lt; ScalMultExpr&lt; Left, Right, Scalar &gt; &gt;</a></td></tr>
+<tr class="memitem:a80276e5ebb5a373bd1b43caf5ce16373 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html">Expr</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right, Scalar &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a80276e5ebb5a373bd1b43caf5ce16373">set_shape</a> (typename engine_type::shape_type const &amp;shape)</td></tr>
+<tr class="separator:a80276e5ebb5a373bd1b43caf5ce16373 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27374d9af99b611b55c42b0aa319171d inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a27374d9af99b611b55c42b0aa319171d">Expr</a> ()=default</td></tr>
+<tr class="separator:a27374d9af99b611b55c42b0aa319171d inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3088725e4a9c518f1747c840eefd7393 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a3088725e4a9c518f1747c840eefd7393">Expr</a> (const <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#afd5f80954be2bb9b8db6ef6b6d0fb086">Expr_</a> &amp;)=default</td></tr>
+<tr class="separator:a3088725e4a9c518f1747c840eefd7393 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a083db670e1bdf04154823efab266a860 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a083db670e1bdf04154823efab266a860">Expr</a> (<a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#afd5f80954be2bb9b8db6ef6b6d0fb086">Expr_</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a083db670e1bdf04154823efab266a860 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9372841956e6be2cbeb590b3f7a0c81 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#ac9372841956e6be2cbeb590b3f7a0c81">~Expr</a> ()=default</td></tr>
+<tr class="separator:ac9372841956e6be2cbeb590b3f7a0c81 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7edbba3489dc2935b275ab4e7c08a226 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#afd5f80954be2bb9b8db6ef6b6d0fb086">Expr_</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a7edbba3489dc2935b275ab4e7c08a226">operator=</a> (const <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#afd5f80954be2bb9b8db6ef6b6d0fb086">Expr_</a> &amp;)=delete</td></tr>
+<tr class="separator:a7edbba3489dc2935b275ab4e7c08a226 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29bd6cd0ab8bfc07968d13dbdb68358f inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#afd5f80954be2bb9b8db6ef6b6d0fb086">Expr_</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a29bd6cd0ab8bfc07968d13dbdb68358f">operator=</a> (<a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#afd5f80954be2bb9b8db6ef6b6d0fb086">Expr_</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:a29bd6cd0ab8bfc07968d13dbdb68358f inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec4818a4c2c8d0035bc0d42a19fa80e6 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#acf94ec757d1c15af9230e4419e6dee42">derived_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#aec4818a4c2c8d0035bc0d42a19fa80e6">derived</a> ()</td></tr>
 <tr class="memdesc:aec4818a4c2c8d0035bc0d42a19fa80e6 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cast this object to it's derived type.  <a href="#aec4818a4c2c8d0035bc0d42a19fa80e6">More...</a><br /></td></tr>
 <tr class="separator:aec4818a4c2c8d0035bc0d42a19fa80e6 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d1154702bd7d72f1d4449eaca6c2dfa inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#acf94ec757d1c15af9230e4419e6dee42">derived_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a1d1154702bd7d72f1d4449eaca6c2dfa">derived</a> () const</td></tr>
 <tr class="memdesc:a1d1154702bd7d72f1d4449eaca6c2dfa inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cast this object to it's derived type.  <a href="#a1d1154702bd7d72f1d4449eaca6c2dfa">More...</a><br /></td></tr>
 <tr class="separator:a1d1154702bd7d72f1d4449eaca6c2dfa inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f2ae56d1ca67636de9e29c04d2d9912 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a4f2ae56d1ca67636de9e29c04d2d9912">eval_to</a> (<a class="el" href="class_tiled_array_1_1expressions_1_1_tsr_expr.html">TsrExpr</a>&lt; A &gt; &amp;tsr) const</td></tr>
-<tr class="memdesc:a4f2ae56d1ca67636de9e29c04d2d9912 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate this object and assign it to <code>tsr</code>.  <a href="#a4f2ae56d1ca67636de9e29c04d2d9912">More...</a><br /></td></tr>
-<tr class="separator:a4f2ae56d1ca67636de9e29c04d2d9912 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bd4c3cf77f0286a06765b1685f07bfd inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a1bd4c3cf77f0286a06765b1685f07bfd">eval_to</a> (<a class="el" href="class_tiled_array_1_1expressions_1_1_blk_tsr_expr.html">BlkTsrExpr</a>&lt; A &gt; &amp;tsr) const</td></tr>
-<tr class="memdesc:a1bd4c3cf77f0286a06765b1685f07bfd inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate this object and assign it to <code>tsr</code>.  <a href="#a1bd4c3cf77f0286a06765b1685f07bfd">More...</a><br /></td></tr>
-<tr class="separator:a1bd4c3cf77f0286a06765b1685f07bfd inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b767d24c17d26b0c0750f2e15c4ac54 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a4b767d24c17d26b0c0750f2e15c4ac54">eval_to</a> (<a class="el" href="class_tiled_array_1_1expressions_1_1_tsr_expr.html">TsrExpr</a>&lt; A, Alias &gt; &amp;tsr) const</td></tr>
+<tr class="memdesc:a4b767d24c17d26b0c0750f2e15c4ac54 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate this object and assign it to <code>tsr</code>.  <a href="#a4b767d24c17d26b0c0750f2e15c4ac54">More...</a><br /></td></tr>
+<tr class="separator:a4b767d24c17d26b0c0750f2e15c4ac54 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad78b8777a31aa01b2f2d72c95eb6b770 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#ad78b8777a31aa01b2f2d72c95eb6b770">eval_to</a> (<a class="el" href="class_tiled_array_1_1expressions_1_1_blk_tsr_expr.html">BlkTsrExpr</a>&lt; A, Alias &gt; &amp;tsr) const</td></tr>
+<tr class="memdesc:ad78b8777a31aa01b2f2d72c95eb6b770 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate this object and assign it to <code>tsr</code>.  <a href="#ad78b8777a31aa01b2f2d72c95eb6b770">More...</a><br /></td></tr>
+<tr class="separator:ad78b8777a31aa01b2f2d72c95eb6b770 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5390809c4301b0b4eedfad922cdadbf8 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a5390809c4301b0b4eedfad922cdadbf8">print</a> (<a class="el" href="class_tiled_array_1_1expressions_1_1_expr_o_stream.html">ExprOStream</a> &amp;os, const <a class="el" href="class_tiled_array_1_1expressions_1_1_variable_list.html">VariableList</a> &amp;target_vars) const</td></tr>
 <tr class="memdesc:a5390809c4301b0b4eedfad922cdadbf8 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expression print.  <a href="#a5390809c4301b0b4eedfad922cdadbf8">More...</a><br /></td></tr>
 <tr class="separator:a5390809c4301b0b4eedfad922cdadbf8 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -207,30 +238,30 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a365c5fba15068a9d9da01adb63023520 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fe58c52e2228a44d60653d11ccba15d inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">Future&lt; typename Op::result_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a9fe58c52e2228a44d60653d11ccba15d">reduce</a> (const <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html">Expr</a>&lt; D &gt; &amp;right_expr, const Op &amp;op, World &amp;world=World::get_default()) const</td></tr>
 <tr class="separator:a9fe58c52e2228a44d60653d11ccba15d inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20e68aa41878aa56935d724cbd88e431 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">Future&lt; typename <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right &gt; &gt;::scalar_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a20e68aa41878aa56935d724cbd88e431">trace</a> (World &amp;world=World::get_default()) const</td></tr>
-<tr class="separator:a20e68aa41878aa56935d724cbd88e431 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac50e551e2beaf71559cbc62bdbf8154 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">Future&lt; typename <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right &gt; &gt;::scalar_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#aac50e551e2beaf71559cbc62bdbf8154">sum</a> (World &amp;world=World::get_default()) const</td></tr>
-<tr class="separator:aac50e551e2beaf71559cbc62bdbf8154 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f4ad27418dde3576b0a4521a819964f inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">Future&lt; typename <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right &gt; &gt;::scalar_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a4f4ad27418dde3576b0a4521a819964f">product</a> (World &amp;world=World::get_default()) const</td></tr>
-<tr class="separator:a4f4ad27418dde3576b0a4521a819964f inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1713932816d92ae8265b94c66e04e30 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">Future&lt; typename <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right &gt; &gt;::scalar_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#aa1713932816d92ae8265b94c66e04e30">squared_norm</a> (World &amp;world=World::get_default()) const</td></tr>
-<tr class="separator:aa1713932816d92ae8265b94c66e04e30 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c3da85781786879340cb81bd6d93cfe inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">Future&lt; typename <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right &gt; &gt;::scalar_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a8c3da85781786879340cb81bd6d93cfe">norm</a> (World &amp;world=World::get_default()) const</td></tr>
-<tr class="separator:a8c3da85781786879340cb81bd6d93cfe inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8db3188526e5ebcfc59c32754704a28a inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">Future&lt; typename <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right &gt; &gt;::scalar_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a8db3188526e5ebcfc59c32754704a28a">min</a> (World &amp;world=World::get_default()) const</td></tr>
-<tr class="separator:a8db3188526e5ebcfc59c32754704a28a inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17f17df6625dadfe998cec11e5a45b9e inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">Future&lt; typename <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right &gt; &gt;::scalar_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a17f17df6625dadfe998cec11e5a45b9e">max</a> (World &amp;world=World::get_default()) const</td></tr>
-<tr class="separator:a17f17df6625dadfe998cec11e5a45b9e inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ff4b61c949d133fb6cd5942b9bf1948 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">Future&lt; typename <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right &gt; &gt;::scalar_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a6ff4b61c949d133fb6cd5942b9bf1948">abs_min</a> (World &amp;world=World::get_default()) const</td></tr>
-<tr class="separator:a6ff4b61c949d133fb6cd5942b9bf1948 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b619e227803cb8ee29b9c37dd31f26b inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">Future&lt; typename <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right &gt; &gt;::scalar_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a0b619e227803cb8ee29b9c37dd31f26b">abs_max</a> (World &amp;world=World::get_default()) const</td></tr>
-<tr class="separator:a0b619e227803cb8ee29b9c37dd31f26b inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150207d10c2b7e416ae45671b2c018bf inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">Future&lt; typename <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt; Left, Right &gt; &gt;::scalar_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a150207d10c2b7e416ae45671b2c018bf">dot</a> (const <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html">Expr</a>&lt; D &gt; &amp;right_expr, World &amp;world=World::get_default()) const</td></tr>
-<tr class="separator:a150207d10c2b7e416ae45671b2c018bf inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a395207dbd7859da8f0872393480d81e6 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">Future&lt; typename <a class="el" href="class_tiled_array_1_1_trace_reduction.html">TiledArray::TraceReduction</a>&lt; typename <a class="el" href="struct_tiled_array_1_1expressions_1_1_engine_trait.html">EngineTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#aafd36c6adea52505559da74a5bfd9151">engine_type</a> &gt;::eval_type &gt;::result_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a395207dbd7859da8f0872393480d81e6">trace</a> (World &amp;world=World::get_default()) const</td></tr>
+<tr class="separator:a395207dbd7859da8f0872393480d81e6 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a961fb7112c80b395a5eb62a24d40270e inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">Future&lt; typename <a class="el" href="class_tiled_array_1_1_sum_reduction.html">TiledArray::SumReduction</a>&lt; typename <a class="el" href="struct_tiled_array_1_1expressions_1_1_engine_trait.html">EngineTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#aafd36c6adea52505559da74a5bfd9151">engine_type</a> &gt;::eval_type &gt;::result_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a961fb7112c80b395a5eb62a24d40270e">sum</a> (World &amp;world=World::get_default()) const</td></tr>
+<tr class="separator:a961fb7112c80b395a5eb62a24d40270e inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6741e08ae888d47fe138cdaf2cd44ca inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">Future&lt; typename <a class="el" href="class_tiled_array_1_1_product_reduction.html">TiledArray::ProductReduction</a>&lt; typename <a class="el" href="struct_tiled_array_1_1expressions_1_1_engine_trait.html">EngineTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#aafd36c6adea52505559da74a5bfd9151">engine_type</a> &gt;::eval_type &gt;::result_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#af6741e08ae888d47fe138cdaf2cd44ca">product</a> (World &amp;world=World::get_default()) const</td></tr>
+<tr class="separator:af6741e08ae888d47fe138cdaf2cd44ca inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98e70babcf15e845621d82b8094762ca inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">Future&lt; typename <a class="el" href="class_tiled_array_1_1_squared_norm_reduction.html">TiledArray::SquaredNormReduction</a>&lt; typename <a class="el" href="struct_tiled_array_1_1expressions_1_1_engine_trait.html">EngineTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#aafd36c6adea52505559da74a5bfd9151">engine_type</a> &gt;::eval_type &gt;::result_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a98e70babcf15e845621d82b8094762ca">squared_norm</a> (World &amp;world=World::get_default()) const</td></tr>
+<tr class="separator:a98e70babcf15e845621d82b8094762ca inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e6f774453e497039b3a370e79b2354b inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">Future&lt; typename <a class="el" href="class_tiled_array_1_1_squared_norm_reduction.html">TiledArray::SquaredNormReduction</a>&lt; typename <a class="el" href="struct_tiled_array_1_1expressions_1_1_engine_trait.html">EngineTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#aafd36c6adea52505559da74a5bfd9151">engine_type</a> &gt;::eval_type &gt;::result_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a3e6f774453e497039b3a370e79b2354b">norm</a> (World &amp;world=World::get_default()) const</td></tr>
+<tr class="separator:a3e6f774453e497039b3a370e79b2354b inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf4da4bb4956a818652bb0b3f9b20574 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">Future&lt; typename <a class="el" href="class_tiled_array_1_1_min_reduction.html">TiledArray::MinReduction</a>&lt; typename <a class="el" href="struct_tiled_array_1_1expressions_1_1_engine_trait.html">EngineTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#aafd36c6adea52505559da74a5bfd9151">engine_type</a> &gt;::eval_type &gt;::result_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#abf4da4bb4956a818652bb0b3f9b20574">min</a> (World &amp;world=World::get_default()) const</td></tr>
+<tr class="separator:abf4da4bb4956a818652bb0b3f9b20574 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3a0fd8e59a69c4af69c0e1e8a140ad6 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">Future&lt; typename <a class="el" href="class_tiled_array_1_1_max_reduction.html">TiledArray::MaxReduction</a>&lt; typename <a class="el" href="struct_tiled_array_1_1expressions_1_1_engine_trait.html">EngineTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#aafd36c6adea52505559da74a5bfd9151">engine_type</a> &gt;::eval_type &gt;::result_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#ae3a0fd8e59a69c4af69c0e1e8a140ad6">max</a> (World &amp;world=World::get_default()) const</td></tr>
+<tr class="separator:ae3a0fd8e59a69c4af69c0e1e8a140ad6 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d67291e392cb7b554cfc9aae2988011 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">Future&lt; typename <a class="el" href="class_tiled_array_1_1_abs_min_reduction.html">TiledArray::AbsMinReduction</a>&lt; typename <a class="el" href="struct_tiled_array_1_1expressions_1_1_engine_trait.html">EngineTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#aafd36c6adea52505559da74a5bfd9151">engine_type</a> &gt;::eval_type &gt;::result_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a8d67291e392cb7b554cfc9aae2988011">abs_min</a> (World &amp;world=World::get_default()) const</td></tr>
+<tr class="separator:a8d67291e392cb7b554cfc9aae2988011 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7826d4b6eac26955ce8c0003bad19d6e inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">Future&lt; typename <a class="el" href="class_tiled_array_1_1_abs_max_reduction.html">TiledArray::AbsMaxReduction</a>&lt; typename <a class="el" href="struct_tiled_array_1_1expressions_1_1_engine_trait.html">EngineTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#aafd36c6adea52505559da74a5bfd9151">engine_type</a> &gt;::eval_type &gt;::result_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a7826d4b6eac26955ce8c0003bad19d6e">abs_max</a> (World &amp;world=World::get_default()) const</td></tr>
+<tr class="separator:a7826d4b6eac26955ce8c0003bad19d6e inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadf8183cfbd5f84b5b9ad3382a3adb48 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memItemLeft" align="right" valign="top">Future&lt; typename <a class="el" href="class_tiled_array_1_1_dot_reduction.html">TiledArray::DotReduction</a>&lt; typename <a class="el" href="struct_tiled_array_1_1expressions_1_1_engine_trait.html">EngineTrait</a>&lt; <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#aafd36c6adea52505559da74a5bfd9151">engine_type</a> &gt;::eval_type, typename <a class="el" href="struct_tiled_array_1_1expressions_1_1_engine_trait.html">EngineTrait</a>&lt; typename D::engine_type &gt;::eval_type &gt;::result_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#aadf8183cfbd5f84b5b9ad3382a3adb48">dot</a> (const <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html">Expr</a>&lt; D &gt; &amp;right_expr, World &amp;world=World::get_default()) const</td></tr>
+<tr class="separator:aadf8183cfbd5f84b5b9ad3382a3adb48 inherit pub_methods_class_tiled_array_1_1expressions_1_1_expr"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename Left, typename Right&gt;<br />
-class TiledArray::expressions::ScalMultExpr&lt; Left, Right &gt;</h3>
+<div class="textblock"><h3>template&lt;typename Left, typename Right, typename Scalar&gt;<br />
+class TiledArray::expressions::ScalMultExpr&lt; Left, Right, Scalar &gt;</h3>
 
 <p>Multiplication expression. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
@@ -243,134 +274,217 @@ class TiledArray::expressions::ScalMultExpr&lt; Left, Right &gt;</h3>
 
 <p>Definition at line <a class="el" href="cont__engine_8h_source.html#l00039">39</a> of file <a class="el" href="cont__engine_8h_source.html">cont_engine.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a379cad5a6455f4b701cb6ef21ec69ece"></a>
+<a class="anchor" id="ac7314cb592116d23a50824f9decc3839"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Left, typename Right&gt; </div>
+template&lt;typename Left, typename Right, typename Scalar&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html">BinaryExpr</a>&lt;<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a7e62b1d327c596aa623ab76471e9c4b4">ScalMultExpr_</a>&gt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">TiledArray::expressions::ScalMultExpr</a>&lt; Left, Right &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a379cad5a6455f4b701cb6ef21ec69ece">BinaryExpr_</a></td>
+          <td class="memname">typedef <a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html">BinaryExpr</a>&lt;<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a>&gt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">TiledArray::expressions::ScalMultExpr</a>&lt; Left, Right, Scalar &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac7314cb592116d23a50824f9decc3839">BinaryExpr_</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Binary expression base type. </p>
 
-<p>Definition at line <a class="el" href="mult__expr_8h_source.html#l00088">88</a> of file <a class="el" href="mult__expr_8h_source.html">mult_expr.h</a>.</p>
+<p>Definition at line <a class="el" href="mult__expr_8h_source.html#l00138">138</a> of file <a class="el" href="mult__expr_8h_source.html">mult_expr.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="abb90d427d7b6c8a4a7e533753a6c54d6"></a>
+<a class="anchor" id="a0e107459c50273bd972f37bd83d95aa6"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Left, typename Right&gt; </div>
+template&lt;typename Left, typename Right, typename Scalar&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt;<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a7e62b1d327c596aa623ab76471e9c4b4">ScalMultExpr_</a>&gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#abb90d427d7b6c8a4a7e533753a6c54d6">engine_type</a> <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">TiledArray::expressions::ScalMultExpr</a>&lt; Left, Right &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#abb90d427d7b6c8a4a7e533753a6c54d6">engine_type</a></td>
+          <td class="memname">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt;<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a>&gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a0e107459c50273bd972f37bd83d95aa6">engine_type</a> <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">TiledArray::expressions::ScalMultExpr</a>&lt; Left, Right, Scalar &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a0e107459c50273bd972f37bd83d95aa6">engine_type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Expression engine type. </p>
 
-<p>Definition at line <a class="el" href="mult__expr_8h_source.html#l00091">91</a> of file <a class="el" href="mult__expr_8h_source.html">mult_expr.h</a>.</p>
+<p>Definition at line <a class="el" href="mult__expr_8h_source.html#l00141">141</a> of file <a class="el" href="mult__expr_8h_source.html">mult_expr.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a1cb4bc50ed3082cecd8a775158fa07ea"></a>
+<a class="anchor" id="a2c0844d1c33e99ae5889ff33d1c5278a"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Left, typename Right&gt; </div>
+template&lt;typename Left, typename Right, typename Scalar&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt;<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a7e62b1d327c596aa623ab76471e9c4b4">ScalMultExpr_</a>&gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a1cb4bc50ed3082cecd8a775158fa07ea">left_type</a> <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">TiledArray::expressions::ScalMultExpr</a>&lt; Left, Right &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a1cb4bc50ed3082cecd8a775158fa07ea">left_type</a></td>
+          <td class="memname">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt;<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a>&gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a2c0844d1c33e99ae5889ff33d1c5278a">left_type</a> <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">TiledArray::expressions::ScalMultExpr</a>&lt; Left, Right, Scalar &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a2c0844d1c33e99ae5889ff33d1c5278a">left_type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>The left-hand expression type. </p>
 
-<p>Definition at line <a class="el" href="mult__expr_8h_source.html#l00089">89</a> of file <a class="el" href="mult__expr_8h_source.html">mult_expr.h</a>.</p>
+<p>Definition at line <a class="el" href="mult__expr_8h_source.html#l00139">139</a> of file <a class="el" href="mult__expr_8h_source.html">mult_expr.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ace3504f548e0b61badfe626359a94d30"></a>
+<a class="anchor" id="a8b8ea6280fb25e5905ac0d57cbf315df"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Left, typename Right&gt; </div>
+template&lt;typename Left, typename Right, typename Scalar&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt;<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a7e62b1d327c596aa623ab76471e9c4b4">ScalMultExpr_</a>&gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ace3504f548e0b61badfe626359a94d30">right_type</a> <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">TiledArray::expressions::ScalMultExpr</a>&lt; Left, Right &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ace3504f548e0b61badfe626359a94d30">right_type</a></td>
+          <td class="memname">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt;<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a>&gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a8b8ea6280fb25e5905ac0d57cbf315df">right_type</a> <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">TiledArray::expressions::ScalMultExpr</a>&lt; Left, Right, Scalar &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a8b8ea6280fb25e5905ac0d57cbf315df">right_type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>The right-hand expression type. </p>
 
-<p>Definition at line <a class="el" href="mult__expr_8h_source.html#l00090">90</a> of file <a class="el" href="mult__expr_8h_source.html">mult_expr.h</a>.</p>
+<p>Definition at line <a class="el" href="mult__expr_8h_source.html#l00140">140</a> of file <a class="el" href="mult__expr_8h_source.html">mult_expr.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a70ceee9f8dd8f4d13640c0ed25c10eb2"></a>
+<a class="anchor" id="a5c70f40433a0f845d9064a012114419a"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Left, typename Right&gt; </div>
+template&lt;typename Left, typename Right, typename Scalar&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt;<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a7e62b1d327c596aa623ab76471e9c4b4">ScalMultExpr_</a>&gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a70ceee9f8dd8f4d13640c0ed25c10eb2">scalar_type</a> <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">TiledArray::expressions::ScalMultExpr</a>&lt; Left, Right &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a70ceee9f8dd8f4d13640c0ed25c10eb2">scalar_type</a></td>
+          <td class="memname">typedef <a class="el" href="struct_tiled_array_1_1expressions_1_1_expr_trait.html">ExprTrait</a>&lt;<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a>&gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a5c70f40433a0f845d9064a012114419a">scalar_type</a> <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">TiledArray::expressions::ScalMultExpr</a>&lt; Left, Right, Scalar &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a5c70f40433a0f845d9064a012114419a">scalar_type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p><a class="el" href="class_tiled_array_1_1_tile.html" title="An N-dimensional shallow copy wrapper for tile objects. ">Tile</a> scalar type. </p>
 
-<p>Definition at line <a class="el" href="mult__expr_8h_source.html#l00092">92</a> of file <a class="el" href="mult__expr_8h_source.html">mult_expr.h</a>.</p>
+<p>Definition at line <a class="el" href="mult__expr_8h_source.html#l00142">142</a> of file <a class="el" href="mult__expr_8h_source.html">mult_expr.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a7e62b1d327c596aa623ab76471e9c4b4"></a>
+<a class="anchor" id="ac5e7e64a686e4039f8cb5377a0573f46"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Left, typename Right&gt; </div>
+template&lt;typename Left, typename Right, typename Scalar&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt;Left, Right&gt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">TiledArray::expressions::ScalMultExpr</a>&lt; Left, Right &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a7e62b1d327c596aa623ab76471e9c4b4">ScalMultExpr_</a></td>
+          <td class="memname">typedef <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a>&lt;Left, Right, Scalar&gt; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">TiledArray::expressions::ScalMultExpr</a>&lt; Left, Right, Scalar &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>This class type. </p>
 
-<p>Definition at line <a class="el" href="mult__expr_8h_source.html#l00087">87</a> of file <a class="el" href="mult__expr_8h_source.html">mult_expr.h</a>.</p>
+<p>Definition at line <a class="el" href="mult__expr_8h_source.html#l00137">137</a> of file <a class="el" href="mult__expr_8h_source.html">mult_expr.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aa82e5a558a2e0643f048a4334c684f3a"></a>
+<a class="anchor" id="a446e51340ed8a4c95e315cc48c85d53e"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Left, typename Right&gt; </div>
+template&lt;typename Left, typename Right, typename Scalar&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">TiledArray::expressions::ScalMultExpr</a>&lt; Left, Right &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a> </td>
+          <td class="memname"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">TiledArray::expressions::ScalMultExpr</a>&lt; Left, Right, Scalar &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1expressions_1_1_mult_expr.html">MultExpr</a>&lt; Left, Right &gt; &amp;&#160;</td>
-          <td class="paramname"><em>arg</em>, </td>
+          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0cd7b5b98d4d29c758fb652fa532c88c"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Left, typename Right, typename Scalar&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">TiledArray::expressions::ScalMultExpr</a>&lt; Left, Right, Scalar &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a111ba42f15255cb8ee575c86d5a9914e"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Left, typename Right, typename Scalar&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">TiledArray::expressions::ScalMultExpr</a>&lt; Left, Right, Scalar &gt;::~<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad931dc3a406d8c19ab22225c5a948f31"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Left, typename Right, typename Scalar&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">TiledArray::expressions::ScalMultExpr</a>&lt; Left, Right, Scalar &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a2c0844d1c33e99ae5889ff33d1c5278a">left_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>left</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a70ceee9f8dd8f4d13640c0ed25c10eb2">scalar_type</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a8b8ea6280fb25e5905ac0d57cbf315df">right_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>right</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a5c70f40433a0f845d9064a012114419a">scalar_type</a>&#160;</td>
           <td class="paramname"><em>factor</em>&#160;</td>
         </tr>
         <tr>
@@ -395,105 +509,22 @@ template&lt;typename Left, typename Right&gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="mult__expr_8h_source.html#l00107">107</a> of file <a class="el" href="mult__expr_8h_source.html">mult_expr.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af5494d0472018b01e7553896db0208c8"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Left, typename Right&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">TiledArray::expressions::ScalMultExpr</a>&lt; Left, Right &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a> </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a7e62b1d327c596aa623ab76471e9c4b4">ScalMultExpr_</a> &amp;&#160;</td>
-          <td class="paramname"><em>arg</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a70ceee9f8dd8f4d13640c0ed25c10eb2">scalar_type</a>&#160;</td>
-          <td class="paramname"><em>factor</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Expression constructor. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">arg</td><td>The scaled expression </td></tr>
-    <tr><td class="paramname">factor</td><td>The scaling factor </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="mult__expr_8h_source.html#l00115">115</a> of file <a class="el" href="mult__expr_8h_source.html">mult_expr.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af27b76b3a4b9a81246ff105c76cba0cd"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Left, typename Right&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">TiledArray::expressions::ScalMultExpr</a>&lt; Left, Right &gt;::<a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a> </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a7e62b1d327c596aa623ab76471e9c4b4">ScalMultExpr_</a> &amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Copy constructor. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">other</td><td>The expression to be copied </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="mult__expr_8h_source.html#l00122">122</a> of file <a class="el" href="mult__expr_8h_source.html">mult_expr.h</a>.</p>
+<p>Definition at line <a class="el" href="mult__expr_8h_source.html#l00161">161</a> of file <a class="el" href="mult__expr_8h_source.html">mult_expr.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a2e7f6bd3d29dfe2371c8d3481c5dae70"></a>
+<a class="anchor" id="a720ae2b71b406bd21df3424ae0a96042"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Left, typename Right&gt; </div>
+template&lt;typename Left, typename Right, typename Scalar&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a70ceee9f8dd8f4d13640c0ed25c10eb2">scalar_type</a> <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">TiledArray::expressions::ScalMultExpr</a>&lt; Left, Right &gt;::factor </td>
+          <td class="memname"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a5c70f40433a0f845d9064a012114419a">scalar_type</a> <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">TiledArray::expressions::ScalMultExpr</a>&lt; Left, Right, Scalar &gt;::factor </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -509,7 +540,59 @@ template&lt;typename Left, typename Right&gt; </div>
 <p>Scaling factor accessor. </p>
 <dl class="section return"><dt>Returns</dt><dd>The scaling factor </dd></dl>
 
-<p>Definition at line <a class="el" href="mult__expr_8h_source.html#l00129">129</a> of file <a class="el" href="mult__expr_8h_source.html">mult_expr.h</a>.</p>
+<p>Definition at line <a class="el" href="mult__expr_8h_source.html#l00169">169</a> of file <a class="el" href="mult__expr_8h_source.html">mult_expr.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab12ff3934ee2b6156a5e561008104a60"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Left, typename Right, typename Scalar&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a>&amp; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">TiledArray::expressions::ScalMultExpr</a>&lt; Left, Right, Scalar &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a076b5c6da6604b3527a0d9a32f83e4ec"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Left, typename Right, typename Scalar&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a>&amp; <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">TiledArray::expressions::ScalMultExpr</a>&lt; Left, Right, Scalar &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac5e7e64a686e4039f8cb5377a0573f46">ScalMultExpr_</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -523,7 +606,7 @@ template&lt;typename Left, typename Right&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tiled_array.html">TiledArray</a></li><li class="navelem"><a class="el" href="namespace_tiled_array_1_1expressions.html">expressions</a></li><li class="navelem"><a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html">ScalMultExpr</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:47 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:09 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

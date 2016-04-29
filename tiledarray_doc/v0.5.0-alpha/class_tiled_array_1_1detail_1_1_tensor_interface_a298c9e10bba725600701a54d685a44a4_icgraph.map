@@ -1,5 +1,0 @@
-<map id="TiledArray::detail::TensorInterface::unary" name="TiledArray::detail::TensorInterface::unary">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a8cd4bce252dcc0f6709d99f6d122bbb1" title="Construct a scaled copy of this tensor. " alt="" coords="215,5,374,44"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a09b28bdf7d259541be3187cf7ddbe4ff" title="Add a constant to a copy of this tensor. " alt="" coords="219,68,369,107"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a8226851665bbcaafa835d852770e9089" title="Create a negated copy of this tensor. " alt="" coords="219,131,369,169"/>
-</map>

@@ -119,8 +119,8 @@ $(document).ready(function(){initNavTree('truncate_8h.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_array.html">TiledArray::Array&lt; T, DIM, Tile, Policy &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An n-dimensional, tiled array.  <a href="class_tiled_array_1_1_array.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_dist_array.html">TiledArray::DistArray&lt; Tile, Policy &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward declarations.  <a href="class_tiled_array_1_1_dist_array.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -130,14 +130,14 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1acf9f340bce52ca07d370724d38b8b6"><td class="memTemplParams" colspan="2">template&lt;typename T , unsigned int DIM, typename Tile &gt; </td></tr>
-<tr class="memitem:a1acf9f340bce52ca07d370724d38b8b6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array.html#a1acf9f340bce52ca07d370724d38b8b6">TiledArray::truncate</a> (Array&lt; T, DIM, Tile, DensePolicy &gt; &amp;array)</td></tr>
-<tr class="memdesc:a1acf9f340bce52ca07d370724d38b8b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Truncate a dense <a class="el" href="class_tiled_array_1_1_array.html" title="An n-dimensional, tiled array. ">Array</a>.  <a href="namespace_tiled_array.html#a1acf9f340bce52ca07d370724d38b8b6">More...</a><br /></td></tr>
-<tr class="separator:a1acf9f340bce52ca07d370724d38b8b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79c0270df133e1b6dcfe64c7655d04ca"><td class="memTemplParams" colspan="2">template&lt;typename T , unsigned int DIM, typename Tile &gt; </td></tr>
-<tr class="memitem:a79c0270df133e1b6dcfe64c7655d04ca"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array.html#a79c0270df133e1b6dcfe64c7655d04ca">TiledArray::truncate</a> (Array&lt; T, DIM, Tile, SparsePolicy &gt; &amp;array)</td></tr>
-<tr class="memdesc:a79c0270df133e1b6dcfe64c7655d04ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Truncate a sparse <a class="el" href="class_tiled_array_1_1_array.html" title="An n-dimensional, tiled array. ">Array</a>.  <a href="namespace_tiled_array.html#a79c0270df133e1b6dcfe64c7655d04ca">More...</a><br /></td></tr>
-<tr class="separator:a79c0270df133e1b6dcfe64c7655d04ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc763468b96a704d6b4efb628909485f"><td class="memTemplParams" colspan="2">template&lt;typename Tile &gt; </td></tr>
+<tr class="memitem:abc763468b96a704d6b4efb628909485f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array.html#abc763468b96a704d6b4efb628909485f">TiledArray::truncate</a> (DistArray&lt; Tile, DensePolicy &gt; &amp;array)</td></tr>
+<tr class="memdesc:abc763468b96a704d6b4efb628909485f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Truncate a dense Array.  <a href="namespace_tiled_array.html#abc763468b96a704d6b4efb628909485f">More...</a><br /></td></tr>
+<tr class="separator:abc763468b96a704d6b4efb628909485f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f42ee8853ef4f42c260f1a22ffc1eef"><td class="memTemplParams" colspan="2">template&lt;typename Tile &gt; </td></tr>
+<tr class="memitem:a9f42ee8853ef4f42c260f1a22ffc1eef"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array.html#a9f42ee8853ef4f42c260f1a22ffc1eef">TiledArray::truncate</a> (DistArray&lt; Tile, SparsePolicy &gt; &amp;array)</td></tr>
+<tr class="memdesc:a9f42ee8853ef4f42c260f1a22ffc1eef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Truncate a sparse Array.  <a href="namespace_tiled_array.html#a9f42ee8853ef4f42c260f1a22ffc1eef">More...</a><br /></td></tr>
+<tr class="separator:a9f42ee8853ef4f42c260f1a22ffc1eef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -145,7 +145,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53ef4fd72a57002f3857d5373dfad4b8.html">TiledArray</a></li><li class="navelem"><a class="el" href="dir_36ae01bed13817b64a94581dc6b2de0b.html">conversions</a></li><li class="navelem"><a class="el" href="truncate_8h.html">truncate.h</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:45 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:06 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

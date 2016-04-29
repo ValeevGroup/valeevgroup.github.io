@@ -35,6 +35,10 @@ var group___tile_interface =
     [ "eval_trait< T, typename std::enable_if< detail::is_type< typename T::eval_type >::value >::type >", "struct_tiled_array_1_1eval__trait_3_01_t_00_01typename_01std_1_1enable__if_3_01detail_1_1is__typc182ea334e8bb9605ae2787a9eece667.html", [
       [ "type", "struct_tiled_array_1_1eval__trait_3_01_t_00_01typename_01std_1_1enable__if_3_01detail_1_1is__typc182ea334e8bb9605ae2787a9eece667.html#a9e7a4c1226bab3ebc7b4f0af3f00dd91", null ]
     ] ],
+    [ "is_lazy_tile", "struct_tiled_array_1_1is__lazy__tile.html", null ],
+    [ "is_lazy_tile< DistArray< Tile, Policy > >", "struct_tiled_array_1_1is__lazy__tile_3_01_dist_array_3_01_tile_00_01_policy_01_4_01_4.html", null ],
+    [ "is_consumable_tile", "struct_tiled_array_1_1is__consumable__tile.html", null ],
+    [ "is_consumable_tile< ZeroTensor >", "struct_tiled_array_1_1is__consumable__tile_3_01_zero_tensor_01_4.html", null ],
     [ "abs_max", "group___tile_interface.html#gad2a16734fa57b8e70b544d2aeff1ba70", null ],
     [ "abs_min", "group___tile_interface.html#ga04404704f571684e375fea64287be7a2", null ],
     [ "add", "group___tile_interface.html#gaa94ec03e0af35cc7da26e8fbbf4a6be3", null ],
@@ -47,6 +51,12 @@ var group___tile_interface =
     [ "add_to", "group___tile_interface.html#ga6dabb8dd35f758019c80da238cf50196", null ],
     [ "add_to", "group___tile_interface.html#ga0887904f4fbb716dec1467ff37bcdef6", null ],
     [ "clone", "group___tile_interface.html#gaec378f0f4b197546fb0b69f16748bfa1", null ],
+    [ "conj", "group___tile_interface.html#ga790a672539c1eef4a6dae07be7b072b8", null ],
+    [ "conj", "group___tile_interface.html#ga6b20ca3bbb1390f94e310f0b690a7b49", null ],
+    [ "conj", "group___tile_interface.html#ga264a048d3211c5178a85b64a97325689", null ],
+    [ "conj", "group___tile_interface.html#ga2d308da63361867599b880a936299837", null ],
+    [ "conj_to", "group___tile_interface.html#gad2fd187f7e500ab8977032e67537b92a", null ],
+    [ "conj_to", "group___tile_interface.html#gaf81db8c2648b13dd9ded3b54bcefa4e1", null ],
     [ "dot", "group___tile_interface.html#ga2becd6ff2cf1762aaacbbab565b18fca", null ],
     [ "empty", "group___tile_interface.html#gacd7e8d783c93f6a965a52cfc7124b6d0", null ],
     [ "gemm", "group___tile_interface.html#ga0f834a16c8290960ac267c29d6c4d3c7", null ],

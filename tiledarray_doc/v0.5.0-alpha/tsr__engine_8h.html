@@ -114,23 +114,24 @@ $(document).ready(function(){initNavTree('tsr__engine_8h.html','');});
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="leaf__engine_8h_source.html">TiledArray/expressions/leaf_engine.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="noop_8h_source.html">TiledArray/tile_op/noop.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="unary__wrapper_8h_source.html">TiledArray/tile_op/unary_wrapper.h</a>&gt;</code><br />
 </div>
 <p><a href="tsr__engine_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_array.html">TiledArray::Array&lt; T, DIM, Tile, Policy &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An n-dimensional, tiled array.  <a href="class_tiled_array_1_1_array.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_dist_array.html">TiledArray::DistArray&lt; Tile, Policy &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward declarations.  <a href="class_tiled_array_1_1_dist_array.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_tsr_expr.html">TiledArray::expressions::TsrExpr&lt; A &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_tsr_expr.html">TiledArray::expressions::TsrExpr&lt; Array, Alias &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expression wrapper for array objects.  <a href="class_tiled_array_1_1expressions_1_1_tsr_expr.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_tsr_engine.html">TiledArray::expressions::TsrEngine&lt; A &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_tsr_engine.html">TiledArray::expressions::TsrEngine&lt; Array, Alias &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_tensor.html" title="An N-dimensional tensor object. ">Tensor</a> expression engine.  <a href="class_tiled_array_1_1expressions_1_1_tsr_engine.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_tiled_array_1_1expressions_1_1_engine_trait_3_01_tsr_engine_3_01_array_3_01_t_00_01_d_i_m6d8447a4eb23182f2de62da3ae170b37.html">TiledArray::expressions::EngineTrait&lt; TsrEngine&lt; Array&lt; T, DIM, Tile, Policy &gt; &gt; &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_tiled_array_1_1expressions_1_1_engine_trait_3_01_tsr_engine_3_01_dist_array_3_01_tile_00_13cbb76c045a8677c2ab8a9f814c6c17.html">TiledArray::expressions::EngineTrait&lt; TsrEngine&lt; DistArray&lt; Tile, Policy &gt;, Alias &gt; &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_tsr_engine.html">TiledArray::expressions::TsrEngine&lt; A &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1expressions_1_1_tsr_engine.html">TiledArray::expressions::TsrEngine&lt; Array, Alias &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_tensor.html" title="An N-dimensional tensor object. ">Tensor</a> expression engine.  <a href="class_tiled_array_1_1expressions_1_1_tsr_engine.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -147,7 +148,7 @@ Namespaces</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53ef4fd72a57002f3857d5373dfad4b8.html">TiledArray</a></li><li class="navelem"><a class="el" href="dir_d6c76bbea6b9427256613d1be127b5f1.html">expressions</a></li><li class="navelem"><a class="el" href="tsr__engine_8h.html">tsr_engine.h</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:45 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:07 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

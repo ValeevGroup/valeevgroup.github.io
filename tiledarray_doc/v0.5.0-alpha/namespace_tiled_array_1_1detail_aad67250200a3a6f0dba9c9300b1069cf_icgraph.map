@@ -1,8 +1,0 @@
-<map id="TiledArray::detail::data" name="TiledArray::detail::data">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1_d_i_i_s.html#a2d6a73c95db1be7695858a254fa6acb1" title="TiledArray::DIIS::reinitialize" alt="" coords="181,5,362,31"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1_range.html#a8e43ff7ba296a6c6fb589d2af5221b3c" title="Shift the lower and upper bound of this range. " alt="" coords="203,55,339,93"/>
-<area shape="rect" id="node5" href="$namespace_tiled_array.html#a4b3f6231b75b996d3fa766849f952eef" title="TiledArray::make_map" alt="" coords="194,117,349,143"/>
-<area shape="rect" id="node6" href="$namespace_tiled_array.html#ada3e7bc14ca6d99904ada555922fc391" title="TiledArray::make_const_map" alt="" coords="174,167,368,192"/>
-<area shape="rect" id="node7" href="$namespace_tiled_array.html#a2b1fa4c93060bc503429e3527f2993ad" title="TiledRange permutation operator. " alt="" coords="199,216,343,241"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1_range.html#af3d2ada3894c8cd4661734a8d3e6b6be" title="Shift the lower and upper bound of this range. " alt="" coords="416,55,552,93"/>
-</map>

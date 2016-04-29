@@ -154,7 +154,7 @@ $(document).ready(function(){initNavTree('functions_u.html','');});
 : <a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html#a63208a12350661d093b58dca8d446d7d">TiledArray::expressions::UnaryEngine&lt; Derived &gt;</a>
 </li>
 <li>UnaryEngine_
-: <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_engine.html#a6f908826c2fb1fc9d0a0153330845548">TiledArray::expressions::ScalEngine&lt; Arg &gt;</a>
+: <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_engine.html#af3c4649dcdb3d197ba1e7b608d330880">TiledArray::expressions::ScalEngine&lt; Arg, Scalar &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html#ac381c065bfe82fa74fe1d8286bbc9e87">TiledArray::expressions::UnaryEngine&lt; Derived &gt;</a>
 </li>
 <li>UnaryEvalImpl()
@@ -164,21 +164,11 @@ $(document).ready(function(){initNavTree('functions_u.html','');});
 : <a class="el" href="class_tiled_array_1_1detail_1_1_unary_eval_impl.html#aad311c1838fd28eded161f8713d84d3d">TiledArray::detail::UnaryEvalImpl&lt; Arg, Op, Policy &gt;</a>
 </li>
 <li>UnaryExpr()
-: <a class="el" href="class_tiled_array_1_1expressions_1_1_unary_expr.html#a40fb718a56627a28163a67eefc41b05c">TiledArray::expressions::UnaryExpr&lt; Derived &gt;</a>
+: <a class="el" href="class_tiled_array_1_1expressions_1_1_unary_expr.html#a542f1931254b50a14b399fa373426771">TiledArray::expressions::UnaryExpr&lt; Derived &gt;</a>
 </li>
 <li>UnaryExpr_
-: <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_expr.html#a1bd04a400ef72fc45214abc99977e17c">TiledArray::expressions::ScalExpr&lt; Arg &gt;</a>
-</li>
-<li>UnaryInterface()
-: <a class="el" href="class_tiled_array_1_1math_1_1_unary_interface.html#a5d05ba70710d354ab2c0b461a8030283">TiledArray::math::UnaryInterface&lt; Derived &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_unary_interface_3_01_op_3_01_result_00_01_arg_00_01false_01_4_01_4.html#a4271483434f7894fba2de59687c428a8">TiledArray::math::UnaryInterface&lt; Op&lt; Result, Arg, false &gt; &gt;</a>
-</li>
-<li>UnaryInterface_
-: <a class="el" href="class_tiled_array_1_1math_1_1_neg.html#ac9ca990ab3e3c520d37120b64167846a">TiledArray::math::Neg&lt; Result, Arg, Consumable &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_noop.html#ac1a613576737b7bbe280b72de3103be5">TiledArray::math::Noop&lt; Result, Arg, Consumable &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_scal.html#a94f70fec318c2aa0517a8a734a009775">TiledArray::math::Scal&lt; Result, Arg, Consumable &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_scal_shift.html#a3da9b3967c48c77cfb361a8fd6ac4efc">TiledArray::math::ScalShift&lt; Result, Arg, Consumable &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_shift.html#a34dae76d3a4151c53b2898ba19576db9">TiledArray::math::Shift&lt; Result, Arg, Consumable &gt;</a>
+: <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_expr.html#adfc3997b5a96de324a2f2f49a827337d">TiledArray::expressions::ScalExpr&lt; Arg, Scalar &gt;</a>
+, <a class="el" href="class_tiled_array_1_1expressions_1_1_unary_expr.html#a6359a441d44e95bee32372eeef8d7d41">TiledArray::expressions::UnaryExpr&lt; Derived &gt;</a>
 </li>
 <li>UnaryReduceWrapper()
 : <a class="el" href="class_tiled_array_1_1math_1_1_unary_reduce_wrapper.html#ae9a3a75ff309d41e3b39efa32ce7d504">TiledArray::math::UnaryReduceWrapper&lt; Tile, Op &gt;</a>
@@ -190,6 +180,12 @@ $(document).ready(function(){initNavTree('functions_u.html','');});
 </li>
 <li>UnaryTransformIterator()
 : <a class="el" href="class_tiled_array_1_1detail_1_1_unary_transform_iterator.html#a2b0b8a270b78ba5b839b13e3e80275fc">TiledArray::detail::UnaryTransformIterator&lt; Iter, Op &gt;</a>
+</li>
+<li>UnaryWrapper()
+: <a class="el" href="class_tiled_array_1_1detail_1_1_unary_wrapper.html#af83263ef2126e51845f830fc271b7c2c">TiledArray::detail::UnaryWrapper&lt; Op &gt;</a>
+</li>
+<li>UnaryWrapper_
+: <a class="el" href="class_tiled_array_1_1detail_1_1_unary_wrapper.html#aeca128259af6c04d7f1ab174f450e488">TiledArray::detail::UnaryWrapper&lt; Op &gt;</a>
 </li>
 <li>upbound()
 : <a class="el" href="class_tiled_array_1_1_range.html#a4c2ea4371d6a7253dbee8e11f79b9796">TiledArray::Range</a>
@@ -214,7 +210,7 @@ $(document).ready(function(){initNavTree('functions_u.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Oct 23 2015 09:54:09 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:10 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

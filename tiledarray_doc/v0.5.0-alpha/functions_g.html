@@ -159,7 +159,7 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 , <a class="el" href="class_tiled_array_1_1_tensor.html#ad4469d294904c2fbe99d4a8e5ab1b990">TiledArray::Tensor&lt; T, A &gt;</a>
 </li>
 <li>gemm_helper()
-: <a class="el" href="class_tiled_array_1_1math_1_1_contract_reduce.html#a6060dbdc03257a311091ac7a4d2110e8">TiledArray::math::ContractReduce&lt; Result, Left, Right &gt;</a>
+: <a class="el" href="class_tiled_array_1_1_contract_reduce_base.html#ac2668c3b72bccbf1cc9f4dde7be178e1">TiledArray::ContractReduceBase&lt; Left, Right, Scalar &gt;</a>
 </li>
 <li>GemmHelper()
 : <a class="el" href="class_tiled_array_1_1math_1_1_gemm_helper.html#ae93e7c18bbc53332a65f4113df2d3ab9">TiledArray::math::GemmHelper</a>
@@ -183,11 +183,11 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 , <a class="el" href="class_tiled_array_1_1detail_1_1_tile_reference.html#af9c50f4027285eed76ee21474e342203">TiledArray::detail::TileReference&lt; Impl &gt;</a>
 </li>
 <li>get_pmap()
-: <a class="el" href="class_tiled_array_1_1_array.html#a5f8e3a9a3857276baf76a9ce4e3a2dd9">TiledArray::Array&lt; T, DIM, Tile, Policy &gt;</a>
-, <a class="el" href="class_tiled_array_1_1detail_1_1_distributed_storage.html#a1e56a9a3b3b333522072c4535d0442c9">TiledArray::detail::DistributedStorage&lt; T &gt;</a>
+: <a class="el" href="class_tiled_array_1_1detail_1_1_distributed_storage.html#a1e56a9a3b3b333522072c4535d0442c9">TiledArray::detail::DistributedStorage&lt; T &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_dist_array.html#a1f471ca8d4f6a8ccccdee29f8c8f198c">TiledArray::DistArray&lt; Tile, Policy &gt;</a>
 </li>
 <li>get_shape()
-: <a class="el" href="class_tiled_array_1_1_array.html#a4a48fa5e5f0616c84c2eaf6b765d2917">TiledArray::Array&lt; T, DIM, Tile, Policy &gt;</a>
+: <a class="el" href="class_tiled_array_1_1_dist_array.html#a2e0239fa71c82ab96f0fd5a1e7ce0ee4">TiledArray::DistArray&lt; Tile, Policy &gt;</a>
 </li>
 <li>get_stream()
 : <a class="el" href="class_tiled_array_1_1expressions_1_1_expr_o_stream.html#a2c6ad13ce9caa094228ea2b8bcd40df8">TiledArray::expressions::ExprOStream</a>
@@ -200,9 +200,9 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 , <a class="el" href="class_tiled_array_1_1detail_1_1_unary_eval_impl.html#afa7ffdc10c45e68d0a1862016f06dbb1">TiledArray::detail::UnaryEvalImpl&lt; Arg, Op, Policy &gt;</a>
 </li>
 <li>get_world()
-: <a class="el" href="class_tiled_array_1_1_array.html#aa615837bd378eb01f778b74469056127">TiledArray::Array&lt; T, DIM, Tile, Policy &gt;</a>
-, <a class="el" href="class_tiled_array_1_1detail_1_1_dist_eval.html#a014726e8ee2a86de1010637caf45b347">TiledArray::detail::DistEval&lt; Tile, Policy &gt;</a>
+: <a class="el" href="class_tiled_array_1_1detail_1_1_dist_eval.html#a014726e8ee2a86de1010637caf45b347">TiledArray::detail::DistEval&lt; Tile, Policy &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_tensor_impl.html#aa9f2f9a2f046a843c590e99d0cfba1c4">TiledArray::detail::TensorImpl&lt; Policy &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_dist_array.html#afd4a72c2000f003f2fa7fbfb54cf9c89">TiledArray::DistArray&lt; Tile, Policy &gt;</a>
 </li>
 <li>group()
 : <a class="el" href="class_tiled_array_1_1symmetry_1_1_representation.html#a42eae5ab873364dbc1dc8222217052ea">TiledArray::symmetry::Representation&lt; Group, Representative &gt;</a>
@@ -216,7 +216,7 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Oct 23 2015 09:54:09 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:10 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

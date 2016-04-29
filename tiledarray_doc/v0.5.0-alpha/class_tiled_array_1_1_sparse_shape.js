@@ -22,6 +22,7 @@ var class_tiled_array_1_1_sparse_shape =
     [ "gemm", "class_tiled_array_1_1_sparse_shape.html#a46dc93fddab65d3a88f5aa24c00b7d2e", null ],
     [ "gemm", "class_tiled_array_1_1_sparse_shape.html#a61c85d16414cd8794fce15bc9a12f3ef", null ],
     [ "is_zero", "class_tiled_array_1_1_sparse_shape.html#a4dd1f32d8bca0b82472e0d3f8174ee9b", null ],
+    [ "mask", "class_tiled_array_1_1_sparse_shape.html#a10a7662c385192bffd85bc12ebdc07a3", null ],
     [ "mult", "class_tiled_array_1_1_sparse_shape.html#a1a96d9ae6351abcda2aa12b925b5016a", null ],
     [ "mult", "class_tiled_array_1_1_sparse_shape.html#af68fd31a653b93812ca19acf709276c4", null ],
     [ "mult", "class_tiled_array_1_1_sparse_shape.html#ae2484b9f22f5a249f8ca815dcb9fca0e", null ],

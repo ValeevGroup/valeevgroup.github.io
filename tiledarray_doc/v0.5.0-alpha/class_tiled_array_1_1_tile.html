@@ -171,7 +171,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5a66b89b7b8bb44eb13095fff8871e2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size accessors.  <a href="#a5a66b89b7b8bb44eb13095fff8871e2f">More...</a><br /></td></tr>
 <tr class="separator:a5a66b89b7b8bb44eb13095fff8871e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4801d5d2b044d316caf324916bb191f9"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tile.html#a4801d5d2b044d316caf324916bb191f9">range</a> () const  -&gt; decltype(<a class="el" href="class_tiled_array_1_1_tile.html#a0736062c5f5f96f07bcff8a302b2c372">tensor</a>().range())        </td></tr>
-<tr class="memdesc:a4801d5d2b044d316caf324916bb191f9"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> accessor.  <a href="#a4801d5d2b044d316caf324916bb191f9">More...</a><br /></td></tr>
+<tr class="memdesc:a4801d5d2b044d316caf324916bb191f9"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> accessor.  <a href="#a4801d5d2b044d316caf324916bb191f9">More...</a><br /></td></tr>
 <tr class="separator:a4801d5d2b044d316caf324916bb191f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4217f38137bfdbf1b91d8edb17b65057"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tile.html#a4217f38137bfdbf1b91d8edb17b65057">operator[]</a> (std::size_t i) const  -&gt; decltype(<a class="el" href="class_tiled_array_1_1_tile.html#a0736062c5f5f96f07bcff8a302b2c372">tensor</a>()[i])        </td></tr>
 <tr class="memdesc:a4217f38137bfdbf1b91d8edb17b65057"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const element accessor via subscript operator.  <a href="#a4217f38137bfdbf1b91d8edb17b65057">More...</a><br /></td></tr>
@@ -199,7 +199,7 @@ Public Member Functions</h2></td></tr>
 class TiledArray::Tile&lt; T &gt;</h3>
 
 <p>An N-dimensional shallow copy wrapper for tile objects. </p>
-<p><code><a class="el" href="class_tiled_array_1_1_tile.html" title="An N-dimensional shallow copy wrapper for tile objects. ">Tile</a></code> represents a block of an <code><a class="el" href="class_tiled_array_1_1_array.html" title="An n-dimensional, tiled array. ">Array</a></code>. The rank of the tile block is the same as the owning <code><a class="el" href="class_tiled_array_1_1_array.html" title="An n-dimensional, tiled array. ">Array</a></code> object. In order for a user defined tensor object to be used in <a class="el" href="namespace_tiled_array.html">TiledArray</a> expressions, users must also define the following functions: </p><ul>
+<p><code><a class="el" href="class_tiled_array_1_1_tile.html" title="An N-dimensional shallow copy wrapper for tile objects. ">Tile</a></code> represents a block of an <code>Array</code>. The rank of the tile block is the same as the owning <code>Array</code> object. In order for a user defined tensor object to be used in <a class="el" href="namespace_tiled_array.html">TiledArray</a> expressions, users must also define the following functions: </p><ul>
 <li><code>add</code> </li>
 <li><code>add_to</code> </li>
 <li><code>subt</code> </li>
@@ -854,7 +854,7 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> accessor. </p>
+<p><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> accessor. </p>
 <dl class="section return"><dt>Returns</dt><dd>An object describes the upper and lower bounds of the tensor data </dd></dl>
 
 <p>Definition at line <a class="el" href="tile_8h_source.html#l00169">169</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
@@ -1015,7 +1015,7 @@ template&lt;typename T&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tiled_array.html">TiledArray</a></li><li class="navelem"><a class="el" href="class_tiled_array_1_1_tile.html">Tile</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:45 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:07 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

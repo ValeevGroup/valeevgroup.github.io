@@ -1,8 +1,0 @@
-<map id="TiledArray::add" name="TiledArray::add">
-<area shape="rect" id="node2" href="$group___tile_interface.html#gab34e9c983c957d03d780e6ac32555738" title="Add and scale tile arguments. " alt="" coords="197,5,308,31"/>
-<area shape="rect" id="node3" href="$group___tile_interface.html#ga68c3b5baf14a350fd02f5b04a46b7e22" title="Add tiles operator. " alt="" coords="179,55,326,80"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1math_1_1_add.html#a1fbbef6e394a26bf20feb7e09aff4526" title="TiledArray::math::Add\l::permute" alt="" coords="178,104,327,143"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1math_1_1_add.html#a895d2ba33d710824253b4e74cad4d2bf" title="TiledArray::math::Add\l::no_permute" alt="" coords="178,167,327,205"/>
-<area shape="rect" id="node6" href="$class_tiled_array_1_1math_1_1_scal_add.html#a9b7737281d82f726c74744d5f0e7cad6" title="TiledArray::math::ScalAdd\l::permute" alt="" coords="165,229,340,268"/>
-<area shape="rect" id="node7" href="$class_tiled_array_1_1math_1_1_scal_add.html#aaccc9daf3c6e549f9fbebdf086b6c8b4" title="TiledArray::math::ScalAdd\l::no_permute" alt="" coords="165,292,340,331"/>
-</map>

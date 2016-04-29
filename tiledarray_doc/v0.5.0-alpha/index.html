@@ -104,51 +104,149 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a href="https://travis-ci.org/ValeevGroup/tiledarray">![Build Status](https://travis-ci.org/ValeevGroup/tiledarray.svg?branch=master)</a></p>
+<div class="image">
+<img src="https://github.com/ValeevGroup/tiledarray/wiki/images/ta_logo_med.png"  width="125"/>
+</div>
 <h3>Synopsis</h3>
-<p><a class="el" href="namespace_tiled_array.html">TiledArray</a> is a scalable, block-sparse tensor library that is designed to aid in rapid composition of high-performance tensor expressions, appearing for example in many-body quantum mechanics. It allows users to compose tensor expressions of arbitrary complexity in native C++ code that closely resembles the standard mathematical notation. The library is designed to scale from a single multicore computer to a massive cluster.</p>
+<p><a class="el" href="namespace_tiled_array.html">TiledArray</a> is a scalable, block-sparse tensor framework for rapid composition of high-performance tensor arithmetic, appearing for example in many-body quantum mechanics. It allows users to compose tensor expressions of arbitrary complexity in native C++ code that closely resembles the standard mathematical notation. The framework is designed to scale from a single multicore computer to a massive distributed-memory multiprocessor.</p>
 <p><a class="el" href="namespace_tiled_array.html">TiledArray</a> is built on top of MADNESS parallel runtime (MADWorld), part of <a href="https://github.com/m-a-d-n-e-s-s/madness">MADNESS numerical calculus framework</a>.</p>
-<p><a class="el" href="namespace_tiled_array.html">TiledArray</a> is a work in progress.</p>
+<p><a class="el" href="namespace_tiled_array.html">TiledArray</a> is a work in progress. Its development has been possible thanks to generous support from the U.S. National Science Foundation, the Alfred P. Sloan Foundation, the Camille and Henry Dreyfus Foundation, and the Department of Energy.</p>
 <h3>Design Goals</h3>
 <ul>
-<li>Simple implementation of tensor algebra in C++</li>
-<li>Dense, and structured/unstructured sparse tensors</li>
-<li>Intra- and inter-node scalability</li>
-<li>General purpose</li>
+<li>General-purpose arithmetic on dense and block-sparse tensors;</li>
+<li>High-level (math-like) composition as well as full access to low-level data and algorithms, both from C++</li>
+<li>Massive shared- and distributed-memory parallelism</li>
+<li>Deeply-reusable framework: everything can be customized, from tile types (e.g. to support on-disk or compute-on-the-fly tensors) to how the structure of sparse tensors is described.</li>
 </ul>
 <h3>Example Code</h3>
-<p>The following are example expressions written in C++ with <a class="el" href="namespace_tiled_array.html">TiledArray</a>. <a class="el" href="namespace_tiled_array.html">TiledArray</a> use the <a href="http://en.wikipedia.org/wiki/Einstein_notation">Einstein summation convention</a> when evaluating tensor expressions.</p>
+<p>The following example expressions are written in C++ with <a class="el" href="namespace_tiled_array.html">TiledArray</a>. <a class="el" href="namespace_tiled_array.html">TiledArray</a> use the <a href="http://en.wikipedia.org/wiki/Einstein_notation">Einstein summation convention</a> when evaluating tensor expressions.</p>
 <ul>
 <li><p class="startli">Matrix-matrix multiplication</p>
-<p class="startli">C("m,n") = 2.0 * A("m,k") * B("k,n");</p>
+<p class="startli">```c++ C("m,n") = 2.0 * A("m,k") * B("k,n"); ```</p>
 </li>
 <li><p class="startli">Matrix-vector multiplication</p>
-<p class="startli">C("n") = A("k") * B("k,n");</p>
+<p class="startli">```c++ C("n") = A("k") * B("k,n"); ```</p>
 </li>
-<li><p class="startli">Complex tensor expression</p>
-<p class="startli">E("m,n") = 2.0 * A("m,k") * B("k,n") + C("k,n") * D("k,m");</p>
+<li><p class="startli">A more complex tensor expression</p>
+<p class="startli">```c++ E("m,n") = 2.0 * A("m,k") * B("k,n") + C("k,n") * D("k,m"); ```</p>
 </li>
 </ul>
+<p>The following application is a minimal example of a distributed-memory matrix multiplcation.</p>
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;{c++}</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;#include &lt;tiledarray.h&gt;</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;namespace TA = TiledArray;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;int main(int argc, char** argv) {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;  // Initialize the parallel runtime</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;  TA::World&amp; world = TA::initialize(argc, argv);</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;  // Construct a 2D tiled range structure that defines</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  // the tiling of an array. Each dimension contains</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  // 10 tiles.</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  TA::TiledRange trange = </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;      { { 0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 },</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        { 0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 } };</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  // Construct and fill the argument arrays with data</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  TA::TArrayD A(world, trange);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  TA::TArrayD B(world, trange);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  A.fill_local(3.0);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  B.fill_local(2.0);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  // Construct the (empty) result array.</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  TA::TArrayD C;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  // Perform a distributed matrix multiplication</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  C(&quot;i,j&quot;) = A(&quot;i,k&quot;) * B(&quot;k,j&quot;);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  // Tear down the parallel runtime. </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  TA::finalize();</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  return 0;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
+</div><!-- fragment --><h3>Performance</h3>
+<p>Parallel performance of <a class="el" href="namespace_tiled_array.html">TiledArray</a> for multiplication of dense square matrices on <a href="https://www.alcf.anl.gov/mira">Mira</a>, an IBM BlueGene/Q supercomputer at Argonne National Laboratory, compared with that of <a href="https://github.com/solomonik/ctf">Cyclops Tensor Framework</a> and <a href="http://www.netlib.org/scalapack/">ScaLAPACK</a>:</p>
+<div class="image">
+<img src="https://github.com/ValeevGroup/tiledarray/wiki/images/BGQtime_TA_CTF_ScaLAPACK.png"  alt="MM:TA-vs-CTF-vs-SCALAPACK"/>
+</div>
+<p>This figure was obtained with the help of an award from <a href="http://www.doeleadershipcomputing.org/incite-program/">the Department of Energy INCITE program</a>.</p>
+<p>Excellent parallel scalability is also possible for much more complicated expressions than just a single GEMM, as demonstrated below for the coupled-cluster singles and doubles (CCSD) wave function solver. Parallel speed-up of 1 iteration of CCSD solver for uracil trimer in 6-31G* AO basis was measured on ("BlueRidge" cluster)[<a href="https://secure.hosting.vt.edu/www.arc.vt.edu/computing/blueridge-sandy-bridge/">https://secure.hosting.vt.edu/www.arc.vt.edu/computing/blueridge-sandy-bridge/</a>] at Virginia Tech (wall time on one 16-core node = 1290 sec):</p>
+<div class="image">
+<img src="https://github.com/ValeevGroup/tiledarray/wiki/images/uracil-trimer-ccsd-blueridge-speedup.png"  alt="CCSD:UracilTrimer-speedup"/>
+</div>
+<p>This figure was obtained with the help of an allocation from <a href="https://secure.hosting.vt.edu/www.arc.vt.edu/">Advanced Research Computing</a> at Virginia Tech.</p>
+<h3>Installing <a class="el" href="namespace_tiled_array.html">TiledArray</a></h3>
+<h4>Dependencies</h4>
+<ul>
+<li><b>C++ compiler with C++11 support</b> - Compilers that have been tested include:<ul>
+<li>GCC 4.7.2 and later,</li>
+<li>Clang 3.4 and later,</li>
+<li>Apple Clang 5.0 and later, and</li>
+<li>Intel C/C++ Compiler 15 and later.</li>
+</ul>
+</li>
+<li><b>Cmake</b> 3.0 or later</li>
+<li><b><a class="el" href="namespace_eigen.html" title="Forward declarations. ">Eigen</a></b> - Version 3.0 and later. <a href="http://eigen.tuxfamily.org">http://eigen.tuxfamily.org</a></li>
+<li><b>MADNESS</b> - While it is possible to compile MADNESS separately, we recommend compiling MADNESS automatically as part of <a class="el" href="namespace_tiled_array.html">TiledArray</a>. Compilation of MADNESS requires the following additional prerequisites (see the <a href="https://github.com/m-a-d-n-e-s-s/madness">MADNESS GitHub page</a> for details):<ul>
+<li><b>Pthreads</b></li>
+<li><b>MPI-2 or MPI-3 library</b> - <a href="http://www.mpich.org">MPICH</a>, <a href="http://mvapich.cse.ohio-state.edu">MVAPICH</a>, and <a href="https://software.intel.com/en-us/intel-mpi-library">Intel MPI</a> have been tested. Intel MPI is recommended on x86/Infiniband hardware, but any of these libraries will do. We do not recommend OpenMPI as <code>MPI_THREAD_MULTIPLE</code> support is <a href="https://github.com/open-mpi/ompi/issues/157">broken</a>.</li>
+<li><b>LAPACK</b> and <b>BLAS</b> - Serial (sequential, or 1-thread) versions of these libraries is recommended. If you have to use threaded version of these libraries, to avoid poor performance (or even errors) due to non-interoperable threading runtimes it is recommended to configure these libraries to use single thread at runtime before entering the block of <a class="el" href="namespace_tiled_array.html">TiledArray</a> code.</li>
+<li><b>Intel Threading Building Blocks</b> (optional) Version 4.3 Update 4 or later.</li>
+</ul>
+</li>
+<li><b>Doxygen</b> (optional) - Used to generate for documentation only</li>
+<li><b>Boost</b> (optional) - Version 1.33.0 or later for unit tests only</li>
+</ul>
+<h4>Build</h4>
+<p><a class="el" href="namespace_tiled_array.html">TiledArray</a> includes several tool chain files for common platforms. These files contain system specific settings that have been tested on the various platforms. We recommend using one of these</p>
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;$ git clone https://github.com/ValeevGroup/TiledArray.git tiledarray</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;$ cd tiledarray</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;$ mkdir build</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;$ cd build</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;$ cmake \</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    -D CMAKE_INSTALL_PREFIX=/path/to/tiledarray/install \</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    -D CMAKE_TOOLCHAIN_FILE=../cmake/toolchains/osx-clang-mpi-accelerate.cmake \</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    ..</div>
+</div><!-- fragment --><p>Common CMake cache variables that you may want to define include:</p>
+<p>##### Compiler Variables </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;-D CMAKE_C_COMPILER=/path/to/bin/cc</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;-D CMAKE_CXX_COMPILER=/path/to/bin/c++</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;-D MPI_C_COMPILER=/path/to/bin/mpicc</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;-D MPI_CXX_COMPILER=/path/to/bin/mpicxx</div>
+</div><!-- fragment --><p>##### Option Variables </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;-D CMAKE_BUILD_TYPE=(Release|Debug|RelWithDebInfo)</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;-D BUILD_SHARED_LIBS=(TRUE|FALSE)</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;-D TA_ERROR=(none|throw|assert)</div>
+</div><!-- fragment --><p>##### Library Variables </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;-D MADNESS_ROOT_DIR=/path/to/madness/root/dir</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;-D TBB_ROOT_DIR=/path/to/tbb/root/dir</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;-D LAPACK_LIBRARIES=(semicolon seperated list of LAPACK libraries)</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;-D BLAS_LIBRARIES=(semicolon seperated list of BLAS libraries)</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;-D BLA_STATIC=(TRUE|FALSE)</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;-D INTEGER4=(TRUE|FALSE)</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;-D EIGEN_INCLUDE_DIR=/path/to/eigen3/include</div>
+</div><!-- fragment --><p><code>BLA_STATIC</code> indicates static LAPACK and BLAS libraries will be perferred. <code>INTEGER4</code> indicated the Fortran integer width used by BLAS and LAPACK; if <code>TRUE</code> (the default), the integer size is <code>integer*4</code>, otherwise <code>integer*8</code> is used.</p>
+<p>Note, when configuring <a class="el" href="namespace_tiled_array.html">TiledArray</a>, CMake will download and build MADNESS, <a class="el" href="namespace_eigen.html" title="Forward declarations. ">Eigen</a>, and Boost if they are not found on the system. Boost will only be installed if unit testing is enabled. This behavior can be disable with <code>-D TA_EXPERT=TRUE</code>.</p>
 <h3>Developers</h3>
 <p><a class="el" href="namespace_tiled_array.html">TiledArray</a> is developed by the <a href="http://research.valeyev.net">Valeev Group</a> at <a href="http://www.vt.edu">Virginia Tech</a>.</p>
+<h3>License</h3>
+<p><a class="el" href="namespace_tiled_array.html">TiledArray</a> is freely available under the terms of the GPL v3+ licence. See the the included LICENSE file for details. If you are interested in using <a class="el" href="namespace_tiled_array.html">TiledArray</a> under different licensing terms, please contact us.</p>
 <h3>How to Cite</h3>
 <p>Cite <a class="el" href="namespace_tiled_array.html">TiledArray</a> as </p><blockquote class="doxtable">
-<p>"TiledArray: A general-purpose scalable block-sparse tensor library", Justus A. Calvin and Edward F. Valeev, <a href="https://github.com/valeevgroup/tiledarray">https://github.com/valeevgroup/tiledarray</a> . </p>
+<p>"TiledArray: A general-purpose scalable block-sparse tensor framework", Justus A. Calvin and Edward F. Valeev, <a href="https://github.com/valeevgroup/tiledarray">https://github.com/valeevgroup/tiledarray</a> . </p>
 </blockquote>
 <p>Inner workings of <a class="el" href="namespace_tiled_array.html">TiledArray</a> are partially described in the following publications:</p><ul>
-<li>Justus A. Calvin, Cannada A. Lewis, and Edward F. Valeev, "Scalable Task-Based Algorithm for Multiplication of Block-Rank-Sparse Matrices." <a href="http://arxiv.org/abs/1509.00309">http://arxiv.org/abs/1509.00309</a> .</li>
+<li>Justus A. Calvin, Cannada A. Lewis, and Edward F. Valeev, "Scalable Task-Based Algorithm for Multiplication of Block-Rank-Sparse Matrices.", Proceedings of the 5th Workshop on Irregular Applications: Architectures and Algorithms, <a href="http://dx.doi.org/10.1145/2833179.2833186">http://dx.doi.org/10.1145/2833179.2833186</a>.</li>
 <li>Justus A. Calvin and Edward F. Valeev, "Task-Based Algorithm for Matrix Multiplication: A Step Towards Block-Sparse Tensor Computing." <a href="http://arxiv.org/abs/1504.05046">http://arxiv.org/abs/1504.05046</a> .</li>
 </ul>
 <p>The MADNESS parallel runtime is described in the following publication:</p><ul>
-<li>Robert J. Harrison, Gregory Beylkin, Florian A. Bischoff, Justus A. Calvin, George I. Fann, Jacob Fosso-Tande, Diego Galindo, Jeff R. Hammond, Rebecca Hartman-Baker, Judith C. Hill, Jun Jia, Jakob S. Kottmann, M-J. Yvonne Ou, Junchen Pei, Laura E. Ratcliff, Matthew G. Reuter, Adam C. Richie-Halford, Nichols A. Romero, Hideo Sekino, William A. Shelton, Bryan E. Sundahl, W. Scott Thornton, Edward F. Valeev, Álvaro Vázquez-Mayagoitia, Nicholas Vence and Yukina Yokoi, "madness: A Multiresolution, Adaptive Numerical Environment for Scientific Simulation.", <a href="http://arxiv.org/abs/1507.01888">http://arxiv.org/abs/1507.01888</a> .</li>
+<li>Robert J. Harrison, Gregory Beylkin, Florian A. Bischoff, Justus A. Calvin, George I. Fann, Jacob Fosso-Tande, Diego Galindo, Jeff R. Hammond, Rebecca Hartman-Baker, Judith C. Hill, Jun Jia, Jakob S. Kottmann, M-J. Yvonne Ou, Junchen Pei, Laura E. Ratcliff, Matthew G. Reuter, Adam C. Richie-Halford, Nichols A. Romero, Hideo Sekino, William A. Shelton, Bryan E. Sundahl, W. Scott Thornton, Edward F. Valeev, Álvaro Vázquez-Mayagoitia, Nicholas Vence and Yukina Yokoi, "madness: A Multiresolution, Adaptive Numerical Environment for Scientific Simulation.", <a href="http://arxiv.org/abs/1507.01888">http://arxiv.org/abs/1507.01888</a> .</li>
 </ul>
 <h3>Acknowledgements</h3>
-<p>Development of <a class="el" href="namespace_tiled_array.html">TiledArray</a> is made possible by past and present contributions from the National Science Foundation (awards CHE-0847295, CHE-0741927, OCI-1047696, CHE-1362655, ACI-1047696), the Alfred P. Sloan Foundation, and the Camille and Henry Dreyfus Foundation. </p>
+<p>Development of <a class="el" href="namespace_tiled_array.html">TiledArray</a> is made possible by past and present contributions from the National Science Foundation (awards CHE-0847295, CHE-0741927, OCI-1047696, CHE-1362655, ACI-1047696), the Alfred P. Sloan Foundation, the Camille and Henry Dreyfus Foundation, and the Department of Energy INCITE Program. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Oct 23 2015 09:54:09 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:10 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

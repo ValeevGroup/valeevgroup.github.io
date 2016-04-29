@@ -8,5 +8,5 @@ var kernels_8h =
     [ "tensor_init", "kernels_8h.html#a843205677d75eda1fcd81b50f9042b84", null ],
     [ "tensor_op", "kernels_8h.html#ac17e850985b5c94dc082d40978d0e22c", null ],
     [ "tensor_op", "kernels_8h.html#a968a88eff54f4dc3105f31c57a5e06ac", null ],
-    [ "tensor_reduce", "kernels_8h.html#a2c476e766ff095a095ff4e5508684975", null ]
+    [ "tensor_reduce", "kernels_8h.html#a72c95c206465e8ff50da0a55ab3878a2", null ]
 ];

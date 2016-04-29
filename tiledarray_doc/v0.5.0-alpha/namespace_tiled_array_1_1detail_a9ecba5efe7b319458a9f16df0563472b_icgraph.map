@@ -1,7 +1,0 @@
-<map id="TiledArray::detail::permute_array" name="TiledArray::detail::permute_array">
-<area shape="rect" id="node2" href="$namespace_tiled_array.html#a586be997af3bd421583c8fd36c4e95f2" title="Permute a std::array. " alt="" coords="192,5,335,31"/>
-<area shape="rect" id="node3" href="$namespace_tiled_array.html#ae84ce21d711a462da4a1b44a811a5a94" title="In&#45;place permute a std::array. " alt="" coords="188,55,339,80"/>
-<area shape="rect" id="node4" href="$namespace_tiled_array_1_1detail.html#af085e2abd40acbf24fbc80033634097b" title="TiledArray::detail\l::operator*" alt="" coords="203,104,324,143"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1math_1_1_scal_shift.html#a78d9800827fa8e3a1311084a4871fd4c" title="Permute constructor. " alt="" coords="174,167,353,205"/>
-<area shape="rect" id="node6" href="$class_tiled_array_1_1math_1_1_shift.html#aad5aed2f9961dbda553e46b46e933d3e" title="Permute constructor. " alt="" coords="187,229,340,268"/>
-</map>

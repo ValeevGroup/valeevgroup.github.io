@@ -1,5 +1,0 @@
-<map id="TiledArray::SparseShape::add" name="TiledArray::SparseShape::add">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1_tensor.html#a26c81ab595b2582f7542b9a24f722d0e" title="Test if the tensor is empty. " alt="" coords="273,5,402,44"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1_sparse_shape.html#a43a2a6238cb04e4b318ee17216e60764" title="Threshold accessor. " alt="" coords="253,68,423,107"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1_tensor.html#a8005d292051062ad3892265e28010a4b" title="Use a binary, element wise operation to construct a new tensor. " alt="" coords="273,131,402,169"/>
-</map>

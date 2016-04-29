@@ -117,7 +117,7 @@ $(document).ready(function(){initNavTree('struct_tiled_array_1_1eval__trait.html
 <p>Determine the object type used in the evaluation of tensor expressions.  
  <a href="struct_tiled_array_1_1eval__trait.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="eval__trait_8h_source.html">eval_trait.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="type__traits_8h_source.html">type_traits.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -129,7 +129,7 @@ Public Types</h2></td></tr>
 struct TiledArray::eval_trait&lt; T, Enabler &gt;</h3>
 
 <p>Determine the object type used in the evaluation of tensor expressions. </p>
-<p>This trait class allows user to specify the object type used in an expression by providing a (partial) template specialization of this class for a user defined tile class. This allows users to use lazy tile construction inside tensor expressions. If no evaluation type is specified, the lazy tile evaluation is disabled. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+<p>This trait class allows user to specify the object type used in an expression by providing a (partial) template specialization of this class for a user defined tile types. This allows users to use lazy tile construction inside tensor expressions. If no evaluation type is specified, the lazy tile evaluation is disabled. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">T</td><td>The lazy tile type </td></tr>
     <tr><td class="paramname">Enabler</td><td>Internal use only </td></tr>
@@ -137,13 +137,13 @@ struct TiledArray::eval_trait&lt; T, Enabler &gt;</h3>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="eval__trait_8h_source.html#l00046">46</a> of file <a class="el" href="eval__trait_8h_source.html">eval_trait.h</a>.</p>
+<p>Definition at line <a class="el" href="type__traits_8h_source.html#l00066">66</a> of file <a class="el" href="type__traits_8h_source.html">type_traits.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a515fa34a23a2f94c85a7d452c3b27325"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename Enabler  = void&gt; </div>
+template&lt;typename T, typename Enabler = void&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">typedef T <a class="el" href="struct_tiled_array_1_1eval__trait.html">TiledArray::eval_trait</a>&lt; T, Enabler &gt;::<a class="el" href="struct_tiled_array_1_1eval__trait.html#a515fa34a23a2f94c85a7d452c3b27325">type</a></td>
@@ -151,12 +151,12 @@ template&lt;typename T, typename Enabler  = void&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="eval__trait_8h_source.html#l00047">47</a> of file <a class="el" href="eval__trait_8h_source.html">eval_trait.h</a>.</p>
+<p>Definition at line <a class="el" href="type__traits_8h_source.html#l00067">67</a> of file <a class="el" href="type__traits_8h_source.html">type_traits.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>TiledArray/tile_op/<a class="el" href="eval__trait_8h_source.html">eval_trait.h</a></li>
+<li>TiledArray/<a class="el" href="type__traits_8h_source.html">type_traits.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -164,7 +164,7 @@ template&lt;typename T, typename Enabler  = void&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tiled_array.html">TiledArray</a></li><li class="navelem"><a class="el" href="struct_tiled_array_1_1eval__trait.html">eval_trait</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:45 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:07 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

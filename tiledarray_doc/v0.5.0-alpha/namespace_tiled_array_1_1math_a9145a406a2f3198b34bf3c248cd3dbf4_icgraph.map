@@ -1,5 +1,0 @@
-<map id="TiledArray::math::transpose" name="TiledArray::math::transpose">
-<area shape="rect" id="node2" href="$namespace_tiled_array_1_1detail.html#abccc13338ac000c35d064a2b147b52f6" title="Construct a permuted tensor copy. " alt="" coords="238,37,359,76"/>
-<area shape="rect" id="node3" href="$namespace_tiled_array_1_1detail.html#acea82008dbcee62101a2865a602852cb" title="In&#45;place tensor permutation operations with contiguous data. " alt="" coords="407,5,545,44"/>
-<area shape="rect" id="node4" href="$namespace_tiled_array_1_1detail.html#a474df5f74ea75c66470f333f78dad3d5" title="Initialize tensor with permuted tensor arguments. " alt="" coords="415,68,536,107"/>
-</map>

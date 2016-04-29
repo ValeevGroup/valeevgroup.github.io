@@ -1,5 +1,0 @@
-<map id="TiledArray::math::PartialReduceUnwind&lt; 0 &gt;::col_reduce" name="TiledArray::math::PartialReduceUnwind&lt; 0 &gt;::col_reduce">
-<area shape="rect" id="node2" href="$namespace_tiled_array_1_1math.html#a9085136f802b954e3a2bd643cd13d8b5" title="TiledArray::math::copy\l_block" alt="" coords="268,5,422,44"/>
-<area shape="rect" id="node3" href="$namespace_tiled_array_1_1math.html#aa04b1e0edc4a14d650a4c49c9da1e0d8" title="TiledArray::math::for\l_each_block" alt="" coords="470,35,612,73"/>
-<area shape="rect" id="node4" href="$struct_tiled_array_1_1math_1_1_vector_op_unwind.html#a6efffbefa51604956c002c8bb737315e" title="TiledArray::math::Vector\lOpUnwind::for_each" alt="" coords="660,35,824,73"/>
-</map>

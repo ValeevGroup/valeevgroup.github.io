@@ -1,4 +1,0 @@
-<map id="TiledArray::math::Noop::permute" name="TiledArray::math::Noop::permute">
-<area shape="rect" id="node2" href="$group___tile_interface.html#ga040f23a684e2cfec50be13936d603709" title="Create a permuted copy of arg. " alt="" coords="249,5,387,31"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1math_1_1_unary_interface.html#a2c769f34f54713b80be5b078029ff725" title="Permutation accessor. " alt="" coords="211,55,425,93"/>
-</map>

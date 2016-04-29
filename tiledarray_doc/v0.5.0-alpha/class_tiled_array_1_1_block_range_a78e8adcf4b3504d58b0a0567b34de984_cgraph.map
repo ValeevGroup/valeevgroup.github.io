@@ -1,8 +1,0 @@
-<map id="TiledArray::BlockRange::ordinal" name="TiledArray::BlockRange::ordinal">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1_range.html#a2c78848cdbd4299303d3df09699fd487" title="Check the coordinate to make sure it is within the range. " alt="" coords="214,5,350,44"/>
-<area shape="rect" id="node4" href="$namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f" title="TiledArray::size" alt="" coords="226,68,338,93"/>
-<area shape="rect" id="node7" href="$class_tiled_array_1_1_range.html#aa151ae3c2064b53438552bdb7ebeee0f" title="Stride accessor. " alt="" coords="214,117,350,156"/>
-<area shape="rect" id="node3" href="$namespace_tiled_array_1_1detail.html#a5d281f943194c67e7b0a491f03d49e02" title="Array size accessor. " alt="" coords="413,5,534,44"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1_array.html#acbf5e87d0a384e3205b60f50a35c35e6" title="TiledArray::Array::size" alt="" coords="398,68,550,93"/>
-<area shape="rect" id="node6" href="$class_tiled_array_1_1_array.html#abbd24e50054c29f002b4eb0cfbb61ee5" title="Tiled range accessor. " alt="" coords="410,117,538,156"/>
-</map>

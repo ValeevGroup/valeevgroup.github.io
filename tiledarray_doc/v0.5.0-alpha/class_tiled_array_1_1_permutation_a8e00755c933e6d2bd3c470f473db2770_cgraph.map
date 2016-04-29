@@ -1,5 +1,0 @@
-<map id="TiledArray::Permutation::pow" name="TiledArray::Permutation::pow">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1_permutation.html#aba79359d195cc546d0a7b07575da7183" title="Construct the inverse of this permutation. " alt="" coords="246,5,431,31"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1_permutation.html#adf651061c6093e1c08ad6beb44547f1d" title="Identity permutation factory function. " alt="" coords="258,79,419,117"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1_permutation.html#a209cacf2ffb1263bbacc0678df180c1e" title="Multiplication of this permutation with other. " alt="" coords="258,141,419,180"/>
-</map>

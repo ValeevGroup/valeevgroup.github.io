@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>TiledArray: TiledArray::detail::scalar_type&lt; T, Enabler &gt; Struct Template Reference</title>
+<title>TiledArray: TiledArray::detail::scalar_type&lt; T &gt; Struct Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,33 +107,21 @@ $(document).ready(function(){initNavTree('struct_tiled_array_1_1detail_1_1scalar
 
 <div class="header">
   <div class="headertitle">
-<div class="title">TiledArray::detail::scalar_type&lt; T, Enabler &gt; Struct Template Reference</div>  </div>
+<div class="title">TiledArray::detail::scalar_type&lt; T &gt; Struct Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Type trait for extracting the scalar numeric type of tensors and arrays.  
- <a href="struct_tiled_array_1_1detail_1_1scalar__type.html#details">More...</a></p>
-
 <p><code>#include &lt;<a class="el" href="type__traits_8h_source.html">type_traits.h</a>&gt;</code></p>
+
+<p>Inherits <a class="el" href="struct_tiled_array_1_1detail_1_1numeric__type.html">TiledArray::detail::numeric_type&lt; T &gt;</a>.</p>
+
+<p>Inherited by <a class="el" href="struct_tiled_array_1_1detail_1_1scalar__type_3_01std_1_1complex_3_01_t_01_4_01_4.html">TiledArray::detail::scalar_type&lt; std::complex&lt; T &gt; &gt;</a>.</p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename T, typename Enabler = void&gt;<br />
-struct TiledArray::detail::scalar_type&lt; T, Enabler &gt;</h3>
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+struct TiledArray::detail::scalar_type&lt; T &gt;</h3>
 
-<p>Type trait for extracting the scalar numeric type of tensors and arrays. </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>The type to extract a numeric type from </td></tr>
-    <tr><td class="paramname">Enabler</td><td>Type used to selectively implement partial specializations<ol type="1">
-<li>if T is numeric, scalar_type&lt;T&gt;::type evaluates to T</li>
-<li>if T is not numeric and T::value_type is a valid type, will evaluate to scalar_type&lt;T::value_type&gt;::type, and so on recursively</li>
-<li>otherwise it's undefined </li>
-</ol>
-</td></tr>
-  </table>
-  </dd>
-</dl>
 
-<p>Definition at line <a class="el" href="type__traits_8h_source.html#l00105">105</a> of file <a class="el" href="type__traits_8h_source.html">type_traits.h</a>.</p>
+<p>Definition at line <a class="el" href="type__traits_8h_source.html#l00228">228</a> of file <a class="el" href="type__traits_8h_source.html">type_traits.h</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li>TiledArray/<a class="el" href="type__traits_8h_source.html">type_traits.h</a></li>
 </ul>
@@ -143,7 +131,7 @@ struct TiledArray::detail::scalar_type&lt; T, Enabler &gt;</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tiled_array.html">TiledArray</a></li><li class="navelem"><a class="el" href="namespace_tiled_array_1_1detail.html">detail</a></li><li class="navelem"><a class="el" href="struct_tiled_array_1_1detail_1_1scalar__type.html">scalar_type</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:46 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:08 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

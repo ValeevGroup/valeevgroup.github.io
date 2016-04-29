@@ -1,7 +1,0 @@
-<map id="TiledArray::detail::ValArray::swap" name="TiledArray::detail::ValArray::swap">
-<area shape="rect" id="node2" href="$namespace_tiled_array_1_1detail.html#a1d6fcb450ef829c3ad4e8e1db5be514a" title="TiledArray::detail\l::swap" alt="" coords="177,5,298,44"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1detail_1_1_size_array.html#a1aec5312c760131b9ee56d5d6ef4c91b" title="TiledArray::detail\l::SizeArray::begin" alt="" coords="174,68,301,107"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1detail_1_1_size_array.html#aaeb32c33657d39cdb125b64e8917fbbd" title="TiledArray::detail\l::SizeArray::end" alt="" coords="177,131,298,169"/>
-<area shape="rect" id="node6" href="$class_tiled_array_1_1detail_1_1_size_array.html#a03b6a310f7601f48de89948aa4aa1111" title="TiledArray::detail\l::SizeArray::set" alt="" coords="177,193,298,232"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1detail_1_1_bitset.html#a2209fb744965af00ca19f67a95dd5ea5" title="TiledArray::detail\l::Bitset::swap" alt="" coords="349,5,470,44"/>
-</map>

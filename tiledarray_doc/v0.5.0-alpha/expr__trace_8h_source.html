@@ -144,7 +144,7 @@ $(document).ready(function(){initNavTree('expr__trace_8h_source.html','');});
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keyword">namespace </span>expressions {</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span>&gt; <span class="keyword">class </span>Expr;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span>&gt; <span class="keyword">class </span>TsrExpr;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span>, <span class="keywordtype">bool</span>&gt; <span class="keyword">class </span>TsrExpr;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
 <div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="class_tiled_array_1_1expressions_1_1_expr_o_stream.html">   39</a></span>&#160;    <span class="keyword">class </span><a class="code" href="class_tiled_array_1_1expressions_1_1_expr_o_stream.html">ExprOStream</a> {</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;      std::ostream&amp; os_; </div>
@@ -210,15 +210,15 @@ $(document).ready(function(){initNavTree('expr__trace_8h_source.html','');});
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    }; <span class="comment">// class ExprTrace</span></div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> A&gt;</div>
-<div class="line"><a name="l00130"></a><span class="lineno"><a class="line" href="namespace_tiled_array_1_1expressions.html#aef16e77e85edfa23cc6d5cc7d4979dda">  130</a></span>&#160;    <span class="keyword">inline</span> <a class="code" href="class_tiled_array_1_1expressions_1_1_expr_trace_target.html">ExprTraceTarget</a> operator&lt;&lt;(std::ostream&amp; os, const TsrExpr&lt;A&gt;&amp; tsr) {</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="class_tiled_array_1_1expressions_1_1_expr_trace_target.html">ExprTraceTarget</a>(os, tsr.vars());</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    }</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;  }  <span class="comment">// namespace expressions</span></div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;} <span class="comment">// namespace TiledArray</span></div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="preprocessor">#endif // TILEDARRAY_EXPR_TRACE_H__INCLUDED</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> A, <span class="keywordtype">bool</span> Alias&gt;</div>
+<div class="line"><a name="l00131"></a><span class="lineno"><a class="line" href="namespace_tiled_array_1_1expressions.html#a15b36ae1afd5bba0736e0f2cf9faad9c">  131</a></span>&#160;    <span class="keyword">inline</span> <a class="code" href="class_tiled_array_1_1expressions_1_1_expr_trace_target.html">ExprTraceTarget</a> operator&lt;&lt;(std::ostream&amp; os, const TsrExpr&lt;A, Alias&gt;&amp; tsr) {</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="class_tiled_array_1_1expressions_1_1_expr_trace_target.html">ExprTraceTarget</a>(os, tsr.vars());</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    }</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;  }  <span class="comment">// namespace expressions</span></div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;} <span class="comment">// namespace TiledArray</span></div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;<span class="preprocessor">#endif // TILEDARRAY_EXPR_TRACE_H__INCLUDED</span></div>
 <div class="ttc" id="class_tiled_array_1_1expressions_1_1_expr_o_stream_html_a2c6ad13ce9caa094228ea2b8bcd40df8"><div class="ttname"><a href="class_tiled_array_1_1expressions_1_1_expr_o_stream.html#a2c6ad13ce9caa094228ea2b8bcd40df8">TiledArray::expressions::ExprOStream::get_stream</a></div><div class="ttdeci">std::ostream &amp; get_stream() const </div><div class="ttdoc">Output stream accessor. </div><div class="ttdef"><b>Definition:</b> <a href="expr__trace_8h_source.html#l00076">expr_trace.h:76</a></div></div>
 <div class="ttc" id="class_tiled_array_1_1expressions_1_1_expr_o_stream_html_a5db28f7c3b6432c75f12f0b6140df599"><div class="ttname"><a href="class_tiled_array_1_1expressions_1_1_expr_o_stream.html#a5db28f7c3b6432c75f12f0b6140df599">TiledArray::expressions::ExprOStream::ExprOStream</a></div><div class="ttdeci">ExprOStream(std::ostream &amp;os)</div><div class="ttdoc">Constructor. </div><div class="ttdef"><b>Definition:</b> <a href="expr__trace_8h_source.html#l00048">expr_trace.h:48</a></div></div>
 <div class="ttc" id="class_tiled_array_1_1expressions_1_1_expr_o_stream_html_a7bb36c45e8121dd446774d5b7bda4cfe"><div class="ttname"><a href="class_tiled_array_1_1expressions_1_1_expr_o_stream.html#a7bb36c45e8121dd446774d5b7bda4cfe">TiledArray::expressions::ExprOStream::ExprOStream</a></div><div class="ttdeci">ExprOStream(const ExprOStream &amp;other)</div><div class="ttdoc">Copy constructor. </div><div class="ttdef"><b>Definition:</b> <a href="expr__trace_8h_source.html#l00053">expr_trace.h:53</a></div></div>
@@ -238,7 +238,7 @@ $(document).ready(function(){initNavTree('expr__trace_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53ef4fd72a57002f3857d5373dfad4b8.html">TiledArray</a></li><li class="navelem"><a class="el" href="dir_d6c76bbea6b9427256613d1be127b5f1.html">expressions</a></li><li class="navelem"><a class="el" href="expr__trace_8h.html">expr_trace.h</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:43 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:05 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

@@ -1,5 +1,0 @@
-<map id="TiledArray::Array::range" name="TiledArray::Array::range">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1_array.html#abe668ca733d2ee39fcd5bfc60858067a" title="Fill all local tiles. " alt="" coords="358,5,486,44"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1_array.html#a688d079d4da499663059d9cf40fddf0d" title="Initialize tiles with a user provided functor. " alt="" coords="182,33,310,72"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1_array.html#af33c64cfc32d7faa672a88b43a35c2be" title="Fill all local tiles. " alt="" coords="534,5,662,44"/>
-</map>

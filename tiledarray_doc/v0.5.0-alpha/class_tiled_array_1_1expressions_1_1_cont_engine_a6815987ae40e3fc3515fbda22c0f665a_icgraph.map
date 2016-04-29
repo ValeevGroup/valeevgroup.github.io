@@ -1,4 +1,0 @@
-<map id="TiledArray::expressions::ContEngine::init_struct" name="TiledArray::expressions::ContEngine::init_struct">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1expressions_1_1_mult_engine.html#ab72c18b9f758de78c31c2bec4c09e10d" title="Initialize result tensor structure. " alt="" coords="216,5,376,44"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1expressions_1_1_scal_mult_engine.html#a3054fd7416b206c0379f0d0edb876885" title="Initialize result tensor structure. " alt="" coords="216,68,376,120"/>
-</map>

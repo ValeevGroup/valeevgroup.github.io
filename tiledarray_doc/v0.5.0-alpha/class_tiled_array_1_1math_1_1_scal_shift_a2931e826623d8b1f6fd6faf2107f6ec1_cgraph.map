@@ -1,7 +1,0 @@
-<map id="TiledArray::math::ScalShift::permute" name="TiledArray::math::ScalShift::permute">
-<area shape="rect" id="node2" href="$namespace_tiled_array.html#a217ad4d903a7ef45d75fe78cc2c229b8" title="TiledArray::scale" alt="" coords="279,12,399,37"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1math_1_1_unary_interface.html#a2c769f34f54713b80be5b078029ff725" title="Permutation accessor. " alt="" coords="232,61,446,100"/>
-<area shape="rect" id="node5" href="$group___tile_interface.html#ga2ead9e3d38c6a824d4dfe0beffddbcdf" title="Shift the range of arg in place. " alt="" coords="273,124,405,149"/>
-<area shape="rect" id="node3" href="$namespace_tiled_array_1_1detail.html#ad38f2970e843e56f76822d775d4d52c9" title="TiledArray::detail\l::dummy_annotation" alt="" coords="500,5,642,44"/>
-<area shape="rect" id="node6" href="$class_tiled_array_1_1_tile.html#a0736062c5f5f96f07bcff8a302b2c372" title="TiledArray::Tile::tensor" alt="" coords="494,124,648,149"/>
-</map>

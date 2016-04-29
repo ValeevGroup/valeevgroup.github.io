@@ -1,6 +1,0 @@
-<map id="TiledArray::expressions::ExprEngine::make_op" name="TiledArray::expressions::ExprEngine::make_op">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1expressions_1_1_binary_engine.html#a4edcc2e776a6891216d3be6f36a2343c" title="Construct the distributed evaluator for this expression. " alt="" coords="213,5,430,57"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1expressions_1_1_blk_tsr_engine_base.html#af1c21e1970ff8b619b85fcc62aee0f7c" title="Construct the distributed evaluator for array. " alt="" coords="216,81,427,133"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1expressions_1_1_leaf_engine.html#a01b3e636025d1f3d4551fd441ad27c7d" title="Construct the distributed evaluator for array. " alt="" coords="225,157,418,209"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1expressions_1_1_unary_engine.html#ae1d952cbe8fea248bbffea44caed6900" title="Construct the distributed evaluator for this expression. " alt="" coords="229,233,414,285"/>
-</map>

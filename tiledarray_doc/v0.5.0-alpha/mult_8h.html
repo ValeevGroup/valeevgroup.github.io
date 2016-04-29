@@ -112,21 +112,29 @@ $(document).ready(function(){initNavTree('mult_8h.html','');});
 <div class="title">mult.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="binary__interface_8h_source.html">TiledArray/tile_op/binary_interface.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="error_8h_source.html">TiledArray/error.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="tile__interface_8h_source.html">TiledArray/tile_op/tile_interface.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="zero__tensor_8h_source.html">TiledArray/zero_tensor.h</a>&gt;</code><br />
 </div>
 <p><a href="mult_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1math_1_1_mult.html">TiledArray::math::Mult&lt; Result, Left, Right, LeftConsumable, RightConsumable &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_tile.html" title="An N-dimensional shallow copy wrapper for tile objects. ">Tile</a> multiplication operation.  <a href="class_tiled_array_1_1math_1_1_mult.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1detail_1_1_binary_wrapper.html">TiledArray::detail::BinaryWrapper&lt; Op &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binary tile operation wrapper.  <a href="class_tiled_array_1_1detail_1_1_binary_wrapper.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_mult.html">TiledArray::Mult&lt; Left, Right, LeftConsumable, RightConsumable &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_tile.html" title="An N-dimensional shallow copy wrapper for tile objects. ">Tile</a> multiplication operation.  <a href="class_tiled_array_1_1_mult.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_scal_mult.html">TiledArray::ScalMult&lt; Left, Right, Scalar, LeftConsumable, RightConsumable &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_tile.html" title="An N-dimensional shallow copy wrapper for tile objects. ">Tile</a> scale-multiplication operation.  <a href="class_tiled_array_1_1_scal_mult.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_tiled_array"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_tiled_array.html">TiledArray</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespace_tiled_array_1_1math"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html">TiledArray::math</a></td></tr>
+<tr class="memitem:namespace_tiled_array_1_1detail"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1detail.html">TiledArray::detail</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
@@ -135,7 +143,7 @@ Namespaces</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53ef4fd72a57002f3857d5373dfad4b8.html">TiledArray</a></li><li class="navelem"><a class="el" href="dir_aacf0ce393081dab78024e2969470b8b.html">tile_op</a></li><li class="navelem"><a class="el" href="mult_8h.html">mult.h</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:45 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:07 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

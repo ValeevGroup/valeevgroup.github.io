@@ -144,9 +144,9 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 
 <h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
 <li>perm()
-: <a class="el" href="class_tiled_array_1_1_dense_shape.html#af5631da9a4dbde15444f536d0a63e05e">TiledArray::DenseShape</a>
+: <a class="el" href="class_tiled_array_1_1_contract_reduce_base.html#a0508192ae01148665b08ec70f9d40ce3">TiledArray::ContractReduceBase&lt; Left, Right, Scalar &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_dense_shape.html#af5631da9a4dbde15444f536d0a63e05e">TiledArray::DenseShape</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_expr_engine.html#a3a3358ce26fc438e6976461b1f48b747">TiledArray::expressions::ExprEngine&lt; Derived &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_contract_reduce.html#a7b912ea1259734e92fb197037a4dd4f6">TiledArray::math::ContractReduce&lt; Result, Left, Right &gt;</a>
 , <a class="el" href="class_tiled_array_1_1_sparse_shape.html#a90cb964e71bb12ff00a43fec5440e0a9">TiledArray::SparseShape&lt; T &gt;</a>
 </li>
 <li>perm_index_to_source()
@@ -160,41 +160,25 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_cont_engine.html#a07af47e0ba643221a02f8836371ab24d">TiledArray::expressions::ContEngine&lt; Derived &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_leaf_engine.html#aea682c90655a89c14c998a44f02939d3">TiledArray::expressions::LeafEngine&lt; Derived &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_mult_engine.html#a1496b1036623991892bc38342a1332d9">TiledArray::expressions::MultEngine&lt; Left, Right &gt;</a>
-, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_engine.html#a941ded0b6f0b7af6f04af8d6fa74a69e">TiledArray::expressions::ScalMultEngine&lt; Left, Right &gt;</a>
+, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_engine.html#a0a7dec0c516e33209aef4aa419bfac13">TiledArray::expressions::ScalMultEngine&lt; Left, Right, Scalar &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html#afcfa3e61855299daaf0136472bb10ccc">TiledArray::expressions::UnaryEngine&lt; Derived &gt;</a>
 </li>
 <li>PermIndex()
 : <a class="el" href="class_tiled_array_1_1detail_1_1_perm_index.html#ab54930056c8997aa0c41fbb37fc4175e">TiledArray::detail::PermIndex</a>
 </li>
 <li>permutation()
-: <a class="el" href="class_tiled_array_1_1_binary_interface.html#abf3156ac64e129afb4ed30e8817c1744">TiledArray::BinaryInterface&lt; Derived &gt;</a>
-, <a class="el" href="class_tiled_array_1_1_binary_interface_3_01_op_3_01_result_00_01_left_00_01_right_00_01false_00_01false_01_4_01_4.html#a71728fe3fe8eeeba1e31c6f27aaa4629">TiledArray::BinaryInterface&lt; Op&lt; Result, Left, Right, false, false &gt; &gt;</a>
+: <a class="el" href="class_tiled_array_1_1detail_1_1_unary_wrapper.html#a28742ed60a796dd3eef2e48218601308">TiledArray::detail::UnaryWrapper&lt; Op &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_variable_list.html#aa99696d6966ff6af7944534e63d683ed">TiledArray::expressions::VariableList</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_unary_interface.html#a8f0505602e5e6579f94378aa765b2f96">TiledArray::math::UnaryInterface&lt; Derived &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_unary_interface_3_01_op_3_01_result_00_01_arg_00_01false_01_4_01_4.html#a2e3834088c8cdaddc5c3dd77bbc58dce">TiledArray::math::UnaryInterface&lt; Op&lt; Result, Arg, false &gt; &gt;</a>
 </li>
 <li>Permutation()
-: <a class="el" href="class_tiled_array_1_1_permutation.html#a35ed02d2260d41df8f0cde408a55fab8">TiledArray::Permutation</a>
-, <a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation.html#adfe9b56997e691e9e8dae62eb39b56ed">TiledArray::symmetry::Permutation</a>
+: <a class="el" href="class_tiled_array_1_1_permutation.html#ae18636a915abf33dea7008ab60c5fdb4">TiledArray::Permutation</a>
+, <a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation.html#ab5a003886ee491edef2abbd062b26cad">TiledArray::symmetry::Permutation</a>
 </li>
 <li>PermutationGroup()
 : <a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation_group.html#a73446a28ed340ce82b7af233e54ebf65">TiledArray::symmetry::PermutationGroup</a>
 </li>
 <li>permute()
 : <a class="el" href="class_tiled_array_1_1_tensor.html#aa975640407d4460e99f85ca41398f4d1">TiledArray::Tensor&lt; T, A &gt;</a>
-</li>
-<li>permute_op()
-: <a class="el" href="class_tiled_array_1_1math_1_1_add.html#aeaf574962519408499bbce8e70adbed8">TiledArray::math::Add&lt; Result, Left, Right, LeftConsumable, RightConsumable &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_mult.html#a2926e677fcace850a01bd6c24386389e">TiledArray::math::Mult&lt; Result, Left, Right, LeftConsumable, RightConsumable &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_neg.html#a34bb25b3488ab9689b0876c28e2cdc8a">TiledArray::math::Neg&lt; Result, Arg, Consumable &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_noop.html#a08a024e2fb2b86a61e7cdb645952e866">TiledArray::math::Noop&lt; Result, Arg, Consumable &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_scal.html#acbbb31ed5a929b9cfc0dd98347d65313">TiledArray::math::Scal&lt; Result, Arg, Consumable &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_scal_add.html#ab446de8f8c904370c76d6af28a67789a">TiledArray::math::ScalAdd&lt; Result, Left, Right, LeftConsumable, RightConsumable &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_scal_mult.html#a103f9bd048225504aeb7b7208b709730">TiledArray::math::ScalMult&lt; Result, Left, Right, LeftConsumable, RightConsumable &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_scal_shift.html#ae7a7d85778f7c155c2da8747d305396e">TiledArray::math::ScalShift&lt; Result, Arg, Consumable &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_scal_subt.html#ae8a96784172b14abf930ed118dadbca6">TiledArray::math::ScalSubt&lt; Result, Left, Right, LeftConsumable, RightConsumable &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_shift.html#a1050fa2a789c21edf72263aea36b90e0">TiledArray::math::Shift&lt; Result, Arg, Consumable &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_subt.html#a91c279a6472afeeb4686e5c04263ede1">TiledArray::math::Subt&lt; Result, Left, Right, LeftConsumable, RightConsumable &gt;</a>
 </li>
 <li>permute_tiles()
 : <a class="el" href="class_tiled_array_1_1expressions_1_1_expr_engine.html#ae66e4a8e98c451ad7e6a61a27e2a088e">TiledArray::expressions::ExprEngine&lt; Derived &gt;</a>
@@ -217,7 +201,7 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a5390809c4301b0b4eedfad922cdadbf8">TiledArray::expressions::Expr&lt; Derived &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_expr_engine.html#abda19cba93d04ba478fd2f6ec317f3e6">TiledArray::expressions::ExprEngine&lt; Derived &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_mult_engine.html#a2bcee8faacfdcea98baf5ee1680f8fe4">TiledArray::expressions::MultEngine&lt; Left, Right &gt;</a>
-, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_engine.html#a5f66e0ee543251ed52b64b533839a606">TiledArray::expressions::ScalMultEngine&lt; Left, Right &gt;</a>
+, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_engine.html#a600ba880da8e1a43fc21bf88126c820a">TiledArray::expressions::ScalMultEngine&lt; Left, Right, Scalar &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_unary_engine.html#a566c2632691e5af495098124da96cd87">TiledArray::expressions::UnaryEngine&lt; Derived &gt;</a>
 </li>
 <li>proc_cols()
@@ -230,14 +214,14 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 : <a class="el" href="class_tiled_array_1_1detail_1_1_proc_grid.html#ae91dd2b4ba369a60e396fd9809db1f90">TiledArray::detail::ProcGrid</a>
 </li>
 <li>ProcGrid()
-: <a class="el" href="class_tiled_array_1_1detail_1_1_proc_grid.html#a9c3053bca08f6e27c46a42e60cc2b17e">TiledArray::detail::ProcGrid</a>
+: <a class="el" href="class_tiled_array_1_1detail_1_1_proc_grid.html#a7c76bd47c1b2900447b0ecaddf9b2124">TiledArray::detail::ProcGrid</a>
 </li>
 <li>procs()
 : <a class="el" href="class_tiled_array_1_1_pmap.html#a1a918e8f3bf535b7fbfa2ab350474729">TiledArray::Pmap</a>
 </li>
 <li>product()
 : <a class="el" href="class_tiled_array_1_1detail_1_1_tensor_interface.html#ae34ba48d23e0c2e81927c508ed2d9cc6">TiledArray::detail::TensorInterface&lt; T, R &gt;</a>
-, <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#a4f4ad27418dde3576b0a4521a819964f">TiledArray::expressions::Expr&lt; Derived &gt;</a>
+, <a class="el" href="class_tiled_array_1_1expressions_1_1_expr.html#af6741e08ae888d47fe138cdaf2cd44ca">TiledArray::expressions::Expr&lt; Derived &gt;</a>
 , <a class="el" href="class_tiled_array_1_1_tensor.html#a822b996880ecb2364f86d37054b5a6d9">TiledArray::Tensor&lt; T, A &gt;</a>
 </li>
 </ul>
@@ -246,7 +230,7 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Oct 23 2015 09:54:09 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:10 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

@@ -8,7 +8,7 @@ var searchData=
   ['left_5fop',['left_op',['../class_tiled_array_1_1math_1_1_gemm_helper.html#ab4fe180509dabae0c18ab947df2b1ccb',1,'TiledArray::math::GemmHelper']]],
   ['left_5fouter_5fbegin',['left_outer_begin',['../class_tiled_array_1_1math_1_1_gemm_helper.html#a2553e36be1941b23d89eaca6943597e6',1,'TiledArray::math::GemmHelper']]],
   ['left_5fouter_5fend',['left_outer_end',['../class_tiled_array_1_1math_1_1_gemm_helper.html#a9bcc000ecfa5e063d70a7bddb0341add',1,'TiledArray::math::GemmHelper']]],
-  ['left_5frank',['left_rank',['../class_tiled_array_1_1math_1_1_gemm_helper.html#ad1ccd289216122cb4a0afa23549b09ce',1,'TiledArray::math::GemmHelper::left_rank()'],['../class_tiled_array_1_1math_1_1_contract_reduce.html#a6145d40cd6dd92104ca51459438582e9',1,'TiledArray::math::ContractReduce::left_rank()']]],
+  ['left_5frank',['left_rank',['../class_tiled_array_1_1math_1_1_gemm_helper.html#ad1ccd289216122cb4a0afa23549b09ce',1,'TiledArray::math::GemmHelper::left_rank()'],['../class_tiled_array_1_1_contract_reduce_base.html#aa5fe588a3daf877c93c145c80ba1b241',1,'TiledArray::ContractReduceBase::left_rank()']]],
   ['left_5fresult_5fcoformal',['left_result_coformal',['../class_tiled_array_1_1math_1_1_gemm_helper.html#a73bc541454fe2f854e2eb84ced11050c',1,'TiledArray::math::GemmHelper']]],
   ['left_5fright_5fcoformal',['left_right_coformal',['../class_tiled_array_1_1math_1_1_gemm_helper.html#a771b78b832f239e893740ed6853f2cde',1,'TiledArray::math::GemmHelper']]],
   ['load',['load',['../class_tiled_array_1_1math_1_1_block.html#aa38276e359fae8167fb37c37cd84ceda',1,'TiledArray::math::Block']]],

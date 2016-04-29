@@ -106,7 +106,6 @@ $(document).ready(function(){initNavTree('conversions_2eigen_8h.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
@@ -114,22 +113,16 @@ $(document).ready(function(){initNavTree('conversions_2eigen_8h.html','');});
 <div class="title">eigen.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="error_8h_source.html">TiledArray/error.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="tiledarray__fwd_8h_source.html">tiledarray_fwd.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="tensor_8h_source.html">TiledArray/tensor.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="error_8h_source.html">TiledArray/error.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="math_2eigen_8h_source.html">TiledArray/math/eigen.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="madness_8h_source.html">TiledArray/madness.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="replicated__pmap_8h_source.html">TiledArray/pmap/replicated_pmap.h</a>&gt;</code><br />
+<code>#include &quot;<a class="el" href="dist__array_8h_source.html">../dist_array.h</a>&quot;</code><br />
 </div>
 <p><a href="conversions_2eigen_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_array.html">TiledArray::Array&lt; T, DIM, Tile, Policy &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An n-dimensional, tiled array.  <a href="class_tiled_array_1_1_array.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor&lt; T, A &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An N-dimensional tensor object.  <a href="class_tiled_array_1_1_tensor.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_tiled_array"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_tiled_array.html">TiledArray</a></td></tr>
@@ -208,19 +201,19 @@ Functions</h2></td></tr>
 <tr class="separator:afe493525138ef355ba76900e56ae8cf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc20cb6cde49d2af9af3312a0309f540"><td class="memTemplParams" colspan="2">template&lt;typename A , typename Derived &gt; </td></tr>
 <tr class="memitem:acc20cb6cde49d2af9af3312a0309f540"><td class="memTemplItemLeft" align="right" valign="top">A&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array.html#acc20cb6cde49d2af9af3312a0309f540">TiledArray::eigen_to_array</a> (World &amp;world, const typename A::trange_type &amp;trange, const Eigen::MatrixBase&lt; Derived &gt; &amp;matrix, bool replicated=false)</td></tr>
-<tr class="memdesc:acc20cb6cde49d2af9af3312a0309f540"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert an <a class="el" href="namespace_eigen.html" title="Forward declarations. ">Eigen</a> matrix into an <a class="el" href="class_tiled_array_1_1_array.html" title="An n-dimensional, tiled array. ">Array</a> object.  <a href="namespace_tiled_array.html#acc20cb6cde49d2af9af3312a0309f540">More...</a><br /></td></tr>
+<tr class="memdesc:acc20cb6cde49d2af9af3312a0309f540"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert an <a class="el" href="namespace_eigen.html" title="Forward declarations. ">Eigen</a> matrix into an Array object.  <a href="namespace_tiled_array.html#acc20cb6cde49d2af9af3312a0309f540">More...</a><br /></td></tr>
 <tr class="separator:acc20cb6cde49d2af9af3312a0309f540"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6681770e274d214039031ba3d3affb24"><td class="memTemplParams" colspan="2">template&lt;typename T , unsigned int DIM, typename Tile , typename Policy &gt; </td></tr>
-<tr class="memitem:a6681770e274d214039031ba3d3affb24"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_eigen_1_1_matrix.html">Eigen::Matrix</a>&lt; T, Eigen::Dynamic, Eigen::Dynamic &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array.html#a6681770e274d214039031ba3d3affb24">TiledArray::array_to_eigen</a> (const Array&lt; T, DIM, Tile, Policy &gt; &amp;array)</td></tr>
-<tr class="memdesc:a6681770e274d214039031ba3d3affb24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert an <a class="el" href="class_tiled_array_1_1_array.html" title="An n-dimensional, tiled array. ">Array</a> object into an <a class="el" href="namespace_eigen.html" title="Forward declarations. ">Eigen</a> matrix object.  <a href="namespace_tiled_array.html#a6681770e274d214039031ba3d3affb24">More...</a><br /></td></tr>
-<tr class="separator:a6681770e274d214039031ba3d3affb24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dfeed8031f6509bdfb6dd1a4d456ffd"><td class="memTemplParams" colspan="2">template&lt;typename Tile , typename Policy &gt; </td></tr>
+<tr class="memitem:a2dfeed8031f6509bdfb6dd1a4d456ffd"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_eigen_1_1_matrix.html">Eigen::Matrix</a>&lt; typename Tile::value_type, Eigen::Dynamic, Eigen::Dynamic &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array.html#a2dfeed8031f6509bdfb6dd1a4d456ffd">TiledArray::array_to_eigen</a> (const DistArray&lt; Tile, Policy &gt; &amp;array)</td></tr>
+<tr class="memdesc:a2dfeed8031f6509bdfb6dd1a4d456ffd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert an Array object into an <a class="el" href="namespace_eigen.html" title="Forward declarations. ">Eigen</a> matrix object.  <a href="namespace_tiled_array.html#a2dfeed8031f6509bdfb6dd1a4d456ffd">More...</a><br /></td></tr>
+<tr class="separator:a2dfeed8031f6509bdfb6dd1a4d456ffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfba97f8c60f13c48f7adfcabc677b95"><td class="memTemplParams" colspan="2">template&lt;typename A &gt; </td></tr>
 <tr class="memitem:adfba97f8c60f13c48f7adfcabc677b95"><td class="memTemplItemLeft" align="right" valign="top">A&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array.html#adfba97f8c60f13c48f7adfcabc677b95">TiledArray::row_major_buffer_to_array</a> (World &amp;world, const typename A::trange_type &amp;trange, const typename A::value_type::value_type *buffer, const std::size_t m, const std::size_t n, const bool replicated=false)</td></tr>
-<tr class="memdesc:adfba97f8c60f13c48f7adfcabc677b95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a row-major matrix buffer into an <a class="el" href="class_tiled_array_1_1_array.html" title="An n-dimensional, tiled array. ">Array</a> object.  <a href="namespace_tiled_array.html#adfba97f8c60f13c48f7adfcabc677b95">More...</a><br /></td></tr>
+<tr class="memdesc:adfba97f8c60f13c48f7adfcabc677b95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a row-major matrix buffer into an Array object.  <a href="namespace_tiled_array.html#adfba97f8c60f13c48f7adfcabc677b95">More...</a><br /></td></tr>
 <tr class="separator:adfba97f8c60f13c48f7adfcabc677b95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a272240d40c483f779f8affc3c12c3285"><td class="memTemplParams" colspan="2">template&lt;typename A &gt; </td></tr>
 <tr class="memitem:a272240d40c483f779f8affc3c12c3285"><td class="memTemplItemLeft" align="right" valign="top">A&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array.html#a272240d40c483f779f8affc3c12c3285">TiledArray::column_major_buffer_to_array</a> (World &amp;world, const typename A::trange_type &amp;trange, const typename A::value_type::value_type *buffer, const std::size_t m, const std::size_t n, const bool replicated=false)</td></tr>
-<tr class="memdesc:a272240d40c483f779f8affc3c12c3285"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a column-major matrix buffer into an <a class="el" href="class_tiled_array_1_1_array.html" title="An n-dimensional, tiled array. ">Array</a> object.  <a href="namespace_tiled_array.html#a272240d40c483f779f8affc3c12c3285">More...</a><br /></td></tr>
+<tr class="memdesc:a272240d40c483f779f8affc3c12c3285"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a column-major matrix buffer into an Array object.  <a href="namespace_tiled_array.html#a272240d40c483f779f8affc3c12c3285">More...</a><br /></td></tr>
 <tr class="separator:a272240d40c483f779f8affc3c12c3285"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
@@ -229,7 +222,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53ef4fd72a57002f3857d5373dfad4b8.html">TiledArray</a></li><li class="navelem"><a class="el" href="dir_36ae01bed13817b64a94581dc6b2de0b.html">conversions</a></li><li class="navelem"><a class="el" href="conversions_2eigen_8h.html">eigen.h</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:45 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:06 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

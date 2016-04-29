@@ -133,9 +133,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3992f0169c82c5494451f8bd59fab1a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tiled_range1.html#a3992f0169c82c5494451f8bd59fab1a8">TiledRange1</a> ()</td></tr>
 <tr class="memdesc:a3992f0169c82c5494451f8bd59fab1a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor, range of 0 tiles and elements.  <a href="#a3992f0169c82c5494451f8bd59fab1a8">More...</a><br /></td></tr>
 <tr class="separator:a3992f0169c82c5494451f8bd59fab1a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf60b2fad573a8c0fdd9d297808a0497"><td class="memTemplParams" colspan="2">template&lt;typename RandIter &gt; </td></tr>
-<tr class="memitem:aaf60b2fad573a8c0fdd9d297808a0497"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tiled_range1.html#aaf60b2fad573a8c0fdd9d297808a0497">TiledRange1</a> (RandIter first, RandIter last, const <a class="el" href="class_tiled_array_1_1_tiled_range1.html#a5cada05aa731d1bebc9dfed516173c46">size_type</a> start_tile_index=0, typename std::enable_if&lt; <a class="el" href="struct_tiled_array_1_1detail_1_1is__random__iterator.html">detail::is_random_iterator</a>&lt; RandIter &gt;::value, Enabler &gt;::type=Enabler())</td></tr>
-<tr class="separator:aaf60b2fad573a8c0fdd9d297808a0497"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a336115a4928b6425c07e26b0199491bd"><td class="memTemplParams" colspan="2">template&lt;typename RandIter , typename std::enable_if&lt; detail::is_random_iterator&lt; RandIter &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a336115a4928b6425c07e26b0199491bd"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tiled_range1.html#a336115a4928b6425c07e26b0199491bd">TiledRange1</a> (RandIter first, RandIter last)</td></tr>
+<tr class="separator:a336115a4928b6425c07e26b0199491bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb0e59d07eac5aba3d0005b00dc30358"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tiled_range1.html#afb0e59d07eac5aba3d0005b00dc30358">TiledRange1</a> (const <a class="el" href="class_tiled_array_1_1_tiled_range1.html">TiledRange1</a> &amp;rng)</td></tr>
 <tr class="memdesc:afb0e59d07eac5aba3d0005b00dc30358"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#afb0e59d07eac5aba3d0005b00dc30358">More...</a><br /></td></tr>
 <tr class="separator:afb0e59d07eac5aba3d0005b00dc30358"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -253,11 +253,11 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aaf60b2fad573a8c0fdd9d297808a0497"></a>
+<a class="anchor" id="a336115a4928b6425c07e26b0199491bd"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename RandIter &gt; </div>
+template&lt;typename RandIter , typename std::enable_if&lt; detail::is_random_iterator&lt; RandIter &gt;::value &gt;::type *  = nullptr&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -272,19 +272,7 @@ template&lt;typename RandIter &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">RandIter&#160;</td>
-          <td class="paramname"><em>last</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tiled_range1.html#a5cada05aa731d1bebc9dfed516173c46">size_type</a>&#160;</td>
-          <td class="paramname"><em>start_tile_index</em> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">typename std::enable_if&lt; <a class="el" href="struct_tiled_array_1_1detail_1_1is__random__iterator.html">detail::is_random_iterator</a>&lt; RandIter &gt;::value, Enabler &gt;::type&#160;</td>
-          <td class="paramname"> = <code>Enabler()</code>&#160;</td>
+          <td class="paramname"><em>last</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -300,7 +288,7 @@ template&lt;typename RandIter &gt; </div>
 </div><div class="memdoc">
 <p>Constructs a range with the boundaries provided by [first, last). Start_tile_index is the index of the first tile. </p>
 
-<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00054">54</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
+<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00055">55</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
 
 </div>
 </div>
@@ -328,7 +316,7 @@ template&lt;typename RandIter &gt; </div>
 
 <p>Copy constructor. </p>
 
-<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00065">65</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
+<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00063">63</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
 
 </div>
 </div>
@@ -375,7 +363,7 @@ template&lt;typename... _sizes&gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00078">78</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
+<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00076">76</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
 
 </div>
 </div>
@@ -409,7 +397,7 @@ template&lt;typename... _sizes&gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00092">92</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
+<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00090">90</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
 
 </div>
 </div>
@@ -437,7 +425,7 @@ template&lt;typename... _sizes&gt; </div>
 
 <p>Returns an iterator to the first tile in the range. </p>
 
-<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00105">105</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
+<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00103">103</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
 
 </div>
 </div>
@@ -463,7 +451,7 @@ template&lt;typename... _sizes&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00135">135</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
+<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00133">133</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
 
 </div>
 </div>
@@ -490,7 +478,7 @@ template&lt;typename... _sizes&gt; </div>
 
 <p>Elements range accessor. </p>
 
-<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00123">123</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
+<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00121">121</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
 
 </div>
 </div>
@@ -517,7 +505,7 @@ template&lt;typename... _sizes&gt; </div>
 
 <p>Returns an iterator to the end of the range. </p>
 
-<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00108">108</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
+<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00106">106</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
 
 </div>
 </div>
@@ -545,7 +533,7 @@ template&lt;typename... _sizes&gt; </div>
 
 <p>Return tile iterator associated with ordinal_index. </p>
 
-<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00111">111</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
+<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00109">109</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
 
 </div>
 </div>
@@ -573,7 +561,7 @@ template&lt;typename... _sizes&gt; </div>
 
 <p>Assignment operator. </p>
 
-<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00099">99</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
+<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00097">97</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
 
 </div>
 </div>
@@ -599,7 +587,7 @@ template&lt;typename... _sizes&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00140">140</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
+<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00138">138</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
 
 </div>
 </div>
@@ -635,12 +623,12 @@ template&lt;typename... _sizes&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>A const reference to a the tile range for tile <code>i</code> </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">std::out_of_range</td><td>When <code>i</code> <code>&gt;=</code> <code><a class="el" href="class_tiled_array_1_1_tiled_range1.html#a68fee929f6786c1ea5e8e84ce1d0d10b" title="Tiles range accessor. ">tiles()</a></code>.<a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">size()</a> </td></tr>
+    <tr><td class="paramname">std::out_of_range</td><td>When <code>i</code> <code>&gt;=</code> <code><a class="el" href="class_tiled_array_1_1_tiled_range1.html#a68fee929f6786c1ea5e8e84ce1d0d10b" title="Tiles range accessor. ">tiles()</a></code>.<a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">size()</a> </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00130">130</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
+<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00128">128</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
 
 </div>
 </div>
@@ -667,7 +655,7 @@ template&lt;typename... _sizes&gt; </div>
 
 <p>Tiles range accessor. </p>
 
-<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00120">120</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
+<p>Definition at line <a class="el" href="tiled__range1_8h_source.html#l00118">118</a> of file <a class="el" href="tiled__range1_8h_source.html">tiled_range1.h</a>.</p>
 
 </div>
 </div>
@@ -719,7 +707,7 @@ template&lt;typename... _sizes&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tiled_array.html">TiledArray</a></li><li class="navelem"><a class="el" href="class_tiled_array_1_1_tiled_range1.html">TiledRange1</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:45 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:07 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

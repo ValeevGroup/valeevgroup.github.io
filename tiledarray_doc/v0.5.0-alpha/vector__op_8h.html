@@ -117,6 +117,7 @@ $(document).ready(function(){initNavTree('vector__op_8h.html','');});
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="type__traits_8h_source.html">TiledArray/type_traits.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="madness_8h_source.html">TiledArray/madness.h</a>&gt;</code><br />
+<code>#include &lt;TiledArray/config.h&gt;</code><br />
 </div>
 <p><a href="vector__op_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -145,20 +146,12 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ab326c2e306b8e5a50b0aed44d80d2af6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vector__op_8h.html#ab326c2e306b8e5a50b0aed44d80d2af6">TILEARRAY_ALIGNMENT</a>&#160;&#160;&#160;16</td></tr>
-<tr class="separator:ab326c2e306b8e5a50b0aed44d80d2af6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6b4676a59e2c77bc6491e5f1bd6c565"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vector__op_8h.html#aa6b4676a59e2c77bc6491e5f1bd6c565">TILEDARRAY_CACHELINE_SIZE</a>&#160;&#160;&#160;64</td></tr>
-<tr class="separator:aa6b4676a59e2c77bc6491e5f1bd6c565"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac028b4789a5f629278ada8fb68f1a2d3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vector__op_8h.html#ac028b4789a5f629278ada8fb68f1a2d3">TILEDARRAY_LOOP_UNWIND</a>&#160;&#160;&#160;::TiledArray::math::LoopUnwind::value</td></tr>
 <tr class="separator:ac028b4789a5f629278ada8fb68f1a2d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5ef6cf520cac4c170b270882d6e2151"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vector__op_8h.html#aa5ef6cf520cac4c170b270882d6e2151">TILEDARRAY_FORCE_INLINE</a>&#160;&#160;&#160;inline</td></tr>
-<tr class="separator:aa5ef6cf520cac4c170b270882d6e2151"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae97949dd113939d99b5f27a12dbb7678"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vector__op_8h.html#ae97949dd113939d99b5f27a12dbb7678">TILEDARRAY_ALIGNED_STORAGE</a></td></tr>
-<tr class="separator:ae97949dd113939d99b5f27a12dbb7678"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a0bf5a7a311f53583b605bab38068f698"><td class="memItemLeft" align="right" valign="top">typedef std::integral_constant&lt; std::size_t, <a class="el" href="vector__op_8h.html#aa6b4676a59e2c77bc6491e5f1bd6c565">TILEDARRAY_CACHELINE_SIZE</a>/sizeof(double)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a0bf5a7a311f53583b605bab38068f698">TiledArray::math::LoopUnwind</a></td></tr>
+<tr class="memitem:a0bf5a7a311f53583b605bab38068f698"><td class="memItemLeft" align="right" valign="top">typedef std::integral_constant&lt; std::size_t, TILEDARRAY_CACHELINE_SIZE/sizeof(double)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a0bf5a7a311f53583b605bab38068f698">TiledArray::math::LoopUnwind</a></td></tr>
 <tr class="separator:a0bf5a7a311f53583b605bab38068f698"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c2624073b0ecb2000fbdb1067294f8a"><td class="memItemLeft" align="right" valign="top">typedef std::integral_constant&lt; std::size_t,~std::size_t(<a class="el" href="vector__op_8h.html#ac028b4789a5f629278ada8fb68f1a2d3">TILEDARRAY_LOOP_UNWIND</a>-1ul)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a5c2624073b0ecb2000fbdb1067294f8a">TiledArray::math::index_mask</a></td></tr>
 <tr class="separator:a5c2624073b0ecb2000fbdb1067294f8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -168,62 +161,74 @@ Typedefs</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:aa04b1e0edc4a14d650a4c49c9da1e0d8"><td class="memTemplParams" colspan="2">template&lt;typename Op , typename Result , typename... Args&gt; </td></tr>
-<tr class="memitem:aa04b1e0edc4a14d650a4c49c9da1e0d8"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="vector__op_8h.html#aa5ef6cf520cac4c170b270882d6e2151">TILEDARRAY_FORCE_INLINE</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#aa04b1e0edc4a14d650a4c49c9da1e0d8">TiledArray::math::for_each_block</a> (Op &amp;&amp;op, Result *const result, const Args *const ...args)</td></tr>
+<tr class="memitem:aa04b1e0edc4a14d650a4c49c9da1e0d8"><td class="memTemplItemLeft" align="right" valign="top">TILEDARRAY_FORCE_INLINE void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#aa04b1e0edc4a14d650a4c49c9da1e0d8">TiledArray::math::for_each_block</a> (Op &amp;&amp;op, Result *const result, const Args *const ...args)</td></tr>
 <tr class="separator:aa04b1e0edc4a14d650a4c49c9da1e0d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad4090c7f83748a91758ef0c8a922871"><td class="memTemplParams" colspan="2">template&lt;typename Op , typename Result , typename... Args&gt; </td></tr>
-<tr class="memitem:aad4090c7f83748a91758ef0c8a922871"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="vector__op_8h.html#aa5ef6cf520cac4c170b270882d6e2151">TILEDARRAY_FORCE_INLINE</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#aad4090c7f83748a91758ef0c8a922871">TiledArray::math::for_each_block</a> (Op &amp;&amp;op, Block&lt; Result &gt; &amp;result, Block&lt; Args &gt; &amp;&amp;...args)</td></tr>
+<tr class="memitem:aad4090c7f83748a91758ef0c8a922871"><td class="memTemplItemLeft" align="right" valign="top">TILEDARRAY_FORCE_INLINE void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#aad4090c7f83748a91758ef0c8a922871">TiledArray::math::for_each_block</a> (Op &amp;&amp;op, Block&lt; Result &gt; &amp;result, Block&lt; Args &gt; &amp;&amp;...args)</td></tr>
 <tr class="separator:aad4090c7f83748a91758ef0c8a922871"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e3c08ed7f7f7aeff8309ae257ea04ac"><td class="memTemplParams" colspan="2">template&lt;typename Op , typename Result , typename... Args&gt; </td></tr>
-<tr class="memitem:a2e3c08ed7f7f7aeff8309ae257ea04ac"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="vector__op_8h.html#aa5ef6cf520cac4c170b270882d6e2151">TILEDARRAY_FORCE_INLINE</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a2e3c08ed7f7f7aeff8309ae257ea04ac">TiledArray::math::for_each_block_n</a> (Op &amp;&amp;op, const std::size_t n, Result *restrict const result, const Args *restrict const ...args)</td></tr>
+<tr class="memitem:a2e3c08ed7f7f7aeff8309ae257ea04ac"><td class="memTemplItemLeft" align="right" valign="top">TILEDARRAY_FORCE_INLINE void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a2e3c08ed7f7f7aeff8309ae257ea04ac">TiledArray::math::for_each_block_n</a> (Op &amp;&amp;op, const std::size_t n, Result *restrict const result, const Args *restrict const ...args)</td></tr>
 <tr class="separator:a2e3c08ed7f7f7aeff8309ae257ea04ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a3d2d8c13291eac7d28a3ad7137f159"><td class="memTemplParams" colspan="2">template&lt;typename Op , typename Result , typename... Args&gt; </td></tr>
-<tr class="memitem:a5a3d2d8c13291eac7d28a3ad7137f159"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="vector__op_8h.html#aa5ef6cf520cac4c170b270882d6e2151">TILEDARRAY_FORCE_INLINE</a> std::enable_if&lt;(sizeof...(Args) &gt;=0)&gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a5a3d2d8c13291eac7d28a3ad7137f159">TiledArray::math::for_each_block_ptr</a> (Op &amp;&amp;op, Result *const result, const Args *const ...args)</td></tr>
+<tr class="memitem:a5a3d2d8c13291eac7d28a3ad7137f159"><td class="memTemplItemLeft" align="right" valign="top">TILEDARRAY_FORCE_INLINE std::enable_if&lt;(sizeof...(Args) &gt;=0)&gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a5a3d2d8c13291eac7d28a3ad7137f159">TiledArray::math::for_each_block_ptr</a> (Op &amp;&amp;op, Result *const result, const Args *const ...args)</td></tr>
 <tr class="separator:a5a3d2d8c13291eac7d28a3ad7137f159"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af187c81993f7578e2e32d1365de16238"><td class="memTemplParams" colspan="2">template&lt;typename Op , typename Result , typename... Args&gt; </td></tr>
-<tr class="memitem:af187c81993f7578e2e32d1365de16238"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="vector__op_8h.html#aa5ef6cf520cac4c170b270882d6e2151">TILEDARRAY_FORCE_INLINE</a> std::enable_if&lt;(sizeof...(Args) &gt; 0)&gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#af187c81993f7578e2e32d1365de16238">TiledArray::math::for_each_block_ptr</a> (Op &amp;&amp;op, Result *const result, Block&lt; Args &gt; &amp;&amp;...args)</td></tr>
+<tr class="memitem:af187c81993f7578e2e32d1365de16238"><td class="memTemplItemLeft" align="right" valign="top">TILEDARRAY_FORCE_INLINE std::enable_if&lt;(sizeof...(Args) &gt; 0)&gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#af187c81993f7578e2e32d1365de16238">TiledArray::math::for_each_block_ptr</a> (Op &amp;&amp;op, Result *const result, Block&lt; Args &gt; &amp;&amp;...args)</td></tr>
 <tr class="separator:af187c81993f7578e2e32d1365de16238"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58e234a81693e3cc48d43f8ba89ecc0d"><td class="memTemplParams" colspan="2">template&lt;typename Op , typename Result , typename... Args&gt; </td></tr>
-<tr class="memitem:a58e234a81693e3cc48d43f8ba89ecc0d"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="vector__op_8h.html#aa5ef6cf520cac4c170b270882d6e2151">TILEDARRAY_FORCE_INLINE</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a58e234a81693e3cc48d43f8ba89ecc0d">TiledArray::math::for_each_block_ptr_n</a> (Op &amp;&amp;op, const std::size_t n, Result *restrict const result, const Args *restrict const ...args)</td></tr>
+<tr class="memitem:a58e234a81693e3cc48d43f8ba89ecc0d"><td class="memTemplItemLeft" align="right" valign="top">TILEDARRAY_FORCE_INLINE void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a58e234a81693e3cc48d43f8ba89ecc0d">TiledArray::math::for_each_block_ptr_n</a> (Op &amp;&amp;op, const std::size_t n, Result *restrict const result, const Args *restrict const ...args)</td></tr>
 <tr class="separator:a58e234a81693e3cc48d43f8ba89ecc0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abec6dc9bc0dae96165c2ba32ed1f556c"><td class="memTemplParams" colspan="2">template&lt;typename Op , typename Result , typename... Args&gt; </td></tr>
-<tr class="memitem:abec6dc9bc0dae96165c2ba32ed1f556c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="vector__op_8h.html#aa5ef6cf520cac4c170b270882d6e2151">TILEDARRAY_FORCE_INLINE</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#abec6dc9bc0dae96165c2ba32ed1f556c">TiledArray::math::reduce_block</a> (Op &amp;&amp;op, Result &amp;result, const Args *const ...args)</td></tr>
+<tr class="memitem:abec6dc9bc0dae96165c2ba32ed1f556c"><td class="memTemplItemLeft" align="right" valign="top">TILEDARRAY_FORCE_INLINE void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#abec6dc9bc0dae96165c2ba32ed1f556c">TiledArray::math::reduce_block</a> (Op &amp;&amp;op, Result &amp;result, const Args *const ...args)</td></tr>
 <tr class="separator:abec6dc9bc0dae96165c2ba32ed1f556c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1dd41b6c8831dd8f78872937510ca9ab"><td class="memTemplParams" colspan="2">template&lt;typename Op , typename Result , typename... Args&gt; </td></tr>
-<tr class="memitem:a1dd41b6c8831dd8f78872937510ca9ab"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="vector__op_8h.html#aa5ef6cf520cac4c170b270882d6e2151">TILEDARRAY_FORCE_INLINE</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a1dd41b6c8831dd8f78872937510ca9ab">TiledArray::math::reduce_block</a> (Op &amp;&amp;op, Result &amp;result, Block&lt; Args &gt; &amp;&amp;...args)</td></tr>
+<tr class="memitem:a1dd41b6c8831dd8f78872937510ca9ab"><td class="memTemplItemLeft" align="right" valign="top">TILEDARRAY_FORCE_INLINE void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a1dd41b6c8831dd8f78872937510ca9ab">TiledArray::math::reduce_block</a> (Op &amp;&amp;op, Result &amp;result, Block&lt; Args &gt; &amp;&amp;...args)</td></tr>
 <tr class="separator:a1dd41b6c8831dd8f78872937510ca9ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38355476cdac3adeb857c676ed9f6657"><td class="memTemplParams" colspan="2">template&lt;typename Op , typename Result , typename... Args&gt; </td></tr>
-<tr class="memitem:a38355476cdac3adeb857c676ed9f6657"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="vector__op_8h.html#aa5ef6cf520cac4c170b270882d6e2151">TILEDARRAY_FORCE_INLINE</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a38355476cdac3adeb857c676ed9f6657">TiledArray::math::reduce_block_n</a> (Op &amp;&amp;op, const std::size_t n, Result &amp;restrict result, const Args *restrict const ...args)</td></tr>
+<tr class="memitem:a38355476cdac3adeb857c676ed9f6657"><td class="memTemplItemLeft" align="right" valign="top">TILEDARRAY_FORCE_INLINE void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a38355476cdac3adeb857c676ed9f6657">TiledArray::math::reduce_block_n</a> (Op &amp;&amp;op, const std::size_t n, Result &amp;restrict result, const Args *restrict const ...args)</td></tr>
 <tr class="separator:a38355476cdac3adeb857c676ed9f6657"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9085136f802b954e3a2bd643cd13d8b5"><td class="memTemplParams" colspan="2">template&lt;typename Result , typename Arg &gt; </td></tr>
-<tr class="memitem:a9085136f802b954e3a2bd643cd13d8b5"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="vector__op_8h.html#aa5ef6cf520cac4c170b270882d6e2151">TILEDARRAY_FORCE_INLINE</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a9085136f802b954e3a2bd643cd13d8b5">TiledArray::math::copy_block</a> (Result *const result, const Arg *const arg)</td></tr>
+<tr class="memitem:a9085136f802b954e3a2bd643cd13d8b5"><td class="memTemplItemLeft" align="right" valign="top">TILEDARRAY_FORCE_INLINE void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a9085136f802b954e3a2bd643cd13d8b5">TiledArray::math::copy_block</a> (Result *const result, const Arg *const arg)</td></tr>
 <tr class="separator:a9085136f802b954e3a2bd643cd13d8b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7bcf83ae2adb68a37b9b98256e5373a"><td class="memTemplParams" colspan="2">template&lt;typename Arg , typename Result &gt; </td></tr>
-<tr class="memitem:ab7bcf83ae2adb68a37b9b98256e5373a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="vector__op_8h.html#aa5ef6cf520cac4c170b270882d6e2151">TILEDARRAY_FORCE_INLINE</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#ab7bcf83ae2adb68a37b9b98256e5373a">TiledArray::math::copy_block_n</a> (std::size_t n, Result *const result, const Arg *const arg)</td></tr>
+<tr class="memitem:ab7bcf83ae2adb68a37b9b98256e5373a"><td class="memTemplItemLeft" align="right" valign="top">TILEDARRAY_FORCE_INLINE void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#ab7bcf83ae2adb68a37b9b98256e5373a">TiledArray::math::copy_block_n</a> (std::size_t n, Result *const result, const Arg *const arg)</td></tr>
 <tr class="separator:ab7bcf83ae2adb68a37b9b98256e5373a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6137a96c445b26d23187018efa876aa5"><td class="memTemplParams" colspan="2">template&lt;typename Arg , typename Result &gt; </td></tr>
-<tr class="memitem:a6137a96c445b26d23187018efa876aa5"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="vector__op_8h.html#aa5ef6cf520cac4c170b270882d6e2151">TILEDARRAY_FORCE_INLINE</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a6137a96c445b26d23187018efa876aa5">TiledArray::math::scatter_block</a> (Result *const result, const std::size_t stride, const Arg *const arg)</td></tr>
+<tr class="memitem:a6137a96c445b26d23187018efa876aa5"><td class="memTemplItemLeft" align="right" valign="top">TILEDARRAY_FORCE_INLINE void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a6137a96c445b26d23187018efa876aa5">TiledArray::math::scatter_block</a> (Result *const result, const std::size_t stride, const Arg *const arg)</td></tr>
 <tr class="separator:a6137a96c445b26d23187018efa876aa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a015f3eda1a48bda23f2f4fd82aea4af6"><td class="memTemplParams" colspan="2">template&lt;typename Result , typename Arg &gt; </td></tr>
-<tr class="memitem:a015f3eda1a48bda23f2f4fd82aea4af6"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="vector__op_8h.html#aa5ef6cf520cac4c170b270882d6e2151">TILEDARRAY_FORCE_INLINE</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a015f3eda1a48bda23f2f4fd82aea4af6">TiledArray::math::scatter_block_n</a> (const std::size_t n, Result *result, const std::size_t stride, const Arg *const arg)</td></tr>
+<tr class="memitem:a015f3eda1a48bda23f2f4fd82aea4af6"><td class="memTemplItemLeft" align="right" valign="top">TILEDARRAY_FORCE_INLINE void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a015f3eda1a48bda23f2f4fd82aea4af6">TiledArray::math::scatter_block_n</a> (const std::size_t n, Result *result, const std::size_t stride, const Arg *const arg)</td></tr>
 <tr class="separator:a015f3eda1a48bda23f2f4fd82aea4af6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e1b4b91971f158442e36a9172045a83"><td class="memTemplParams" colspan="2">template&lt;typename Result , typename Arg &gt; </td></tr>
-<tr class="memitem:a9e1b4b91971f158442e36a9172045a83"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="vector__op_8h.html#aa5ef6cf520cac4c170b270882d6e2151">TILEDARRAY_FORCE_INLINE</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a9e1b4b91971f158442e36a9172045a83">TiledArray::math::gather_block</a> (Result *const result, const Arg *const arg, const std::size_t stride)</td></tr>
+<tr class="memitem:a9e1b4b91971f158442e36a9172045a83"><td class="memTemplItemLeft" align="right" valign="top">TILEDARRAY_FORCE_INLINE void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a9e1b4b91971f158442e36a9172045a83">TiledArray::math::gather_block</a> (Result *const result, const Arg *const arg, const std::size_t stride)</td></tr>
 <tr class="separator:a9e1b4b91971f158442e36a9172045a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a546290edabc6e70fce56872cb797ee"><td class="memTemplParams" colspan="2">template&lt;typename Arg , typename Result &gt; </td></tr>
-<tr class="memitem:a2a546290edabc6e70fce56872cb797ee"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="vector__op_8h.html#aa5ef6cf520cac4c170b270882d6e2151">TILEDARRAY_FORCE_INLINE</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a2a546290edabc6e70fce56872cb797ee">TiledArray::math::gather_block_n</a> (const std::size_t n, Result *const result, const Arg *const arg, const std::size_t stride)</td></tr>
+<tr class="memitem:a2a546290edabc6e70fce56872cb797ee"><td class="memTemplItemLeft" align="right" valign="top">TILEDARRAY_FORCE_INLINE void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a2a546290edabc6e70fce56872cb797ee">TiledArray::math::gather_block_n</a> (const std::size_t n, Result *const result, const Arg *const arg, const std::size_t stride)</td></tr>
 <tr class="separator:a2a546290edabc6e70fce56872cb797ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab353418ddbbe4b79172668c14b8c5a56"><td class="memTemplParams" colspan="2">template&lt;typename Op , typename Result , typename... Args, typename std::enable_if&lt; std::is_void&lt; typename std::result_of&lt; Op(Result &amp;,                       Args...)&gt;::type &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:af0dee36df7f9844d9f6db524aab1e3bd"><td class="memTemplParams" colspan="2">template&lt;typename Op , typename Result , typename... Args, typename std::enable_if&lt; std::is_void&lt; typename std::result_of&lt; Op(Result &amp;,                       Args...)&gt;::type &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:af0dee36df7f9844d9f6db524aab1e3bd"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#af0dee36df7f9844d9f6db524aab1e3bd">TiledArray::math::inplace_vector_op_serial</a> (Op &amp;&amp;op, const std::size_t n, Result *const result, const Args *const ...args)</td></tr>
+<tr class="separator:af0dee36df7f9844d9f6db524aab1e3bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab353418ddbbe4b79172668c14b8c5a56"><td class="memTemplParams" colspan="2">template&lt;typename Op , typename Result , typename... Args, typename std::enable_if&lt; std::is_void&lt; typename std::result_of&lt; Op(Result &amp;,                                       Args...)&gt;::type &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
 <tr class="memitem:ab353418ddbbe4b79172668c14b8c5a56"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#ab353418ddbbe4b79172668c14b8c5a56">TiledArray::math::inplace_vector_op</a> (Op &amp;&amp;op, const std::size_t n, Result *const result, const Args *const ...args)</td></tr>
 <tr class="separator:ab353418ddbbe4b79172668c14b8c5a56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5b4bb76cf883823b5016f1f01ae6ee1"><td class="memTemplParams" colspan="2">template&lt;typename Op , typename Result , typename... Args, typename std::enable_if&lt;!std::is_void&lt; typename std::result_of&lt; Op(                       Args...)&gt;::type &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a68fc64d7f002a3dcae2fd4d20e421b26"><td class="memTemplParams" colspan="2">template&lt;typename Op , typename Result , typename... Args, typename std::enable_if&lt;!std::is_void&lt; typename std::result_of&lt; Op(                       Args...)&gt;::type &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a68fc64d7f002a3dcae2fd4d20e421b26"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a68fc64d7f002a3dcae2fd4d20e421b26">TiledArray::math::vector_op_serial</a> (Op &amp;&amp;op, const std::size_t n, Result *const result, const Args *const ...args)</td></tr>
+<tr class="separator:a68fc64d7f002a3dcae2fd4d20e421b26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5b4bb76cf883823b5016f1f01ae6ee1"><td class="memTemplParams" colspan="2">template&lt;typename Op , typename Result , typename... Args, typename std::enable_if&lt;!std::is_void&lt; typename std::result_of&lt; Op(                                                                       Args...)&gt;::type &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
 <tr class="memitem:ad5b4bb76cf883823b5016f1f01ae6ee1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#ad5b4bb76cf883823b5016f1f01ae6ee1">TiledArray::math::vector_op</a> (Op &amp;&amp;op, const std::size_t n, Result *const result, const Args *const ...args)</td></tr>
 <tr class="separator:ad5b4bb76cf883823b5016f1f01ae6ee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab244aa3285d0693390fc07d282d67c41"><td class="memTemplParams" colspan="2">template&lt;typename Op , typename Result , typename... Args&gt; </td></tr>
+<tr class="memitem:ab244aa3285d0693390fc07d282d67c41"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#ab244aa3285d0693390fc07d282d67c41">TiledArray::math::vector_ptr_op_serial</a> (Op &amp;&amp;op, const std::size_t n, Result *const result, const Args *const ...args)</td></tr>
+<tr class="separator:ab244aa3285d0693390fc07d282d67c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1a1401db1826118241b710da09181ac"><td class="memTemplParams" colspan="2">template&lt;typename Op , typename Result , typename... Args&gt; </td></tr>
 <tr class="memitem:ab1a1401db1826118241b710da09181ac"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#ab1a1401db1826118241b710da09181ac">TiledArray::math::vector_ptr_op</a> (Op &amp;&amp;op, const std::size_t n, Result *const result, const Args *const ...args)</td></tr>
 <tr class="separator:ab1a1401db1826118241b710da09181ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15a1d6b52aacf352033bac011e3fd63e"><td class="memTemplParams" colspan="2">template&lt;typename Op , typename Result , typename... Args&gt; </td></tr>
-<tr class="memitem:a15a1d6b52aacf352033bac011e3fd63e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a15a1d6b52aacf352033bac011e3fd63e">TiledArray::math::reduce_op</a> (Op &amp;&amp;op, const std::size_t n, Result &amp;result, const Args *const ...args)</td></tr>
-<tr class="separator:a15a1d6b52aacf352033bac011e3fd63e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95a2b8944e3c924ae0c7450c55c98cf1"><td class="memTemplParams" colspan="2">template&lt;typename Op , typename Result , typename... Args&gt; </td></tr>
+<tr class="memitem:a95a2b8944e3c924ae0c7450c55c98cf1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a95a2b8944e3c924ae0c7450c55c98cf1">TiledArray::math::reduce_op_serial</a> (Op &amp;&amp;op, const std::size_t n, Result &amp;result, const Args *const ...args)</td></tr>
+<tr class="separator:a95a2b8944e3c924ae0c7450c55c98cf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36a40c1b7a3e6f65a38b029ad5e0541c"><td class="memTemplParams" colspan="2">template&lt;typename ReduceOp , typename JoinOp , typename Result , typename... Args&gt; </td></tr>
+<tr class="memitem:a36a40c1b7a3e6f65a38b029ad5e0541c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a36a40c1b7a3e6f65a38b029ad5e0541c">TiledArray::math::reduce_op</a> (ReduceOp &amp;&amp;reduce_op, JoinOp &amp;&amp;join_op, const Result &amp;identity, const std::size_t n, Result &amp;result, const Args *const ...args)</td></tr>
+<tr class="separator:a36a40c1b7a3e6f65a38b029ad5e0541c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a807ec5e087fea7a3340f203e1de88b3f"><td class="memTemplParams" colspan="2">template&lt;typename Arg , typename Result &gt; </td></tr>
 <tr class="memitem:a807ec5e087fea7a3340f203e1de88b3f"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt;!(std::is_same&lt; Arg, Result &gt;::value &amp;&amp;std::is_scalar&lt; Arg &gt;::value)&gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_tiled_array_1_1math.html#a807ec5e087fea7a3340f203e1de88b3f">TiledArray::math::copy_vector</a> (const std::size_t n, const Arg *const arg, Result *const result)</td></tr>
 <tr class="separator:a807ec5e087fea7a3340f203e1de88b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -265,62 +270,6 @@ Functions</h2></td></tr>
 <tr class="separator:a8aa10c21cf1e8449c17f61d3eb4006af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="ab326c2e306b8e5a50b0aed44d80d2af6"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TILEARRAY_ALIGNMENT&#160;&#160;&#160;16</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="vector__op_8h_source.html#l00033">33</a> of file <a class="el" href="vector__op_8h_source.html">vector_op.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae97949dd113939d99b5f27a12dbb7678"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TILEDARRAY_ALIGNED_STORAGE</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="vector__op_8h_source.html#l00076">76</a> of file <a class="el" href="vector__op_8h_source.html">vector_op.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa6b4676a59e2c77bc6491e5f1bd6c565"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TILEDARRAY_CACHELINE_SIZE&#160;&#160;&#160;64</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="vector__op_8h_source.html#l00037">37</a> of file <a class="el" href="vector__op_8h_source.html">vector_op.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa5ef6cf520cac4c170b270882d6e2151"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TILEDARRAY_FORCE_INLINE&#160;&#160;&#160;inline</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="vector__op_8h_source.html#l00061">61</a> of file <a class="el" href="vector__op_8h_source.html">vector_op.h</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="ac028b4789a5f629278ada8fb68f1a2d3"></a>
 <div class="memitem">
 <div class="memproto">
@@ -331,7 +280,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="vector__op_8h_source.html#l00040">40</a> of file <a class="el" href="vector__op_8h_source.html">vector_op.h</a>.</p>
+<p>Definition at line <a class="el" href="vector__op_8h_source.html#l00033">33</a> of file <a class="el" href="vector__op_8h_source.html">vector_op.h</a>.</p>
 
 </div>
 </div>
@@ -341,7 +290,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53ef4fd72a57002f3857d5373dfad4b8.html">TiledArray</a></li><li class="navelem"><a class="el" href="dir_f09161518c47cbc45f8d52073b943ccb.html">math</a></li><li class="navelem"><a class="el" href="vector__op_8h.html">vector_op.h</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:45 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:07 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

@@ -35,20 +35,21 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "add_8h.html",
-"class_tiled_array_1_1_pmap.html#a383ed711222ab243c82522ecce34c9a7",
-"class_tiled_array_1_1_tile.html#a89b20d2ce7f08cc29e3fb1e5a6bbf886",
-"class_tiled_array_1_1detail_1_1_dist_eval.html#acccffbc9daf27b8affe13e1c9bac89b4",
-"class_tiled_array_1_1detail_1_1_summa.html#a21c79970d3b1d4be715fe17f4f91b66f",
-"class_tiled_array_1_1expressions_1_1_binary_engine.html#a184b08ed84cea91b6f4c3af3ac89163d",
-"class_tiled_array_1_1expressions_1_1_mult_engine.html#a2bcee8faacfdcea98baf5ee1680f8fe4",
-"class_tiled_array_1_1expressions_1_1_subt_engine.html#adb445eefac68f7b9d6c2e9090107cce8",
-"class_tiled_array_1_1math_1_1_noop.html#a0682bfc862679a2021aa7e9498d902f1",
-"class_tiled_array_1_1symmetry_1_1_permutation_group.html#a293ab46d5f68079399fdb519460fda32",
-"group___non_intrusive_tile_interface.html#ga5b9a07027db87b4785e7e9f2f31cc567",
-"perm__index_8h_source.html",
-"struct_tiled_array_1_1expressions_1_1_engine_trait_3_01_scal_add_engine_3_01_left_00_01_right_01_4_01_4.html",
-"tile_8h.html#ga82119d9a563ead840c9e16c2a729cf82",
-"vector__op_8h.html#ae35eda7c1607022604383845a87ecac7"
+"class_tiled_array_1_1_dist_array.html#a7c3c18c22ada043292d269c1cc004ac0",
+"class_tiled_array_1_1_scal_shift.html#a1ecad94a3dad831971dc31c5d54a7f4d",
+"class_tiled_array_1_1_tile.html#a920e97fd0ffafee69139c6701dabbe1d",
+"class_tiled_array_1_1detail_1_1_blocked_pmap.html#aaaa056c851fc17307b080800bb3f742b",
+"class_tiled_array_1_1detail_1_1_size_array.html#a4bf1d9e0a2bc1e467774e5cb47a9412b",
+"class_tiled_array_1_1detail_1_1_unary_wrapper.html#ac6c526d092a122bc39ad682032478b9a",
+"class_tiled_array_1_1expressions_1_1_expr.html#a9fe58c52e2228a44d60653d11ccba15d",
+"class_tiled_array_1_1expressions_1_1_scal_mult_engine.html#a600ba880da8e1a43fc21bf88126c820a",
+"class_tiled_array_1_1math_1_1_block.html#a793c14cd11594338894e65383daec2c2",
+"foreach_8h.html#a68370c5a4f4380edb45a5ef3171d97c8",
+"madness_8h.html",
+"sparse__shape_8h_source.html",
+"struct_tiled_array_1_1expressions_1_1_engine_trait_3_01_tsr_engine_3_01_dist_array_3_01_tile_00_13cbb76c045a8677c2ab8a9f814c6c17.html#a9a90d046fc250c5e6e01afa52f072226",
+"tile_8h.html#ga67b0fd498d81c2a5898673bcb0152934",
+"vector__op_8h.html#ab7bcf83ae2adb68a37b9b98256e5373a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

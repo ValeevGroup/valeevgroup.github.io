@@ -124,6 +124,16 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_tiled_array_1_1eval__trait_3_01_t_00_01typename_01std_1_1enable__if_3_01detail_1_1is__typc182ea334e8bb9605ae2787a9eece667.html">TiledArray::eval_trait&lt; T, typename std::enable_if&lt; detail::is_type&lt; typename T::eval_type &gt;::value &gt;::type &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine the object type used in the evaluation of tensor expressions.  <a href="struct_tiled_array_1_1eval__trait_3_01_t_00_01typename_01std_1_1enable__if_3_01detail_1_1is__typc182ea334e8bb9605ae2787a9eece667.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_tiled_array_1_1is__lazy__tile.html">TiledArray::is_lazy_tile&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detect lazy evaluation tiles.  <a href="struct_tiled_array_1_1is__lazy__tile.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_tiled_array_1_1is__lazy__tile_3_01_dist_array_3_01_tile_00_01_policy_01_4_01_4.html">TiledArray::is_lazy_tile&lt; DistArray&lt; Tile, Policy &gt; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_tiled_array_1_1is__consumable__tile.html">TiledArray::is_consumable_tile&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consumable tile type trait.  <a href="struct_tiled_array_1_1is__consumable__tile.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_tiled_array_1_1is__consumable__tile_3_01_zero_tensor_01_4.html">TiledArray::is_consumable_tile&lt; ZeroTensor &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -141,47 +151,47 @@ Functions</h2></td></tr>
 <tr class="separator:ga040f23a684e2cfec50be13936d603709"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab1428654d9053accf03684ba5d57e4b0"><td class="memTemplParams" colspan="2">template&lt;typename Arg , typename Index &gt; </td></tr>
 <tr class="memitem:gab1428654d9053accf03684ba5d57e4b0"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___tile_interface.html#gab1428654d9053accf03684ba5d57e4b0">TiledArray::shift</a> (const Tile&lt; Arg &gt; &amp;arg, const Index &amp;range_shift) -&gt; Tile&lt; decltype(shift(arg.tensor(), range_shift))&gt;</td></tr>
-<tr class="memdesc:gab1428654d9053accf03684ba5d57e4b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shift the range of <code>arg</code>.  <a href="group___tile_interface.html#gab1428654d9053accf03684ba5d57e4b0">More...</a><br /></td></tr>
+<tr class="memdesc:gab1428654d9053accf03684ba5d57e4b0"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_shift.html" title="Tile shift operation. ">Shift</a> the range of <code>arg</code>.  <a href="group___tile_interface.html#gab1428654d9053accf03684ba5d57e4b0">More...</a><br /></td></tr>
 <tr class="separator:gab1428654d9053accf03684ba5d57e4b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2ead9e3d38c6a824d4dfe0beffddbcdf"><td class="memTemplParams" colspan="2">template&lt;typename Arg , typename Index &gt; </td></tr>
 <tr class="memitem:ga2ead9e3d38c6a824d4dfe0beffddbcdf"><td class="memTemplItemLeft" align="right" valign="top">Tile&lt; Arg &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___tile_interface.html#ga2ead9e3d38c6a824d4dfe0beffddbcdf">TiledArray::shift_to</a> (Tile&lt; Arg &gt; &amp;arg, const Index &amp;range_shift)</td></tr>
-<tr class="memdesc:ga2ead9e3d38c6a824d4dfe0beffddbcdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shift the range of <code>arg</code> in place.  <a href="group___tile_interface.html#ga2ead9e3d38c6a824d4dfe0beffddbcdf">More...</a><br /></td></tr>
+<tr class="memdesc:ga2ead9e3d38c6a824d4dfe0beffddbcdf"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_shift.html" title="Tile shift operation. ">Shift</a> the range of <code>arg</code> in place.  <a href="group___tile_interface.html#ga2ead9e3d38c6a824d4dfe0beffddbcdf">More...</a><br /></td></tr>
 <tr class="separator:ga2ead9e3d38c6a824d4dfe0beffddbcdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa94ec03e0af35cc7da26e8fbbf4a6be3"><td class="memTemplParams" colspan="2">template&lt;typename Left , typename Right &gt; </td></tr>
 <tr class="memitem:gaa94ec03e0af35cc7da26e8fbbf4a6be3"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___tile_interface.html#gaa94ec03e0af35cc7da26e8fbbf4a6be3">TiledArray::add</a> (const Tile&lt; Left &gt; &amp;left, const Tile&lt; Right &gt; &amp;right) -&gt; Tile&lt; decltype(add(left.tensor(), right.tensor()))&gt;</td></tr>
-<tr class="memdesc:gaa94ec03e0af35cc7da26e8fbbf4a6be3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add tile arguments.  <a href="group___tile_interface.html#gaa94ec03e0af35cc7da26e8fbbf4a6be3">More...</a><br /></td></tr>
+<tr class="memdesc:gaa94ec03e0af35cc7da26e8fbbf4a6be3"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> tile arguments.  <a href="group___tile_interface.html#gaa94ec03e0af35cc7da26e8fbbf4a6be3">More...</a><br /></td></tr>
 <tr class="separator:gaa94ec03e0af35cc7da26e8fbbf4a6be3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab34e9c983c957d03d780e6ac32555738"><td class="memTemplParams" colspan="2">template&lt;typename Left , typename Right , typename Scalar , typename std::enable_if&lt; detail::is_numeric&lt; Scalar &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
 <tr class="memitem:gab34e9c983c957d03d780e6ac32555738"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___tile_interface.html#gab34e9c983c957d03d780e6ac32555738">TiledArray::add</a> (const Tile&lt; Left &gt; &amp;left, const Tile&lt; Right &gt; &amp;right, const Scalar factor) -&gt; Tile&lt; decltype(add(left.tensor(), right.tensor(), factor))&gt;</td></tr>
-<tr class="memdesc:gab34e9c983c957d03d780e6ac32555738"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add and scale tile arguments.  <a href="group___tile_interface.html#gab34e9c983c957d03d780e6ac32555738">More...</a><br /></td></tr>
+<tr class="memdesc:gab34e9c983c957d03d780e6ac32555738"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> and scale tile arguments.  <a href="group___tile_interface.html#gab34e9c983c957d03d780e6ac32555738">More...</a><br /></td></tr>
 <tr class="separator:gab34e9c983c957d03d780e6ac32555738"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga51557c926f10a9406d056c903ad3b279"><td class="memTemplParams" colspan="2">template&lt;typename Left , typename Right &gt; </td></tr>
 <tr class="memitem:ga51557c926f10a9406d056c903ad3b279"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___tile_interface.html#ga51557c926f10a9406d056c903ad3b279">TiledArray::add</a> (const Tile&lt; Left &gt; &amp;left, const Tile&lt; Right &gt; &amp;right, const Permutation &amp;perm) -&gt; Tile&lt; decltype(add(left.tensor(), right.tensor(), perm))&gt;</td></tr>
-<tr class="memdesc:ga51557c926f10a9406d056c903ad3b279"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add and permute tile arguments.  <a href="group___tile_interface.html#ga51557c926f10a9406d056c903ad3b279">More...</a><br /></td></tr>
+<tr class="memdesc:ga51557c926f10a9406d056c903ad3b279"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> and permute tile arguments.  <a href="group___tile_interface.html#ga51557c926f10a9406d056c903ad3b279">More...</a><br /></td></tr>
 <tr class="separator:ga51557c926f10a9406d056c903ad3b279"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4bcd1a751061a1aab818618e2475b246"><td class="memTemplParams" colspan="2">template&lt;typename Left , typename Right , typename Scalar , typename std::enable_if&lt; detail::is_numeric&lt; Scalar &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
 <tr class="memitem:ga4bcd1a751061a1aab818618e2475b246"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___tile_interface.html#ga4bcd1a751061a1aab818618e2475b246">TiledArray::add</a> (const Tile&lt; Left &gt; &amp;left, const Tile&lt; Right &gt; &amp;right, const Scalar factor, const Permutation &amp;perm) -&gt; Tile&lt; decltype(add(left.tensor(), right.tensor(), factor, perm))&gt;</td></tr>
-<tr class="memdesc:ga4bcd1a751061a1aab818618e2475b246"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add, scale, and permute tile arguments.  <a href="group___tile_interface.html#ga4bcd1a751061a1aab818618e2475b246">More...</a><br /></td></tr>
+<tr class="memdesc:ga4bcd1a751061a1aab818618e2475b246"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a>, scale, and permute tile arguments.  <a href="group___tile_interface.html#ga4bcd1a751061a1aab818618e2475b246">More...</a><br /></td></tr>
 <tr class="separator:ga4bcd1a751061a1aab818618e2475b246"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga82119d9a563ead840c9e16c2a729cf82"><td class="memTemplParams" colspan="2">template&lt;typename Arg , typename Scalar , typename std::enable_if&lt; detail::is_numeric&lt; Scalar &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
 <tr class="memitem:ga82119d9a563ead840c9e16c2a729cf82"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___tile_interface.html#ga82119d9a563ead840c9e16c2a729cf82">TiledArray::add</a> (const Tile&lt; Arg &gt; &amp;arg, const Scalar value) -&gt; Tile&lt; decltype(add(arg.tensor(), value))&gt;</td></tr>
-<tr class="memdesc:ga82119d9a563ead840c9e16c2a729cf82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a constant scalar to tile argument.  <a href="group___tile_interface.html#ga82119d9a563ead840c9e16c2a729cf82">More...</a><br /></td></tr>
+<tr class="memdesc:ga82119d9a563ead840c9e16c2a729cf82"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> a constant scalar to tile argument.  <a href="group___tile_interface.html#ga82119d9a563ead840c9e16c2a729cf82">More...</a><br /></td></tr>
 <tr class="separator:ga82119d9a563ead840c9e16c2a729cf82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2c17a335bfefef81ad3d25b2814f6eb1"><td class="memTemplParams" colspan="2">template&lt;typename Arg , typename Scalar , typename std::enable_if&lt; detail::is_numeric&lt; Scalar &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
 <tr class="memitem:ga2c17a335bfefef81ad3d25b2814f6eb1"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___tile_interface.html#ga2c17a335bfefef81ad3d25b2814f6eb1">TiledArray::add</a> (const Tile&lt; Arg &gt; &amp;arg, const Scalar value, const Permutation &amp;perm) -&gt; Tile&lt; decltype(add(arg.tensor(), value, perm))&gt;</td></tr>
-<tr class="memdesc:ga2c17a335bfefef81ad3d25b2814f6eb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a constant scalar and permute tile argument.  <a href="group___tile_interface.html#ga2c17a335bfefef81ad3d25b2814f6eb1">More...</a><br /></td></tr>
+<tr class="memdesc:ga2c17a335bfefef81ad3d25b2814f6eb1"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> a constant scalar and permute tile argument.  <a href="group___tile_interface.html#ga2c17a335bfefef81ad3d25b2814f6eb1">More...</a><br /></td></tr>
 <tr class="separator:ga2c17a335bfefef81ad3d25b2814f6eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5eaf2e2efc1f2ca1fca6e5e2fcee256e"><td class="memTemplParams" colspan="2">template&lt;typename Result , typename Arg &gt; </td></tr>
 <tr class="memitem:ga5eaf2e2efc1f2ca1fca6e5e2fcee256e"><td class="memTemplItemLeft" align="right" valign="top">Tile&lt; Result &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___tile_interface.html#ga5eaf2e2efc1f2ca1fca6e5e2fcee256e">TiledArray::add_to</a> (Tile&lt; Result &gt; &amp;result, const Tile&lt; Arg &gt; &amp;arg)</td></tr>
-<tr class="memdesc:ga5eaf2e2efc1f2ca1fca6e5e2fcee256e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add to the result tile.  <a href="group___tile_interface.html#ga5eaf2e2efc1f2ca1fca6e5e2fcee256e">More...</a><br /></td></tr>
+<tr class="memdesc:ga5eaf2e2efc1f2ca1fca6e5e2fcee256e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> to the result tile.  <a href="group___tile_interface.html#ga5eaf2e2efc1f2ca1fca6e5e2fcee256e">More...</a><br /></td></tr>
 <tr class="separator:ga5eaf2e2efc1f2ca1fca6e5e2fcee256e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6dabb8dd35f758019c80da238cf50196"><td class="memTemplParams" colspan="2">template&lt;typename Result , typename Arg , typename Scalar , typename std::enable_if&lt; detail::is_numeric&lt; Scalar &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
 <tr class="memitem:ga6dabb8dd35f758019c80da238cf50196"><td class="memTemplItemLeft" align="right" valign="top">Tile&lt; Result &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___tile_interface.html#ga6dabb8dd35f758019c80da238cf50196">TiledArray::add_to</a> (Tile&lt; Result &gt; &amp;result, const Tile&lt; Arg &gt; &amp;arg, const Scalar factor)</td></tr>
-<tr class="memdesc:ga6dabb8dd35f758019c80da238cf50196"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add and scale to the result tile.  <a href="group___tile_interface.html#ga6dabb8dd35f758019c80da238cf50196">More...</a><br /></td></tr>
+<tr class="memdesc:ga6dabb8dd35f758019c80da238cf50196"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> and scale to the result tile.  <a href="group___tile_interface.html#ga6dabb8dd35f758019c80da238cf50196">More...</a><br /></td></tr>
 <tr class="separator:ga6dabb8dd35f758019c80da238cf50196"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0887904f4fbb716dec1467ff37bcdef6"><td class="memTemplParams" colspan="2">template&lt;typename Result , typename Scalar , typename std::enable_if&lt; detail::is_numeric&lt; Scalar &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
 <tr class="memitem:ga0887904f4fbb716dec1467ff37bcdef6"><td class="memTemplItemLeft" align="right" valign="top">Tile&lt; Result &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___tile_interface.html#ga0887904f4fbb716dec1467ff37bcdef6">TiledArray::add_to</a> (Tile&lt; Result &gt; &amp;result, const Scalar value)</td></tr>
-<tr class="memdesc:ga0887904f4fbb716dec1467ff37bcdef6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add constant scalar to the result tile.  <a href="group___tile_interface.html#ga0887904f4fbb716dec1467ff37bcdef6">More...</a><br /></td></tr>
+<tr class="memdesc:ga0887904f4fbb716dec1467ff37bcdef6"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> constant scalar to the result tile.  <a href="group___tile_interface.html#ga0887904f4fbb716dec1467ff37bcdef6">More...</a><br /></td></tr>
 <tr class="separator:ga0887904f4fbb716dec1467ff37bcdef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0e009bc78f47589f3ff1a609b6fc99f0"><td class="memTemplParams" colspan="2">template&lt;typename Left , typename Right &gt; </td></tr>
 <tr class="memitem:ga0e009bc78f47589f3ff1a609b6fc99f0"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___tile_interface.html#ga0e009bc78f47589f3ff1a609b6fc99f0">TiledArray::subt</a> (const Tile&lt; Left &gt; &amp;left, const Tile&lt; Right &gt; &amp;right) -&gt; Tile&lt; decltype(sub(left.tensor(), right.tensor()))&gt;</td></tr>
@@ -267,6 +277,30 @@ Functions</h2></td></tr>
 <tr class="memitem:ga7f07b2f0fde49f0f04284bc3f6de3db4"><td class="memTemplItemLeft" align="right" valign="top">Tile&lt; Result &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___tile_interface.html#ga7f07b2f0fde49f0f04284bc3f6de3db4">TiledArray::neg_to</a> (Tile&lt; Result &gt; &amp;result)</td></tr>
 <tr class="memdesc:ga7f07b2f0fde49f0f04284bc3f6de3db4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplication constant scalar to a tile.  <a href="group___tile_interface.html#ga7f07b2f0fde49f0f04284bc3f6de3db4">More...</a><br /></td></tr>
 <tr class="separator:ga7f07b2f0fde49f0f04284bc3f6de3db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga790a672539c1eef4a6dae07be7b072b8"><td class="memTemplParams" colspan="2">template&lt;typename Arg &gt; </td></tr>
+<tr class="memitem:ga790a672539c1eef4a6dae07be7b072b8"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___tile_interface.html#ga790a672539c1eef4a6dae07be7b072b8">TiledArray::conj</a> (const Tile&lt; Arg &gt; &amp;arg) -&gt; Tile&lt; decltype(conj(arg.tensor()))&gt;</td></tr>
+<tr class="memdesc:ga790a672539c1eef4a6dae07be7b072b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a complex conjugated copy of a tile.  <a href="group___tile_interface.html#ga790a672539c1eef4a6dae07be7b072b8">More...</a><br /></td></tr>
+<tr class="separator:ga790a672539c1eef4a6dae07be7b072b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6b20ca3bbb1390f94e310f0b690a7b49"><td class="memTemplParams" colspan="2">template&lt;typename Arg , typename Scalar , typename std::enable_if&lt;                                  TiledArray::detail::is_numeric&lt; Scalar &gt;::value               &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:ga6b20ca3bbb1390f94e310f0b690a7b49"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___tile_interface.html#ga6b20ca3bbb1390f94e310f0b690a7b49">TiledArray::conj</a> (const Tile&lt; Arg &gt; &amp;arg, const Scalar factor) -&gt; Tile&lt; decltype(conj(arg.tensor(), factor))&gt;</td></tr>
+<tr class="memdesc:ga6b20ca3bbb1390f94e310f0b690a7b49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a complex conjugated and scaled copy of a tile.  <a href="group___tile_interface.html#ga6b20ca3bbb1390f94e310f0b690a7b49">More...</a><br /></td></tr>
+<tr class="separator:ga6b20ca3bbb1390f94e310f0b690a7b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga264a048d3211c5178a85b64a97325689"><td class="memTemplParams" colspan="2">template&lt;typename Arg &gt; </td></tr>
+<tr class="memitem:ga264a048d3211c5178a85b64a97325689"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___tile_interface.html#ga264a048d3211c5178a85b64a97325689">TiledArray::conj</a> (const Tile&lt; Arg &gt; &amp;arg, const Permutation &amp;perm) -&gt; Tile&lt; decltype(conj(arg.tensor(), perm))&gt;</td></tr>
+<tr class="memdesc:ga264a048d3211c5178a85b64a97325689"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a complex conjugated and permuted copy of a tile.  <a href="group___tile_interface.html#ga264a048d3211c5178a85b64a97325689">More...</a><br /></td></tr>
+<tr class="separator:ga264a048d3211c5178a85b64a97325689"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2d308da63361867599b880a936299837"><td class="memTemplParams" colspan="2">template&lt;typename Arg , typename Scalar , typename std::enable_if&lt;                                  TiledArray::detail::is_numeric&lt; Scalar &gt;::value               &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:ga2d308da63361867599b880a936299837"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___tile_interface.html#ga2d308da63361867599b880a936299837">TiledArray::conj</a> (const Tile&lt; Arg &gt; &amp;arg, const Scalar factor, const Permutation &amp;perm) -&gt; Tile&lt; decltype(conj(arg.tensor(), factor, perm))&gt;</td></tr>
+<tr class="memdesc:ga2d308da63361867599b880a936299837"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a complex conjugated, scaled, and permuted copy of a tile.  <a href="group___tile_interface.html#ga2d308da63361867599b880a936299837">More...</a><br /></td></tr>
+<tr class="separator:ga2d308da63361867599b880a936299837"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad2fd187f7e500ab8977032e67537b92a"><td class="memTemplParams" colspan="2">template&lt;typename Result &gt; </td></tr>
+<tr class="memitem:gad2fd187f7e500ab8977032e67537b92a"><td class="memTemplItemLeft" align="right" valign="top">Result &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___tile_interface.html#gad2fd187f7e500ab8977032e67537b92a">TiledArray::conj_to</a> (Tile&lt; Result &gt; &amp;result)</td></tr>
+<tr class="memdesc:gad2fd187f7e500ab8977032e67537b92a"><td class="mdescLeft">&#160;</td><td class="mdescRight">In-place complex conjugate a tile.  <a href="group___tile_interface.html#gad2fd187f7e500ab8977032e67537b92a">More...</a><br /></td></tr>
+<tr class="separator:gad2fd187f7e500ab8977032e67537b92a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf81db8c2648b13dd9ded3b54bcefa4e1"><td class="memTemplParams" colspan="2">template&lt;typename Result , typename Scalar , typename std::enable_if&lt;                                  TiledArray::detail::is_numeric&lt; Scalar &gt;::value               &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:gaf81db8c2648b13dd9ded3b54bcefa4e1"><td class="memTemplItemLeft" align="right" valign="top">Result &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___tile_interface.html#gaf81db8c2648b13dd9ded3b54bcefa4e1">TiledArray::conj_to</a> (Tile&lt; Result &gt; &amp;result, const Scalar factor)</td></tr>
+<tr class="memdesc:gaf81db8c2648b13dd9ded3b54bcefa4e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">In-place complex conjugate and scale a tile.  <a href="group___tile_interface.html#gaf81db8c2648b13dd9ded3b54bcefa4e1">More...</a><br /></td></tr>
+<tr class="separator:gaf81db8c2648b13dd9ded3b54bcefa4e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0f834a16c8290960ac267c29d6c4d3c7"><td class="memTemplParams" colspan="2">template&lt;typename Left , typename Right , typename Scalar , typename std::enable_if&lt; detail::is_numeric&lt; Scalar &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
 <tr class="memitem:ga0f834a16c8290960ac267c29d6c4d3c7"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___tile_interface.html#ga0f834a16c8290960ac267c29d6c4d3c7">TiledArray::gemm</a> (const Tile&lt; Left &gt; &amp;left, const Tile&lt; Right &gt; &amp;right, const Scalar factor, const math::GemmHelper &amp;gemm_config) -&gt; Tile&lt; decltype(gemm(left.tensor(), right.tensor(), factor, gemm_config))&gt;</td></tr>
 <tr class="memdesc:ga0f834a16c8290960ac267c29d6c4d3c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contract and scale tile arguments.  <a href="group___tile_interface.html#ga0f834a16c8290960ac267c29d6c4d3c7">More...</a><br /></td></tr>
@@ -317,7 +351,7 @@ Functions</h2></td></tr>
 <tr class="separator:ga2becd6ff2cf1762aaacbbab565b18fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga68c3b5baf14a350fd02f5b04a46b7e22"><td class="memTemplParams" colspan="2">template&lt;typename Left , typename Right &gt; </td></tr>
 <tr class="memitem:ga68c3b5baf14a350fd02f5b04a46b7e22"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___tile_interface.html#ga68c3b5baf14a350fd02f5b04a46b7e22">TiledArray::operator+</a> (const Tile&lt; Left &gt; &amp;left, const Tile&lt; Right &gt; &amp;right) -&gt; decltype(add(left, right))</td></tr>
-<tr class="memdesc:ga68c3b5baf14a350fd02f5b04a46b7e22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add tiles operator.  <a href="group___tile_interface.html#ga68c3b5baf14a350fd02f5b04a46b7e22">More...</a><br /></td></tr>
+<tr class="memdesc:ga68c3b5baf14a350fd02f5b04a46b7e22"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> tiles operator.  <a href="group___tile_interface.html#ga68c3b5baf14a350fd02f5b04a46b7e22">More...</a><br /></td></tr>
 <tr class="separator:ga68c3b5baf14a350fd02f5b04a46b7e22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae7bcee0014e3c777ff47264fea368e2d"><td class="memTemplParams" colspan="2">template&lt;typename Left , typename Right &gt; </td></tr>
 <tr class="memitem:gae7bcee0014e3c777ff47264fea368e2d"><td class="memTemplItemLeft" align="right" valign="top">Tile&lt; Left &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___tile_interface.html#gae7bcee0014e3c777ff47264fea368e2d">TiledArray::operator+=</a> (Tile&lt; Left &gt; &amp;left, const Tile&lt; Right &gt; &amp;right)</td></tr>
@@ -402,7 +436,7 @@ template&lt;typename Arg &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A scalar that is equal to <code>abs(max(arg))</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l00881">881</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l00962">962</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -446,7 +480,7 @@ template&lt;typename Arg &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A scalar that is equal to <code>abs(min(arg))</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l00890">890</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l00971">971</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -485,7 +519,7 @@ template&lt;typename Left , typename Right &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Add tile arguments. </p>
+<p><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> tile arguments. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Left</td><td>The left-hand tile type </td></tr>
@@ -547,7 +581,7 @@ template&lt;typename Left , typename Right , typename Scalar , typename std::ena
 </table>
 </div><div class="memdoc">
 
-<p>Add and scale tile arguments. </p>
+<p><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> and scale tile arguments. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Left</td><td>The left-hand tile type </td></tr>
@@ -611,7 +645,7 @@ template&lt;typename Left , typename Right &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Add and permute tile arguments. </p>
+<p><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> and permute tile arguments. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Left</td><td>The left-hand tile type </td></tr>
@@ -680,7 +714,7 @@ template&lt;typename Left , typename Right , typename Scalar , typename std::ena
 </table>
 </div><div class="memdoc">
 
-<p>Add, scale, and permute tile arguments. </p>
+<p><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a>, scale, and permute tile arguments. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Left</td><td>The left-hand tile type </td></tr>
@@ -739,7 +773,7 @@ template&lt;typename Arg , typename Scalar , typename std::enable_if&lt; detail:
 </table>
 </div><div class="memdoc">
 
-<p>Add a constant scalar to tile argument. </p>
+<p><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> a constant scalar to tile argument. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Arg</td><td>The tile argument type </td></tr>
@@ -801,7 +835,7 @@ template&lt;typename Arg , typename Scalar , typename std::enable_if&lt; detail:
 </table>
 </div><div class="memdoc">
 
-<p>Add a constant scalar and permute tile argument. </p>
+<p><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> a constant scalar and permute tile argument. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Arg</td><td>The tile argument type </td></tr>
@@ -857,7 +891,7 @@ template&lt;typename Result , typename Arg &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Add to the result tile. </p>
+<p><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> to the result tile. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Result</td><td>The result tile type </td></tr>
@@ -918,7 +952,7 @@ template&lt;typename Result , typename Arg , typename Scalar , typename std::ena
 </table>
 </div><div class="memdoc">
 
-<p>Add and scale to the result tile. </p>
+<p><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> and scale to the result tile. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Result</td><td>The result tile type </td></tr>
@@ -975,7 +1009,7 @@ template&lt;typename Result , typename Scalar , typename std::enable_if&lt; deta
 </table>
 </div><div class="memdoc">
 
-<p>Add constant scalar to the result tile. </p>
+<p><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> constant scalar to the result tile. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Result</td><td>The result tile type </td></tr>
@@ -1039,6 +1073,322 @@ template&lt;typename Arg &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="ga790a672539c1eef4a6dae07be7b072b8"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Arg &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto TiledArray::conj </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tile.html">Tile</a>&lt; Arg &gt; &amp;&#160;</td>
+          <td class="paramname"><em>arg</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="class_tiled_array_1_1_tile.html">Tile</a>&lt;decltype(conj(arg.tensor()))&gt;
+  </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a complex conjugated copy of a tile. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Arg</td><td>The tile argument type </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arg</td><td>The tile to be conjugated </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A complex conjugated copy of <code>arg</code> </dd></dl>
+
+<p>Definition at line <a class="el" href="tile_8h_source.html#l00771">771</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga6b20ca3bbb1390f94e310f0b690a7b49"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Arg , typename Scalar , typename std::enable_if&lt;                                  TiledArray::detail::is_numeric&lt; Scalar &gt;::value               &gt;::type *  = nullptr&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto TiledArray::conj </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tile.html">Tile</a>&lt; Arg &gt; &amp;&#160;</td>
+          <td class="paramname"><em>arg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Scalar&#160;</td>
+          <td class="paramname"><em>factor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="class_tiled_array_1_1_tile.html">Tile</a>&lt;decltype(conj(arg.tensor(), factor))&gt;
+  </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a complex conjugated and scaled copy of a tile. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Arg</td><td>The tile argument type </td></tr>
+    <tr><td class="paramname">Scalar</td><td>A scalar type </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arg</td><td>The tile to be conjugated </td></tr>
+    <tr><td class="paramname">factor</td><td>The scaling factor </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A complex conjugated and scaled copy of <code>arg</code> </dd></dl>
+
+<p>Definition at line <a class="el" href="tile_8h_source.html#l00786">786</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga264a048d3211c5178a85b64a97325689"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Arg &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto TiledArray::conj </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tile.html">Tile</a>&lt; Arg &gt; &amp;&#160;</td>
+          <td class="paramname"><em>arg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_permutation.html">Permutation</a> &amp;&#160;</td>
+          <td class="paramname"><em>perm</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="class_tiled_array_1_1_tile.html">Tile</a>&lt;decltype(conj(arg.tensor(), perm))&gt;
+  </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a complex conjugated and permuted copy of a tile. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Arg</td><td>The tile argument type </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arg</td><td>The tile to be conjugated </td></tr>
+    <tr><td class="paramname">perm</td><td>The permutation to be applied to <code>arg</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A complex conjugated and permuted copy of <code>arg</code> </dd></dl>
+
+<p>Definition at line <a class="el" href="tile_8h_source.html#l00797">797</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga2d308da63361867599b880a936299837"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Arg , typename Scalar , typename std::enable_if&lt;                                  TiledArray::detail::is_numeric&lt; Scalar &gt;::value               &gt;::type *  = nullptr&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto TiledArray::conj </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tile.html">Tile</a>&lt; Arg &gt; &amp;&#160;</td>
+          <td class="paramname"><em>arg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Scalar&#160;</td>
+          <td class="paramname"><em>factor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_permutation.html">Permutation</a> &amp;&#160;</td>
+          <td class="paramname"><em>perm</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="class_tiled_array_1_1_tile.html">Tile</a>&lt;decltype(conj(arg.tensor(), factor, perm))&gt;
+  </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a complex conjugated, scaled, and permuted copy of a tile. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Arg</td><td>The tile argument type </td></tr>
+    <tr><td class="paramname">Scalar</td><td>A scalar type </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arg</td><td>The argument to be conjugated </td></tr>
+    <tr><td class="paramname">factor</td><td>The scaling factor </td></tr>
+    <tr><td class="paramname">perm</td><td>The permutation to be applied to <code>arg</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A complex conjugated, scaled, and permuted copy of <code>arg</code> </dd></dl>
+
+<p>Definition at line <a class="el" href="tile_8h_source.html#l00813">813</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gad2fd187f7e500ab8977032e67537b92a"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Result &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Result&amp; TiledArray::conj_to </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_tiled_array_1_1_tile.html">Tile</a>&lt; Result &gt; &amp;&#160;</td>
+          <td class="paramname"><em>result</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>In-place complex conjugate a tile. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Result</td><td>The tile type </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">result</td><td>The tile to be conjugated </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to <code>result</code> </dd></dl>
+
+<p>Definition at line <a class="el" href="tile_8h_source.html#l00823">823</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gaf81db8c2648b13dd9ded3b54bcefa4e1"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Result , typename Scalar , typename std::enable_if&lt;                                  TiledArray::detail::is_numeric&lt; Scalar &gt;::value               &gt;::type *  = nullptr&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Result&amp; TiledArray::conj_to </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_tiled_array_1_1_tile.html">Tile</a>&lt; Result &gt; &amp;&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Scalar&#160;</td>
+          <td class="paramname"><em>factor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>In-place complex conjugate and scale a tile. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Result</td><td>The tile type </td></tr>
+    <tr><td class="paramname">Scalar</td><td>A scalar type </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">result</td><td>The tile to be conjugated </td></tr>
+    <tr><td class="paramname">factor</td><td>The scaling factor </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to <code>result</code> </dd></dl>
+
+<p>Definition at line <a class="el" href="tile_8h_source.html#l00839">839</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ga2becd6ff2cf1762aaacbbab565b18fca"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1091,7 +1441,7 @@ template&lt;typename Left , typename Right &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A scalar that is equal to <code>sum_i left[i] * right[i]</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l00901">901</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l00982">982</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -1204,7 +1554,7 @@ template&lt;typename Left , typename Right , typename Scalar , typename std::ena
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A tile that is equal to <code>(left * right) * factor</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l00779">779</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l00860">860</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -1281,7 +1631,7 @@ template&lt;typename Result , typename Left , typename Right , typename Scalar ,
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A tile that is equal to <code>result = (left * right) * factor</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l00799">799</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l00880">880</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -1325,7 +1675,7 @@ template&lt;typename Arg &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A scalar that is equal to <code>max(arg)</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l00863">863</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l00944">944</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -1369,7 +1719,7 @@ template&lt;typename Arg &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A scalar that is equal to <code>min(arg)</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l00872">872</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l00953">953</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -1924,7 +2274,7 @@ template&lt;typename Arg &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A scalar that is equal to <code>sqrt(sum_i arg[i] * arg[i])</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l00854">854</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l00935">935</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -1980,7 +2330,7 @@ template&lt;typename Left , typename Right &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The product of the <code>left</code> and <code>right</code> tiles </dd></dl>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l00964">964</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l01045">1045</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -2008,7 +2358,7 @@ template&lt;typename Left , typename Right , typename std::enable_if&lt; detail:
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; decltype(<a class="el" href="namespace_tiled_array.html#a217ad4d903a7ef45d75fe78cc2c229b8">scale</a>(left, right))
+          <td></td><td> -&gt; decltype(<a class="el" href="namespace_tiled_array.html#a90e2f4b420375c45a2c21049e27377aa">scale</a>(left, right))
   </td>
         </tr>
       </table>
@@ -2036,7 +2386,7 @@ template&lt;typename Left , typename Right , typename std::enable_if&lt; detail:
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The <code>left</code> tile scaled by <code>right</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l00977">977</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l01058">1058</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -2064,7 +2414,7 @@ template&lt;typename Left , typename Right , typename std::enable_if&lt; TiledAr
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; decltype(<a class="el" href="namespace_tiled_array.html#a217ad4d903a7ef45d75fe78cc2c229b8">scale</a>(right, left))
+          <td></td><td> -&gt; decltype(<a class="el" href="namespace_tiled_array.html#a90e2f4b420375c45a2c21049e27377aa">scale</a>(right, left))
   </td>
         </tr>
       </table>
@@ -2092,7 +2442,7 @@ template&lt;typename Left , typename Right , typename std::enable_if&lt; TiledAr
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The <code>right</code> tile scaled by <code>left</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l00990">990</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l01071">1071</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -2147,7 +2497,7 @@ template&lt;typename Arg &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A permuted copy of <code>arg</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l01022">1022</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l01103">1103</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -2202,7 +2552,7 @@ template&lt;typename Left , typename Right &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The <code>left</code> tile, <code>left[i] *= right[i]</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l01003">1003</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l01084">1084</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -2241,7 +2591,7 @@ template&lt;typename Left , typename Right &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Add tiles operator. </p>
+<p><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> tiles operator. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Left</td><td>The left-hand tensor type </td></tr>
@@ -2258,7 +2608,7 @@ template&lt;typename Left , typename Right &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The sum of the <code>left</code> and <code>right</code> tiles </dd></dl>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l00916">916</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l00997">997</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -2297,7 +2647,7 @@ template&lt;typename Left , typename Right &gt; </div>
 </div><div class="memdoc">
 
 <p>In-place add tile operator. </p>
-<p>Add the elements of the <code>right</code> tile to that of the <code>left</code> tile. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+<p><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> the elements of the <code>right</code> tile to that of the <code>left</code> tile. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Left</td><td>The left-hand tensor type </td></tr>
     <tr><td class="paramname">Right</td><td>The right-hand tensor type </td></tr>
@@ -2313,7 +2663,7 @@ template&lt;typename Left , typename Right &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The <code>left</code> tile, <code>left[i] += right[i]</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l00929">929</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l01010">1010</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -2369,7 +2719,7 @@ template&lt;typename Left , typename Right &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The difference of the <code>left</code> and <code>right</code> tiles </dd></dl>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l00940">940</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l01021">1021</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -2413,7 +2763,7 @@ template&lt;typename Arg &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A negated copy of <code>arg</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l01012">1012</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l01093">1093</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -2468,7 +2818,7 @@ template&lt;typename Left , typename Right &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The <code>left</code> tile, <code>left[i] -= right[i]</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l00953">953</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l01034">1034</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -2522,7 +2872,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The modified output stream </dd></dl>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l01033">1033</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l01114">1114</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -2621,7 +2971,7 @@ template&lt;typename Arg &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A scalar that is equal to <code>prod_i arg[i]</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l00834">834</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l00915">915</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -2831,7 +3181,7 @@ template&lt;typename Arg , typename Index &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Shift the range of <code>arg</code>. </p>
+<p><a class="el" href="class_tiled_array_1_1_shift.html" title="Tile shift operation. ">Shift</a> the range of <code>arg</code>. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Arg</td><td>The tensor argument type </td></tr>
@@ -2886,7 +3236,7 @@ template&lt;typename Arg , typename Index &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Shift the range of <code>arg</code> in place. </p>
+<p><a class="el" href="class_tiled_array_1_1_shift.html" title="Tile shift operation. ">Shift</a> the range of <code>arg</code> in place. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Arg</td><td>The tensor argument type </td></tr>
@@ -2949,7 +3299,7 @@ template&lt;typename Arg &gt; </div>
 <dd>
 A scalar that is equal to <code>sum_i arg[i] * arg[i]</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l00844">844</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l00925">925</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -3533,7 +3883,7 @@ template&lt;typename Arg &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A scalar that is equal to <code>sum_i arg[i]</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l00825">825</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l00906">906</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -3577,7 +3927,7 @@ template&lt;typename Arg &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The sum of the hyper-diagonal elements of <code>arg</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tile_8h_source.html#l00816">816</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
+<p>Definition at line <a class="el" href="tile_8h_source.html#l00897">897</a> of file <a class="el" href="tile_8h_source.html">tile.h</a>.</p>
 
 </div>
 </div>
@@ -3586,7 +3936,7 @@ template&lt;typename Arg &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:45 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:07 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

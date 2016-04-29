@@ -141,36 +141,35 @@ $(document).ready(function(){initNavTree('truncate_8h_source.html','');});
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_tiled_array.html">TiledArray</a> {</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span>, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>, <span class="keyword">typename</span>, <span class="keyword">typename</span>&gt;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="keyword">class </span>Array;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="keyword">class </span>DensePolicy;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="keyword">class </span>SparsePolicy;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> DIM, <span class="keyword">typename</span> Tile&gt;</div>
-<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="namespace_tiled_array.html#a1acf9f340bce52ca07d370724d38b8b6">   47</a></span>&#160;  <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="namespace_tiled_array.html#a1acf9f340bce52ca07d370724d38b8b6">truncate</a>(<a class="code" href="class_tiled_array_1_1_array.html">Array&lt;T, DIM, Tile, DensePolicy&gt;</a>&amp; array) { }</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> DIM, <span class="keyword">typename</span> Tile&gt;</div>
-<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="namespace_tiled_array.html#a79c0270df133e1b6dcfe64c7655d04ca">   56</a></span>&#160;  <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="namespace_tiled_array.html#a1acf9f340bce52ca07d370724d38b8b6">truncate</a>(<a class="code" href="class_tiled_array_1_1_array.html">Array&lt;T, DIM, Tile, SparsePolicy&gt;</a>&amp; array) {</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="code" href="class_tiled_array_1_1_tile.html">Array&lt;T, DIM, Tile, SparsePolicy&gt;::value_type</a> value_type;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    array =</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">foreach</span>(array, [] (value_type&amp; result_tile, <span class="keyword">const</span> value_type&amp; arg_tile) {</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;          <span class="keyword">typename</span> <a class="code" href="struct_tiled_array_1_1detail_1_1scalar__type.html">detail::scalar_type&lt;value_type&gt;::type</a> <a class="code" href="group___tile_interface.html#ga9255d1d4a863c9a48f064b84fef91b52">norm</a> = arg_tile.norm();</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;          result_tile = arg_tile; <span class="comment">// Assume this is shallow copy</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;          <span class="keywordflow">return</span> <a class="code" href="group___tile_interface.html#ga9255d1d4a863c9a48f064b84fef91b52">norm</a>;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        });</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  }</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;} <span class="comment">// namespace TiledArray</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#endif // TILEDARRAY_CONVERSIONS_TRUNCATE_H__INCLUDED</span></div>
-<div class="ttc" id="class_tiled_array_1_1_array_html"><div class="ttname"><a href="class_tiled_array_1_1_array.html">TiledArray::Array</a></div><div class="ttdoc">An n-dimensional, tiled array. </div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00050">array.h:50</a></div></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span>, <span class="keyword">typename</span>&gt; <span class="keyword">class </span>DistArray;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="keyword">class </span>DensePolicy;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="keyword">class </span>SparsePolicy;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> Tile&gt;</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="namespace_tiled_array.html#abc763468b96a704d6b4efb628909485f">   46</a></span>&#160;  <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="namespace_tiled_array.html#abc763468b96a704d6b4efb628909485f">truncate</a>(<a class="code" href="class_tiled_array_1_1_dist_array.html">DistArray&lt;Tile, DensePolicy&gt;</a>&amp; array) { }</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> Tile&gt;</div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="namespace_tiled_array.html#a9f42ee8853ef4f42c260f1a22ffc1eef">   55</a></span>&#160;  <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="namespace_tiled_array.html#abc763468b96a704d6b4efb628909485f">truncate</a>(<a class="code" href="class_tiled_array_1_1_dist_array.html">DistArray&lt;Tile, SparsePolicy&gt;</a>&amp; array) {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="code" href="class_tiled_array_1_1_tile.html">DistArray&lt;Tile, SparsePolicy&gt;::value_type</a> value_type;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    array =</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordflow">foreach</span>(array, [] (value_type&amp; result_tile, <span class="keyword">const</span> value_type&amp; arg_tile) {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;          <span class="keyword">typename</span> <a class="code" href="struct_tiled_array_1_1detail_1_1scalar__type.html">detail::scalar_type&lt;value_type&gt;::type</a> <a class="code" href="group___tile_interface.html#ga9255d1d4a863c9a48f064b84fef91b52">norm</a> = arg_tile.norm();</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;          result_tile = arg_tile; <span class="comment">// Assume this is shallow copy</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;          <span class="keywordflow">return</span> <a class="code" href="group___tile_interface.html#ga9255d1d4a863c9a48f064b84fef91b52">norm</a>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        });</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  }</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;} <span class="comment">// namespace TiledArray</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#endif // TILEDARRAY_CONVERSIONS_TRUNCATE_H__INCLUDED</span></div>
+<div class="ttc" id="namespace_tiled_array_html_abc763468b96a704d6b4efb628909485f"><div class="ttname"><a href="namespace_tiled_array.html#abc763468b96a704d6b4efb628909485f">TiledArray::truncate</a></div><div class="ttdeci">void truncate(DistArray&lt; Tile, DensePolicy &gt; &amp;array)</div><div class="ttdoc">Truncate a dense Array. </div><div class="ttdef"><b>Definition:</b> <a href="truncate_8h_source.html#l00046">truncate.h:46</a></div></div>
 <div class="ttc" id="foreach_8h_html"><div class="ttname"><a href="foreach_8h.html">foreach.h</a></div></div>
-<div class="ttc" id="struct_tiled_array_1_1detail_1_1scalar__type_html"><div class="ttname"><a href="struct_tiled_array_1_1detail_1_1scalar__type.html">TiledArray::detail::scalar_type</a></div><div class="ttdoc">Type trait for extracting the scalar numeric type of tensors and arrays. </div><div class="ttdef"><b>Definition:</b> <a href="type__traits_8h_source.html#l00105">type_traits.h:105</a></div></div>
+<div class="ttc" id="struct_tiled_array_1_1detail_1_1scalar__type_html"><div class="ttname"><a href="struct_tiled_array_1_1detail_1_1scalar__type.html">TiledArray::detail::scalar_type</a></div><div class="ttdef"><b>Definition:</b> <a href="type__traits_8h_source.html#l00228">type_traits.h:228</a></div></div>
 <div class="ttc" id="namespace_tiled_array_html"><div class="ttname"><a href="namespace_tiled_array.html">TiledArray</a></div><div class="ttdef"><b>Definition:</b> <a href="conjgrad_8h_source.html#l00034">conjgrad.h:34</a></div></div>
-<div class="ttc" id="namespace_tiled_array_html_a1acf9f340bce52ca07d370724d38b8b6"><div class="ttname"><a href="namespace_tiled_array.html#a1acf9f340bce52ca07d370724d38b8b6">TiledArray::truncate</a></div><div class="ttdeci">void truncate(Array&lt; T, DIM, Tile, DensePolicy &gt; &amp;array)</div><div class="ttdoc">Truncate a dense Array. </div><div class="ttdef"><b>Definition:</b> <a href="truncate_8h_source.html#l00047">truncate.h:47</a></div></div>
-<div class="ttc" id="group___tile_interface_html_ga9255d1d4a863c9a48f064b84fef91b52"><div class="ttname"><a href="group___tile_interface.html#ga9255d1d4a863c9a48f064b84fef91b52">TiledArray::norm</a></div><div class="ttdeci">auto norm(const Tile&lt; Arg &gt; &amp;arg) -&gt; decltype(norm(arg.tensor()))</div><div class="ttdoc">Vector 2-norm of a tile. </div><div class="ttdef"><b>Definition:</b> <a href="tile_8h_source.html#l00854">tile.h:854</a></div></div>
+<div class="ttc" id="class_tiled_array_1_1_dist_array_html"><div class="ttname"><a href="class_tiled_array_1_1_dist_array.html">TiledArray::DistArray</a></div><div class="ttdoc">Forward declarations. </div><div class="ttdef"><b>Definition:</b> <a href="clone_8h_source.html#l00032">clone.h:32</a></div></div>
+<div class="ttc" id="group___tile_interface_html_ga9255d1d4a863c9a48f064b84fef91b52"><div class="ttname"><a href="group___tile_interface.html#ga9255d1d4a863c9a48f064b84fef91b52">TiledArray::norm</a></div><div class="ttdeci">auto norm(const Tile&lt; Arg &gt; &amp;arg) -&gt; decltype(norm(arg.tensor()))</div><div class="ttdoc">Vector 2-norm of a tile. </div><div class="ttdef"><b>Definition:</b> <a href="tile_8h_source.html#l00935">tile.h:935</a></div></div>
 <div class="ttc" id="class_tiled_array_1_1_tile_html"><div class="ttname"><a href="class_tiled_array_1_1_tile.html">TiledArray::Tile</a></div><div class="ttdoc">An N-dimensional shallow copy wrapper for tile objects. </div><div class="ttdef"><b>Definition:</b> <a href="tile_8h_source.html#l00079">tile.h:79</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -178,7 +177,7 @@ $(document).ready(function(){initNavTree('truncate_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53ef4fd72a57002f3857d5373dfad4b8.html">TiledArray</a></li><li class="navelem"><a class="el" href="dir_36ae01bed13817b64a94581dc6b2de0b.html">conversions</a></li><li class="navelem"><a class="el" href="truncate_8h.html">truncate.h</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:43 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:04 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

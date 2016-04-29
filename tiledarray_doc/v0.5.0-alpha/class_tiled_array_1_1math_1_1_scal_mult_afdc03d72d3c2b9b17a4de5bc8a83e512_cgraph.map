@@ -1,5 +1,0 @@
-<map id="TiledArray::math::ScalMult::permute" name="TiledArray::math::ScalMult::permute">
-<area shape="rect" id="node2" href="$group___tile_interface.html#ga4cf680dc2cab0353728f84f07a4fbd9e" title="Multiplication tile arguments. " alt="" coords="263,12,377,37"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1_binary_interface.html#ac5a3e369781d3450cf79d17200eec8ba" title="Permutation accessor. " alt="" coords="231,61,409,100"/>
-<area shape="rect" id="node3" href="$namespace_tiled_array_1_1detail.html#ada724a31400bb94f55097560394438de" title="Factory function for tiles. " alt="" coords="457,5,578,44"/>
-</map>

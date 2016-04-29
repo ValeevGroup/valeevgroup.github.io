@@ -1,7 +1,6 @@
 var dir_725eab0fe35e0a553ccc7f27b36d83a4 =
 [
     [ "array_eval.h", "array__eval_8h.html", [
-      [ "Array", "class_tiled_array_1_1_array.html", "class_tiled_array_1_1_array" ],
       [ "LazyArrayTile", "class_tiled_array_1_1detail_1_1_lazy_array_tile.html", "class_tiled_array_1_1detail_1_1_lazy_array_tile" ],
       [ "ArrayEvalImpl", "class_tiled_array_1_1detail_1_1_array_eval_impl.html", "class_tiled_array_1_1detail_1_1_array_eval_impl" ]
     ] ],

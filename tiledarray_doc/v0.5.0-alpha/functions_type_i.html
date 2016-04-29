@@ -144,11 +144,11 @@ $(document).ready(function(){initNavTree('functions_type_i.html','');});
 
 <h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
 <li>impl_type
-: <a class="el" href="class_tiled_array_1_1_array.html#aa852de0beef43cfd07ee785adffc6465">TiledArray::Array&lt; T, DIM, Tile, Policy &gt;</a>
-, <a class="el" href="class_tiled_array_1_1detail_1_1_dist_eval.html#a1fdfe419235bcc22061ca7d12d51bc24">TiledArray::detail::DistEval&lt; Tile, Policy &gt;</a>
+: <a class="el" href="class_tiled_array_1_1detail_1_1_dist_eval.html#a1fdfe419235bcc22061ca7d12d51bc24">TiledArray::detail::DistEval&lt; Tile, Policy &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_dist_array.html#a9fea4cf2ebbda7a5faa848138ac9ec52">TiledArray::DistArray&lt; Tile, Policy &gt;</a>
 </li>
 <li>index
-: <a class="el" href="class_tiled_array_1_1_array.html#a6e9de129e48c2af8e18a107335f5409b">TiledArray::Array&lt; T, DIM, Tile, Policy &gt;</a>
+: <a class="el" href="class_tiled_array_1_1_dist_array.html#a714d296d4cd65b912b2afc0750e26dc0">TiledArray::DistArray&lt; Tile, Policy &gt;</a>
 , <a class="el" href="class_tiled_array_1_1_range.html#a18a4ea84188637c6b78f01102735a4f7">TiledArray::Range</a>
 , <a class="el" href="class_tiled_array_1_1_tiled_range.html#aa93fa777244b8153d1cff40f740ebd0d">TiledArray::TiledRange</a>
 </li>
@@ -159,16 +159,20 @@ $(document).ready(function(){initNavTree('functions_type_i.html','');});
 , <a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation.html#a28b9075f8b6130190b49ff9fe6db0fcc">TiledArray::symmetry::Permutation</a>
 , <a class="el" href="class_tiled_array_1_1symmetry_1_1_symmetric_group.html#aa9924a2ff1c8fc05defb9d7514998cc9">TiledArray::symmetry::SymmetricGroup</a>
 </li>
-<li>is_consumable
-: <a class="el" href="class_tiled_array_1_1math_1_1_unary_interface.html#a1c90c2c7e070530608bead17a027c710">TiledArray::math::UnaryInterface&lt; Derived &gt;</a>
-, <a class="el" href="struct_tiled_array_1_1math_1_1_unary_tile_op_trait_3_01_op_3_01_result_00_01_arg_00_01_consumable_01_4_01_4.html#adf29523096a638f840469bc00f6aa203">TiledArray::math::UnaryTileOpTrait&lt; Op&lt; Result, Arg, Consumable &gt; &gt;</a>
+<li>is_array_tile_t
+: <a class="el" href="class_tiled_array_1_1detail_1_1_binary_wrapper.html#a6821cbcd944616bad49fd09798b58fde">TiledArray::detail::BinaryWrapper&lt; Op &gt;</a>
+, <a class="el" href="class_tiled_array_1_1detail_1_1_unary_wrapper.html#ac535e71cdd2782d4e1619da6963909de">TiledArray::detail::UnaryWrapper&lt; Op &gt;</a>
+</li>
+<li>is_lazy_tile_t
+: <a class="el" href="class_tiled_array_1_1detail_1_1_binary_wrapper.html#ae31c1c8b4d2d234b631e62f6dc9231e5">TiledArray::detail::BinaryWrapper&lt; Op &gt;</a>
+, <a class="el" href="class_tiled_array_1_1detail_1_1_unary_wrapper.html#aa3c710793fbea41ce8ea62387f958eee">TiledArray::detail::UnaryWrapper&lt; Op &gt;</a>
 </li>
 <li>iterator
-: <a class="el" href="class_tiled_array_1_1_array.html#a59abbdd546bd9fe6052c836fba571698">TiledArray::Array&lt; T, DIM, Tile, Policy &gt;</a>
-, <a class="el" href="class_tiled_array_1_1detail_1_1_array_impl.html#ab5335e1a4dd54c6d8fadd4b2966ba0c0">TiledArray::detail::ArrayImpl&lt; Tile, Policy &gt;</a>
+: <a class="el" href="class_tiled_array_1_1detail_1_1_array_impl.html#ab5335e1a4dd54c6d8fadd4b2966ba0c0">TiledArray::detail::ArrayImpl&lt; Tile, Policy &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_bitset.html#ad61595ac6dfb83b199cb69a2a30ac8ba">TiledArray::detail::Bitset&lt; Block &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a66e6b724c637044f529830de23e733b7">TiledArray::detail::SizeArray&lt; T &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_val_array.html#a9c7c2220683fcc933befbd6de9e75a27">TiledArray::detail::ValArray&lt; T &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_dist_array.html#a78f9643a2bfb9a7a6e9be1eebe2d55db">TiledArray::DistArray&lt; Tile, Policy &gt;</a>
 , <a class="el" href="class_tiled_array_1_1_tensor.html#a7c3a6bcdbeae5dec3343d6ae28df8284">TiledArray::Tensor&lt; T, A &gt;</a>
 </li>
 <li>iterator_category
@@ -189,7 +193,7 @@ $(document).ready(function(){initNavTree('functions_type_i.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Oct 23 2015 09:54:09 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:10 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

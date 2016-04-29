@@ -1,5 +1,0 @@
-<map id="TiledArray::math::GemmHelper::GemmHelper" name="TiledArray::math::GemmHelper::GemmHelper">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1math_1_1_gemm_helper.html#ad1ccd289216122cb4a0afa23549b09ce" title="Left&#45;hand argument rank accessor. " alt="" coords="259,5,464,44"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1math_1_1_gemm_helper.html#ac41bcbc8ad94d430ab40cc351ac7c113" title="Right&#45;hand argument rank accessor. " alt="" coords="259,68,464,107"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1math_1_1_gemm_helper.html#ad025059f7481547a003c162690bb0162" title="Compute the number of contracted ranks. " alt="" coords="259,131,464,169"/>
-</map>

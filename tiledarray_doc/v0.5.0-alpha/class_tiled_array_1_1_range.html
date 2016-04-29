@@ -117,7 +117,7 @@ $(document).ready(function(){initNavTree('class_tiled_array_1_1_range.html','');
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> data of an N-dimensional block.  
+<p>A (hyperrectangular) interval on <img class="formulaInl" alt="$ Z^n $" src="form_56.png"/>, space of integer n-indices.  
  <a href="class_tiled_array_1_1_range.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="range_8h_source.html">range.h</a>&gt;</code></p>
@@ -142,7 +142,7 @@ Public Types</h2></td></tr>
 <tr class="memdesc:ac53644452916162ca60f39d65cc43e09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size array type.  <a href="#ac53644452916162ca60f39d65cc43e09">More...</a><br /></td></tr>
 <tr class="separator:ac53644452916162ca60f39d65cc43e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62da3ccc117d416613561282a9432d31"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_tiled_array_1_1_range.html#ac53644452916162ca60f39d65cc43e09">size_array</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_range.html#a62da3ccc117d416613561282a9432d31">extent_type</a></td></tr>
-<tr class="memdesc:a62da3ccc117d416613561282a9432d31"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> extent type, to conform <a class="el" href="class_tiled_array_1_1_tensor.html" title="An N-dimensional tensor object. ">Tensor</a> Working Group spec.  <a href="#a62da3ccc117d416613561282a9432d31">More...</a><br /></td></tr>
+<tr class="memdesc:a62da3ccc117d416613561282a9432d31"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> extent type, to conform <a class="el" href="class_tiled_array_1_1_tensor.html" title="An N-dimensional tensor object. ">Tensor</a> Working Group spec.  <a href="#a62da3ccc117d416613561282a9432d31">More...</a><br /></td></tr>
 <tr class="separator:a62da3ccc117d416613561282a9432d31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a383765e8eefd94a2af57b5b5344e354e"><td class="memItemLeft" align="right" valign="top">typedef std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_range.html#a383765e8eefd94a2af57b5b5344e354e">ordinal_type</a></td></tr>
 <tr class="memdesc:a383765e8eefd94a2af57b5b5344e354e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ordinal type, to conform <a class="el" href="class_tiled_array_1_1_tensor.html" title="An N-dimensional tensor object. ">Tensor</a> Working Group spec.  <a href="#a383765e8eefd94a2af57b5b5344e354e">More...</a><br /></td></tr>
@@ -165,14 +165,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6eed26b26d6e606a0b100465cb3d315e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a654cc135e5a482fc7f7fece3ad3ae9e8"><td class="memTemplParams" colspan="2">template&lt;typename Index , typename std::enable_if&lt;!std::is_integral&lt; Index &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
 <tr class="memitem:a654cc135e5a482fc7f7fece3ad3ae9e8"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_range.html#a654cc135e5a482fc7f7fece3ad3ae9e8">Range</a> (const Index &amp;<a class="el" href="class_tiled_array_1_1_range.html#af8e48147f52c7ac8fa4e18990ee2c56d">extent</a>)</td></tr>
-<tr class="memdesc:a654cc135e5a482fc7f7fece3ad3ae9e8"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> constructor from size array.  <a href="#a654cc135e5a482fc7f7fece3ad3ae9e8">More...</a><br /></td></tr>
+<tr class="memdesc:a654cc135e5a482fc7f7fece3ad3ae9e8"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> constructor from size array.  <a href="#a654cc135e5a482fc7f7fece3ad3ae9e8">More...</a><br /></td></tr>
 <tr class="separator:a654cc135e5a482fc7f7fece3ad3ae9e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8867406750b4cc653296e5cb8fce570"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_range.html#af8867406750b4cc653296e5cb8fce570">Range</a> (const std::initializer_list&lt; <a class="el" href="class_tiled_array_1_1_range.html#a8763d983047391957211be4b8b319649">size_type</a> &gt; &amp;<a class="el" href="class_tiled_array_1_1_range.html#af8e48147f52c7ac8fa4e18990ee2c56d">extent</a>)</td></tr>
-<tr class="memdesc:af8867406750b4cc653296e5cb8fce570"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> constructor from size array.  <a href="#af8867406750b4cc653296e5cb8fce570">More...</a><br /></td></tr>
+<tr class="memdesc:af8867406750b4cc653296e5cb8fce570"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> constructor from size array.  <a href="#af8867406750b4cc653296e5cb8fce570">More...</a><br /></td></tr>
 <tr class="separator:af8867406750b4cc653296e5cb8fce570"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2991fbc8f07a9fdda677b6ab171db0d"><td class="memTemplParams" colspan="2">template&lt;typename... Index, typename std::enable_if&lt; detail::is_integral_list&lt; Index... &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
 <tr class="memitem:ab2991fbc8f07a9fdda677b6ab171db0d"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_range.html#ab2991fbc8f07a9fdda677b6ab171db0d">Range</a> (const Index...upper_bound)</td></tr>
-<tr class="memdesc:ab2991fbc8f07a9fdda677b6ab171db0d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> constructor from a pack of sizes for each dimension.  <a href="#ab2991fbc8f07a9fdda677b6ab171db0d">More...</a><br /></td></tr>
+<tr class="memdesc:ab2991fbc8f07a9fdda677b6ab171db0d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> constructor from a pack of sizes for each dimension.  <a href="#ab2991fbc8f07a9fdda677b6ab171db0d">More...</a><br /></td></tr>
 <tr class="separator:ab2991fbc8f07a9fdda677b6ab171db0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb5da6a38a1152539f9f0408c5a33ae5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_range.html#adb5da6a38a1152539f9f0408c5a33ae5">Range</a> (const <a class="el" href="class_tiled_array_1_1_range.html#a9bd8687b54e38f8784552f3a168f942a">Range_</a> &amp;other)</td></tr>
 <tr class="memdesc:adb5da6a38a1152539f9f0408c5a33ae5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy Constructor.  <a href="#adb5da6a38a1152539f9f0408c5a33ae5">More...</a><br /></td></tr>
@@ -196,36 +196,36 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a96b765fada5d27644aa090fff0c27b60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rank accessor.  <a href="#a96b765fada5d27644aa090fff0c27b60">More...</a><br /></td></tr>
 <tr class="separator:a96b765fada5d27644aa090fff0c27b60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2380946f73427bd0b68ecd7ed8245421"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_tiled_array_1_1_range.html#a8763d983047391957211be4b8b319649">size_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_range.html#a2380946f73427bd0b68ecd7ed8245421">lobound_data</a> () const </td></tr>
-<tr class="memdesc:a2380946f73427bd0b68ecd7ed8245421"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> lower bound data accessor.  <a href="#a2380946f73427bd0b68ecd7ed8245421">More...</a><br /></td></tr>
+<tr class="memdesc:a2380946f73427bd0b68ecd7ed8245421"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> lower bound data accessor.  <a href="#a2380946f73427bd0b68ecd7ed8245421">More...</a><br /></td></tr>
 <tr class="separator:a2380946f73427bd0b68ecd7ed8245421"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a494915a0f7f278f5279cf8f9c76f9a08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_range.html#ac53644452916162ca60f39d65cc43e09">size_array</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_range.html#a494915a0f7f278f5279cf8f9c76f9a08">lobound</a> () const </td></tr>
-<tr class="memdesc:a494915a0f7f278f5279cf8f9c76f9a08"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> lower bound accessor.  <a href="#a494915a0f7f278f5279cf8f9c76f9a08">More...</a><br /></td></tr>
+<tr class="memdesc:a494915a0f7f278f5279cf8f9c76f9a08"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> lower bound accessor.  <a href="#a494915a0f7f278f5279cf8f9c76f9a08">More...</a><br /></td></tr>
 <tr class="separator:a494915a0f7f278f5279cf8f9c76f9a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a303c47dfef524a0cd8f5fcab9cf3095a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_tiled_array_1_1_range.html#a8763d983047391957211be4b8b319649">size_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_range.html#a303c47dfef524a0cd8f5fcab9cf3095a">upbound_data</a> () const </td></tr>
-<tr class="memdesc:a303c47dfef524a0cd8f5fcab9cf3095a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> upper bound data accessor.  <a href="#a303c47dfef524a0cd8f5fcab9cf3095a">More...</a><br /></td></tr>
+<tr class="memdesc:a303c47dfef524a0cd8f5fcab9cf3095a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> upper bound data accessor.  <a href="#a303c47dfef524a0cd8f5fcab9cf3095a">More...</a><br /></td></tr>
 <tr class="separator:a303c47dfef524a0cd8f5fcab9cf3095a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c2ea4371d6a7253dbee8e11f79b9796"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_range.html#ac53644452916162ca60f39d65cc43e09">size_array</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_range.html#a4c2ea4371d6a7253dbee8e11f79b9796">upbound</a> () const </td></tr>
-<tr class="memdesc:a4c2ea4371d6a7253dbee8e11f79b9796"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> upper bound accessor.  <a href="#a4c2ea4371d6a7253dbee8e11f79b9796">More...</a><br /></td></tr>
+<tr class="memdesc:a4c2ea4371d6a7253dbee8e11f79b9796"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> upper bound accessor.  <a href="#a4c2ea4371d6a7253dbee8e11f79b9796">More...</a><br /></td></tr>
 <tr class="separator:a4c2ea4371d6a7253dbee8e11f79b9796"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fdd4742235c667af1de552191490c1c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_tiled_array_1_1_range.html#a8763d983047391957211be4b8b319649">size_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_range.html#a8fdd4742235c667af1de552191490c1c">extent_data</a> () const </td></tr>
-<tr class="memdesc:a8fdd4742235c667af1de552191490c1c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> extent data accessor.  <a href="#a8fdd4742235c667af1de552191490c1c">More...</a><br /></td></tr>
+<tr class="memdesc:a8fdd4742235c667af1de552191490c1c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> extent data accessor.  <a href="#a8fdd4742235c667af1de552191490c1c">More...</a><br /></td></tr>
 <tr class="separator:a8fdd4742235c667af1de552191490c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8e48147f52c7ac8fa4e18990ee2c56d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_range.html#a62da3ccc117d416613561282a9432d31">extent_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_range.html#af8e48147f52c7ac8fa4e18990ee2c56d">extent</a> () const </td></tr>
-<tr class="memdesc:af8e48147f52c7ac8fa4e18990ee2c56d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> extent accessor.  <a href="#af8e48147f52c7ac8fa4e18990ee2c56d">More...</a><br /></td></tr>
+<tr class="memdesc:af8e48147f52c7ac8fa4e18990ee2c56d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> extent accessor.  <a href="#af8e48147f52c7ac8fa4e18990ee2c56d">More...</a><br /></td></tr>
 <tr class="separator:af8e48147f52c7ac8fa4e18990ee2c56d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa63c86dd5da4c99c3278133cf22c1a1f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_tiled_array_1_1_range.html#a8763d983047391957211be4b8b319649">size_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_range.html#aa63c86dd5da4c99c3278133cf22c1a1f">stride_data</a> () const </td></tr>
-<tr class="memdesc:aa63c86dd5da4c99c3278133cf22c1a1f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> stride data accessor.  <a href="#aa63c86dd5da4c99c3278133cf22c1a1f">More...</a><br /></td></tr>
+<tr class="memdesc:aa63c86dd5da4c99c3278133cf22c1a1f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> stride data accessor.  <a href="#aa63c86dd5da4c99c3278133cf22c1a1f">More...</a><br /></td></tr>
 <tr class="separator:aa63c86dd5da4c99c3278133cf22c1a1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa151ae3c2064b53438552bdb7ebeee0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_range.html#ac53644452916162ca60f39d65cc43e09">size_array</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_range.html#aa151ae3c2064b53438552bdb7ebeee0f">stride</a> () const </td></tr>
 <tr class="memdesc:aa151ae3c2064b53438552bdb7ebeee0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upper bound accessor.  <a href="#aa151ae3c2064b53438552bdb7ebeee0f">More...</a><br /></td></tr>
 <tr class="separator:aa151ae3c2064b53438552bdb7ebeee0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3be5a15433c8fbbb4c92548de04a4924"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_range.html#a8763d983047391957211be4b8b319649">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_range.html#a3be5a15433c8fbbb4c92548de04a4924">volume</a> () const </td></tr>
-<tr class="memdesc:a3be5a15433c8fbbb4c92548de04a4924"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> volume accessor.  <a href="#a3be5a15433c8fbbb4c92548de04a4924">More...</a><br /></td></tr>
+<tr class="memdesc:a3be5a15433c8fbbb4c92548de04a4924"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> volume accessor.  <a href="#a3be5a15433c8fbbb4c92548de04a4924">More...</a><br /></td></tr>
 <tr class="separator:a3be5a15433c8fbbb4c92548de04a4924"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe7cfee821cf5250be10a07bd3e58c17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_range.html#a8763d983047391957211be4b8b319649">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_range.html#afe7cfee821cf5250be10a07bd3e58c17">area</a> () const </td></tr>
 <tr class="separator:afe7cfee821cf5250be10a07bd3e58c17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad660c42a89f6668204c6db3ac728362d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_range.html#a8763d983047391957211be4b8b319649">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_range.html#ad660c42a89f6668204c6db3ac728362d">offset</a> () const </td></tr>
-<tr class="memdesc:ad660c42a89f6668204c6db3ac728362d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> offset.  <a href="#ad660c42a89f6668204c6db3ac728362d">More...</a><br /></td></tr>
+<tr class="memdesc:ad660c42a89f6668204c6db3ac728362d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> offset.  <a href="#ad660c42a89f6668204c6db3ac728362d">More...</a><br /></td></tr>
 <tr class="separator:ad660c42a89f6668204c6db3ac728362d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f825e47e5c64342951f0c3aa02c4070"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_range.html#a94468a2d0d52a3bf17479b70d59e044d">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_range.html#a0f825e47e5c64342951f0c3aa02c4070">begin</a> () const </td></tr>
 <tr class="memdesc:a0f825e47e5c64342951f0c3aa02c4070"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index iterator factory.  <a href="#a0f825e47e5c64342951f0c3aa02c4070">More...</a><br /></td></tr>
@@ -253,11 +253,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac0a937ca9bed0960b6fef005f787fcca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e43ff7ba296a6c6fb589d2af5221b3c"><td class="memTemplParams" colspan="2">template&lt;typename Index &gt; </td></tr>
 <tr class="memitem:a8e43ff7ba296a6c6fb589d2af5221b3c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_range.html#a9bd8687b54e38f8784552f3a168f942a">Range_</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_range.html#a8e43ff7ba296a6c6fb589d2af5221b3c">inplace_shift</a> (const Index &amp;bound_shift)</td></tr>
-<tr class="memdesc:a8e43ff7ba296a6c6fb589d2af5221b3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shift the lower and upper bound of this range.  <a href="#a8e43ff7ba296a6c6fb589d2af5221b3c">More...</a><br /></td></tr>
+<tr class="memdesc:a8e43ff7ba296a6c6fb589d2af5221b3c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_shift.html" title="Tile shift operation. ">Shift</a> the lower and upper bound of this range.  <a href="#a8e43ff7ba296a6c6fb589d2af5221b3c">More...</a><br /></td></tr>
 <tr class="separator:a8e43ff7ba296a6c6fb589d2af5221b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3d2ada3894c8cd4661734a8d3e6b6be"><td class="memTemplParams" colspan="2">template&lt;typename Index &gt; </td></tr>
 <tr class="memitem:af3d2ada3894c8cd4661734a8d3e6b6be"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_range.html#a9bd8687b54e38f8784552f3a168f942a">Range_</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_range.html#af3d2ada3894c8cd4661734a8d3e6b6be">shift</a> (const Index &amp;bound_shift)</td></tr>
-<tr class="memdesc:af3d2ada3894c8cd4661734a8d3e6b6be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shift the lower and upper bound of this range.  <a href="#af3d2ada3894c8cd4661734a8d3e6b6be">More...</a><br /></td></tr>
+<tr class="memdesc:af3d2ada3894c8cd4661734a8d3e6b6be"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_shift.html" title="Tile shift operation. ">Shift</a> the lower and upper bound of this range.  <a href="#af3d2ada3894c8cd4661734a8d3e6b6be">More...</a><br /></td></tr>
 <tr class="separator:af3d2ada3894c8cd4661734a8d3e6b6be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa83f8777219500f04074d36df9d38943"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_range.html#a8763d983047391957211be4b8b319649">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_range.html#aa83f8777219500f04074d36df9d38943">ordinal</a> (const <a class="el" href="class_tiled_array_1_1_range.html#a8763d983047391957211be4b8b319649">size_type</a> <a class="el" href="class_tiled_array_1_1_range.html#a18a4ea84188637c6b78f01102735a4f7">index</a>) const </td></tr>
 <tr class="memdesc:aa83f8777219500f04074d36df9d38943"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the ordinal index of <code>i</code>  <a href="#aa83f8777219500f04074d36df9d38943">More...</a><br /></td></tr>
@@ -306,10 +306,10 @@ Friends</h2></td></tr>
 <tr class="separator:acd526b0388dcd2569a76dee77e6fc1d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> data of an N-dimensional block. </p>
-<p>This object represents an N-dimension, orthogonal block of elements. It provides information on the rank (number of dimensions), lower bound, upper bound, extent (size), and stride of block. It can also be used to test if an element is included in the range with a coordinate index or ordinal offset. Finally, it can be used to convert coordinate indices to ordinal offsets and vice versa. </p>
+<div class="textblock"><p>A (hyperrectangular) interval on <img class="formulaInl" alt="$ Z^n $" src="form_56.png"/>, space of integer n-indices. </p>
+<p>This object represents an n-dimensional, hyperrectangular array of integers. It provides information on the rank (number of dimensions), (nonnegative) lower bound, upper bound, extent (size), and stride of each dimension. It can also be used to test if an element is included in the range with a coordinate index or ordinal offset. Finally, it can be used to convert coordinate indices to ordinal offsets and vice versa. TODO add <a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> support for negative indices </p>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00037">37</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00039">39</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a94468a2d0d52a3bf17479b70d59e044d"></a>
 <div class="memitem">
@@ -323,7 +323,7 @@ Friends</h2></td></tr>
 
 <p>Coordinate iterator. </p>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00046">46</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00048">48</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -337,9 +337,9 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> extent type, to conform <a class="el" href="class_tiled_array_1_1_tensor.html" title="An N-dimensional tensor object. ">Tensor</a> Working Group spec. </p>
+<p><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> extent type, to conform <a class="el" href="class_tiled_array_1_1_tensor.html" title="An N-dimensional tensor object. ">Tensor</a> Working Group spec. </p>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00044">44</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00046">46</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -355,7 +355,7 @@ Friends</h2></td></tr>
 
 <p>Coordinate index type. </p>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00041">41</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00043">43</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -371,7 +371,7 @@ Friends</h2></td></tr>
 
 <p>Coordinate index type, to conform <a class="el" href="class_tiled_array_1_1_tensor.html" title="An N-dimensional tensor object. ">Tensor</a> Working Group spec. </p>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00042">42</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00044">44</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -387,7 +387,7 @@ Friends</h2></td></tr>
 
 <p>Ordinal type, to conform <a class="el" href="class_tiled_array_1_1_tensor.html" title="An N-dimensional tensor object. ">Tensor</a> Working Group spec. </p>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00045">45</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00047">47</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -403,7 +403,7 @@ Friends</h2></td></tr>
 
 <p>This object type. </p>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00039">39</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00041">41</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -419,7 +419,7 @@ Friends</h2></td></tr>
 
 <p>Size array type. </p>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00043">43</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00045">45</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -435,7 +435,7 @@ Friends</h2></td></tr>
 
 <p>Size type. </p>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00040">40</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00042">42</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -464,7 +464,7 @@ Friends</h2></td></tr>
 <p>Default constructor. </p>
 <p>Construct a range that has zero rank, volume, and size. </p>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00197">197</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00199">199</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -525,7 +525,7 @@ template&lt;typename Index , typename std::enable_if&lt;!std::is_integral&lt; In
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00211">211</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00213">213</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -578,7 +578,7 @@ template&lt;typename Index , typename std::enable_if&lt;!std::is_integral&lt; In
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00231">231</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00233">233</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -606,7 +606,7 @@ template&lt;typename Index , typename std::enable_if&lt;!std::is_integral&lt; In
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> constructor from size array. </p>
+<p><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> constructor from size array. </p>
 <p>Construct a range with a lower bound of zero and an upper bound equal to <code>extent</code>. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Index</td><td>A vector type </td></tr>
@@ -626,7 +626,7 @@ template&lt;typename Index , typename std::enable_if&lt;!std::is_integral&lt; In
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00253">253</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00255">255</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -652,7 +652,7 @@ template&lt;typename Index , typename std::enable_if&lt;!std::is_integral&lt; In
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> constructor from size array. </p>
+<p><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> constructor from size array. </p>
 <p>Construct a range with a lower bound of zero and an upper bound equal to <code>extent</code>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">extent</td><td>An initializer list that defines the size of each dimension </td></tr>
@@ -666,7 +666,7 @@ template&lt;typename Index , typename std::enable_if&lt;!std::is_integral&lt; In
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00269">269</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00271">271</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -694,7 +694,7 @@ template&lt;typename... Index, typename std::enable_if&lt; detail::is_integral_l
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> constructor from a pack of sizes for each dimension. </p>
+<p><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> constructor from a pack of sizes for each dimension. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Index</td><td>An array type </td></tr>
@@ -707,7 +707,7 @@ template&lt;typename... Index, typename std::enable_if&lt; detail::is_integral_l
   </table>
   </dd>
 </dl>
-<dl class="section post"><dt>Postcondition</dt><dd><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> has an lower bound of 0, and an upper bound of <code></code>(sizes...). </dd></dl>
+<dl class="section post"><dt>Postcondition</dt><dd><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> has an lower bound of 0, and an upper bound of <code></code>(sizes...). </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname">std::bad_alloc</td><td>When memory allocation fails. </td></tr>
@@ -715,7 +715,7 @@ template&lt;typename... Index, typename std::enable_if&lt; detail::is_integral_l
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00287">287</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00289">289</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -755,7 +755,7 @@ template&lt;typename... Index, typename std::enable_if&lt; detail::is_integral_l
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00295">295</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00297">297</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -795,7 +795,7 @@ template&lt;typename... Index, typename std::enable_if&lt; detail::is_integral_l
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00309">309</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00311">311</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -846,7 +846,7 @@ template&lt;typename... Index, typename std::enable_if&lt; detail::is_integral_l
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00324">324</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00326">326</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -873,7 +873,7 @@ template&lt;typename... Index, typename std::enable_if&lt; detail::is_integral_l
 
 <p>Destructor. </p>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00343">343</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00345">345</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -906,7 +906,7 @@ template&lt;typename... Index, typename std::enable_if&lt; detail::is_integral_l
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00455">455</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00457">457</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -940,7 +940,7 @@ template&lt;typename... Index, typename std::enable_if&lt; detail::is_integral_l
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00470">470</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00472">472</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -974,7 +974,7 @@ template&lt;typename... Index, typename std::enable_if&lt; detail::is_integral_l
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00478">478</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00480">480</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -999,8 +999,8 @@ template&lt;typename... Index, typename std::enable_if&lt; detail::is_integral_l
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> extent accessor. </p>
-<dl class="section return"><dt>Returns</dt><dd>A <code>extent_type</code> that contains theextents for each dimension of the block range. </dd></dl>
+<p><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> extent accessor. </p>
+<dl class="section return"><dt>Returns</dt><dd>A <code>extent_type</code> that contains the extent for each dimension of the block range. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname">nothing</td><td></td></tr>
@@ -1008,7 +1008,7 @@ template&lt;typename... Index, typename std::enable_if&lt; detail::is_integral_l
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00427">427</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00429">429</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1033,7 +1033,7 @@ template&lt;typename... Index, typename std::enable_if&lt; detail::is_integral_l
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> extent data accessor. </p>
+<p><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> extent data accessor. </p>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the extent data (see <code><a class="el" href="class_tiled_array_1_1_range.html#af8e48147f52c7ac8fa4e18990ee2c56d" title="Range extent accessor. ">extent()</a></code>) </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
@@ -1042,7 +1042,7 @@ template&lt;typename... Index, typename std::enable_if&lt; detail::is_integral_l
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00420">420</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00422">422</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1084,7 +1084,7 @@ template&lt;typename... Index, typename std::enable_if&lt; detail::is_integral_l
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00670">670</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00672">672</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1121,7 +1121,7 @@ template&lt;typename Index , typename std::enable_if&lt;!std::is_integral&lt; In
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>i</code> (unchanged) </dd></dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00706">706</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00708">708</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1170,7 +1170,7 @@ template&lt;typename Index , typename std::enable_if&lt;!std::is_integral&lt; In
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00490">490</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00492">492</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1213,7 +1213,7 @@ template&lt;typename Ordinal &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00513">513</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00515">515</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1241,7 +1241,7 @@ template&lt;typename... Index&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00519">519</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00521">521</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1269,7 +1269,7 @@ template&lt;typename Index &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Shift the lower and upper bound of this range. </p>
+<p><a class="el" href="class_tiled_array_1_1_shift.html" title="Tile shift operation. ">Shift</a> the lower and upper bound of this range. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Index</td><td>The shift array type </td></tr>
@@ -1284,7 +1284,7 @@ template&lt;typename Index &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A reference to this range </dd></dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00570">570</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00572">572</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1309,7 +1309,7 @@ template&lt;typename Index &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> lower bound accessor. </p>
+<p><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> lower bound accessor. </p>
 <dl class="section return"><dt>Returns</dt><dd>A <code>size_array</code> that contains the lower bounds for each dimension of the block range. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
@@ -1318,7 +1318,7 @@ template&lt;typename Index &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00399">399</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00401">401</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1343,7 +1343,7 @@ template&lt;typename Index &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> lower bound data accessor. </p>
+<p><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> lower bound data accessor. </p>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the lower bound data (see <code><a class="el" href="class_tiled_array_1_1_range.html#a494915a0f7f278f5279cf8f9c76f9a08" title="Range lower bound accessor. ">lobound()</a></code>) </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
@@ -1352,7 +1352,7 @@ template&lt;typename Index &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00392">392</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00394">394</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1377,10 +1377,10 @@ template&lt;typename Index &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> offset. </p>
+<p><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> offset. </p>
 <p>The range ordinal offset is equal to the dot product of the lower bound and stride vector. It is used internally to compute ordinal offsets. </p><dl class="section return"><dt>Returns</dt><dd>The ordinal index offset </dd></dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00462">462</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00464">464</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1422,7 +1422,7 @@ template&lt;typename Index &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00824">824</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00826">826</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1463,7 +1463,7 @@ template&lt;typename Index &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00350">350</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00352">352</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1504,7 +1504,7 @@ template&lt;typename Index &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00368">368</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00370">370</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1545,7 +1545,7 @@ template&lt;typename Index &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00619">619</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00621">621</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1594,7 +1594,7 @@ template&lt;typename Index , typename std::enable_if&lt;!std::is_integral&lt; In
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00633">633</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00635">635</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1643,7 +1643,7 @@ template&lt;typename... Index, typename std::enable_if&lt;(sizeof...(Index) &gt;
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00658">658</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00660">660</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1677,7 +1677,7 @@ template&lt;typename... Index, typename std::enable_if&lt;(sizeof...(Index) &gt;
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00386">386</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00388">388</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1739,7 +1739,7 @@ template&lt;typename Index &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00546">546</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00548">548</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1767,7 +1767,7 @@ template&lt;typename Archive , typename std::enable_if&lt; madness::archive::is_
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00713">713</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00715">715</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1795,7 +1795,7 @@ template&lt;typename Archive , typename std::enable_if&lt; madness::archive::is_
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00732">732</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00734">734</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1823,7 +1823,7 @@ template&lt;typename Index &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Shift the lower and upper bound of this range. </p>
+<p><a class="el" href="class_tiled_array_1_1_shift.html" title="Tile shift operation. ">Shift</a> the lower and upper bound of this range. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Index</td><td>The shift array type </td></tr>
@@ -1838,7 +1838,7 @@ template&lt;typename Index &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A shifted copy of this range </dd></dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00606">606</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00608">608</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1872,7 +1872,7 @@ template&lt;typename Index &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00442">442</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00444">444</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1897,7 +1897,7 @@ template&lt;typename Index &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> stride data accessor. </p>
+<p><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> stride data accessor. </p>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the stride data (see <code><a class="el" href="class_tiled_array_1_1_range.html#aa151ae3c2064b53438552bdb7ebeee0f" title="Upper bound accessor. ">stride()</a></code>) </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
@@ -1906,7 +1906,7 @@ template&lt;typename Index &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00435">435</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00437">437</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1932,7 +1932,7 @@ template&lt;typename Index &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00736">736</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00738">738</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1957,7 +1957,7 @@ template&lt;typename Index &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> upper bound accessor. </p>
+<p><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> upper bound accessor. </p>
 <dl class="section return"><dt>Returns</dt><dd>A <code>size_array</code> that contains the upper bounds for each dimension of the block range. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
@@ -1966,7 +1966,7 @@ template&lt;typename Index &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00412">412</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00414">414</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -1991,7 +1991,7 @@ template&lt;typename Index &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> upper bound data accessor. </p>
+<p><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> upper bound data accessor. </p>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the upper bound data (see <code><a class="el" href="class_tiled_array_1_1_range.html#a4c2ea4371d6a7253dbee8e11f79b9796" title="Range upper bound accessor. ">upbound()</a></code>) </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
@@ -2000,7 +2000,7 @@ template&lt;typename Index &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00405">405</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00407">407</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -2025,7 +2025,7 @@ template&lt;typename Index &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_tiled_array_1_1_range.html" title="Range data of an N-dimensional block. ">Range</a> volume accessor. </p>
+<p><a class="el" href="class_tiled_array_1_1_range.html" title="A (hyperrectangular) interval on , space of integer n-indices. ">Range</a> volume accessor. </p>
 <dl class="section return"><dt>Returns</dt><dd>The total number of elements in the range. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
@@ -2034,7 +2034,7 @@ template&lt;typename Index &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00450">450</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00452">452</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -2057,7 +2057,7 @@ template&lt;typename Index &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00047">47</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00049">49</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -2085,7 +2085,7 @@ template&lt;typename Index &gt; </div>
 <div class="line">&lt;   <a class="code" href="class_tiled_array_1_1_range.html#aa151ae3c2064b53438552bdb7ebeee0f">stride</a>[0],  ..., stride[<a class="code" href="class_tiled_array_1_1_range.html#a095d10557066d1feba40758a47284f94">rank_</a> - 1] }</div>
 <div class="line">&lt;</div>
 </div><!-- fragment --> 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00051">51</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00053">53</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -2109,7 +2109,7 @@ template&lt;typename Index &gt; </div>
 
 <p>Ordinal index offset correction. </p>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00060">60</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00062">62</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -2133,7 +2133,7 @@ template&lt;typename Index &gt; </div>
 
 <p>The rank (or number of dimensions) in the range. </p>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00062">62</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00064">64</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -2157,7 +2157,7 @@ template&lt;typename Index &gt; </div>
 
 <p>Total number of elements. </p>
 
-<p>Definition at line <a class="el" href="range_8h_source.html#l00061">61</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
+<p>Definition at line <a class="el" href="range_8h_source.html#l00063">63</a> of file <a class="el" href="range_8h_source.html">range.h</a>.</p>
 
 </div>
 </div>
@@ -2170,7 +2170,7 @@ template&lt;typename Index &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tiled_array.html">TiledArray</a></li><li class="navelem"><a class="el" href="class_tiled_array_1_1_range.html">Range</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:45 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:07 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

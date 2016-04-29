@@ -119,7 +119,7 @@ $(document).ready(function(){initNavTree('class_tiled_array_1_1_tensor.html','')
 <p>An N-dimensional tensor object.  
  <a href="class_tiled_array_1_1_tensor.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="array_8h_source.html">array.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="foreach_8h_source.html">foreach.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -136,7 +136,7 @@ Public Types</h2></td></tr>
 <tr class="memdesc:a99586ecbed993b0a7dc33ca231131d15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocator type.  <a href="#a99586ecbed993b0a7dc33ca231131d15">More...</a><br /></td></tr>
 <tr class="separator:a99586ecbed993b0a7dc33ca231131d15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab64c1efaee17c30ac1559f18e1eb0e88"><td class="memItemLeft" align="right" valign="top">typedef allocator_type::value_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#ab64c1efaee17c30ac1559f18e1eb0e88">value_type</a></td></tr>
-<tr class="memdesc:ab64c1efaee17c30ac1559f18e1eb0e88"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_array.html" title="An n-dimensional, tiled array. ">Array</a> element type.  <a href="#ab64c1efaee17c30ac1559f18e1eb0e88">More...</a><br /></td></tr>
+<tr class="memdesc:ab64c1efaee17c30ac1559f18e1eb0e88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array element type.  <a href="#ab64c1efaee17c30ac1559f18e1eb0e88">More...</a><br /></td></tr>
 <tr class="separator:ab64c1efaee17c30ac1559f18e1eb0e88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8dc24eca41c8655a8871e838183e24b"><td class="memItemLeft" align="right" valign="top">typedef allocator_type::reference&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#ac8dc24eca41c8655a8871e838183e24b">reference</a></td></tr>
 <tr class="memdesc:ac8dc24eca41c8655a8871e838183e24b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Element reference type.  <a href="#ac8dc24eca41c8655a8871e838183e24b">More...</a><br /></td></tr>
@@ -159,24 +159,27 @@ Public Types</h2></td></tr>
 <tr class="memitem:a643a4203b62aa1e370d6995aad071f40"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_tiled_array_1_1_tensor.html#a13b3ca56e0bf2b27a8632d1598c1d526">const_pointer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a643a4203b62aa1e370d6995aad071f40">const_iterator</a></td></tr>
 <tr class="memdesc:a643a4203b62aa1e370d6995aad071f40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Element const iterator type.  <a href="#a643a4203b62aa1e370d6995aad071f40">More...</a><br /></td></tr>
 <tr class="separator:a643a4203b62aa1e370d6995aad071f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1b34daf98d5c0e42998ec4edf7c6126"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_tiled_array_1_1detail_1_1scalar__type.html">TiledArray::detail::scalar_type</a>&lt; T &gt;::type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a></td></tr>
-<tr class="memdesc:ad1b34daf98d5c0e42998ec4edf7c6126"><td class="mdescLeft">&#160;</td><td class="mdescRight">the numeric type that supports T  <a href="#ad1b34daf98d5c0e42998ec4edf7c6126">More...</a><br /></td></tr>
-<tr class="separator:ad1b34daf98d5c0e42998ec4edf7c6126"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc2e1a62ce018f90f552510d29fd9ed2"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_tiled_array_1_1detail_1_1numeric__type.html">TiledArray::detail::numeric_type</a>&lt; T &gt;::type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a></td></tr>
+<tr class="memdesc:abc2e1a62ce018f90f552510d29fd9ed2"><td class="mdescLeft">&#160;</td><td class="mdescRight">the numeric type that supports T  <a href="#abc2e1a62ce018f90f552510d29fd9ed2">More...</a><br /></td></tr>
+<tr class="separator:abc2e1a62ce018f90f552510d29fd9ed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a3ff935ffdd12ded18a1041a0a18faf"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_tiled_array_1_1detail_1_1scalar__type.html">TiledArray::detail::scalar_type</a>&lt; T &gt;::type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a9a3ff935ffdd12ded18a1041a0a18faf">scalar_type</a></td></tr>
+<tr class="memdesc:a9a3ff935ffdd12ded18a1041a0a18faf"><td class="mdescLeft">&#160;</td><td class="mdescRight">the scalar type that supports T  <a href="#a9a3ff935ffdd12ded18a1041a0a18faf">More...</a><br /></td></tr>
+<tr class="separator:a9a3ff935ffdd12ded18a1041a0a18faf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a24e14e81f940d2c26349364fab48ce73"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a24e14e81f940d2c26349364fab48ce73">Tensor</a> ()=default</td></tr>
-<tr class="separator:a24e14e81f940d2c26349364fab48ce73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9345327a28a1d73ea6990e690842910c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a9345327a28a1d73ea6990e690842910c">Tensor</a> (const <a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;)=default</td></tr>
-<tr class="separator:a9345327a28a1d73ea6990e690842910c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad41cbb99b19377d8811a7e61762a1a2c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#ad41cbb99b19377d8811a7e61762a1a2c">Tensor</a> (<a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&amp;)=default</td></tr>
-<tr class="separator:ad41cbb99b19377d8811a7e61762a1a2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1baef100bdce140bab5f083164df1d1f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a1baef100bdce140bab5f083164df1d1f">~Tensor</a> ()=default</td></tr>
-<tr class="separator:a1baef100bdce140bab5f083164df1d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a30de410bd92ccd7937daeff7fb5093"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a4a30de410bd92ccd7937daeff7fb5093">operator=</a> (const <a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;other)=default</td></tr>
-<tr class="separator:a4a30de410bd92ccd7937daeff7fb5093"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d1da1c7793011f2687fd20793bcf1d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a8d1da1c7793011f2687fd20793bcf1d0">operator=</a> (<a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&amp;)=default</td></tr>
-<tr class="separator:a8d1da1c7793011f2687fd20793bcf1d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52053224a88d9d8478805d7c5f89ec59"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a52053224a88d9d8478805d7c5f89ec59">Tensor</a> ()</td></tr>
+<tr class="separator:a52053224a88d9d8478805d7c5f89ec59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a414d8ebf6c834c5500ca5b5408708f58"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a414d8ebf6c834c5500ca5b5408708f58">Tensor</a> (const <a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;other)</td></tr>
+<tr class="separator:a414d8ebf6c834c5500ca5b5408708f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a437e6fa337043142c4be807cd46bf5d1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a437e6fa337043142c4be807cd46bf5d1">Tensor</a> (<a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&amp;other)</td></tr>
+<tr class="separator:a437e6fa337043142c4be807cd46bf5d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a709fe578d55e8ee8c1e187d6f1a1ad4e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a709fe578d55e8ee8c1e187d6f1a1ad4e">~Tensor</a> ()</td></tr>
+<tr class="separator:a709fe578d55e8ee8c1e187d6f1a1ad4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bb641cc67d36bf3e87b59eaf10a2dff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a5bb641cc67d36bf3e87b59eaf10a2dff">operator=</a> (const <a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;other)</td></tr>
+<tr class="separator:a5bb641cc67d36bf3e87b59eaf10a2dff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a375a995714597079b944907eb89245bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a375a995714597079b944907eb89245bc">operator=</a> (<a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&amp;other)</td></tr>
+<tr class="separator:a375a995714597079b944907eb89245bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff000b8850b2992ff765eb3f8f116632"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#aff000b8850b2992ff765eb3f8f116632">Tensor</a> (const <a class="el" href="class_tiled_array_1_1_tensor.html#a9a6953592a083f07bc6132a571a9d767">range_type</a> &amp;<a class="el" href="class_tiled_array_1_1_tensor.html#a6521f4ce917ca6a41bb3ada9ef3b4d1c">range</a>)</td></tr>
 <tr class="memdesc:aff000b8850b2992ff765eb3f8f116632"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct tensor.  <a href="#aff000b8850b2992ff765eb3f8f116632">More...</a><br /></td></tr>
 <tr class="separator:aff000b8850b2992ff765eb3f8f116632"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -299,11 +302,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa975640407d4460e99f85ca41398f4d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cf08314a6ce26804634a40a5c6a3d67"><td class="memTemplParams" colspan="2">template&lt;typename Index &gt; </td></tr>
 <tr class="memitem:a0cf08314a6ce26804634a40a5c6a3d67"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a0cf08314a6ce26804634a40a5c6a3d67">shift_to</a> (const Index &amp;bound_shift)</td></tr>
-<tr class="memdesc:a0cf08314a6ce26804634a40a5c6a3d67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shift the lower and upper bound of this tensor.  <a href="#a0cf08314a6ce26804634a40a5c6a3d67">More...</a><br /></td></tr>
+<tr class="memdesc:a0cf08314a6ce26804634a40a5c6a3d67"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_shift.html" title="Tile shift operation. ">Shift</a> the lower and upper bound of this tensor.  <a href="#a0cf08314a6ce26804634a40a5c6a3d67">More...</a><br /></td></tr>
 <tr class="separator:a0cf08314a6ce26804634a40a5c6a3d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afef47b114ae4c0964c08c90e227a37f1"><td class="memTemplParams" colspan="2">template&lt;typename Index &gt; </td></tr>
 <tr class="memitem:afef47b114ae4c0964c08c90e227a37f1"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#afef47b114ae4c0964c08c90e227a37f1">shift</a> (const Index &amp;bound_shift) const </td></tr>
-<tr class="memdesc:afef47b114ae4c0964c08c90e227a37f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shift the lower and upper bound of this range.  <a href="#afef47b114ae4c0964c08c90e227a37f1">More...</a><br /></td></tr>
+<tr class="memdesc:afef47b114ae4c0964c08c90e227a37f1"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_shift.html" title="Tile shift operation. ">Shift</a> the lower and upper bound of this range.  <a href="#afef47b114ae4c0964c08c90e227a37f1">More...</a><br /></td></tr>
 <tr class="separator:afef47b114ae4c0964c08c90e227a37f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8005d292051062ad3892265e28010a4b"><td class="memTemplParams" colspan="2">template&lt;typename Right , typename Op , typename std::enable_if&lt; is_tensor&lt; Right &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
 <tr class="memitem:a8005d292051062ad3892265e28010a4b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a8005d292051062ad3892265e28010a4b">binary</a> (const Right &amp;right, Op &amp;&amp;op) const </td></tr>
@@ -341,34 +344,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a19ee5e211e0a606f194bde6699b9d373"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a19ee5e211e0a606f194bde6699b9d373">scale_to</a> (const Scalar factor)</td></tr>
 <tr class="memdesc:a19ee5e211e0a606f194bde6699b9d373"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scale this tensor.  <a href="#a19ee5e211e0a606f194bde6699b9d373">More...</a><br /></td></tr>
 <tr class="separator:a19ee5e211e0a606f194bde6699b9d373"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a87ec615071d970a3d449207d5dfe2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a7a87ec615071d970a3d449207d5dfe2d">conj</a> () const </td></tr>
-<tr class="memdesc:a7a87ec615071d970a3d449207d5dfe2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a complex conjugated copy of this tensor.  <a href="#a7a87ec615071d970a3d449207d5dfe2d">More...</a><br /></td></tr>
-<tr class="separator:a7a87ec615071d970a3d449207d5dfe2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1d7b24611c413f71ad800501cbdd402"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1d7b24611c413f71ad800501cbdd402">conj</a> (const <a class="el" href="class_tiled_array_1_1_permutation.html">Permutation</a> &amp;perm) const </td></tr>
-<tr class="memdesc:ad1d7b24611c413f71ad800501cbdd402"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a permuted and complex conjugated copy of this tensor.  <a href="#ad1d7b24611c413f71ad800501cbdd402">More...</a><br /></td></tr>
-<tr class="separator:ad1d7b24611c413f71ad800501cbdd402"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a7b1d9d929ece6c2f0c2db33c1a9497"><td class="memTemplParams" colspan="2">template&lt;typename Scalar , typename std::enable_if&lt; detail::is_numeric&lt; Scalar &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
-<tr class="memitem:a9a7b1d9d929ece6c2f0c2db33c1a9497"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a9a7b1d9d929ece6c2f0c2db33c1a9497">conj</a> (const Scalar factor) const </td></tr>
-<tr class="memdesc:a9a7b1d9d929ece6c2f0c2db33c1a9497"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a scaled and complex conjugated copy of this tensor.  <a href="#a9a7b1d9d929ece6c2f0c2db33c1a9497">More...</a><br /></td></tr>
-<tr class="separator:a9a7b1d9d929ece6c2f0c2db33c1a9497"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a517e4fec7443d48d2dbb38e0849bc6fd"><td class="memTemplParams" colspan="2">template&lt;typename Scalar , typename std::enable_if&lt; detail::is_numeric&lt; Scalar &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
-<tr class="memitem:a517e4fec7443d48d2dbb38e0849bc6fd"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a517e4fec7443d48d2dbb38e0849bc6fd">conj</a> (const Scalar factor, const <a class="el" href="class_tiled_array_1_1_permutation.html">Permutation</a> &amp;perm) const </td></tr>
-<tr class="memdesc:a517e4fec7443d48d2dbb38e0849bc6fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a scaled, permuted, and complex conjugated copy of this tensor.  <a href="#a517e4fec7443d48d2dbb38e0849bc6fd">More...</a><br /></td></tr>
-<tr class="separator:a517e4fec7443d48d2dbb38e0849bc6fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3ada2b7db72107f273a04394bdccac5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#af3ada2b7db72107f273a04394bdccac5">conj_to</a> ()</td></tr>
-<tr class="memdesc:af3ada2b7db72107f273a04394bdccac5"><td class="mdescLeft">&#160;</td><td class="mdescRight">In-place complex conjugate this tensor.  <a href="#af3ada2b7db72107f273a04394bdccac5">More...</a><br /></td></tr>
-<tr class="separator:af3ada2b7db72107f273a04394bdccac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a184678a6a02973c2a2de3ee08354855e"><td class="memTemplParams" colspan="2">template&lt;typename Scalar , typename std::enable_if&lt; detail::is_numeric&lt; Scalar &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
-<tr class="memitem:a184678a6a02973c2a2de3ee08354855e"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a184678a6a02973c2a2de3ee08354855e">conj_to</a> (const Scalar factor)</td></tr>
-<tr class="memdesc:a184678a6a02973c2a2de3ee08354855e"><td class="mdescLeft">&#160;</td><td class="mdescRight">In-place scale and complex conjugate this tensor.  <a href="#a184678a6a02973c2a2de3ee08354855e">More...</a><br /></td></tr>
-<tr class="separator:a184678a6a02973c2a2de3ee08354855e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1907f43fcdcc43e0ae4f9c143767bfb1"><td class="memTemplParams" colspan="2">template&lt;typename Right , typename std::enable_if&lt; is_tensor&lt; Right &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
 <tr class="memitem:a1907f43fcdcc43e0ae4f9c143767bfb1"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a1907f43fcdcc43e0ae4f9c143767bfb1">add</a> (const Right &amp;right) const </td></tr>
-<tr class="memdesc:a1907f43fcdcc43e0ae4f9c143767bfb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add this and <code>other</code> to construct a new tensors.  <a href="#a1907f43fcdcc43e0ae4f9c143767bfb1">More...</a><br /></td></tr>
+<tr class="memdesc:a1907f43fcdcc43e0ae4f9c143767bfb1"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> this and <code>other</code> to construct a new tensors.  <a href="#a1907f43fcdcc43e0ae4f9c143767bfb1">More...</a><br /></td></tr>
 <tr class="separator:a1907f43fcdcc43e0ae4f9c143767bfb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfa67535e35bbda4182bcec15a876967"><td class="memTemplParams" colspan="2">template&lt;typename Right , typename std::enable_if&lt; is_tensor&lt; Right &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
 <tr class="memitem:adfa67535e35bbda4182bcec15a876967"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#adfa67535e35bbda4182bcec15a876967">add</a> (const Right &amp;right, const <a class="el" href="class_tiled_array_1_1_permutation.html">Permutation</a> &amp;perm) const </td></tr>
-<tr class="memdesc:adfa67535e35bbda4182bcec15a876967"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add this and <code>other</code> to construct a new, permuted tensor.  <a href="#adfa67535e35bbda4182bcec15a876967">More...</a><br /></td></tr>
+<tr class="memdesc:adfa67535e35bbda4182bcec15a876967"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> this and <code>other</code> to construct a new, permuted tensor.  <a href="#adfa67535e35bbda4182bcec15a876967">More...</a><br /></td></tr>
 <tr class="separator:adfa67535e35bbda4182bcec15a876967"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bf8e32d8aa56a477dba7bf52b38b66b"><td class="memTemplParams" colspan="2">template&lt;typename Right , typename Scalar , typename std::enable_if&lt; is_tensor&lt; Right &gt;::value &amp;&amp;                       detail::is_numeric&lt; Scalar &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
 <tr class="memitem:a8bf8e32d8aa56a477dba7bf52b38b66b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a8bf8e32d8aa56a477dba7bf52b38b66b">add</a> (const Right &amp;right, const Scalar factor) const </td></tr>
@@ -378,22 +360,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa977f933291df14c39009736c59a8b0c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#aa977f933291df14c39009736c59a8b0c">add</a> (const Right &amp;right, const Scalar factor, const <a class="el" href="class_tiled_array_1_1_permutation.html">Permutation</a> &amp;perm) const </td></tr>
 <tr class="memdesc:aa977f933291df14c39009736c59a8b0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scale and add this and <code>other</code> to construct a new, permuted tensor.  <a href="#aa977f933291df14c39009736c59a8b0c">More...</a><br /></td></tr>
 <tr class="separator:aa977f933291df14c39009736c59a8b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af39b998b0ce99a03924f257eb103e2dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#af39b998b0ce99a03924f257eb103e2dd">add</a> (const <a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a> value) const </td></tr>
-<tr class="memdesc:af39b998b0ce99a03924f257eb103e2dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a constant to a copy of this tensor.  <a href="#af39b998b0ce99a03924f257eb103e2dd">More...</a><br /></td></tr>
+<tr class="memitem:af39b998b0ce99a03924f257eb103e2dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#af39b998b0ce99a03924f257eb103e2dd">add</a> (const <a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a> value) const </td></tr>
+<tr class="memdesc:af39b998b0ce99a03924f257eb103e2dd"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> a constant to a copy of this tensor.  <a href="#af39b998b0ce99a03924f257eb103e2dd">More...</a><br /></td></tr>
 <tr class="separator:af39b998b0ce99a03924f257eb103e2dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5d32834339f136a79ab7072aeab09b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#ad5d32834339f136a79ab7072aeab09b4">add</a> (const <a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a> value, const <a class="el" href="class_tiled_array_1_1_permutation.html">Permutation</a> &amp;perm) const </td></tr>
-<tr class="memdesc:ad5d32834339f136a79ab7072aeab09b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a constant to a permuted copy of this tensor.  <a href="#ad5d32834339f136a79ab7072aeab09b4">More...</a><br /></td></tr>
+<tr class="memitem:ad5d32834339f136a79ab7072aeab09b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#ad5d32834339f136a79ab7072aeab09b4">add</a> (const <a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a> value, const <a class="el" href="class_tiled_array_1_1_permutation.html">Permutation</a> &amp;perm) const </td></tr>
+<tr class="memdesc:ad5d32834339f136a79ab7072aeab09b4"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> a constant to a permuted copy of this tensor.  <a href="#ad5d32834339f136a79ab7072aeab09b4">More...</a><br /></td></tr>
 <tr class="separator:ad5d32834339f136a79ab7072aeab09b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3dfff2aa620117307ba085091693a768"><td class="memTemplParams" colspan="2">template&lt;typename Right , typename std::enable_if&lt; is_tensor&lt; Right &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
 <tr class="memitem:a3dfff2aa620117307ba085091693a768"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a3dfff2aa620117307ba085091693a768">add_to</a> (const Right &amp;right)</td></tr>
-<tr class="memdesc:a3dfff2aa620117307ba085091693a768"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add <code>other</code> to this tensor.  <a href="#a3dfff2aa620117307ba085091693a768">More...</a><br /></td></tr>
+<tr class="memdesc:a3dfff2aa620117307ba085091693a768"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> <code>other</code> to this tensor.  <a href="#a3dfff2aa620117307ba085091693a768">More...</a><br /></td></tr>
 <tr class="separator:a3dfff2aa620117307ba085091693a768"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91c2a4263360a58dbaba16cb434e2794"><td class="memTemplParams" colspan="2">template&lt;typename Right , typename Scalar , typename std::enable_if&lt; is_tensor&lt; Right &gt;::value &amp;&amp;                       detail::is_numeric&lt; Scalar &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
 <tr class="memitem:a91c2a4263360a58dbaba16cb434e2794"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a91c2a4263360a58dbaba16cb434e2794">add_to</a> (const Right &amp;right, const Scalar factor)</td></tr>
-<tr class="memdesc:a91c2a4263360a58dbaba16cb434e2794"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add <code>other</code> to this tensor, and scale the result.  <a href="#a91c2a4263360a58dbaba16cb434e2794">More...</a><br /></td></tr>
+<tr class="memdesc:a91c2a4263360a58dbaba16cb434e2794"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> <code>other</code> to this tensor, and scale the result.  <a href="#a91c2a4263360a58dbaba16cb434e2794">More...</a><br /></td></tr>
 <tr class="separator:a91c2a4263360a58dbaba16cb434e2794"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad959a4848795f8352fd9dfd25631948a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#ad959a4848795f8352fd9dfd25631948a">add_to</a> (const <a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a> value)</td></tr>
-<tr class="memdesc:ad959a4848795f8352fd9dfd25631948a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a constant to this tensor.  <a href="#ad959a4848795f8352fd9dfd25631948a">More...</a><br /></td></tr>
+<tr class="memitem:ad959a4848795f8352fd9dfd25631948a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#ad959a4848795f8352fd9dfd25631948a">add_to</a> (const <a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a> value)</td></tr>
+<tr class="memdesc:ad959a4848795f8352fd9dfd25631948a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> a constant to this tensor.  <a href="#ad959a4848795f8352fd9dfd25631948a">More...</a><br /></td></tr>
 <tr class="separator:ad959a4848795f8352fd9dfd25631948a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c6d59e8758cac8cb6501246bff199c5"><td class="memTemplParams" colspan="2">template&lt;typename Right , typename std::enable_if&lt; is_tensor&lt; Right &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
 <tr class="memitem:a4c6d59e8758cac8cb6501246bff199c5"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a4c6d59e8758cac8cb6501246bff199c5">subt</a> (const Right &amp;right) const </td></tr>
@@ -411,10 +393,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1c5c10ac9ab93b55610638901ac58ac8"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a1c5c10ac9ab93b55610638901ac58ac8">subt</a> (const Right &amp;right, const Scalar factor, const <a class="el" href="class_tiled_array_1_1_permutation.html">Permutation</a> &amp;perm) const </td></tr>
 <tr class="memdesc:a1c5c10ac9ab93b55610638901ac58ac8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scale and subtract this and <code>right</code> to construct a new, permuted tensor.  <a href="#a1c5c10ac9ab93b55610638901ac58ac8">More...</a><br /></td></tr>
 <tr class="separator:a1c5c10ac9ab93b55610638901ac58ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8b4d88e87f80f0cd72724ce1738ef97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#af8b4d88e87f80f0cd72724ce1738ef97">subt</a> (const <a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a> value) const </td></tr>
+<tr class="memitem:af8b4d88e87f80f0cd72724ce1738ef97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#af8b4d88e87f80f0cd72724ce1738ef97">subt</a> (const <a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a> value) const </td></tr>
 <tr class="memdesc:af8b4d88e87f80f0cd72724ce1738ef97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract a constant from a copy of this tensor.  <a href="#af8b4d88e87f80f0cd72724ce1738ef97">More...</a><br /></td></tr>
 <tr class="separator:af8b4d88e87f80f0cd72724ce1738ef97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70f9d052179f9441987e184d0082ed75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a70f9d052179f9441987e184d0082ed75">subt</a> (const <a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a> value, const <a class="el" href="class_tiled_array_1_1_permutation.html">Permutation</a> &amp;perm) const </td></tr>
+<tr class="memitem:a70f9d052179f9441987e184d0082ed75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a70f9d052179f9441987e184d0082ed75">subt</a> (const <a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a> value, const <a class="el" href="class_tiled_array_1_1_permutation.html">Permutation</a> &amp;perm) const </td></tr>
 <tr class="memdesc:a70f9d052179f9441987e184d0082ed75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract a constant from a permuted copy of this tensor.  <a href="#a70f9d052179f9441987e184d0082ed75">More...</a><br /></td></tr>
 <tr class="separator:a70f9d052179f9441987e184d0082ed75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6732b912c2ce09fcf078d814f0ca8cb9"><td class="memTemplParams" colspan="2">template&lt;typename Right , typename std::enable_if&lt; is_tensor&lt; Right &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
@@ -425,7 +407,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af9a421cd397418787307aac0d453a3d7"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#af9a421cd397418787307aac0d453a3d7">subt_to</a> (const Right &amp;right, const Scalar factor)</td></tr>
 <tr class="memdesc:af9a421cd397418787307aac0d453a3d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract <code>right</code> from and scale this tensor.  <a href="#af9a421cd397418787307aac0d453a3d7">More...</a><br /></td></tr>
 <tr class="separator:af9a421cd397418787307aac0d453a3d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e44d414e05fe2fe09648ad9856ade68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a8e44d414e05fe2fe09648ad9856ade68">subt_to</a> (const <a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a> value)</td></tr>
+<tr class="memitem:a8e44d414e05fe2fe09648ad9856ade68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a8e44d414e05fe2fe09648ad9856ade68">subt_to</a> (const <a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a> value)</td></tr>
 <tr class="memdesc:a8e44d414e05fe2fe09648ad9856ade68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract a constant from this tensor.  <a href="#a8e44d414e05fe2fe09648ad9856ade68">More...</a><br /></td></tr>
 <tr class="separator:a8e44d414e05fe2fe09648ad9856ade68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee21e15e1549187df9ea498ec3c6f0d9"><td class="memTemplParams" colspan="2">template&lt;typename Right , typename std::enable_if&lt; is_tensor&lt; Right &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
@@ -461,51 +443,72 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0f298b826efdc604b419d2da13d4a862"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a0f298b826efdc604b419d2da13d4a862">neg_to</a> ()</td></tr>
 <tr class="memdesc:a0f298b826efdc604b419d2da13d4a862"><td class="mdescLeft">&#160;</td><td class="mdescRight">Negate elements of this tensor.  <a href="#a0f298b826efdc604b419d2da13d4a862">More...</a><br /></td></tr>
 <tr class="separator:a0f298b826efdc604b419d2da13d4a862"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a87ec615071d970a3d449207d5dfe2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a7a87ec615071d970a3d449207d5dfe2d">conj</a> () const </td></tr>
+<tr class="memdesc:a7a87ec615071d970a3d449207d5dfe2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a complex conjugated copy of this tensor.  <a href="#a7a87ec615071d970a3d449207d5dfe2d">More...</a><br /></td></tr>
+<tr class="separator:a7a87ec615071d970a3d449207d5dfe2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a7b1d9d929ece6c2f0c2db33c1a9497"><td class="memTemplParams" colspan="2">template&lt;typename Scalar , typename std::enable_if&lt; detail::is_numeric&lt; Scalar &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a9a7b1d9d929ece6c2f0c2db33c1a9497"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a9a7b1d9d929ece6c2f0c2db33c1a9497">conj</a> (const Scalar factor) const </td></tr>
+<tr class="memdesc:a9a7b1d9d929ece6c2f0c2db33c1a9497"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a complex conjugated and scaled copy of this tensor.  <a href="#a9a7b1d9d929ece6c2f0c2db33c1a9497">More...</a><br /></td></tr>
+<tr class="separator:a9a7b1d9d929ece6c2f0c2db33c1a9497"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1d7b24611c413f71ad800501cbdd402"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1d7b24611c413f71ad800501cbdd402">conj</a> (const <a class="el" href="class_tiled_array_1_1_permutation.html">Permutation</a> &amp;perm) const </td></tr>
+<tr class="memdesc:ad1d7b24611c413f71ad800501cbdd402"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a complex conjugated and permuted copy of this tensor.  <a href="#ad1d7b24611c413f71ad800501cbdd402">More...</a><br /></td></tr>
+<tr class="separator:ad1d7b24611c413f71ad800501cbdd402"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a517e4fec7443d48d2dbb38e0849bc6fd"><td class="memTemplParams" colspan="2">template&lt;typename Scalar , typename std::enable_if&lt; detail::is_numeric&lt; Scalar &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a517e4fec7443d48d2dbb38e0849bc6fd"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a517e4fec7443d48d2dbb38e0849bc6fd">conj</a> (const Scalar factor, const <a class="el" href="class_tiled_array_1_1_permutation.html">Permutation</a> &amp;perm) const </td></tr>
+<tr class="memdesc:a517e4fec7443d48d2dbb38e0849bc6fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a complex conjugated, scaled, and permuted copy of this tensor.  <a href="#a517e4fec7443d48d2dbb38e0849bc6fd">More...</a><br /></td></tr>
+<tr class="separator:a517e4fec7443d48d2dbb38e0849bc6fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3ada2b7db72107f273a04394bdccac5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#af3ada2b7db72107f273a04394bdccac5">conj_to</a> ()</td></tr>
+<tr class="memdesc:af3ada2b7db72107f273a04394bdccac5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Complex conjugate this tensor.  <a href="#af3ada2b7db72107f273a04394bdccac5">More...</a><br /></td></tr>
+<tr class="separator:af3ada2b7db72107f273a04394bdccac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a184678a6a02973c2a2de3ee08354855e"><td class="memTemplParams" colspan="2">template&lt;typename Scalar , typename std::enable_if&lt; detail::is_numeric&lt; Scalar &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a184678a6a02973c2a2de3ee08354855e"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a184678a6a02973c2a2de3ee08354855e">conj_to</a> (const Scalar factor)</td></tr>
+<tr class="memdesc:a184678a6a02973c2a2de3ee08354855e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Complex conjugate and scale this tensor.  <a href="#a184678a6a02973c2a2de3ee08354855e">More...</a><br /></td></tr>
+<tr class="separator:a184678a6a02973c2a2de3ee08354855e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4469d294904c2fbe99d4a8e5ab1b990"><td class="memTemplParams" colspan="2">template&lt;typename U , typename AU &gt; </td></tr>
-<tr class="memitem:ad4469d294904c2fbe99d4a8e5ab1b990"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#ad4469d294904c2fbe99d4a8e5ab1b990">gemm</a> (const <a class="el" href="class_tiled_array_1_1_tensor.html">Tensor</a>&lt; U, AU &gt; &amp;other, const <a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a> factor, const <a class="el" href="class_tiled_array_1_1math_1_1_gemm_helper.html">math::GemmHelper</a> &amp;gemm_helper) const </td></tr>
+<tr class="memitem:ad4469d294904c2fbe99d4a8e5ab1b990"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#ad4469d294904c2fbe99d4a8e5ab1b990">gemm</a> (const <a class="el" href="class_tiled_array_1_1_tensor.html">Tensor</a>&lt; U, AU &gt; &amp;other, const <a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a> factor, const <a class="el" href="class_tiled_array_1_1math_1_1_gemm_helper.html">math::GemmHelper</a> &amp;gemm_helper) const </td></tr>
 <tr class="memdesc:ad4469d294904c2fbe99d4a8e5ab1b990"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contract this tensor with <code>other</code>.  <a href="#ad4469d294904c2fbe99d4a8e5ab1b990">More...</a><br /></td></tr>
 <tr class="separator:ad4469d294904c2fbe99d4a8e5ab1b990"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f23842cadbb7bc0cb031c3f16312cba"><td class="memTemplParams" colspan="2">template&lt;typename U , typename AU , typename V , typename AV &gt; </td></tr>
-<tr class="memitem:a4f23842cadbb7bc0cb031c3f16312cba"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a4f23842cadbb7bc0cb031c3f16312cba">gemm</a> (const <a class="el" href="class_tiled_array_1_1_tensor.html">Tensor</a>&lt; U, AU &gt; &amp;left, const <a class="el" href="class_tiled_array_1_1_tensor.html">Tensor</a>&lt; V, AV &gt; &amp;right, const <a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a> factor, const <a class="el" href="class_tiled_array_1_1math_1_1_gemm_helper.html">math::GemmHelper</a> &amp;gemm_helper)</td></tr>
+<tr class="memitem:a4f23842cadbb7bc0cb031c3f16312cba"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a4f23842cadbb7bc0cb031c3f16312cba">gemm</a> (const <a class="el" href="class_tiled_array_1_1_tensor.html">Tensor</a>&lt; U, AU &gt; &amp;left, const <a class="el" href="class_tiled_array_1_1_tensor.html">Tensor</a>&lt; V, AV &gt; &amp;right, const <a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a> factor, const <a class="el" href="class_tiled_array_1_1math_1_1_gemm_helper.html">math::GemmHelper</a> &amp;gemm_helper)</td></tr>
 <tr class="memdesc:a4f23842cadbb7bc0cb031c3f16312cba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contract two tensors and store the result in this tensor.  <a href="#a4f23842cadbb7bc0cb031c3f16312cba">More...</a><br /></td></tr>
 <tr class="separator:a4f23842cadbb7bc0cb031c3f16312cba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0531455387af89e2c96fa7c9d539c2dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#ab64c1efaee17c30ac1559f18e1eb0e88">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a0531455387af89e2c96fa7c9d539c2dc">trace</a> () const </td></tr>
 <tr class="memdesc:a0531455387af89e2c96fa7c9d539c2dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generalized tensor trace.  <a href="#a0531455387af89e2c96fa7c9d539c2dc">More...</a><br /></td></tr>
 <tr class="separator:a0531455387af89e2c96fa7c9d539c2dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79f7f71edfbba58b81f9549e79d686f3"><td class="memTemplParams" colspan="2">template&lt;typename ReduceOp , typename JoinOp &gt; </td></tr>
-<tr class="memitem:a79f7f71edfbba58b81f9549e79d686f3"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a79f7f71edfbba58b81f9549e79d686f3">reduce</a> (ReduceOp &amp;&amp;reduce_op, JoinOp &amp;&amp;join_op, const <a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a> identity) const </td></tr>
+<tr class="memitem:a79f7f71edfbba58b81f9549e79d686f3"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a79f7f71edfbba58b81f9549e79d686f3">reduce</a> (ReduceOp &amp;&amp;reduce_op, JoinOp &amp;&amp;join_op, const <a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a> identity) const </td></tr>
 <tr class="memdesc:a79f7f71edfbba58b81f9549e79d686f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unary reduction operation.  <a href="#a79f7f71edfbba58b81f9549e79d686f3">More...</a><br /></td></tr>
 <tr class="separator:a79f7f71edfbba58b81f9549e79d686f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cac0318ff1b4cfa52c97fea8fc624ce"><td class="memTemplParams" colspan="2">template&lt;typename Right , typename ReduceOp , typename JoinOp , typename std::enable_if&lt; is_tensor&lt; Right &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
-<tr class="memitem:a0cac0318ff1b4cfa52c97fea8fc624ce"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a0cac0318ff1b4cfa52c97fea8fc624ce">reduce</a> (const Right &amp;other, ReduceOp &amp;&amp;reduce_op, JoinOp &amp;&amp;join_op, const <a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a> identity) const </td></tr>
+<tr class="memitem:a0cac0318ff1b4cfa52c97fea8fc624ce"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a0cac0318ff1b4cfa52c97fea8fc624ce">reduce</a> (const Right &amp;other, ReduceOp &amp;&amp;reduce_op, JoinOp &amp;&amp;join_op, const <a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a> identity) const </td></tr>
 <tr class="memdesc:a0cac0318ff1b4cfa52c97fea8fc624ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binary reduction operation.  <a href="#a0cac0318ff1b4cfa52c97fea8fc624ce">More...</a><br /></td></tr>
 <tr class="separator:a0cac0318ff1b4cfa52c97fea8fc624ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11f31a873c870ef15b51f0b84fd88e57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a11f31a873c870ef15b51f0b84fd88e57">sum</a> () const </td></tr>
+<tr class="memitem:a11f31a873c870ef15b51f0b84fd88e57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a11f31a873c870ef15b51f0b84fd88e57">sum</a> () const </td></tr>
 <tr class="memdesc:a11f31a873c870ef15b51f0b84fd88e57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sum of elements.  <a href="#a11f31a873c870ef15b51f0b84fd88e57">More...</a><br /></td></tr>
 <tr class="separator:a11f31a873c870ef15b51f0b84fd88e57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a822b996880ecb2364f86d37054b5a6d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a822b996880ecb2364f86d37054b5a6d9">product</a> () const </td></tr>
+<tr class="memitem:a822b996880ecb2364f86d37054b5a6d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a822b996880ecb2364f86d37054b5a6d9">product</a> () const </td></tr>
 <tr class="memdesc:a822b996880ecb2364f86d37054b5a6d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Product of elements.  <a href="#a822b996880ecb2364f86d37054b5a6d9">More...</a><br /></td></tr>
 <tr class="separator:a822b996880ecb2364f86d37054b5a6d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48fa9bf1d0c66003cfd7fb34775edf69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a48fa9bf1d0c66003cfd7fb34775edf69">squared_norm</a> () const </td></tr>
-<tr class="memdesc:a48fa9bf1d0c66003cfd7fb34775edf69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Square of vector 2-norm.  <a href="#a48fa9bf1d0c66003cfd7fb34775edf69">More...</a><br /></td></tr>
-<tr class="separator:a48fa9bf1d0c66003cfd7fb34775edf69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43ca135b8db345c20bb54f470ee59747"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a43ca135b8db345c20bb54f470ee59747">norm</a> () const </td></tr>
+<tr class="memitem:aaa56a7afa750fc69a3dd3080b1f82880"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#a9a3ff935ffdd12ded18a1041a0a18faf">scalar_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#aaa56a7afa750fc69a3dd3080b1f82880">squared_norm</a> () const </td></tr>
+<tr class="memdesc:aaa56a7afa750fc69a3dd3080b1f82880"><td class="mdescLeft">&#160;</td><td class="mdescRight">Square of vector 2-norm.  <a href="#aaa56a7afa750fc69a3dd3080b1f82880">More...</a><br /></td></tr>
+<tr class="separator:aaa56a7afa750fc69a3dd3080b1f82880"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43ca135b8db345c20bb54f470ee59747"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a43ca135b8db345c20bb54f470ee59747">norm</a> () const </td></tr>
 <tr class="memdesc:a43ca135b8db345c20bb54f470ee59747"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector 2-norm.  <a href="#a43ca135b8db345c20bb54f470ee59747">More...</a><br /></td></tr>
 <tr class="separator:a43ca135b8db345c20bb54f470ee59747"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7501443876637e48d240c928ebe1ff8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a7501443876637e48d240c928ebe1ff8a">min</a> () const </td></tr>
+<tr class="memitem:a7501443876637e48d240c928ebe1ff8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a7501443876637e48d240c928ebe1ff8a">min</a> () const </td></tr>
 <tr class="memdesc:a7501443876637e48d240c928ebe1ff8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum element.  <a href="#a7501443876637e48d240c928ebe1ff8a">More...</a><br /></td></tr>
 <tr class="separator:a7501443876637e48d240c928ebe1ff8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a6c9a21709defa9e613881f86cbafe5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a7a6c9a21709defa9e613881f86cbafe5">max</a> () const </td></tr>
+<tr class="memitem:a7a6c9a21709defa9e613881f86cbafe5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a7a6c9a21709defa9e613881f86cbafe5">max</a> () const </td></tr>
 <tr class="memdesc:a7a6c9a21709defa9e613881f86cbafe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum element.  <a href="#a7a6c9a21709defa9e613881f86cbafe5">More...</a><br /></td></tr>
 <tr class="separator:a7a6c9a21709defa9e613881f86cbafe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a137a35b92da2f518aed92c6f7d15454d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a137a35b92da2f518aed92c6f7d15454d">abs_min</a> () const </td></tr>
+<tr class="memitem:a137a35b92da2f518aed92c6f7d15454d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a137a35b92da2f518aed92c6f7d15454d">abs_min</a> () const </td></tr>
 <tr class="memdesc:a137a35b92da2f518aed92c6f7d15454d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Absolute minimum element.  <a href="#a137a35b92da2f518aed92c6f7d15454d">More...</a><br /></td></tr>
 <tr class="separator:a137a35b92da2f518aed92c6f7d15454d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40984346a8bc0c1a3da458bb9fa09137"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a40984346a8bc0c1a3da458bb9fa09137">abs_max</a> () const </td></tr>
+<tr class="memitem:a40984346a8bc0c1a3da458bb9fa09137"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a40984346a8bc0c1a3da458bb9fa09137">abs_max</a> () const </td></tr>
 <tr class="memdesc:a40984346a8bc0c1a3da458bb9fa09137"><td class="mdescLeft">&#160;</td><td class="mdescRight">Absolute maximum element.  <a href="#a40984346a8bc0c1a3da458bb9fa09137">More...</a><br /></td></tr>
 <tr class="separator:a40984346a8bc0c1a3da458bb9fa09137"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53759a4be0ec7b9df37339228b3b8aee"><td class="memTemplParams" colspan="2">template&lt;typename Right , typename std::enable_if&lt; is_tensor&lt; Right &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
-<tr class="memitem:a53759a4be0ec7b9df37339228b3b8aee"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a53759a4be0ec7b9df37339228b3b8aee">dot</a> (const Right &amp;other) const </td></tr>
+<tr class="memitem:a53759a4be0ec7b9df37339228b3b8aee"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1_tensor.html#a53759a4be0ec7b9df37339228b3b8aee">dot</a> (const Right &amp;other) const </td></tr>
 <tr class="memdesc:a53759a4be0ec7b9df37339228b3b8aee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector dot product.  <a href="#a53759a4be0ec7b9df37339228b3b8aee">More...</a><br /></td></tr>
 <tr class="separator:a53759a4be0ec7b9df37339228b3b8aee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -522,7 +525,7 @@ class TiledArray::Tensor&lt; T, A &gt;</h3>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="array_8h_source.html#l00033">33</a> of file <a class="el" href="array_8h_source.html">array.h</a>.</p>
+<p>Definition at line <a class="el" href="foreach_8h_source.html#l00040">40</a> of file <a class="el" href="foreach_8h_source.html">foreach.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a99586ecbed993b0a7dc33ca231131d15"></a>
 <div class="memitem">
@@ -632,14 +635,14 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 
 </div>
 </div>
-<a class="anchor" id="ad1b34daf98d5c0e42998ec4edf7c6126"></a>
+<a class="anchor" id="abc2e1a62ce018f90f552510d29fd9ed2"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="struct_tiled_array_1_1detail_1_1scalar__type.html">TiledArray::detail::scalar_type</a>&lt;T&gt;::type <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::<a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a></td>
+          <td class="memname">typedef <a class="el" href="struct_tiled_array_1_1detail_1_1numeric__type.html">TiledArray::detail::numeric_type</a>&lt;T&gt;::type <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::<a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -704,6 +707,24 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 
 </div>
 </div>
+<a class="anchor" id="a9a3ff935ffdd12ded18a1041a0a18faf"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="struct_tiled_array_1_1detail_1_1scalar__type.html">TiledArray::detail::scalar_type</a>&lt;T&gt;::type <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::<a class="el" href="class_tiled_array_1_1_tensor.html#a9a3ff935ffdd12ded18a1041a0a18faf">scalar_type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the scalar type that supports T </p>
+
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00052">52</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a4f44171ea91af2bb2a393ca06d5af662"></a>
 <div class="memitem">
 <div class="memproto">
@@ -752,14 +773,14 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
       </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_tiled_array_1_1_array.html" title="An n-dimensional, tiled array. ">Array</a> element type. </p>
+<p>Array element type. </p>
 
 <p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00041">41</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a24e14e81f940d2c26349364fab48ce73"></a>
+<a class="anchor" id="a52053224a88d9d8478805d7c5f89ec59"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -777,14 +798,16 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00109">109</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="a9345327a28a1d73ea6990e690842910c"></a>
+<a class="anchor" id="a414d8ebf6c834c5500ca5b5408708f58"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -797,20 +820,22 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
           <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::<a class="el" href="class_tiled_array_1_1_tensor.html">Tensor</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00110">110</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="ad41cbb99b19377d8811a7e61762a1a2c"></a>
+<a class="anchor" id="a437e6fa337043142c4be807cd46bf5d1"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -823,20 +848,22 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
           <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::<a class="el" href="class_tiled_array_1_1_tensor.html">Tensor</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00111">111</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="a1baef100bdce140bab5f083164df1d1f"></a>
+<a class="anchor" id="a709fe578d55e8ee8c1e187d6f1a1ad4e"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -854,10 +881,12 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00112">112</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -893,7 +922,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00116">116</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00127">127</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -942,7 +971,7 @@ template&lt;typename Value , typename std::enable_if&lt; std::is_same&lt; Value,
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00130">130</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00141">141</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -991,7 +1020,7 @@ template&lt;typename Value , typename std::enable_if&lt; detail::is_numeric&lt; 
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00145">145</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00156">156</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -1033,7 +1062,7 @@ template&lt;typename InIter , typename std::enable_if&lt; TiledArray::detail::is
 
 <p>Construct an evaluated tensor. </p>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00155">155</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00166">166</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -1073,7 +1102,7 @@ template&lt;typename U &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00165">165</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00176">176</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -1117,7 +1146,7 @@ template&lt;typename T1 , typename std::enable_if&lt; is_tensor&lt; T1 &gt;::val
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00178">178</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00189">189</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -1172,7 +1201,7 @@ template&lt;typename T1 , typename std::enable_if&lt; is_tensor&lt; T1 &gt;::val
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00195">195</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00206">206</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -1228,7 +1257,7 @@ template&lt;typename T1 , typename Op , typename std::enable_if&lt; is_tensor&lt
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00215">215</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00226">226</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -1290,7 +1319,7 @@ template&lt;typename T1 , typename Op , typename std::enable_if&lt; is_tensor&lt
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00229">229</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00240">240</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -1354,7 +1383,7 @@ template&lt;typename T1 , typename T2 , typename Op , typename std::enable_if&lt
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00245">245</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00256">256</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -1425,7 +1454,7 @@ template&lt;typename T1 , typename T2 , typename Op , typename std::enable_if&lt
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00262">262</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00273">273</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -1440,7 +1469,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::abs_max </td>
+          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::abs_max </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1456,7 +1485,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 <p>Absolute maximum element. </p>
 <dl class="section return"><dt>Returns</dt><dd>The maximum elements of this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01388">1388</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01403">1403</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -1470,7 +1499,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::abs_min </td>
+          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::abs_min </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1486,7 +1515,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 <p>Absolute minimum element. </p>
 <dl class="section return"><dt>Returns</dt><dd>The minimum elements of this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01377">1377</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01392">1392</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -1516,7 +1545,7 @@ template&lt;typename Right , typename std::enable_if&lt; is_tensor&lt; Right &gt
 </table>
 </div><div class="memdoc">
 
-<p>Add this and <code>other</code> to construct a new tensors. </p>
+<p><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> this and <code>other</code> to construct a new tensors. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Right</td><td>The right-hand tensor type </td></tr>
@@ -1531,7 +1560,7 @@ template&lt;typename Right , typename std::enable_if&lt; is_tensor&lt; Right &gt
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A new tensor where the elements are the sum of the elements of <code>this</code> and <code>other</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00731">731</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00679">679</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -1571,7 +1600,7 @@ template&lt;typename Right , typename std::enable_if&lt; is_tensor&lt; Right &gt
 </table>
 </div><div class="memdoc">
 
-<p>Add this and <code>other</code> to construct a new, permuted tensor. </p>
+<p><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> this and <code>other</code> to construct a new, permuted tensor. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Right</td><td>The right-hand tensor type </td></tr>
@@ -1587,7 +1616,7 @@ template&lt;typename Right , typename std::enable_if&lt; is_tensor&lt; Right &gt
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A new tensor where the elements are the sum of the elements of <code>this</code> and <code>other</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00746">746</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00694">694</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -1644,7 +1673,7 @@ template&lt;typename Right , typename Scalar , typename std::enable_if&lt; is_te
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A new tensor where the elements are the sum of the elements of <code>this</code> and <code>other</code>, scaled by <code>factor</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00763">763</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00711">711</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -1708,7 +1737,7 @@ template&lt;typename Right , typename Scalar , typename std::enable_if&lt; is_te
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A new tensor where the elements are the sum of the elements of <code>this</code> and <code>other</code>, scaled by <code>factor</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00781">781</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00729">729</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -1724,7 +1753,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
         <tr>
           <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::add </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1736,7 +1765,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 </table>
 </div><div class="memdoc">
 
-<p>Add a constant to a copy of this tensor. </p>
+<p><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> a constant to a copy of this tensor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">value</td><td>The constant to be added to this tensor </td></tr>
@@ -1745,7 +1774,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A new tensor where the elements are the sum of the elements of <code>this</code> and <code>value</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00794">794</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00742">742</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -1761,7 +1790,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
         <tr>
           <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::add </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a>&#160;</td>
           <td class="paramname"><em>value</em>, </td>
         </tr>
         <tr>
@@ -1783,7 +1812,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 </table>
 </div><div class="memdoc">
 
-<p>Add a constant to a permuted copy of this tensor. </p>
+<p><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> a constant to a permuted copy of this tensor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">value</td><td>The constant to be added to this tensor </td></tr>
@@ -1793,7 +1822,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A new tensor where the elements are the sum of the elements of <code>this</code> and <code>value</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00805">805</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00753">753</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -1823,7 +1852,7 @@ template&lt;typename Right , typename std::enable_if&lt; is_tensor&lt; Right &gt
 </table>
 </div><div class="memdoc">
 
-<p>Add <code>other</code> to this tensor. </p>
+<p><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> <code>other</code> to this tensor. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Right</td><td>The right-hand tensor type </td></tr>
@@ -1838,7 +1867,7 @@ template&lt;typename Right , typename std::enable_if&lt; is_tensor&lt; Right &gt
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A reference to this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00816">816</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00765">765</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -1878,7 +1907,7 @@ template&lt;typename Right , typename Scalar , typename std::enable_if&lt; is_te
 </table>
 </div><div class="memdoc">
 
-<p>Add <code>other</code> to this tensor, and scale the result. </p>
+<p><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> <code>other</code> to this tensor, and scale the result. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Right</td><td>The right-hand tensor type </td></tr>
@@ -1895,7 +1924,7 @@ template&lt;typename Right , typename Scalar , typename std::enable_if&lt; is_te
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A reference to this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00832">832</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00780">780</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -1911,7 +1940,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
         <tr>
           <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&amp; <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::add_to </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1923,7 +1952,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 </table>
 </div><div class="memdoc">
 
-<p>Add a constant to this tensor. </p>
+<p><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> a constant to this tensor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">value</td><td>The constant to be added </td></tr>
@@ -1932,7 +1961,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A reference to this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00842">842</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00790">790</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -1962,7 +1991,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 <p>Iterator factory. </p>
 <dl class="section return"><dt>Returns</dt><dd>An iterator to the first data element </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00372">372</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00383">383</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -1992,7 +2021,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 <p>Iterator factory. </p>
 <dl class="section return"><dt>Returns</dt><dd>An iterator to the first data element </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00377">377</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00388">388</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -2049,7 +2078,7 @@ template&lt;typename Right , typename Op , typename std::enable_if&lt; is_tensor
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A tensor where element <code>i</code> of the new tensor is equal to <code>op(*this[i],other[i])</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00542">542</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00553">553</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -2113,7 +2142,7 @@ template&lt;typename Right , typename Op , typename std::enable_if&lt; is_tensor
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A tensor where element <code>i</code> of the new tensor is equal to <code>op(*this[i],other[i])</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00557">557</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00568">568</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -2153,7 +2182,7 @@ template&lt;typename Index &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00464">464</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00475">475</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -2191,7 +2220,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00471">471</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00482">482</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -2231,7 +2260,7 @@ template&lt;typename Index &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00481">481</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00492">492</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -2269,7 +2298,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00488">488</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00499">499</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -2296,7 +2325,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00268">268</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00279">279</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -2323,47 +2352,10 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 </table>
 </div><div class="memdoc">
 
-<p>Construct a complex conjugated copy of this tensor. </p>
-<dl class="section return"><dt>Returns</dt><dd>A new tensor where the elements are the complex conjugate of the elements of this tensor </dd></dl>
+<p>Create a complex conjugated copy of this tensor. </p>
+<dl class="section return"><dt>Returns</dt><dd>A copy of this tensor that contains the complex conjugate the values </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00664">664</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ad1d7b24611c413f71ad800501cbdd402"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::conj </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_permutation.html">Permutation</a> &amp;&#160;</td>
-          <td class="paramname"><em>perm</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Construct a permuted and complex conjugated copy of this tensor. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">perm</td><td>The permutation to be applied to this tensor </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>A new tensor where the elements are the complex conjugate of the elements of this tensor and permuted </dd></dl>
-
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00673">673</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01043">1043</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -2393,7 +2385,7 @@ template&lt;typename Scalar , typename std::enable_if&lt; detail::is_numeric&lt;
 </table>
 </div><div class="memdoc">
 
-<p>Construct a scaled and complex conjugated copy of this tensor. </p>
+<p>Create a complex conjugated and scaled copy of this tensor. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Scalar</td><td>A scalar type </td></tr>
@@ -2406,9 +2398,46 @@ template&lt;typename Scalar , typename std::enable_if&lt; detail::is_numeric&lt;
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A new tensor where the elements are the complex conjugate of the elements of this tensor and scaled by <code>factor</code> </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A copy of this tensor that contains the scaled complex conjugate the values </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00685">685</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01056">1056</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad1d7b24611c413f71ad800501cbdd402"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::conj </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_permutation.html">Permutation</a> &amp;&#160;</td>
+          <td class="paramname"><em>perm</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a complex conjugated and permuted copy of this tensor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">perm</td><td>The permutation to be applied to this tensor </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A permuted copy of this tensor that contains the complex conjugate values </dd></dl>
+
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01066">1066</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -2448,7 +2477,7 @@ template&lt;typename Scalar , typename std::enable_if&lt; detail::is_numeric&lt;
 </table>
 </div><div class="memdoc">
 
-<p>Construct a scaled, permuted, and complex conjugated copy of this tensor. </p>
+<p>Create a complex conjugated, scaled, and permuted copy of this tensor. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Scalar</td><td>A scalar type </td></tr>
@@ -2462,9 +2491,9 @@ template&lt;typename Scalar , typename std::enable_if&lt; detail::is_numeric&lt;
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A new tensor where the elements are the complex conjugate of the elements of this tensor, scaled by <code>factor</code>, and permuted </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A permuted copy of this tensor that contains the complex conjugate values </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00698">698</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01080">1080</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -2491,16 +2520,10 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 </table>
 </div><div class="memdoc">
 
-<p>In-place complex conjugate this tensor. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">factor</td><td>The scaling factor </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Complex conjugate this tensor. </p>
 <dl class="section return"><dt>Returns</dt><dd>A reference to this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00706">706</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01088">1088</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -2530,7 +2553,7 @@ template&lt;typename Scalar , typename std::enable_if&lt; detail::is_numeric&lt;
 </table>
 </div><div class="memdoc">
 
-<p>In-place scale and complex conjugate this tensor. </p>
+<p>Complex conjugate and scale this tensor. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Scalar</td><td>A scalar type </td></tr>
@@ -2545,7 +2568,7 @@ template&lt;typename Scalar , typename std::enable_if&lt; detail::is_numeric&lt;
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A reference to this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00717">717</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01100">1100</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -2575,7 +2598,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 <p>Data direct access. </p>
 <dl class="section return"><dt>Returns</dt><dd>A const pointer to the tensor data </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00396">396</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00407">407</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -2605,7 +2628,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 <p>Data direct access. </p>
 <dl class="section return"><dt>Returns</dt><dd>A const pointer to the tensor data </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00401">401</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00412">412</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -2621,7 +2644,7 @@ template&lt;typename Right , typename std::enable_if&lt; is_tensor&lt; Right &gt
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::dot </td>
+          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::dot </td>
           <td>(</td>
           <td class="paramtype">const Right &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
@@ -2650,7 +2673,7 @@ template&lt;typename Right , typename std::enable_if&lt; is_tensor&lt; Right &gt
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The inner product of the this and <code>other</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01403">1403</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01418">1418</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -2680,7 +2703,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 <p>Test if the tensor is empty. </p>
 <dl class="section return"><dt>Returns</dt><dd><code>true</code> if this tensor was default constructed (contains no data), otherwise <code>false</code>. </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00407">407</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00418">418</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -2710,7 +2733,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 <p>Iterator factory. </p>
 <dl class="section return"><dt>Returns</dt><dd>An iterator to the last data element </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00382">382</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00393">393</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -2740,7 +2763,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 <p>Iterator factory. </p>
 <dl class="section return"><dt>Returns</dt><dd>An iterator to the last data element </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00389">389</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00400">400</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -2764,7 +2787,7 @@ template&lt;typename U , typename AU &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a>&#160;</td>
           <td class="paramname"><em>factor</em>, </td>
         </tr>
         <tr>
@@ -2811,7 +2834,7 @@ template&lt;typename U , typename AU &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01104">1104</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01119">1119</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -2841,7 +2864,7 @@ template&lt;typename U , typename AU , typename V , typename AV &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a>&#160;</td>
           <td class="paramname"><em>factor</em>, </td>
         </tr>
         <tr>
@@ -2903,7 +2926,7 @@ template&lt;typename U , typename AU , typename V , typename AV &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01179">1179</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01194">1194</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -2969,7 +2992,7 @@ template&lt;typename Right , typename Op , typename std::enable_if&lt; is_tensor
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00575">575</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00586">586</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3020,7 +3043,7 @@ template&lt;typename Op &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00613">613</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00624">624</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3034,7 +3057,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::max </td>
+          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::max </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -3050,7 +3073,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 <p>Maximum element. </p>
 <dl class="section return"><dt>Returns</dt><dd>The maximum elements of this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01368">1368</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01383">1383</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3064,7 +3087,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::min </td>
+          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::min </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -3080,7 +3103,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 <p>Minimum element. </p>
 <dl class="section return"><dt>Returns</dt><dd>The minimum elements of this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01359">1359</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01374">1374</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3125,7 +3148,7 @@ template&lt;typename Right , typename std::enable_if&lt; is_tensor&lt; Right &gt
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A new tensor where the elements are the product of the elements of <code>this</code> and <code>right</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00978">978</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00926">926</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3181,7 +3204,7 @@ template&lt;typename Right , typename std::enable_if&lt; is_tensor&lt; Right &gt
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A new tensor where the elements are the product of the elements of <code>this</code> and <code>right</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00993">993</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00941">941</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3238,7 +3261,7 @@ template&lt;typename Right , typename Scalar , typename std::enable_if&lt; is_te
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A new tensor where the elements are the product of the elements of <code>this</code> and <code>right</code>, scaled by <code>factor</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01010">1010</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00958">958</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3302,7 +3325,7 @@ template&lt;typename Right , typename Scalar , typename std::enable_if&lt; is_te
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A new tensor where the elements are the product of the elements of <code>this</code> and <code>right</code>, scaled by <code>factor</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01028">1028</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00976">976</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3347,7 +3370,7 @@ template&lt;typename Right , typename std::enable_if&lt; is_tensor&lt; Right &gt
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A reference to this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01043">1043</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00991">991</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3404,7 +3427,7 @@ template&lt;typename Right , typename Scalar , typename std::enable_if&lt; is_te
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A reference to this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01059">1059</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01007">1007</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3434,7 +3457,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 <p>Create a negated copy of this tensor. </p>
 <dl class="section return"><dt>Returns</dt><dd>A new tensor that contains the negative values of this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01070">1070</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01018">1018</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3471,7 +3494,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A new tensor that contains the negative values of this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01078">1078</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01026">1026</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3501,7 +3524,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 <p>Negate elements of this tensor. </p>
 <dl class="section return"><dt>Returns</dt><dd>A reference to this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01086">1086</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01034">1034</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3515,7 +3538,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::norm </td>
+          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::norm </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -3531,7 +3554,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 <p>Vector 2-norm. </p>
 <dl class="section return"><dt>Returns</dt><dd>The vector norm of this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01352">1352</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01367">1367</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3575,7 +3598,7 @@ template&lt;typename... Index&gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00352">352</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00363">363</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3619,11 +3642,11 @@ template&lt;typename... Index&gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00363">363</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00374">374</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a4a30de410bd92ccd7937daeff7fb5093"></a>
+<a class="anchor" id="a5bb641cc67d36bf3e87b59eaf10a2dff"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -3642,14 +3665,16 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00113">113</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="a8d1da1c7793011f2687fd20793bcf1d0"></a>
+<a class="anchor" id="a375a995714597079b944907eb89245bc"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -3662,16 +3687,18 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
           <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&amp; <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::operator= </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> &amp;&amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00117">117</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3701,7 +3728,7 @@ template&lt;typename T1 , typename std::enable_if&lt; is_tensor&lt; T1 &gt;::val
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00280">280</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00291">291</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3732,7 +3759,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 <p>Element accessor. </p>
 <dl class="section return"><dt>Returns</dt><dd>The element at the <code>i</code> position. </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00304">304</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00315">315</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3769,7 +3796,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00314">314</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00325">325</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3808,7 +3835,7 @@ template&lt;typename Index , typename std::enable_if&lt;                        
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00328">328</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00339">339</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3847,7 +3874,7 @@ template&lt;typename Index , typename std::enable_if&lt;                        
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00341">341</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00352">352</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3884,7 +3911,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A permuted copy of this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00500">500</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00511">511</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3898,7 +3925,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::product </td>
+          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::product </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -3914,7 +3941,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 <p>Product of elements. </p>
 <dl class="section return"><dt>Returns</dt><dd>The product of all elements of this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01332">1332</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01347">1347</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3944,7 +3971,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 <p><a class="el" href="class_tiled_array_1_1_tensor.html" title="An N-dimensional tensor object. ">Tensor</a> range object accessor. </p>
 <dl class="section return"><dt>Returns</dt><dd>The tensor range object </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00290">290</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00301">301</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -3960,7 +3987,7 @@ template&lt;typename ReduceOp , typename JoinOp &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::reduce </td>
+          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::reduce </td>
           <td>(</td>
           <td class="paramtype">ReduceOp &amp;&amp;&#160;</td>
           <td class="paramname"><em>reduce_op</em>, </td>
@@ -3974,7 +4001,7 @@ template&lt;typename ReduceOp , typename JoinOp &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a>&#160;</td>
           <td class="paramname"><em>identity</em>&#160;</td>
         </tr>
         <tr>
@@ -4008,7 +4035,7 @@ template&lt;typename ReduceOp , typename JoinOp &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The reduced value </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01295">1295</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01310">1310</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -4024,7 +4051,7 @@ template&lt;typename Right , typename ReduceOp , typename JoinOp , typename std:
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::reduce </td>
+          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::reduce </td>
           <td>(</td>
           <td class="paramtype">const Right &amp;&#160;</td>
           <td class="paramname"><em>other</em>, </td>
@@ -4044,7 +4071,7 @@ template&lt;typename Right , typename ReduceOp , typename JoinOp , typename std:
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a>&#160;</td>
           <td class="paramname"><em>identity</em>&#160;</td>
         </tr>
         <tr>
@@ -4080,7 +4107,7 @@ template&lt;typename Right , typename ReduceOp , typename JoinOp , typename std:
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The reduced value </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01314">1314</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01329">1329</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -4125,7 +4152,7 @@ template&lt;typename Scalar , typename std::enable_if&lt; detail::is_numeric&lt;
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A new tensor where the elements of this tensor are scaled by <code>factor</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00628">628</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00639">639</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -4181,7 +4208,7 @@ template&lt;typename Scalar , typename std::enable_if&lt; detail::is_numeric&lt;
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A new tensor where the elements of this tensor are scaled by <code>factor</code> and permuted </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00642">642</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00653">653</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -4226,7 +4253,7 @@ template&lt;typename Scalar , typename std::enable_if&lt; detail::is_numeric&lt;
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A reference to this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00654">654</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00665">665</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -4270,7 +4297,7 @@ template&lt;typename Archive , typename std::enable_if&lt;                      
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00417">417</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00428">428</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -4314,7 +4341,7 @@ template&lt;typename Archive , typename std::enable_if&lt;                      
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00435">435</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00446">446</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -4344,7 +4371,7 @@ template&lt;typename Index &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Shift the lower and upper bound of this range. </p>
+<p><a class="el" href="class_tiled_array_1_1_shift.html" title="Tile shift operation. ">Shift</a> the lower and upper bound of this range. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Index</td><td>The shift array type </td></tr>
@@ -4359,7 +4386,7 @@ template&lt;typename Index &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A shifted copy of this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00523">523</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00534">534</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -4389,7 +4416,7 @@ template&lt;typename Index &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Shift the lower and upper bound of this tensor. </p>
+<p><a class="el" href="class_tiled_array_1_1_shift.html" title="Tile shift operation. ">Shift</a> the lower and upper bound of this tensor. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Index</td><td>The shift array type </td></tr>
@@ -4404,7 +4431,7 @@ template&lt;typename Index &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A reference to this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00511">511</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00522">522</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -4434,11 +4461,11 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 <p><a class="el" href="class_tiled_array_1_1_tensor.html" title="An N-dimensional tensor object. ">Tensor</a> dimension size accessor. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of elements in the tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00297">297</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00308">308</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a48fa9bf1d0c66003cfd7fb34775edf69"></a>
+<a class="anchor" id="aaa56a7afa750fc69a3dd3080b1f82880"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -4448,7 +4475,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::squared_norm </td>
+          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#a9a3ff935ffdd12ded18a1041a0a18faf">scalar_type</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::squared_norm </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -4464,7 +4491,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 <p>Square of vector 2-norm. </p>
 <dl class="section return"><dt>Returns</dt><dd>The vector norm of this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01341">1341</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01356">1356</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -4509,7 +4536,7 @@ template&lt;typename Right , typename std::enable_if&lt; is_tensor&lt; Right &gt
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A new tensor where the elements are the different between the elements of <code>this</code> and <code>right</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00856">856</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00804">804</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -4565,7 +4592,7 @@ template&lt;typename Right , typename std::enable_if&lt; is_tensor&lt; Right &gt
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A new tensor where the elements are the different between the elements of <code>this</code> and <code>right</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00871">871</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00819">819</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -4622,7 +4649,7 @@ template&lt;typename Right , typename Scalar , typename std::enable_if&lt; is_te
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A new tensor where the elements are the different between the elements of <code>this</code> and <code>right</code>, scaled by <code>factor</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00888">888</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00836">836</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -4686,7 +4713,7 @@ template&lt;typename Right , typename Scalar , typename std::enable_if&lt; is_te
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A new tensor where the elements are the different between the elements of <code>this</code> and <code>right</code>, scaled by <code>factor</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00906">906</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00854">854</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -4702,7 +4729,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
         <tr>
           <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::subt </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -4717,7 +4744,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 <p>Subtract a constant from a copy of this tensor. </p>
 <dl class="section return"><dt>Returns</dt><dd>A new tensor where the elements are the different between the elements of <code>this</code> and <code>value</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00918">918</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00866">866</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -4733,7 +4760,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
         <tr>
           <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::subt </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a>&#160;</td>
           <td class="paramname"><em>value</em>, </td>
         </tr>
         <tr>
@@ -4765,7 +4792,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A new tensor where the elements are the different between the elements of <code>this</code> and <code>value</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00928">928</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00876">876</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -4810,7 +4837,7 @@ template&lt;typename Right , typename std::enable_if&lt; is_tensor&lt; Right &gt
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A reference to this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00939">939</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00887">887</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -4867,7 +4894,7 @@ template&lt;typename Right , typename Scalar , typename std::enable_if&lt; is_te
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A reference to this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00955">955</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00903">903</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -4883,7 +4910,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
         <tr>
           <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#a5608ebaf867dc02438adf9475a5ed719">Tensor_</a>&amp; <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::subt_to </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -4898,7 +4925,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 <p>Subtract a constant from this tensor. </p>
 <dl class="section return"><dt>Returns</dt><dd>A reference to this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00964">964</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00912">912</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -4912,7 +4939,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#ad1b34daf98d5c0e42998ec4edf7c6126">numeric_type</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::sum </td>
+          <td class="memname"><a class="el" href="class_tiled_array_1_1_tensor.html#abc2e1a62ce018f90f552510d29fd9ed2">numeric_type</a> <a class="el" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt; T, A &gt;::sum </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -4928,7 +4955,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
 <p>Sum of elements. </p>
 <dl class="section return"><dt>Returns</dt><dd>The sum of all elements of this tensor </dd></dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01323">1323</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01338">1338</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -4964,7 +4991,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00458">458</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00469">469</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -5000,7 +5027,7 @@ template&lt;typename T, typename A = Eigen::aligned_allocator&lt;T&gt;&gt; </div
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01242">1242</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l01257">1257</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -5051,7 +5078,7 @@ template&lt;typename Op &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00588">588</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00599">599</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -5114,12 +5141,12 @@ template&lt;typename Op &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00602">602</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
+<p>Definition at line <a class="el" href="tensor_2tensor_8h_source.html#l00613">613</a> of file <a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>TiledArray/<a class="el" href="array_8h_source.html">array.h</a></li>
+<li>TiledArray/conversions/<a class="el" href="foreach_8h_source.html">foreach.h</a></li>
 <li>TiledArray/tensor/<a class="el" href="tensor_2tensor_8h_source.html">tensor.h</a></li>
 </ul>
 </div><!-- contents -->
@@ -5128,7 +5155,7 @@ template&lt;typename Op &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tiled_array.html">TiledArray</a></li><li class="navelem"><a class="el" href="class_tiled_array_1_1_tensor.html">Tensor</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:45 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:07 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

@@ -157,9 +157,9 @@ $(document).ready(function(){initNavTree('functions_type_b.html','');});
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_binary_engine.html#a4fe5e1d19670d921b6572a286156464e">TiledArray::expressions::BinaryEngine&lt; Derived &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_cont_engine.html#a7fd8b002552dbf41217d07b5385fa316">TiledArray::expressions::ContEngine&lt; Derived &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_mult_engine.html#a3b9c22f2c5ee7d55bcfc9b4611e3537f">TiledArray::expressions::MultEngine&lt; Left, Right &gt;</a>
-, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_add_engine.html#a74a638038e7fbeae41c29d8f686e1016">TiledArray::expressions::ScalAddEngine&lt; Left, Right &gt;</a>
-, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_engine.html#a7c0812ac56c5f0251530ac5685f6bb69">TiledArray::expressions::ScalMultEngine&lt; Left, Right &gt;</a>
-, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_subt_engine.html#a174f01baf64174f1d210a68af1e8fe39">TiledArray::expressions::ScalSubtEngine&lt; Left, Right &gt;</a>
+, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_add_engine.html#a599863bffd346e70900db9e205ea8993">TiledArray::expressions::ScalAddEngine&lt; Left, Right, Scalar &gt;</a>
+, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_engine.html#a050885aa23bcd7b208226b8acda8149c">TiledArray::expressions::ScalMultEngine&lt; Left, Right, Scalar &gt;</a>
+, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_subt_engine.html#a4efe7b38df8c595ae4fede35977b9efc">TiledArray::expressions::ScalSubtEngine&lt; Left, Right, Scalar &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_subt_engine.html#af11e6782273c70b469f6ad11e23ddaa7">TiledArray::expressions::SubtEngine&lt; Left, Right &gt;</a>
 </li>
 <li>BinaryEvalImpl_
@@ -167,48 +167,40 @@ $(document).ready(function(){initNavTree('functions_type_b.html','');});
 </li>
 <li>BinaryExpr_
 : <a class="el" href="class_tiled_array_1_1expressions_1_1_add_expr.html#a8461a16b5b96d6a9e7320c77267b6d0e">TiledArray::expressions::AddExpr&lt; Left, Right &gt;</a>
+, <a class="el" href="class_tiled_array_1_1expressions_1_1_binary_expr.html#a72b2613500694099c385c95af0289690">TiledArray::expressions::BinaryExpr&lt; Derived &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_mult_expr.html#ac5bf5dfb67c0be0138086af06f5862b7">TiledArray::expressions::MultExpr&lt; Left, Right &gt;</a>
-, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_add_expr.html#a758f882046dece8f3b9dcf5f4f27c7f3">TiledArray::expressions::ScalAddExpr&lt; Left, Right &gt;</a>
-, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#a379cad5a6455f4b701cb6ef21ec69ece">TiledArray::expressions::ScalMultExpr&lt; Left, Right &gt;</a>
-, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_subt_expr.html#af51ef3de48151481e78eb3f7e2edbbd1">TiledArray::expressions::ScalSubtExpr&lt; Left, Right &gt;</a>
+, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_add_expr.html#aa6ee4a7fc789aabd0f145d6d700d7eeb">TiledArray::expressions::ScalAddExpr&lt; Left, Right, Scalar &gt;</a>
+, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_expr.html#ac7314cb592116d23a50824f9decc3839">TiledArray::expressions::ScalMultExpr&lt; Left, Right, Scalar &gt;</a>
+, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_subt_expr.html#a68c5e5c8fcd0cd95e978080c4ca23404">TiledArray::expressions::ScalSubtExpr&lt; Left, Right, Scalar &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_subt_expr.html#a9a5f5f327ddcbaf1da9190521660cfad">TiledArray::expressions::SubtExpr&lt; Left, Right &gt;</a>
-</li>
-<li>BinaryInterface_
-: <a class="el" href="class_tiled_array_1_1math_1_1_add.html#a28a8384ffa5d5db2e56c0799ef8c6733">TiledArray::math::Add&lt; Result, Left, Right, LeftConsumable, RightConsumable &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_mult.html#ace5f8f6eb406664b11a2afc3d0bec65a">TiledArray::math::Mult&lt; Result, Left, Right, LeftConsumable, RightConsumable &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_scal_add.html#af4dfb4a7a36662bc8bceab032d5a3f54">TiledArray::math::ScalAdd&lt; Result, Left, Right, LeftConsumable, RightConsumable &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_scal_mult.html#a5461f5e99b0e597ae8587d738b004d6f">TiledArray::math::ScalMult&lt; Result, Left, Right, LeftConsumable, RightConsumable &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_scal_subt.html#a1878260a1a51038a67565bf278171397">TiledArray::math::ScalSubt&lt; Result, Left, Right, LeftConsumable, RightConsumable &gt;</a>
-, <a class="el" href="class_tiled_array_1_1math_1_1_subt.html#a232d71b8db2e938d45daed71f508ad50">TiledArray::math::Subt&lt; Result, Left, Right, LeftConsumable, RightConsumable &gt;</a>
-</li>
-<li>BinaryInterfaceBase_
-: <a class="el" href="class_tiled_array_1_1_binary_interface.html#a11fe4f8e5ff1f665c92520370921acfd">TiledArray::BinaryInterface&lt; Derived &gt;</a>
-, <a class="el" href="class_tiled_array_1_1_binary_interface_3_01_op_3_01_result_00_01_left_00_01_right_00_01false_00_01false_01_4_01_4.html#ad1db057e26fa366475953ea144311c1f">TiledArray::BinaryInterface&lt; Op&lt; Result, Left, Right, false, false &gt; &gt;</a>
 </li>
 <li>BinaryReduceWrapper_
 : <a class="el" href="struct_tiled_array_1_1math_1_1_binary_reduce_wrapper.html#a7b5e2d24ab845721c4cbe98c121719bf">TiledArray::math::BinaryReduceWrapper&lt; Left, Right, Op &gt;</a>
 , <a class="el" href="struct_tiled_array_1_1math_1_1_binary_reduce_wrapper_3_01typename_01_op_1_1first__argument__type67c79c3b500ed0e00a014a91c2cde2e1.html#a4404bd6a03edb214edc972dbdcfdb70e">TiledArray::math::BinaryReduceWrapper&lt; typename Op::first_argument_type,                                           typename Op::second_argument_type, Op &gt;</a>
 </li>
+<li>BinaryWrapper_
+: <a class="el" href="class_tiled_array_1_1detail_1_1_binary_wrapper.html#ab42b80050dc282e9361dc4804325a777">TiledArray::detail::BinaryWrapper&lt; Op &gt;</a>
+</li>
 <li>Bitset_
 : <a class="el" href="class_tiled_array_1_1detail_1_1_bitset.html#a8ece685e66e7defb9b1dc1064d5b6267">TiledArray::detail::Bitset&lt; Block &gt;</a>
 </li>
 <li>BlkTsrEngine_
-: <a class="el" href="class_tiled_array_1_1expressions_1_1_blk_tsr_engine.html#ad23e8460ce4882f5d1d7f517e2c52a26">TiledArray::expressions::BlkTsrEngine&lt; A &gt;</a>
+: <a class="el" href="class_tiled_array_1_1expressions_1_1_blk_tsr_engine.html#ab6c16cdb5b4671680babf8f6ac9adc06">TiledArray::expressions::BlkTsrEngine&lt; Array, Alias &gt;</a>
 </li>
 <li>BlkTsrEngineBase_
-: <a class="el" href="class_tiled_array_1_1expressions_1_1_blk_tsr_engine.html#a546c1891990eade5cf060c4e4314aba0">TiledArray::expressions::BlkTsrEngine&lt; A &gt;</a>
+: <a class="el" href="class_tiled_array_1_1expressions_1_1_blk_tsr_engine.html#a8f7bc61177fb491aae2b4d383e4d3250">TiledArray::expressions::BlkTsrEngine&lt; Array, Alias &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_blk_tsr_engine_base.html#a9edb13a565b121df8f942b492bf2fc97">TiledArray::expressions::BlkTsrEngineBase&lt; Derived &gt;</a>
-, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_blk_tsr_engine.html#a246494a48e978c15f0e842fe5ac90a16">TiledArray::expressions::ScalBlkTsrEngine&lt; A &gt;</a>
+, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_blk_tsr_engine.html#adf8cc821e35edf780e888d9612c9dfb5">TiledArray::expressions::ScalBlkTsrEngine&lt; Array, Scalar &gt;</a>
 </li>
 <li>BlkTsrExpr_
-: <a class="el" href="class_tiled_array_1_1expressions_1_1_blk_tsr_expr.html#a79c91ee186b70dd618ebe0db305cdcc1">TiledArray::expressions::BlkTsrExpr&lt; A &gt;</a>
-, <a class="el" href="class_tiled_array_1_1expressions_1_1_blk_tsr_expr_3_01const_01_a_01_4.html#a630e980e89b7be28d275ad7a9af584f7">TiledArray::expressions::BlkTsrExpr&lt; const A &gt;</a>
+: <a class="el" href="class_tiled_array_1_1expressions_1_1_blk_tsr_expr.html#a4168f3359287b987c338db92d3ccb2ed">TiledArray::expressions::BlkTsrExpr&lt; Array, Alias &gt;</a>
+, <a class="el" href="class_tiled_array_1_1expressions_1_1_blk_tsr_expr_3_01const_01_array_00_01true_01_4.html#a01d83574532f297570e862322104365c">TiledArray::expressions::BlkTsrExpr&lt; const Array, true &gt;</a>
 </li>
 <li>BlkTsrExprBase_
-: <a class="el" href="class_tiled_array_1_1expressions_1_1_blk_tsr_expr.html#a14d4c21c11c5aea907f49f3ce2ce4656">TiledArray::expressions::BlkTsrExpr&lt; A &gt;</a>
-, <a class="el" href="class_tiled_array_1_1expressions_1_1_blk_tsr_expr_3_01const_01_a_01_4.html#a06a75a9195d3fb91c9defa0a8ad27fc6">TiledArray::expressions::BlkTsrExpr&lt; const A &gt;</a>
+: <a class="el" href="class_tiled_array_1_1expressions_1_1_blk_tsr_expr.html#aaa417e8137310c1567f4a3dbcc63bfa8">TiledArray::expressions::BlkTsrExpr&lt; Array, Alias &gt;</a>
+, <a class="el" href="class_tiled_array_1_1expressions_1_1_blk_tsr_expr_3_01const_01_array_00_01true_01_4.html#a719ce2f9306e0de390e0adaaa32ab254">TiledArray::expressions::BlkTsrExpr&lt; const Array, true &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_blk_tsr_expr_base.html#a431ea6e198d5d6b457823f667024e543">TiledArray::expressions::BlkTsrExprBase&lt; Derived &gt;</a>
-, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_blk_tsr_expr.html#a531750ed89c24ee5fbd17f20256ac4c3">TiledArray::expressions::ScalBlkTsrExpr&lt; A &gt;</a>
+, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_blk_tsr_expr.html#a0f4f175bf3cee9233b0cdb9ee2ed16d1">TiledArray::expressions::ScalBlkTsrExpr&lt; Array, Scalar &gt;</a>
 </li>
 <li>block_type
 : <a class="el" href="class_tiled_array_1_1detail_1_1_bitset.html#adf0babb9f78346e77d3e46210f3cb574">TiledArray::detail::Bitset&lt; Block &gt;</a>
@@ -219,7 +211,7 @@ $(document).ready(function(){initNavTree('functions_type_b.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Oct 23 2015 09:54:09 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:10 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

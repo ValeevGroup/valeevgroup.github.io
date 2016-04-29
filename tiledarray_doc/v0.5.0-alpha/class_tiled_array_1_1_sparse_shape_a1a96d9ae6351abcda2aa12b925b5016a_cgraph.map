@@ -1,4 +1,0 @@
-<map id="TiledArray::SparseShape::mult" name="TiledArray::SparseShape::mult">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1_tensor.html#a26c81ab595b2582f7542b9a24f722d0e" title="Test if the tensor is empty. " alt="" coords="223,5,352,44"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1_tensor.html#aee21e15e1549187df9ea498ec3c6f0d9" title="Multiply this by right to create a new tensor. " alt="" coords="223,68,352,107"/>
-</map>

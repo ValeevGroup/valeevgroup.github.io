@@ -197,12 +197,12 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A 2D processor grid. </p>
 <p><a class="el" href="class_tiled_array_1_1detail_1_1_proc_grid.html" title="A 2D processor grid. ">ProcGrid</a> attempts to create a near optimal 2D grid of P processes for an MxN grid of tiles. The size of the grid is optimized such that the total communication time required for SUMMA and the number of unused processes is minimized. The total communication time of SUMMA is given by: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ T = \frac{MK}{P_{\rm{row}}} \left(\alpha + \frac{mk}{\beta}\right) \left((P/P_{\rm{row}}) - 1\right) + \frac{KN}{P/P_{\rm{row}}} \left(\alpha + \frac{kn}{\beta}\right) \left(P_{\rm{row}} - 1\right) \]" src="form_33.png"/>
+<img class="formulaDsp" alt="\[ T = \frac{MK}{P_{\rm{row}}} \left(\alpha + \frac{mk}{\beta}\right) \left((P/P_{\rm{row}}) - 1\right) + \frac{KN}{P/P_{\rm{row}}} \left(\alpha + \frac{kn}{\beta}\right) \left(P_{\rm{row}} - 1\right) \]" src="form_42.png"/>
 </p>
-<p> where <img class="formulaInl" alt="$P_{\rm{row}}$" src="form_34.png"/> is the number of process rows; <img class="formulaInl" alt="$M$" src="form_35.png"/>, <img class="formulaInl" alt="$N$" src="form_36.png"/>, and <img class="formulaInl" alt="$K$" src="form_37.png"/> are the number of tile rows and columns in a matrix product with average tiles sizes of <img class="formulaInl" alt="$m$" src="form_38.png"/>, <img class="formulaInl" alt="$n$" src="form_39.png"/>, and <img class="formulaInl" alt="$k$" src="form_40.png"/>, respectively; <img class="formulaInl" alt="$P$" src="form_41.png"/> is the number or available processes; <img class="formulaInl" alt="$\alpha$" src="form_42.png"/> is the message latency; and <img class="formulaInl" alt="$\beta$" src="form_43.png"/> is the message data rate. If we evaluate <img class="formulaInl" alt="$dT/dP_{\rm{row}} = 0$" src="form_44.png"/> and assume that <img class="formulaInl" alt="$\alpha \approx 0$" src="form_45.png"/>, the expression simplifies to: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ Nn(2 P_{\rm{row}}^4 - P_{\rm{row}}^3) + Mm(P P_{\rm{row}} - P^2) = 0 \]" src="form_46.png"/>
+<p> where <img class="formulaInl" alt="$P_{\rm{row}}$" src="form_43.png"/> is the number of process rows; <img class="formulaInl" alt="$M$" src="form_44.png"/>, <img class="formulaInl" alt="$N$" src="form_45.png"/>, and <img class="formulaInl" alt="$K$" src="form_46.png"/> are the number of tile rows and columns in a matrix product with average tiles sizes of <img class="formulaInl" alt="$m$" src="form_47.png"/>, <img class="formulaInl" alt="$n$" src="form_48.png"/>, and <img class="formulaInl" alt="$k$" src="form_49.png"/>, respectively; <img class="formulaInl" alt="$P$" src="form_50.png"/> is the number or available processes; <img class="formulaInl" alt="$\alpha$" src="form_51.png"/> is the message latency; and <img class="formulaInl" alt="$\beta$" src="form_52.png"/> is the message data rate. If we evaluate <img class="formulaInl" alt="$dT/dP_{\rm{row}} = 0$" src="form_53.png"/> and assume that <img class="formulaInl" alt="$\alpha \approx 0$" src="form_54.png"/>, the expression simplifies to: </p><p class="formulaDsp">
+<img class="formulaDsp" alt="\[ Nn(2 P_{\rm{row}}^4 - P_{\rm{row}}^3) + Mm(P P_{\rm{row}} - P^2) = 0 \]" src="form_55.png"/>
 </p>
-<p> where the positive, real root of <img class="formulaInl" alt="$P_{\rm{row}}$" src="form_34.png"/> give the optimal optimal communication time. </p>
+<p> where the positive, real root of <img class="formulaInl" alt="$P_{\rm{row}}$" src="form_43.png"/> give the optimal optimal communication time. </p>
 
 <p>Definition at line <a class="el" href="proc__grid_8h_source.html#l00059">59</a> of file <a class="el" href="proc__grid_8h_source.html">proc_grid.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
@@ -939,7 +939,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tiled_array.html">TiledArray</a></li><li class="navelem"><a class="el" href="namespace_tiled_array_1_1detail.html">detail</a></li><li class="navelem"><a class="el" href="class_tiled_array_1_1detail_1_1_proc_grid.html">ProcGrid</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:46 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:08 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

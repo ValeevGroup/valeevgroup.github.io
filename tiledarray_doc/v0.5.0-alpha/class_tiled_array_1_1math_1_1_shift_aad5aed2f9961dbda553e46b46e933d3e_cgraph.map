@@ -1,5 +1,0 @@
-<map id="TiledArray::math::Shift::Shift" name="TiledArray::math::Shift::Shift">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1_permutation.html#a3df6e212ab5eccd151e2c9a58dc5c45d" title="Permutation dimension accessor. " alt="" coords="206,5,396,31"/>
-<area shape="rect" id="node3" href="$namespace_tiled_array_1_1detail.html#a5d281f943194c67e7b0a491f03d49e02" title="Array size accessor. " alt="" coords="444,79,565,117"/>
-<area shape="rect" id="node4" href="$namespace_tiled_array_1_1detail.html#a9ecba5efe7b319458a9f16df0563472b" title="Create a permuted copy of an array. " alt="" coords="241,107,361,145"/>
-</map>

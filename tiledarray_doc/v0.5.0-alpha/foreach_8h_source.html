@@ -145,23 +145,23 @@ $(document).ready(function(){initNavTree('foreach_8h_source.html','');});
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_tiled_array.html">TiledArray</a> {</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span>, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>, <span class="keyword">typename</span>, <span class="keyword">typename</span>&gt; <span class="keyword">class </span><a class="code" href="class_eigen_1_1_array.html">Array</a>;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span>, <span class="keyword">typename</span>&gt; <span class="keyword">class </span>Tensor;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keyword">class </span>DensePolicy;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <span class="keyword">class </span>SparsePolicy;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span>, <span class="keyword">typename</span>&gt; <span class="keyword">class </span>DistArray;</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="class_tiled_array_1_1_tensor.html">   40</a></span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span>, <span class="keyword">typename</span>&gt; <span class="keyword">class </span><a class="code" href="class_tiled_array_1_1_tensor.html">Tensor</a>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keyword">class </span><a class="code" href="class_tiled_array_1_1_dense_policy.html">DensePolicy</a>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <span class="keyword">class </span><a class="code" href="class_tiled_array_1_1_sparse_policy.html">SparsePolicy</a>;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> DIM, <span class="keyword">typename</span> Tile, <span class="keyword">typename</span> Op&gt;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  <span class="keyword">inline</span> <a class="code" href="class_eigen_1_1_array.html">Array&lt;T, DIM, Tile, DensePolicy&gt;</a></div>
-<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="namespace_tiled_array.html#af3f047326ced613ac86a20bdf2911969">   72</a></span>&#160;  <span class="keywordflow">foreach</span>(<span class="keyword">const</span> <a class="code" href="class_tiled_array_1_1_array.html">Array&lt;T, DIM, Tile, DensePolicy&gt;</a>&amp; arg, Op&amp;&amp; op) {</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keyword">typedef</span> <a class="code" href="class_tiled_array_1_1_array.html">Array&lt;T, DIM, Tile, DensePolicy&gt;</a> array_type;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> Tile, <span class="keyword">typename</span> Op&gt;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  <span class="keyword">inline</span> <a class="code" href="class_tiled_array_1_1_dist_array.html">DistArray&lt;Tile, DensePolicy&gt;</a></div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="namespace_tiled_array.html#a33cf1d21760cdc032308a5045f0f4380">   72</a></span>&#160;  <span class="keywordflow">foreach</span>(<span class="keyword">const</span> <a class="code" href="class_tiled_array_1_1_dist_array.html">DistArray&lt;Tile, DensePolicy&gt;</a>&amp; arg, Op&amp;&amp; op) {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keyword">typedef</span> <a class="code" href="class_tiled_array_1_1_dist_array.html">DistArray&lt;Tile, DensePolicy&gt;</a> array_type;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keyword">typedef</span> <span class="keyword">typename</span> array_type::value_type value_type;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keyword">typedef</span> <span class="keyword">typename</span> array_type::size_type size_type;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    World&amp; world = arg.<a class="code" href="class_tiled_array_1_1_array.html#aa615837bd378eb01f778b74469056127">get_world</a>();</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    World&amp; world = arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#afd4a72c2000f003f2fa7fbfb54cf9c89">get_world</a>();</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="comment">// Make an empty result array</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    array_type result(world, arg.<a class="code" href="class_tiled_array_1_1_array.html#abbd24e50054c29f002b4eb0cfbb61ee5">trange</a>(), arg.<a class="code" href="class_tiled_array_1_1_array.html#a5f8e3a9a3857276baf76a9ce4e3a2dd9">get_pmap</a>());</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    array_type result(world, arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#aae54cd20582bc2c630c853d36ba81c39">trange</a>(), arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#a1f471ca8d4f6a8ccccdee29f8c8f198c">get_pmap</a>());</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="comment">// Construct the task function used to construct result tiles.</span></div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keyword">auto</span> task = [=] (<span class="keyword">const</span> value_type&amp; arg_tile) -&gt; value_type {</div>
@@ -172,14 +172,14 @@ $(document).ready(function(){initNavTree('foreach_8h_source.html','');});
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="comment">// Iterate over local tiles of arg</span></div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keyword">typename</span> array_type::pmap_interface::const_iterator</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    it = arg.<a class="code" href="class_tiled_array_1_1_array.html#a5f8e3a9a3857276baf76a9ce4e3a2dd9">get_pmap</a>()-&gt;begin(),</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    end = arg.<a class="code" href="class_tiled_array_1_1_array.html#a5f8e3a9a3857276baf76a9ce4e3a2dd9">get_pmap</a>()-&gt;end();</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    it = arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#a1f471ca8d4f6a8ccccdee29f8c8f198c">get_pmap</a>()-&gt;begin(),</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    end = arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#a1f471ca8d4f6a8ccccdee29f8c8f198c">get_pmap</a>()-&gt;end();</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordflow">for</span>(; it != end; ++it) {</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;      <span class="keyword">const</span> size_type index = *it;</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;      <span class="comment">// Spawn a task to evaluate the tile</span></div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;      Future&lt;typename array_type::value_type&gt; tile =</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;          world.taskq.add(task, arg.<a class="code" href="class_tiled_array_1_1_array.html#ab2e9411dba2544a4eac7f1c495deadb9">find</a>(index));</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;          world.taskq.add(task, arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#ae1bd7cff92ef8ec9edaadc0da988ee65">find</a>(index));</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;      <span class="comment">// Store result tile</span></div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;      result.set(index, tile);</div>
@@ -189,14 +189,14 @@ $(document).ready(function(){initNavTree('foreach_8h_source.html','');});
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  }</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> DIM, <span class="keyword">typename</span> Tile, <span class="keyword">typename</span> Op&gt;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> Tile, <span class="keyword">typename</span> Op&gt;</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;  <span class="keyword">inline</span> <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00141"></a><span class="lineno"><a class="line" href="namespace_tiled_array.html#a1522ab455321f8bd311347bd505edb6f">  141</a></span>&#160;  <a class="code" href="namespace_tiled_array.html#a1522ab455321f8bd311347bd505edb6f">foreach_inplace</a>(<a class="code" href="class_tiled_array_1_1_array.html">Array&lt;T, DIM, Tile, DensePolicy&gt;</a>&amp; arg, Op&amp;&amp; op, <span class="keywordtype">bool</span> fence = <span class="keyword">true</span>) {</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="keyword">typedef</span> <a class="code" href="class_tiled_array_1_1_array.html">Array&lt;T, DIM, Tile, DensePolicy&gt;</a> array_type;</div>
+<div class="line"><a name="l00141"></a><span class="lineno"><a class="line" href="namespace_tiled_array.html#a68370c5a4f4380edb45a5ef3171d97c8">  141</a></span>&#160;  <a class="code" href="namespace_tiled_array.html#a68370c5a4f4380edb45a5ef3171d97c8">foreach_inplace</a>(<a class="code" href="class_tiled_array_1_1_dist_array.html">DistArray&lt;Tile, DensePolicy&gt;</a>&amp; arg, Op&amp;&amp; op, <span class="keywordtype">bool</span> fence = <span class="keyword">true</span>) {</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="keyword">typedef</span> <a class="code" href="class_tiled_array_1_1_dist_array.html">DistArray&lt;Tile, DensePolicy&gt;</a> array_type;</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="keyword">typedef</span> <span class="keyword">typename</span> array_type::value_type value_type;</div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    <span class="keyword">typedef</span> <span class="keyword">typename</span> array_type::size_type size_type;</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    World&amp; world = arg.<a class="code" href="class_tiled_array_1_1_array.html#aa615837bd378eb01f778b74469056127">get_world</a>();</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    World&amp; world = arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#afd4a72c2000f003f2fa7fbfb54cf9c89">get_world</a>();</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <span class="comment">// The tile data is being modified in place, which means we may need to</span></div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <span class="comment">// fence to ensure no other threads are using the data.</span></div>
@@ -204,7 +204,7 @@ $(document).ready(function(){initNavTree('foreach_8h_source.html','');});
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;      world.gop.fence();</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    <span class="comment">// Make an empty result array</span></div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    array_type result(world, arg.<a class="code" href="class_tiled_array_1_1_array.html#abbd24e50054c29f002b4eb0cfbb61ee5">trange</a>(), arg.<a class="code" href="class_tiled_array_1_1_array.html#a5f8e3a9a3857276baf76a9ce4e3a2dd9">get_pmap</a>());</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    array_type result(world, arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#aae54cd20582bc2c630c853d36ba81c39">trange</a>(), arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#a1f471ca8d4f6a8ccccdee29f8c8f198c">get_pmap</a>());</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <span class="comment">// Construct the task function used to modify tiles.</span></div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="keyword">auto</span> task = [=] (value_type&amp; arg_tile) -&gt; value_type {</div>
@@ -214,13 +214,13 @@ $(document).ready(function(){initNavTree('foreach_8h_source.html','');});
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <span class="comment">// Iterate over local tiles of arg</span></div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <span class="keyword">typename</span> array_type::pmap_interface::const_iterator</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    it = arg.<a class="code" href="class_tiled_array_1_1_array.html#a5f8e3a9a3857276baf76a9ce4e3a2dd9">get_pmap</a>()-&gt;begin(),</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    end = arg.<a class="code" href="class_tiled_array_1_1_array.html#a5f8e3a9a3857276baf76a9ce4e3a2dd9">get_pmap</a>()-&gt;end();</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    it = arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#a1f471ca8d4f6a8ccccdee29f8c8f198c">get_pmap</a>()-&gt;begin(),</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    end = arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#a1f471ca8d4f6a8ccccdee29f8c8f198c">get_pmap</a>()-&gt;end();</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="keywordflow">for</span>(; it != end; ++it) {</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;      <span class="keyword">const</span> size_type index = *it;</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;      <span class="comment">// Spawn a task to evaluate the tile</span></div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;      Future&lt;value_type&gt; tile =</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;          world.taskq.add(task, arg.<a class="code" href="class_tiled_array_1_1_array.html#ab2e9411dba2544a4eac7f1c495deadb9">find</a>(index));</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;          world.taskq.add(task, arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#ae1bd7cff92ef8ec9edaadc0da988ee65">find</a>(index));</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;      <span class="comment">// Store result tile</span></div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;      result.set(index, tile);</div>
@@ -231,10 +231,10 @@ $(document).ready(function(){initNavTree('foreach_8h_source.html','');});
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;  }</div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> DIM, <span class="keyword">typename</span> Tile, <span class="keyword">typename</span> Op&gt;</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;  <span class="keyword">inline</span> Array&lt;T, DIM, Tile, SparsePolicy&gt;</div>
-<div class="line"><a name="l00219"></a><span class="lineno"><a class="line" href="namespace_tiled_array.html#a696ebfc5f3aadab1ee602d91cde4111c">  219</a></span>&#160;  <span class="keywordflow">foreach</span>(<span class="keyword">const</span> <a class="code" href="class_tiled_array_1_1_array.html">Array&lt;T, DIM, Tile, SparsePolicy&gt;</a> arg, Op&amp;&amp; op) {</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <span class="keyword">typedef</span> <a class="code" href="class_tiled_array_1_1_array.html">Array&lt;T, DIM, Tile, SparsePolicy&gt;</a> array_type;</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> Tile, <span class="keyword">typename</span> Op&gt;</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;  <span class="keyword">inline</span> DistArray&lt;Tile, SparsePolicy&gt;</div>
+<div class="line"><a name="l00219"></a><span class="lineno"><a class="line" href="namespace_tiled_array.html#aa9e4429634e6981c0ac9f7ff704f2b1a">  219</a></span>&#160;  <span class="keywordflow">foreach</span>(<span class="keyword">const</span> <a class="code" href="class_tiled_array_1_1_dist_array.html">DistArray&lt;Tile, SparsePolicy&gt;</a> arg, Op&amp;&amp; op) {</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <span class="keyword">typedef</span> <a class="code" href="class_tiled_array_1_1_dist_array.html">DistArray&lt;Tile, SparsePolicy&gt;</a> array_type;</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <span class="keyword">typedef</span> <span class="keyword">typename</span> array_type::value_type value_type;</div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <span class="keyword">typedef</span> <span class="keyword">typename</span> array_type::size_type size_type;</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <span class="keyword">typedef</span> <span class="keyword">typename</span> array_type::shape_type shape_type;</div>
@@ -243,12 +243,12 @@ $(document).ready(function(){initNavTree('foreach_8h_source.html','');});
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;</div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <span class="comment">// Create a vector to hold local tiles</span></div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    std::vector&lt;datum_type&gt; tiles;</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    tiles.reserve(arg.<a class="code" href="class_tiled_array_1_1_array.html#a5f8e3a9a3857276baf76a9ce4e3a2dd9">get_pmap</a>()-&gt;size());</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    tiles.reserve(arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#a1f471ca8d4f6a8ccccdee29f8c8f198c">get_pmap</a>()-&gt;size());</div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;</div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    <span class="comment">// Construct a tensor to hold updated tile norms for the result shape.</span></div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    <a class="code" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt;<span class="keyword">typename</span> shape_type::value_type,</div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        <a class="code" href="class_eigen_1_1aligned__allocator.html">Eigen::aligned_allocator&lt;typename shape_type::value_type&gt;</a> &gt;</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    tile_norms(arg.<a class="code" href="class_tiled_array_1_1_array.html#abbd24e50054c29f002b4eb0cfbb61ee5">trange</a>().tiles(), 0);</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    tile_norms(arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#aae54cd20582bc2c630c853d36ba81c39">trange</a>().tiles(), 0);</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;</div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    <span class="comment">// Construct the task function used to construct the result tiles.</span></div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    madness::AtomicInt counter; counter = 0;</div>
@@ -260,17 +260,17 @@ $(document).ready(function(){initNavTree('foreach_8h_source.html','');});
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;      <span class="keywordflow">return</span> result_tile;</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    };</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    World&amp; world = arg.<a class="code" href="class_tiled_array_1_1_array.html#aa615837bd378eb01f778b74469056127">get_world</a>();</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    World&amp; world = arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#afd4a72c2000f003f2fa7fbfb54cf9c89">get_world</a>();</div>
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    <span class="comment">// Get local tile index iterator</span></div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="keyword">typename</span> array_type::pmap_interface::const_iterator</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        it = arg.<a class="code" href="class_tiled_array_1_1_array.html#a5f8e3a9a3857276baf76a9ce4e3a2dd9">get_pmap</a>()-&gt;begin(),</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        end = arg.<a class="code" href="class_tiled_array_1_1_array.html#a5f8e3a9a3857276baf76a9ce4e3a2dd9">get_pmap</a>()-&gt;end();</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        it = arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#a1f471ca8d4f6a8ccccdee29f8c8f198c">get_pmap</a>()-&gt;begin(),</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        end = arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#a1f471ca8d4f6a8ccccdee29f8c8f198c">get_pmap</a>()-&gt;end();</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="keywordflow">for</span>(; it != end; ++it) {</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;      <span class="keyword">const</span> size_type index = *it;</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;      <span class="keywordflow">if</span>(arg.<a class="code" href="class_tiled_array_1_1_array.html#a5b5777ac5086602a38686fc09f654845">is_zero</a>(index))</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;      <span class="keywordflow">if</span>(arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#afb5430ba47577a3ba8d408e2884b8780">is_zero</a>(index))</div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;      future_type arg_tile = arg.<a class="code" href="class_tiled_array_1_1_array.html#ab2e9411dba2544a4eac7f1c495deadb9">find</a>(index);</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;      future_type arg_tile = arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#ae1bd7cff92ef8ec9edaadc0da988ee65">find</a>(index);</div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;      future_type result_tile = world.taskq.add(task, index, arg_tile);</div>
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;      ++task_count;</div>
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;      tiles.push_back(datum_type(index, result_tile));</div>
@@ -281,8 +281,8 @@ $(document).ready(function(){initNavTree('foreach_8h_source.html','');});
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;      world.await([&amp;counter,task_count] () -&gt; <span class="keywordtype">bool</span> { <span class="keywordflow">return</span> counter == task_count; });</div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;</div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    <span class="comment">// Construct the new array</span></div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    array_type result(world, arg.<a class="code" href="class_tiled_array_1_1_array.html#abbd24e50054c29f002b4eb0cfbb61ee5">trange</a>(),</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        shape_type(world, tile_norms, arg.<a class="code" href="class_tiled_array_1_1_array.html#abbd24e50054c29f002b4eb0cfbb61ee5">trange</a>()), arg.<a class="code" href="class_tiled_array_1_1_array.html#a5f8e3a9a3857276baf76a9ce4e3a2dd9">get_pmap</a>());</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    array_type result(world, arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#aae54cd20582bc2c630c853d36ba81c39">trange</a>(),</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        shape_type(world, tile_norms, arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#aae54cd20582bc2c630c853d36ba81c39">trange</a>()), arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#a1f471ca8d4f6a8ccccdee29f8c8f198c">get_pmap</a>());</div>
 <div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    <span class="keywordflow">for</span>(<span class="keyword">typename</span> std::vector&lt;datum_type&gt;::const_iterator it = tiles.begin(); it != tiles.end(); ++it) {</div>
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;      <span class="keyword">const</span> size_type index = it-&gt;first;</div>
 <div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;      <span class="keywordflow">if</span>(! result.is_zero(index))</div>
@@ -294,10 +294,10 @@ $(document).ready(function(){initNavTree('foreach_8h_source.html','');});
 <div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;</div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;</div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> DIM, <span class="keyword">typename</span> Tile, <span class="keyword">typename</span> Op&gt;</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> Tile, <span class="keyword">typename</span> Op&gt;</div>
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;  <span class="keyword">inline</span> <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00322"></a><span class="lineno"><a class="line" href="namespace_tiled_array.html#a79ae3d9ed0bff05ae301fcc57193db30">  322</a></span>&#160;  <a class="code" href="namespace_tiled_array.html#a1522ab455321f8bd311347bd505edb6f">foreach_inplace</a>(<a class="code" href="class_tiled_array_1_1_array.html">Array&lt;T, DIM, Tile, SparsePolicy&gt;</a>&amp; arg, Op&amp;&amp; op, <span class="keywordtype">bool</span> fence = <span class="keyword">true</span>) {</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    <span class="keyword">typedef</span> <a class="code" href="class_tiled_array_1_1_array.html">Array&lt;T, DIM, Tile, SparsePolicy&gt;</a> array_type;</div>
+<div class="line"><a name="l00322"></a><span class="lineno"><a class="line" href="namespace_tiled_array.html#a51965d14e5a05c4bfd18e4daaaa64875">  322</a></span>&#160;  <a class="code" href="namespace_tiled_array.html#a68370c5a4f4380edb45a5ef3171d97c8">foreach_inplace</a>(<a class="code" href="class_tiled_array_1_1_dist_array.html">DistArray&lt;Tile, SparsePolicy&gt;</a>&amp; arg, Op&amp;&amp; op, <span class="keywordtype">bool</span> fence = <span class="keyword">true</span>) {</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    <span class="keyword">typedef</span> <a class="code" href="class_tiled_array_1_1_dist_array.html">DistArray&lt;Tile, SparsePolicy&gt;</a> array_type;</div>
 <div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    <span class="keyword">typedef</span> <span class="keyword">typename</span> array_type::value_type value_type;</div>
 <div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    <span class="keyword">typedef</span> <span class="keyword">typename</span> array_type::size_type size_type;</div>
 <div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    <span class="keyword">typedef</span> <span class="keyword">typename</span> array_type::shape_type shape_type;</div>
@@ -306,12 +306,12 @@ $(document).ready(function(){initNavTree('foreach_8h_source.html','');});
 <div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;</div>
 <div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    <span class="comment">// Create a vector to hold local tiles</span></div>
 <div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    std::vector&lt;datum_type&gt; tiles;</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    tiles.reserve(arg.<a class="code" href="class_tiled_array_1_1_array.html#a5f8e3a9a3857276baf76a9ce4e3a2dd9">get_pmap</a>()-&gt;size());</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    tiles.reserve(arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#a1f471ca8d4f6a8ccccdee29f8c8f198c">get_pmap</a>()-&gt;size());</div>
 <div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;</div>
 <div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;    <span class="comment">// Construct a tensor to hold updated tile norms for the result shape.</span></div>
 <div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    <a class="code" href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a>&lt;<span class="keyword">typename</span> shape_type::value_type,</div>
 <div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;        <a class="code" href="class_eigen_1_1aligned__allocator.html">Eigen::aligned_allocator&lt;typename shape_type::value_type&gt;</a> &gt;</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    tile_norms(arg.<a class="code" href="class_tiled_array_1_1_array.html#abbd24e50054c29f002b4eb0cfbb61ee5">trange</a>().tiles(), 0);</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    tile_norms(arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#aae54cd20582bc2c630c853d36ba81c39">trange</a>().tiles(), 0);</div>
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;</div>
 <div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    <span class="comment">// Construct the task function used to modify tiles.</span></div>
 <div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;    madness::AtomicInt counter; counter = 0;</div>
@@ -322,7 +322,7 @@ $(document).ready(function(){initNavTree('foreach_8h_source.html','');});
 <div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;      <span class="keywordflow">return</span> arg_tile;</div>
 <div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;    };</div>
 <div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    World&amp; world = arg.<a class="code" href="class_tiled_array_1_1_array.html#aa615837bd378eb01f778b74469056127">get_world</a>();</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    World&amp; world = arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#afd4a72c2000f003f2fa7fbfb54cf9c89">get_world</a>();</div>
 <div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;</div>
 <div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;    <span class="comment">// The tile data is being modified in place, which means we may need to</span></div>
 <div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    <span class="comment">// fence to ensure no other threads are using the data.</span></div>
@@ -331,13 +331,13 @@ $(document).ready(function(){initNavTree('foreach_8h_source.html','');});
 <div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;</div>
 <div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    <span class="comment">// Get local tile index iterator</span></div>
 <div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    <span class="keyword">typename</span> array_type::pmap_interface::const_iterator</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;        it = arg.<a class="code" href="class_tiled_array_1_1_array.html#a5f8e3a9a3857276baf76a9ce4e3a2dd9">get_pmap</a>()-&gt;begin(),</div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;        end = arg.<a class="code" href="class_tiled_array_1_1_array.html#a5f8e3a9a3857276baf76a9ce4e3a2dd9">get_pmap</a>()-&gt;end();</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;        it = arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#a1f471ca8d4f6a8ccccdee29f8c8f198c">get_pmap</a>()-&gt;begin(),</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;        end = arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#a1f471ca8d4f6a8ccccdee29f8c8f198c">get_pmap</a>()-&gt;end();</div>
 <div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    <span class="keywordflow">for</span>(; it != end; ++it) {</div>
 <div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;      <span class="keyword">const</span> size_type index = *it;</div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;      <span class="keywordflow">if</span>(arg.<a class="code" href="class_tiled_array_1_1_array.html#a5b5777ac5086602a38686fc09f654845">is_zero</a>(index))</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;      <span class="keywordflow">if</span>(arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#afb5430ba47577a3ba8d408e2884b8780">is_zero</a>(index))</div>
 <div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;        <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;      future_type arg_tile = arg.<a class="code" href="class_tiled_array_1_1_array.html#ab2e9411dba2544a4eac7f1c495deadb9">find</a>(index);</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;      future_type arg_tile = arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#ae1bd7cff92ef8ec9edaadc0da988ee65">find</a>(index);</div>
 <div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;      future_type result_tile = world.taskq.add(task, index, arg_tile);</div>
 <div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;      ++task_count;</div>
 <div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;      tiles.push_back(datum_type(index, result_tile));</div>
@@ -348,8 +348,8 @@ $(document).ready(function(){initNavTree('foreach_8h_source.html','');});
 <div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;      world.await([&amp;counter,task_count] () -&gt; <span class="keywordtype">bool</span> { <span class="keywordflow">return</span> counter == task_count; });</div>
 <div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;</div>
 <div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    <span class="comment">// Construct the new array</span></div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    array_type result(world, arg.<a class="code" href="class_tiled_array_1_1_array.html#abbd24e50054c29f002b4eb0cfbb61ee5">trange</a>(),</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;        shape_type(world, tile_norms, arg.<a class="code" href="class_tiled_array_1_1_array.html#abbd24e50054c29f002b4eb0cfbb61ee5">trange</a>()), arg.<a class="code" href="class_tiled_array_1_1_array.html#a5f8e3a9a3857276baf76a9ce4e3a2dd9">get_pmap</a>());</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    array_type result(world, arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#aae54cd20582bc2c630c853d36ba81c39">trange</a>(),</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;        shape_type(world, tile_norms, arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#aae54cd20582bc2c630c853d36ba81c39">trange</a>()), arg.<a class="code" href="class_tiled_array_1_1_dist_array.html#a1f471ca8d4f6a8ccccdee29f8c8f198c">get_pmap</a>());</div>
 <div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;    <span class="keywordflow">for</span>(<span class="keyword">typename</span> std::vector&lt;datum_type&gt;::const_iterator it = tiles.begin(); it != tiles.end(); ++it) {</div>
 <div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;      <span class="keyword">const</span> size_type index = it-&gt;first;</div>
 <div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;      <span class="keywordflow">if</span>(! result.is_zero(index))</div>
@@ -363,18 +363,19 @@ $(document).ready(function(){initNavTree('foreach_8h_source.html','');});
 <div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;} <span class="comment">// namespace TiledArray</span></div>
 <div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;</div>
 <div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;<span class="preprocessor">#endif // TILEDARRAY_CONVERSIONS_TRUNCATE_H__INCLUDED</span></div>
-<div class="ttc" id="class_tiled_array_1_1_array_html"><div class="ttname"><a href="class_tiled_array_1_1_array.html">TiledArray::Array</a></div><div class="ttdoc">An n-dimensional, tiled array. </div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00050">array.h:50</a></div></div>
-<div class="ttc" id="class_tiled_array_1_1_tensor_html"><div class="ttname"><a href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a></div><div class="ttdoc">An N-dimensional tensor object. </div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00033">array.h:33</a></div></div>
-<div class="ttc" id="class_tiled_array_1_1_array_html_abbd24e50054c29f002b4eb0cfbb61ee5"><div class="ttname"><a href="class_tiled_array_1_1_array.html#abbd24e50054c29f002b4eb0cfbb61ee5">TiledArray::Array::trange</a></div><div class="ttdeci">const trange_type &amp; trange() const </div><div class="ttdoc">Tiled range accessor. </div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00389">array.h:389</a></div></div>
+<div class="ttc" id="class_tiled_array_1_1_dist_array_html_aae54cd20582bc2c630c853d36ba81c39"><div class="ttname"><a href="class_tiled_array_1_1_dist_array.html#aae54cd20582bc2c630c853d36ba81c39">TiledArray::DistArray::trange</a></div><div class="ttdeci">const trange_type &amp; trange() const </div><div class="ttdoc">Tiled range accessor. </div><div class="ttdef"><b>Definition:</b> <a href="dist__array_8h_source.html#l00417">dist_array.h:417</a></div></div>
+<div class="ttc" id="class_tiled_array_1_1_tensor_html"><div class="ttname"><a href="class_tiled_array_1_1_tensor.html">TiledArray::Tensor</a></div><div class="ttdoc">An N-dimensional tensor object. </div><div class="ttdef"><b>Definition:</b> <a href="foreach_8h_source.html#l00040">foreach.h:40</a></div></div>
+<div class="ttc" id="namespace_tiled_array_html_a68370c5a4f4380edb45a5ef3171d97c8"><div class="ttname"><a href="namespace_tiled_array.html#a68370c5a4f4380edb45a5ef3171d97c8">TiledArray::foreach_inplace</a></div><div class="ttdeci">void foreach_inplace(DistArray&lt; Tile, DensePolicy &gt; &amp;arg, Op &amp;&amp;op, bool fence=true)</div><div class="ttdoc">Modify each tile of a dense Array. </div><div class="ttdef"><b>Definition:</b> <a href="foreach_8h_source.html#l00141">foreach.h:141</a></div></div>
+<div class="ttc" id="class_tiled_array_1_1_dist_array_html_ae1bd7cff92ef8ec9edaadc0da988ee65"><div class="ttname"><a href="class_tiled_array_1_1_dist_array.html#ae1bd7cff92ef8ec9edaadc0da988ee65">TiledArray::DistArray::find</a></div><div class="ttdeci">Future&lt; value_type &gt; find(const Index &amp;i) const </div><div class="ttdoc">Find local or remote tile. </div><div class="ttdef"><b>Definition:</b> <a href="dist__array_8h_source.html#l00305">dist_array.h:305</a></div></div>
 <div class="ttc" id="namespace_eigen_html"><div class="ttname"><a href="namespace_eigen.html">Eigen</a></div><div class="ttdoc">Forward declarations. </div><div class="ttdef"><b>Definition:</b> <a href="foreach_8h_source.html#l00032">foreach.h:32</a></div></div>
+<div class="ttc" id="class_tiled_array_1_1_dist_array_html_afd4a72c2000f003f2fa7fbfb54cf9c89"><div class="ttname"><a href="class_tiled_array_1_1_dist_array.html#afd4a72c2000f003f2fa7fbfb54cf9c89">TiledArray::DistArray::get_world</a></div><div class="ttdeci">World &amp; get_world() const </div><div class="ttdoc">World accessor. </div><div class="ttdef"><b>Definition:</b> <a href="dist__array_8h_source.html#l00492">dist_array.h:492</a></div></div>
 <div class="ttc" id="namespace_tiled_array_html"><div class="ttname"><a href="namespace_tiled_array.html">TiledArray</a></div><div class="ttdef"><b>Definition:</b> <a href="conjgrad_8h_source.html#l00034">conjgrad.h:34</a></div></div>
-<div class="ttc" id="namespace_tiled_array_html_a1522ab455321f8bd311347bd505edb6f"><div class="ttname"><a href="namespace_tiled_array.html#a1522ab455321f8bd311347bd505edb6f">TiledArray::foreach_inplace</a></div><div class="ttdeci">void foreach_inplace(Array&lt; T, DIM, Tile, DensePolicy &gt; &amp;arg, Op &amp;&amp;op, bool fence=true)</div><div class="ttdoc">Modify each tile of a dense Array. </div><div class="ttdef"><b>Definition:</b> <a href="foreach_8h_source.html#l00141">foreach.h:141</a></div></div>
-<div class="ttc" id="class_eigen_1_1_array_html"><div class="ttname"><a href="class_eigen_1_1_array.html">Eigen::Array</a></div><div class="ttdef"><b>Definition:</b> <a href="type__traits_8h_source.html#l00031">type_traits.h:31</a></div></div>
-<div class="ttc" id="class_tiled_array_1_1_array_html_a5b5777ac5086602a38686fc09f654845"><div class="ttname"><a href="class_tiled_array_1_1_array.html#a5b5777ac5086602a38686fc09f654845">TiledArray::Array::is_zero</a></div><div class="ttdeci">bool is_zero(const Index &amp;i) const </div><div class="ttdoc">Check for zero tiles. </div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00524">array.h:524</a></div></div>
-<div class="ttc" id="class_tiled_array_1_1_array_html_aa615837bd378eb01f778b74469056127"><div class="ttname"><a href="class_tiled_array_1_1_array.html#aa615837bd378eb01f778b74469056127">TiledArray::Array::get_world</a></div><div class="ttdeci">World &amp; get_world() const </div><div class="ttdoc">World accessor. </div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00464">array.h:464</a></div></div>
-<div class="ttc" id="class_tiled_array_1_1_array_html_a5f8e3a9a3857276baf76a9ce4e3a2dd9"><div class="ttname"><a href="class_tiled_array_1_1_array.html#a5f8e3a9a3857276baf76a9ce4e3a2dd9">TiledArray::Array::get_pmap</a></div><div class="ttdeci">const std::shared_ptr&lt; pmap_interface &gt; &amp; get_pmap() const </div><div class="ttdoc">Process map accessor. </div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00472">array.h:472</a></div></div>
+<div class="ttc" id="class_tiled_array_1_1_dist_array_html"><div class="ttname"><a href="class_tiled_array_1_1_dist_array.html">TiledArray::DistArray</a></div><div class="ttdoc">Forward declarations. </div><div class="ttdef"><b>Definition:</b> <a href="clone_8h_source.html#l00032">clone.h:32</a></div></div>
+<div class="ttc" id="class_tiled_array_1_1_dist_array_html_a1f471ca8d4f6a8ccccdee29f8c8f198c"><div class="ttname"><a href="class_tiled_array_1_1_dist_array.html#a1f471ca8d4f6a8ccccdee29f8c8f198c">TiledArray::DistArray::get_pmap</a></div><div class="ttdeci">const std::shared_ptr&lt; pmap_interface &gt; &amp; get_pmap() const </div><div class="ttdoc">Process map accessor. </div><div class="ttdef"><b>Definition:</b> <a href="dist__array_8h_source.html#l00500">dist_array.h:500</a></div></div>
+<div class="ttc" id="class_tiled_array_1_1_sparse_policy_html"><div class="ttname"><a href="class_tiled_array_1_1_sparse_policy.html">TiledArray::SparsePolicy</a></div><div class="ttdef"><b>Definition:</b> <a href="sparse__policy_8h_source.html#l00035">sparse_policy.h:35</a></div></div>
+<div class="ttc" id="class_tiled_array_1_1_dense_policy_html"><div class="ttname"><a href="class_tiled_array_1_1_dense_policy.html">TiledArray::DensePolicy</a></div><div class="ttdef"><b>Definition:</b> <a href="dense__policy_8h_source.html#l00038">dense_policy.h:38</a></div></div>
+<div class="ttc" id="class_tiled_array_1_1_dist_array_html_afb5430ba47577a3ba8d408e2884b8780"><div class="ttname"><a href="class_tiled_array_1_1_dist_array.html#afb5430ba47577a3ba8d408e2884b8780">TiledArray::DistArray::is_zero</a></div><div class="ttdeci">bool is_zero(const Index &amp;i) const </div><div class="ttdoc">Check for zero tiles. </div><div class="ttdef"><b>Definition:</b> <a href="dist__array_8h_source.html#l00552">dist_array.h:552</a></div></div>
 <div class="ttc" id="class_eigen_1_1aligned__allocator_html"><div class="ttname"><a href="class_eigen_1_1aligned__allocator.html">Eigen::aligned_allocator</a></div><div class="ttdef"><b>Definition:</b> <a href="foreach_8h_source.html#l00033">foreach.h:33</a></div></div>
-<div class="ttc" id="class_tiled_array_1_1_array_html_ab2e9411dba2544a4eac7f1c495deadb9"><div class="ttname"><a href="class_tiled_array_1_1_array.html#ab2e9411dba2544a4eac7f1c495deadb9">TiledArray::Array::find</a></div><div class="ttdeci">Future&lt; value_type &gt; find(const Index &amp;i) const </div><div class="ttdoc">Find local or remote tile. </div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00277">array.h:277</a></div></div>
 <div class="ttc" id="type__traits_8h_html"><div class="ttname"><a href="type__traits_8h.html">type_traits.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -382,7 +383,7 @@ $(document).ready(function(){initNavTree('foreach_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53ef4fd72a57002f3857d5373dfad4b8.html">TiledArray</a></li><li class="navelem"><a class="el" href="dir_36ae01bed13817b64a94581dc6b2de0b.html">conversions</a></li><li class="navelem"><a class="el" href="foreach_8h.html">foreach.h</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:43 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:04 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

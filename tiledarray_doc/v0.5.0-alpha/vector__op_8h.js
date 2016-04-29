@@ -5,10 +5,6 @@ var vector__op_8h =
     [ "VectorOpUnwind", "struct_tiled_array_1_1math_1_1_vector_op_unwind.html", "struct_tiled_array_1_1math_1_1_vector_op_unwind" ],
     [ "Block", "class_tiled_array_1_1math_1_1_block.html", "class_tiled_array_1_1math_1_1_block" ],
     [ "Block", "class_tiled_array_1_1math_1_1_block.html", "class_tiled_array_1_1math_1_1_block" ],
-    [ "TILEARRAY_ALIGNMENT", "vector__op_8h.html#ab326c2e306b8e5a50b0aed44d80d2af6", null ],
-    [ "TILEDARRAY_ALIGNED_STORAGE", "vector__op_8h.html#ae97949dd113939d99b5f27a12dbb7678", null ],
-    [ "TILEDARRAY_CACHELINE_SIZE", "vector__op_8h.html#aa6b4676a59e2c77bc6491e5f1bd6c565", null ],
-    [ "TILEDARRAY_FORCE_INLINE", "vector__op_8h.html#aa5ef6cf520cac4c170b270882d6e2151", null ],
     [ "TILEDARRAY_LOOP_UNWIND", "vector__op_8h.html#ac028b4789a5f629278ada8fb68f1a2d3", null ],
     [ "index_mask", "vector__op_8h.html#a5c2624073b0ecb2000fbdb1067294f8a", null ],
     [ "LoopUnwind", "vector__op_8h.html#a0bf5a7a311f53583b605bab38068f698", null ],
@@ -29,10 +25,12 @@ var vector__op_8h =
     [ "gather_block", "vector__op_8h.html#a9e1b4b91971f158442e36a9172045a83", null ],
     [ "gather_block_n", "vector__op_8h.html#a2a546290edabc6e70fce56872cb797ee", null ],
     [ "inplace_vector_op", "vector__op_8h.html#ab353418ddbbe4b79172668c14b8c5a56", null ],
+    [ "inplace_vector_op_serial", "vector__op_8h.html#af0dee36df7f9844d9f6db524aab1e3bd", null ],
     [ "reduce_block", "vector__op_8h.html#abec6dc9bc0dae96165c2ba32ed1f556c", null ],
     [ "reduce_block", "vector__op_8h.html#a1dd41b6c8831dd8f78872937510ca9ab", null ],
     [ "reduce_block_n", "vector__op_8h.html#a38355476cdac3adeb857c676ed9f6657", null ],
-    [ "reduce_op", "vector__op_8h.html#a15a1d6b52aacf352033bac011e3fd63e", null ],
+    [ "reduce_op", "vector__op_8h.html#a36a40c1b7a3e6f65a38b029ad5e0541c", null ],
+    [ "reduce_op_serial", "vector__op_8h.html#a95a2b8944e3c924ae0c7450c55c98cf1", null ],
     [ "scatter_block", "vector__op_8h.html#a6137a96c445b26d23187018efa876aa5", null ],
     [ "scatter_block_n", "vector__op_8h.html#a015f3eda1a48bda23f2f4fd82aea4af6", null ],
     [ "uninitialized_binary_vector_op", "vector__op_8h.html#ac771a3f823ef90399bf4aec1b5a1e848", null ],
@@ -44,5 +42,7 @@ var vector__op_8h =
     [ "uninitialized_unary_vector_op", "vector__op_8h.html#a0f10daac864660adab5170dad7f63344", null ],
     [ "uninitialized_unary_vector_op", "vector__op_8h.html#a63bd7408688d316eb91ba464ec85d47c", null ],
     [ "vector_op", "vector__op_8h.html#ad5b4bb76cf883823b5016f1f01ae6ee1", null ],
-    [ "vector_ptr_op", "vector__op_8h.html#ab1a1401db1826118241b710da09181ac", null ]
+    [ "vector_op_serial", "vector__op_8h.html#a68fc64d7f002a3dcae2fd4d20e421b26", null ],
+    [ "vector_ptr_op", "vector__op_8h.html#ab1a1401db1826118241b710da09181ac", null ],
+    [ "vector_ptr_op_serial", "vector__op_8h.html#ab244aa3285d0693390fc07d282d67c41", null ]
 ];

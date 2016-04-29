@@ -212,8 +212,8 @@ $(document).ready(function(){initNavTree('replicator_8h_source.html','');});
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;          <span class="comment">// The data is ready so send it now.</span></div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;          send(); <span class="comment">// Replication is done</span></div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;          <span class="comment">// The data local data is not ready to be sent so create a task that</span></div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;          <span class="comment">// will send the data when it is ready.</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;          <span class="comment">// The local data is not ready to be sent, so create a task that will</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;          <span class="comment">// send it when it is ready.</span></div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;          DelaySend* delay_send_task = <span class="keyword">new</span> DelaySend(*<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;          world_.taskq.add(delay_send_task);</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        }</div>
@@ -312,7 +312,7 @@ $(document).ready(function(){initNavTree('replicator_8h_source.html','');});
 <div class="ttc" id="madness_8h_html"><div class="ttname"><a href="madness_8h.html">madness.h</a></div></div>
 <div class="ttc" id="class_tiled_array_1_1detail_1_1_replicator_html"><div class="ttname"><a href="class_tiled_array_1_1detail_1_1_replicator.html">TiledArray::detail::Replicator</a></div><div class="ttdoc">Replicate a Array object. </div><div class="ttdef"><b>Definition:</b> <a href="replicator_8h_source.html#l00035">replicator.h:35</a></div></div>
 <div class="ttc" id="namespace_tiled_array_1_1detail_html_ad9e04235d40c96d96422f30a70ed1201"><div class="ttname"><a href="namespace_tiled_array_1_1detail.html#ad9e04235d40c96d96422f30a70ed1201">TiledArray::detail::data</a></div><div class="ttdeci">auto data(T &amp;t) -&gt; decltype(t.data())        </div><div class="ttdoc">Container data pointer accessor. </div><div class="ttdef"><b>Definition:</b> <a href="utility_8h_source.html#l00073">utility.h:73</a></div></div>
-<div class="ttc" id="namespacemadness_html"><div class="ttname"><a href="namespacemadness.html">madness</a></div><div class="ttdef"><b>Definition:</b> <a href="array__impl_8h_source.html#l00142">array_impl.h:142</a></div></div>
+<div class="ttc" id="namespacemadness_html"><div class="ttname"><a href="namespacemadness.html">madness</a></div><div class="ttdef"><b>Definition:</b> <a href="array__impl_8h_source.html#l00141">array_impl.h:141</a></div></div>
 <div class="ttc" id="class_tiled_array_1_1detail_1_1_replicator_html_abef4e0557e6f2be28f1483b114db804c"><div class="ttname"><a href="class_tiled_array_1_1detail_1_1_replicator.html#abef4e0557e6f2be28f1483b114db804c">TiledArray::detail::Replicator::register_callback</a></div><div class="ttdeci">void register_callback(madness::CallbackInterface *callback)</div><div class="ttdoc">Add a callback. </div><div class="ttdef"><b>Definition:</b> <a href="replicator_8h_source.html#l00205">replicator.h:205</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -320,7 +320,7 @@ $(document).ready(function(){initNavTree('replicator_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53ef4fd72a57002f3857d5373dfad4b8.html">TiledArray</a></li><li class="navelem"><a class="el" href="replicator_8h.html">replicator.h</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:44 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:06 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

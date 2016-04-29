@@ -6,7 +6,6 @@ var class_tiled_array_1_1expressions_1_1_unary_engine =
     [ "op_type", "class_tiled_array_1_1expressions_1_1_unary_engine.html#ada357b8aa079f4204364fc355362e6ef", null ],
     [ "pmap_interface", "class_tiled_array_1_1expressions_1_1_unary_engine.html#a474dbe16959e6771cd3de2f9cfc1a93a", null ],
     [ "policy", "class_tiled_array_1_1expressions_1_1_unary_engine.html#ab17b22c8eb42a2d6fa6adcc2563d3654", null ],
-    [ "scalar_type", "class_tiled_array_1_1expressions_1_1_unary_engine.html#aec5504d6674169c9c4c8253e5fbdfe82", null ],
     [ "shape_type", "class_tiled_array_1_1expressions_1_1_unary_engine.html#add6f5cace17e4eaffbd43dbed151320b", null ],
     [ "size_type", "class_tiled_array_1_1expressions_1_1_unary_engine.html#a45001a544ea915e58340dcf44b8d9885", null ],
     [ "trange_type", "class_tiled_array_1_1expressions_1_1_unary_engine.html#a37e9a2c54e50803e7356930a67428e81", null ],

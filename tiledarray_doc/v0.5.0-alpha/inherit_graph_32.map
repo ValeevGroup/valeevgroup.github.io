@@ -1,4 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$struct_tiled_array_1_1detail_1_1is__lazy__tile.html" title="Detect lazy evaluation tiles. " alt="" coords="182,5,307,44"/>
-<area shape="rect" id="node3" href="$struct_tiled_array_1_1detail_1_1is__non__array__lazy__tile.html" title="Detect a lazy evaluation tile that are not a LazyArrayTile. " alt="" coords="176,68,313,120"/>
-</map>

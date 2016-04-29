@@ -1,8 +1,0 @@
-<map id="TiledArray::BinaryInterface::operator=" name="TiledArray::BinaryInterface::operator=">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1math_1_1_add.html#afb2383ed61232921d4d54ee36a1708ab" title="Copy assignment. " alt="" coords="247,5,397,44"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1math_1_1_mult.html#a73298022a451dd4ff8a734dc92c039c9" title="Copy assignment. " alt="" coords="246,68,397,107"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1math_1_1_scal_add.html#a74731d730c5318a421afb57d865c6532" title="Copy assignment. " alt="" coords="234,131,410,169"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1math_1_1_scal_mult.html#a5b39473139c21c65fd8c387270a5a884" title="Copy assignment. " alt="" coords="233,193,410,232"/>
-<area shape="rect" id="node6" href="$class_tiled_array_1_1math_1_1_scal_subt.html#a86e595d1cf50fc19b6a27437c25a854e" title="Copy assignment. " alt="" coords="232,256,411,295"/>
-<area shape="rect" id="node7" href="$class_tiled_array_1_1math_1_1_subt.html#a88395fa055bf645176514c229a9cdad7" title="Copy assignment. " alt="" coords="245,319,398,357"/>
-</map>

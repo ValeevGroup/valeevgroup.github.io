@@ -1,4 +1,0 @@
-<map id="TiledArray::dot" name="TiledArray::dot">
-<area shape="rect" id="node2" href="$group___tile_interface.html#ga2becd6ff2cf1762aaacbbab565b18fca" title="Vector dot product of a tile. " alt="" coords="211,5,318,31"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1math_1_1_dot_reduction.html#a405771f0a9245b9921bc1dafd3d77fc7" title="TiledArray::math::DotReduction\l::operator()" alt="" coords="161,55,368,93"/>
-</map>

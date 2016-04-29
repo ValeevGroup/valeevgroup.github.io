@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('class_tiled_array_1_1detail_1_1_cyclic
 </div><!--header-->
 <div class="contents">
 
-<p>Map processes using a 2D cyclic decomposition.  
+<p>Maps cyclically a sequence of indices onto a 2-d matrix of processes.  
  <a href="class_tiled_array_1_1detail_1_1_cyclic_pmap.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="cyclic__pmap_8h_source.html">cyclic_pmap.h</a>&gt;</code></p>
@@ -142,6 +142,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4641727ae90269eb05194b948643d066"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7af3697351855f1719705bf41a1ed2c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1detail_1_1_cyclic_pmap.html#ae7af3697351855f1719705bf41a1ed2c">~CyclicPmap</a> ()</td></tr>
 <tr class="separator:ae7af3697351855f1719705bf41a1ed2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c793e1cb96d4f95cc29b945dc9b4a88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1detail_1_1_cyclic_pmap.html#abc71cdd763f9ef29ed9dba0b8c124e9f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1detail_1_1_cyclic_pmap.html#a0c793e1cb96d4f95cc29b945dc9b4a88">nrows</a> () const </td></tr>
+<tr class="memdesc:a0c793e1cb96d4f95cc29b945dc9b4a88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access number of rows in the tile index matrix.  <a href="#a0c793e1cb96d4f95cc29b945dc9b4a88">More...</a><br /></td></tr>
+<tr class="separator:a0c793e1cb96d4f95cc29b945dc9b4a88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49c4c8a2822d386d448fee9a780b4dd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1detail_1_1_cyclic_pmap.html#abc71cdd763f9ef29ed9dba0b8c124e9f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1detail_1_1_cyclic_pmap.html#a49c4c8a2822d386d448fee9a780b4dd4">ncols</a> () const </td></tr>
+<tr class="memdesc:a49c4c8a2822d386d448fee9a780b4dd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access number of columns in the tile index matrix.  <a href="#a49c4c8a2822d386d448fee9a780b4dd4">More...</a><br /></td></tr>
+<tr class="separator:a49c4c8a2822d386d448fee9a780b4dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a632319c2546c3edb3e737974e610f470"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1detail_1_1_cyclic_pmap.html#abc71cdd763f9ef29ed9dba0b8c124e9f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1detail_1_1_cyclic_pmap.html#a632319c2546c3edb3e737974e610f470">nrows_proc</a> () const </td></tr>
+<tr class="memdesc:a632319c2546c3edb3e737974e610f470"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access number of rows in the process matrix.  <a href="#a632319c2546c3edb3e737974e610f470">More...</a><br /></td></tr>
+<tr class="separator:a632319c2546c3edb3e737974e610f470"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43480dea6436dcf0cbd5a1946174c5df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tiled_array_1_1detail_1_1_cyclic_pmap.html#abc71cdd763f9ef29ed9dba0b8c124e9f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1detail_1_1_cyclic_pmap.html#a43480dea6436dcf0cbd5a1946174c5df">ncols_proc</a> () const </td></tr>
+<tr class="memdesc:a43480dea6436dcf0cbd5a1946174c5df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access number of columns in the process matrix.  <a href="#a43480dea6436dcf0cbd5a1946174c5df">More...</a><br /></td></tr>
+<tr class="separator:a43480dea6436dcf0cbd5a1946174c5df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc7b0899ca852c0139fd623f04ec9f9e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_tiled_array_1_1detail_1_1_cyclic_pmap.html#abc71cdd763f9ef29ed9dba0b8c124e9f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tiled_array_1_1detail_1_1_cyclic_pmap.html#acc7b0899ca852c0139fd623f04ec9f9e">owner</a> (const <a class="el" href="class_tiled_array_1_1detail_1_1_cyclic_pmap.html#abc71cdd763f9ef29ed9dba0b8c124e9f">size_type</a> tile) const </td></tr>
 <tr class="memdesc:acc7b0899ca852c0139fd623f04ec9f9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maps <code>tile</code> to the processor that owns it.  <a href="#acc7b0899ca852c0139fd623f04ec9f9e">More...</a><br /></td></tr>
 <tr class="separator:acc7b0899ca852c0139fd623f04ec9f9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,10 +208,11 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a2ec815709511b8b4c69001b7e860daf1 inherit pro_attribs_class_tiled_array_1_1_pmap"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Map processes using a 2D cyclic decomposition. </p>
-<p>This map cyclicly distributes a two-dimensional grid of tiles among a two-dimensional grid of processes. </p>
+<div class="textblock"><p>Maps cyclically a sequence of indices onto a 2-d matrix of processes. </p>
+<p>Consider a sequence of indices <img class="formulaInl" alt="$ \{ k | k \in [0,N) \} $" src="form_33.png"/>, organized into a matrix, <img class="formulaInl" alt="$ \{ \{i,j\} | i \in [0,N_{\rm row}),j\in[0,N_{\rm col})\} $" src="form_34.png"/>, in row-major form, i.e. index <img class="formulaInl" alt="$ k $" src="form_35.png"/> corresponds to <img class="formulaInl" alt="$ \{ k_{\rm row}, k_{\rm col} \} \equiv \{ k / N_{\rm col}, k \% N_{\rm col} \} $" src="form_36.png"/>. Similarly, a sequence of processes is organized into a matrix with <img class="formulaInl" alt="$ P_{\rm row} $" src="form_37.png"/> rows and <img class="formulaInl" alt="$ P_{\rm cols} $" src="form_38.png"/> columns, i.e process <img class="formulaInl" alt="$ p \equiv \{ p_{\rm row}, p_{\rm col} \} $" src="form_39.png"/>. Then index <img class="formulaInl" alt="$ \{ k_{\rm row}, k_{\rm col} \} $" src="form_40.png"/> maps to process <img class="formulaInl" alt="$ \{ p_{\rm row}, p_{\rm col} \} = \{ k_{\rm row} \% N_{\rm row}, k_{\rm col} \% N_{\rm col} \} $" src="form_88.png"/></p>
+<dl class="section note"><dt>Note</dt><dd>This class is used to map <em>tile</em> indices to processes. </dd></dl>
 
-<p>Definition at line <a class="el" href="cyclic__pmap_8h_source.html#l00038">38</a> of file <a class="el" href="cyclic__pmap_8h_source.html">cyclic_pmap.h</a>.</p>
+<p>Definition at line <a class="el" href="cyclic__pmap_8h_source.html#l00046">46</a> of file <a class="el" href="cyclic__pmap_8h_source.html">cyclic_pmap.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="abc71cdd763f9ef29ed9dba0b8c124e9f"></a>
 <div class="memitem">
@@ -213,7 +226,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Size type. </p>
 
-<p>Definition at line <a class="el" href="cyclic__pmap_8h_source.html#l00055">55</a> of file <a class="el" href="cyclic__pmap_8h_source.html">cyclic_pmap.h</a>.</p>
+<p>Definition at line <a class="el" href="cyclic__pmap_8h_source.html#l00063">63</a> of file <a class="el" href="cyclic__pmap_8h_source.html">cyclic_pmap.h</a>.</p>
 
 </div>
 </div>
@@ -283,12 +296,12 @@ Additional Inherited Members</h2></td></tr>
   <table class="exception">
     <tr><td class="paramname"><a class="el" href="class_tiled_array_1_1_exception.html">TiledArray::Exception</a></td><td>When <code>proc_rows &gt; rows</code> </td></tr>
     <tr><td class="paramname"><a class="el" href="class_tiled_array_1_1_exception.html">TiledArray::Exception</a></td><td>When <code>proc_cols &gt; cols</code> </td></tr>
-    <tr><td class="paramname"><a class="el" href="class_tiled_array_1_1_exception.html">TiledArray::Exception</a></td><td>When <code>proc_rows * proc_cols &gt; <a class="el" href="namespace_tiled_array.html#aadf6720c85b32d6bdcee368613a7e21f">world.size()</a></code> </td></tr>
+    <tr><td class="paramname"><a class="el" href="class_tiled_array_1_1_exception.html">TiledArray::Exception</a></td><td>When <code>proc_rows * proc_cols &gt; <a class="el" href="namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70">world.size()</a></code> </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="cyclic__pmap_8h_source.html#l00067">67</a> of file <a class="el" href="cyclic__pmap_8h_source.html">cyclic_pmap.h</a>.</p>
+<p>Definition at line <a class="el" href="cyclic__pmap_8h_source.html#l00075">75</a> of file <a class="el" href="cyclic__pmap_8h_source.html">cyclic_pmap.h</a>.</p>
 
 </div>
 </div>
@@ -313,7 +326,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="cyclic__pmap_8h_source.html#l00106">106</a> of file <a class="el" href="cyclic__pmap_8h_source.html">cyclic_pmap.h</a>.</p>
+<p>Definition at line <a class="el" href="cyclic__pmap_8h_source.html#l00114">114</a> of file <a class="el" href="cyclic__pmap_8h_source.html">cyclic_pmap.h</a>.</p>
 
 </div>
 </div>
@@ -351,7 +364,115 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="class_tiled_array_1_1_pmap.html#a728c54f9cc0bb42de8e3302b516c0258">TiledArray::Pmap</a>.</p>
 
-<p>Definition at line <a class="el" href="cyclic__pmap_8h_source.html#l00133">133</a> of file <a class="el" href="cyclic__pmap_8h_source.html">cyclic_pmap.h</a>.</p>
+<p>Definition at line <a class="el" href="cyclic__pmap_8h_source.html#l00150">150</a> of file <a class="el" href="cyclic__pmap_8h_source.html">cyclic_pmap.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a49c4c8a2822d386d448fee9a780b4dd4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_tiled_array_1_1detail_1_1_cyclic_pmap.html#abc71cdd763f9ef29ed9dba0b8c124e9f">size_type</a> TiledArray::detail::CyclicPmap::ncols </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Access number of columns in the tile index matrix. </p>
+
+<p>Definition at line <a class="el" href="cyclic__pmap_8h_source.html#l00119">119</a> of file <a class="el" href="cyclic__pmap_8h_source.html">cyclic_pmap.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a43480dea6436dcf0cbd5a1946174c5df"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_tiled_array_1_1detail_1_1_cyclic_pmap.html#abc71cdd763f9ef29ed9dba0b8c124e9f">size_type</a> TiledArray::detail::CyclicPmap::ncols_proc </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Access number of columns in the process matrix. </p>
+
+<p>Definition at line <a class="el" href="cyclic__pmap_8h_source.html#l00123">123</a> of file <a class="el" href="cyclic__pmap_8h_source.html">cyclic_pmap.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0c793e1cb96d4f95cc29b945dc9b4a88"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_tiled_array_1_1detail_1_1_cyclic_pmap.html#abc71cdd763f9ef29ed9dba0b8c124e9f">size_type</a> TiledArray::detail::CyclicPmap::nrows </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Access number of rows in the tile index matrix. </p>
+
+<p>Definition at line <a class="el" href="cyclic__pmap_8h_source.html#l00117">117</a> of file <a class="el" href="cyclic__pmap_8h_source.html">cyclic_pmap.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a632319c2546c3edb3e737974e610f470"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_tiled_array_1_1detail_1_1_cyclic_pmap.html#abc71cdd763f9ef29ed9dba0b8c124e9f">size_type</a> TiledArray::detail::CyclicPmap::nrows_proc </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Access number of rows in the process matrix. </p>
+
+<p>Definition at line <a class="el" href="cyclic__pmap_8h_source.html#l00121">121</a> of file <a class="el" href="cyclic__pmap_8h_source.html">cyclic_pmap.h</a>.</p>
 
 </div>
 </div>
@@ -388,7 +509,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="class_tiled_array_1_1_pmap.html#adc52516c5eb60fb6221fbc8a47d21c49">TiledArray::Pmap</a>.</p>
 
-<p>Definition at line <a class="el" href="cyclic__pmap_8h_source.html#l00112">112</a> of file <a class="el" href="cyclic__pmap_8h_source.html">cyclic_pmap.h</a>.</p>
+<p>Definition at line <a class="el" href="cyclic__pmap_8h_source.html#l00129">129</a> of file <a class="el" href="cyclic__pmap_8h_source.html">cyclic_pmap.h</a>.</p>
 
 </div>
 </div>
@@ -401,7 +522,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tiled_array.html">TiledArray</a></li><li class="navelem"><a class="el" href="namespace_tiled_array_1_1detail.html">detail</a></li><li class="navelem"><a class="el" href="class_tiled_array_1_1detail_1_1_cyclic_pmap.html">CyclicPmap</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:45 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:07 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

@@ -13,10 +13,10 @@ var searchData=
   ['tiledrange',['TiledRange',['../class_tiled_array_1_1_tiled_range.html',1,'TiledArray']]],
   ['tiledrange1',['TiledRange1',['../class_tiled_array_1_1_tiled_range1.html',1,'TiledArray']]],
   ['tilereference',['TileReference',['../class_tiled_array_1_1detail_1_1_tile_reference.html',1,'TiledArray::detail']]],
-  ['tracereduction',['TraceReduction',['../class_tiled_array_1_1math_1_1_trace_reduction.html',1,'TiledArray::math']]],
+  ['tracereduction',['TraceReduction',['../class_tiled_array_1_1_trace_reduction.html',1,'TiledArray']]],
   ['transposeunwind',['TransposeUnwind',['../class_tiled_array_1_1math_1_1_transpose_unwind.html',1,'TiledArray::math']]],
   ['transposeunwind_3c_200_20_3e',['TransposeUnwind&lt; 0 &gt;',['../class_tiled_array_1_1math_1_1_transpose_unwind_3_010_01_4.html',1,'TiledArray::math']]],
   ['tsrengine',['TsrEngine',['../class_tiled_array_1_1expressions_1_1_tsr_engine.html',1,'TiledArray::expressions']]],
   ['tsrexpr',['TsrExpr',['../class_tiled_array_1_1expressions_1_1_tsr_expr.html',1,'TiledArray::expressions']]],
-  ['tsrexpr_3c_20const_20a_20_3e',['TsrExpr&lt; const A &gt;',['../class_tiled_array_1_1expressions_1_1_tsr_expr_3_01const_01_a_01_4.html',1,'TiledArray::expressions']]]
+  ['tsrexpr_3c_20const_20array_2c_20true_20_3e',['TsrExpr&lt; const Array, true &gt;',['../class_tiled_array_1_1expressions_1_1_tsr_expr_3_01const_01_array_00_01true_01_4.html',1,'TiledArray::expressions']]]
 ];

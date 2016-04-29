@@ -1,7 +1,0 @@
-<map id="TiledArray::detail::counted_tensor_to_eigen_submatrix" name="TiledArray::detail::counted_tensor_to_eigen_submatrix">
-<area shape="rect" id="node2" href="$namespace_tiled_array.html#a6a1e016346f447dcd7b5b4d7f29246b6" title="Copy the content of a tensor into an Eigen matrix block. " alt="" coords="193,33,338,72"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1_tensor.html#a6521f4ce917ca6a41bb3ada9ef3b4d1c" title="Tensor range object accessor. " alt="" coords="399,5,528,44"/>
-<area shape="rect" id="node4" href="$namespace_tiled_array.html#af872c21673f2fd74250d0257fb80f2bb" title="Construct a const Eigen::Map object for a given Tensor object. " alt="" coords="386,68,541,93"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1_tensor.html#ae424ed4ba8d09a72a8ffa824e603b081" title="Tensor dimension size accessor. " alt="" coords="589,29,718,68"/>
-<area shape="rect" id="node6" href="$class_tiled_array_1_1_tensor.html#a4598d2ea75c448d596533476acee21f7" title="Data direct access. " alt="" coords="589,92,718,131"/>
-</map>

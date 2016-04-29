@@ -147,11 +147,11 @@ $(document).ready(function(){initNavTree('functions_type_c.html','');});
 : <a class="el" href="class_tiled_array_1_1detail_1_1_distributed_storage.html#a698d155f5bde65df485e18d13eaed55f">TiledArray::detail::DistributedStorage&lt; T &gt;</a>
 </li>
 <li>const_iterator
-: <a class="el" href="class_tiled_array_1_1_array.html#a09056e3afd90d8ae63bc22abd0cf4c5d">TiledArray::Array&lt; T, DIM, Tile, Policy &gt;</a>
-, <a class="el" href="class_tiled_array_1_1detail_1_1_array_impl.html#ac11b43736f7f8f144cf0a7ab76d76b93">TiledArray::detail::ArrayImpl&lt; Tile, Policy &gt;</a>
+: <a class="el" href="class_tiled_array_1_1detail_1_1_array_impl.html#a4e0a49b49989f10646e48c1447631e55">TiledArray::detail::ArrayImpl&lt; Tile, Policy &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_bitset.html#ad2da3a8f041ae2ded583034bb1220a75">TiledArray::detail::Bitset&lt; Block &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a53ecf003c6ad10e4ac8ca1d831f328e9">TiledArray::detail::SizeArray&lt; T &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_val_array.html#a62dee854733d095b9ae19b76d667d280">TiledArray::detail::ValArray&lt; T &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_dist_array.html#aae37af1a26fedaef2fa6f732d4da6386">TiledArray::DistArray&lt; Tile, Policy &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_variable_list.html#aa13800a1a067318b6c25730602d604f6">TiledArray::expressions::VariableList</a>
 , <a class="el" href="class_tiled_array_1_1_permutation.html#aa1d2ac9ecd27dc33035aed601b23650d">TiledArray::Permutation</a>
 , <a class="el" href="class_tiled_array_1_1_pmap.html#a97b1bcbb1dacf9d4d620f76e0d1a96dd">TiledArray::Pmap</a>
@@ -168,13 +168,13 @@ $(document).ready(function(){initNavTree('functions_type_c.html','');});
 , <a class="el" href="class_tiled_array_1_1_tensor.html#a13b3ca56e0bf2b27a8632d1598c1d526">TiledArray::Tensor&lt; T, A &gt;</a>
 </li>
 <li>const_reference
-: <a class="el" href="class_tiled_array_1_1_array.html#acbfbf62d7495b18f622ad4e5d5cf26cb">TiledArray::Array&lt; T, DIM, Tile, Policy &gt;</a>
-, <a class="el" href="class_tiled_array_1_1detail_1_1_array_impl.html#a8235aa9aeb57beede8267ca8715197a2">TiledArray::detail::ArrayImpl&lt; Tile, Policy &gt;</a>
+: <a class="el" href="class_tiled_array_1_1detail_1_1_array_impl.html#a8235aa9aeb57beede8267ca8715197a2">TiledArray::detail::ArrayImpl&lt; Tile, Policy &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_bitset.html#afd49ecdd63bd08c0402508a50a51eae7">TiledArray::detail::Bitset&lt; Block &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_shift_wrapper.html#ada43eecee70c5b0c0f8a4a82150b250b">TiledArray::detail::ShiftWrapper&lt; T &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_size_array.html#a463458f98d60420687ebc5aae7efa6d0">TiledArray::detail::SizeArray&lt; T &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_tensor_interface.html#aa7d559cdc0c657c85b3404f018f66db9">TiledArray::detail::TensorInterface&lt; T, R &gt;</a>
 , <a class="el" href="class_tiled_array_1_1detail_1_1_val_array.html#a1d80b6dc9408ced9c2309b817c3e5654">TiledArray::detail::ValArray&lt; T &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_dist_array.html#a7ae1e3c194c8aa8566d115530a0743dc">TiledArray::DistArray&lt; Tile, Policy &gt;</a>
 , <a class="el" href="class_tiled_array_1_1_tensor.html#a8b80372c9a8886e30106219eca40b66c">TiledArray::Tensor&lt; T, A &gt;</a>
 </li>
 <li>const_reverse_iterator
@@ -186,10 +186,18 @@ $(document).ready(function(){initNavTree('functions_type_c.html','');});
 <li>ContEngine_
 : <a class="el" href="class_tiled_array_1_1expressions_1_1_cont_engine.html#a9c31df650ceefaf0e3dffec9fbfcebaa">TiledArray::expressions::ContEngine&lt; Derived &gt;</a>
 , <a class="el" href="class_tiled_array_1_1expressions_1_1_mult_engine.html#ad9e8428dd07a52fdfd7f0c509d6d1bd7">TiledArray::expressions::MultEngine&lt; Left, Right &gt;</a>
-, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_engine.html#a6dc75cf1ee04b4b7b59b6efaec72e490">TiledArray::expressions::ScalMultEngine&lt; Left, Right &gt;</a>
+, <a class="el" href="class_tiled_array_1_1expressions_1_1_scal_mult_engine.html#a4f681e9f26f3c7fc7ec81bd32b0cfe27">TiledArray::expressions::ScalMultEngine&lt; Left, Right, Scalar &gt;</a>
 </li>
 <li>ContractReduce_
-: <a class="el" href="class_tiled_array_1_1math_1_1_contract_reduce.html#aaade703219e6a672c319cd947cfc4e5e">TiledArray::math::ContractReduce&lt; Result, Left, Right &gt;</a>
+: <a class="el" href="class_tiled_array_1_1_contract_reduce.html#a4a43a9ba93ce72a1911b85c8e5aeb2ff">TiledArray::ContractReduce&lt; Left, Right, Scalar &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_contract_reduce_3_01_left_00_01_right_00_01_tiled_array_1_1detail_1_1_compae1caba9c10fe0eedf8f44f9a1b46f64.html#a13bc63861732498c536453169b48787d">TiledArray::ContractReduce&lt; Left, Right, TiledArray::detail::ComplexConjugate&lt; Scalar &gt; &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_contract_reduce_3_01_left_00_01_right_00_01_tiled_array_1_1detail_1_1_comp0c4473f6e5cad36f249fe9ac8ed5134f.html#ae0a1df3219b26ed134f3ba392837fb8b">TiledArray::ContractReduce&lt; Left, Right, TiledArray::detail::ComplexConjugate&lt; void &gt; &gt;</a>
+</li>
+<li>ContractReduceBase_
+: <a class="el" href="class_tiled_array_1_1_contract_reduce.html#aef9a742e1e7df6d3668270ea36cc32b0">TiledArray::ContractReduce&lt; Left, Right, Scalar &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_contract_reduce_3_01_left_00_01_right_00_01_tiled_array_1_1detail_1_1_compae1caba9c10fe0eedf8f44f9a1b46f64.html#a5ba3d44641d86ffcc55d53c75796a4da">TiledArray::ContractReduce&lt; Left, Right, TiledArray::detail::ComplexConjugate&lt; Scalar &gt; &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_contract_reduce_3_01_left_00_01_right_00_01_tiled_array_1_1detail_1_1_comp0c4473f6e5cad36f249fe9ac8ed5134f.html#a2eca739351b74154a79367ac34df3667">TiledArray::ContractReduce&lt; Left, Right, TiledArray::detail::ComplexConjugate&lt; void &gt; &gt;</a>
+, <a class="el" href="class_tiled_array_1_1_contract_reduce_base.html#abac50108f26ca9619857d9cbfc0cdd51">TiledArray::ContractReduceBase&lt; Left, Right, Scalar &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -197,7 +205,7 @@ $(document).ready(function(){initNavTree('functions_type_c.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Oct 23 2015 09:54:09 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:10 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

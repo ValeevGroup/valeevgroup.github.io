@@ -142,7 +142,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga63845f58c204f812d564fa36d02103c6"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_permutation.html" title="Permutation of a sequence of objects indexed by base-0 indices. ">Permutation</a> less-than operator.  <a href="group__symmetry.html#ga63845f58c204f812d564fa36d02103c6">More...</a><br /></td></tr>
 <tr class="separator:ga63845f58c204f812d564fa36d02103c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga64f168b5f03c8c2548c1b67a6509e9a4"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__symmetry.html#ga64f168b5f03c8c2548c1b67a6509e9a4">TiledArray::operator&lt;&lt;</a> (std::ostream &amp;output, const Permutation &amp;p)</td></tr>
-<tr class="memdesc:ga64f168b5f03c8c2548c1b67a6509e9a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add permutation to an output stream.  <a href="group__symmetry.html#ga64f168b5f03c8c2548c1b67a6509e9a4">More...</a><br /></td></tr>
+<tr class="memdesc:ga64f168b5f03c8c2548c1b67a6509e9a4"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> permutation to an output stream.  <a href="group__symmetry.html#ga64f168b5f03c8c2548c1b67a6509e9a4">More...</a><br /></td></tr>
 <tr class="separator:ga64f168b5f03c8c2548c1b67a6509e9a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaeb2fae98580d4113b53ee2f7385c22fc"><td class="memItemLeft" align="right" valign="top">Permutation&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__symmetry.html#gaeb2fae98580d4113b53ee2f7385c22fc">TiledArray::operator-</a> (const Permutation &amp;perm)</td></tr>
 <tr class="memdesc:gaeb2fae98580d4113b53ee2f7385c22fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inverse permutation operator.  <a href="group__symmetry.html#gaeb2fae98580d4113b53ee2f7385c22fc">More...</a><br /></td></tr>
@@ -166,7 +166,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga8f2b7b6ace737ba495f76c80da79e934"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation_group.html" title="Permutation group. ">PermutationGroup</a> less-than operator.  <a href="group__symmetry.html#ga8f2b7b6ace737ba495f76c80da79e934">More...</a><br /></td></tr>
 <tr class="separator:ga8f2b7b6ace737ba495f76c80da79e934"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac7d09532718c0a3c4d0d636aeefc65bf"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__symmetry.html#gac7d09532718c0a3c4d0d636aeefc65bf">TiledArray::symmetry::operator&lt;&lt;</a> (std::ostream &amp;output, const PermutationGroup &amp;p)</td></tr>
-<tr class="memdesc:gac7d09532718c0a3c4d0d636aeefc65bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add permutation group to an output stream.  <a href="group__symmetry.html#gac7d09532718c0a3c4d0d636aeefc65bf">More...</a><br /></td></tr>
+<tr class="memdesc:gac7d09532718c0a3c4d0d636aeefc65bf"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> permutation group to an output stream.  <a href="group__symmetry.html#gac7d09532718c0a3c4d0d636aeefc65bf">More...</a><br /></td></tr>
 <tr class="separator:gac7d09532718c0a3c4d0d636aeefc65bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa0d05e6a0ad8b76b75a277e7037841c8"><td class="memTemplParams" colspan="2">template&lt;typename MultiIndex &gt; </td></tr>
 <tr class="memitem:gaa0d05e6a0ad8b76b75a277e7037841c8"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__symmetry.html#gaa0d05e6a0ad8b76b75a277e7037841c8">TiledArray::symmetry::is_lexicographically_smallest</a> (const MultiIndex &amp;idx, const PermutationGroup &amp;pg)</td></tr>
@@ -216,7 +216,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Computes conjugate permutation group obtained by the action of a permutation. </p>
-<p><a class="el" href="class_tiled_array_1_1_conjugate.html" title="Complex conjugate operator. ">Conjugate</a> of group <img class="formulaInl" alt="$ G $" src="form_67.png"/> under the action of element <img class="formulaInl" alt="$ h $" src="form_68.png"/> is a group <img class="formulaInl" alt="$ \{ a: a = h g h^{-1}, \forall g \in G \} $" src="form_69.png"/> . </p><dl class="section note"><dt>Note</dt><dd>Since all permutation groups are subgroups of the symmetric group on the "infinite" set <img class="formulaInl" alt="$ \{ 0, 1, \dots \} $" src="form_70.png"/>, this can be used to "shift" the domain of <code>G</code> by action of <code>h</code> that permutes elements in the domain of <code>G</code> with those outside its domain, e.g. if <img class="formulaInl" alt="$ G = S_2 $" src="form_71.png"/> on domain <img class="formulaInl" alt="$ \{0,1\} $" src="form_72.png"/>, conjugation with <img class="formulaInl" alt="$ h = {1->2, 2->1} $" src="form_73.png"/> will produce <img class="formulaInl" alt="$ S_2 $" src="form_74.png"/> on domain <img class="formulaInl" alt="$ \{0,2\} $" src="form_75.png"/>. </dd></dl>
+<p>Conjugate of group <img class="formulaInl" alt="$ G $" src="form_77.png"/> under the action of element <img class="formulaInl" alt="$ h $" src="form_78.png"/> is a group <img class="formulaInl" alt="$ \{ a: a = h g h^{-1}, \forall g \in G \} $" src="form_79.png"/> . </p><dl class="section note"><dt>Note</dt><dd>Since all permutation groups are subgroups of the symmetric group on the "infinite" set <img class="formulaInl" alt="$ \{ 0, 1, \dots \} $" src="form_80.png"/>, this can be used to "shift" the domain of <code>G</code> by action of <code>h</code> that permutes elements in the domain of <code>G</code> with those outside its domain, e.g. if <img class="formulaInl" alt="$ G = S_2 $" src="form_81.png"/> on domain <img class="formulaInl" alt="$ \{0,1\} $" src="form_82.png"/>, conjugation with <img class="formulaInl" alt="$ h = {1->2, 2->1} $" src="form_83.png"/> will produce <img class="formulaInl" alt="$ S_2 $" src="form_84.png"/> on domain <img class="formulaInl" alt="$ \{0,2\} $" src="form_85.png"/>. </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">G</td><td>input <a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation_group.html" title="Permutation group. ">PermutationGroup</a> </td></tr>
@@ -226,7 +226,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>conjugate <a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation_group.html" title="Permutation group. ">PermutationGroup</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="permutation__group_8h_source.html#l00384">384</a> of file <a class="el" href="permutation__group_8h_source.html">permutation_group.h</a>.</p>
+<p>Definition at line <a class="el" href="permutation__group_8h_source.html#l00381">381</a> of file <a class="el" href="permutation__group_8h_source.html">permutation_group.h</a>.</p>
 
 </div>
 </div>
@@ -271,7 +271,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_tiled_array_1_1symmetry_1_1_permutation_group.html" title="Permutation group. ">PermutationGroup</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="permutation__group_8h_source.html#l00398">398</a> of file <a class="el" href="permutation__group_8h_source.html">permutation_group.h</a>.</p>
+<p>Definition at line <a class="el" href="permutation__group_8h_source.html#l00395">395</a> of file <a class="el" href="permutation__group_8h_source.html">permutation_group.h</a>.</p>
 
 </div>
 </div>
@@ -315,7 +315,7 @@ template&lt;typename MultiIndex &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>false</code> if action of a permutation in <code>pg</code> can produce an Index that is lexicographically smaller than <code>idx</code> (i.e. there exists <code>i</code> such that <code>pg</code>[i]*idx is lexicographically less than <code>idx</code>), <code>true</code> otherwise </dd></dl>
 
-<p>Definition at line <a class="el" href="permutation__group_8h_source.html#l00355">355</a> of file <a class="el" href="permutation__group_8h_source.html">permutation_group.h</a>.</p>
+<p>Definition at line <a class="el" href="permutation__group_8h_source.html#l00353">353</a> of file <a class="el" href="permutation__group_8h_source.html">permutation_group.h</a>.</p>
 
 </div>
 </div>
@@ -361,7 +361,7 @@ template&lt;typename MultiIndex &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>true</code> if any element of <code>p1</code> is not equal to that of <code>p2</code>, otherwise <code>false</code>. </dd></dl>
 
-<p>Definition at line <a class="el" href="permutation__group_8h_source.html#l00227">227</a> of file <a class="el" href="permutation__group_8h_source.html">permutation_group.h</a>.</p>
+<p>Definition at line <a class="el" href="permutation__group_8h_source.html#l00225">225</a> of file <a class="el" href="permutation__group_8h_source.html">permutation_group.h</a>.</p>
 
 </div>
 </div>
@@ -572,7 +572,7 @@ template&lt;typename MultiIndex &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>true</code> if the elements of <code>p1</code> are lexicographically less than that of <code>p2</code>, otherwise <code>false</code>. </dd></dl>
 
-<p>Definition at line <a class="el" href="permutation__group_8h_source.html#l00237">237</a> of file <a class="el" href="permutation__group_8h_source.html">permutation_group.h</a>.</p>
+<p>Definition at line <a class="el" href="permutation__group_8h_source.html#l00235">235</a> of file <a class="el" href="permutation__group_8h_source.html">permutation_group.h</a>.</p>
 
 </div>
 </div>
@@ -654,7 +654,7 @@ template&lt;typename MultiIndex &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Add permutation to an output stream. </p>
+<p><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> permutation to an output stream. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">output</td><td>The output stream </td></tr>
@@ -700,7 +700,7 @@ template&lt;typename MultiIndex &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Add permutation group to an output stream. </p>
+<p><a class="el" href="class_tiled_array_1_1_add.html" title="Tile addition operation. ">Add</a> permutation group to an output stream. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">output</td><td>The output stream </td></tr>
@@ -710,7 +710,7 @@ template&lt;typename MultiIndex &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The output stream </dd></dl>
 
-<p>Definition at line <a class="el" href="permutation__group_8h_source.html#l00247">247</a> of file <a class="el" href="permutation__group_8h_source.html">permutation_group.h</a>.</p>
+<p>Definition at line <a class="el" href="permutation__group_8h_source.html#l00245">245</a> of file <a class="el" href="permutation__group_8h_source.html">permutation_group.h</a>.</p>
 
 </div>
 </div>
@@ -802,7 +802,7 @@ template&lt;typename MultiIndex &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>true</code> if all elements of <code>p1</code> and <code>p2</code> are equal, otherwise <code>false</code>. </dd></dl>
 
-<p>Definition at line <a class="el" href="permutation__group_8h_source.html#l00216">216</a> of file <a class="el" href="permutation__group_8h_source.html">permutation_group.h</a>.</p>
+<p>Definition at line <a class="el" href="permutation__group_8h_source.html#l00214">214</a> of file <a class="el" href="permutation__group_8h_source.html">permutation_group.h</a>.</p>
 
 </div>
 </div>
@@ -902,7 +902,7 @@ template&lt;typename Set &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the fixed set subgroup of <code>G</code> </dd></dl>
 
-<p>Definition at line <a class="el" href="permutation__group_8h_source.html#l00414">414</a> of file <a class="el" href="permutation__group_8h_source.html">permutation_group.h</a>.</p>
+<p>Definition at line <a class="el" href="permutation__group_8h_source.html#l00411">411</a> of file <a class="el" href="permutation__group_8h_source.html">permutation_group.h</a>.</p>
 
 </div>
 </div>
@@ -911,7 +911,7 @@ template&lt;typename Set &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:45 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:07 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

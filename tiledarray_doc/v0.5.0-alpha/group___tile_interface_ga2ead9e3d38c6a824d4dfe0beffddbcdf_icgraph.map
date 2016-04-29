@@ -1,5 +1,0 @@
-<map id="TiledArray::shift_to" name="TiledArray::shift_to">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1math_1_1_scal_shift.html#a2931e826623d8b1f6fd6faf2107f6ec1" title="TiledArray::math::ScalShift\l::permute" alt="" coords="185,5,364,44"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1math_1_1_scal_shift.html#a115465ff09d463674fffd3fbf0edeb33" title="TiledArray::math::ScalShift\l::no_permute" alt="" coords="185,68,364,107"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1math_1_1_shift.html#a0a7b580823b24f90271b24e1994db25e" title="TiledArray::math::Shift\l::no_permute" alt="" coords="198,131,351,169"/>
-</map>

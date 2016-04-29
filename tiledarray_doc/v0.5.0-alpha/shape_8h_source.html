@@ -136,32 +136,36 @@ $(document).ready(function(){initNavTree('shape_8h_source.html','');});
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_tiled_array.html">TiledArray</a> {</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> S, <span class="keyword">typename</span> Enable = <span class="keywordtype">void</span>&gt;</div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="struct_tiled_array_1_1is__dense.html">   30</a></span>&#160;  <span class="keyword">struct </span><a class="code" href="struct_tiled_array_1_1is__dense.html">is_dense</a> : <span class="keyword">public</span> std::false_type { };</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keyword">template</span> &lt;&gt;</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="struct_tiled_array_1_1is__dense_3_01_dense_shape_00_01void_01_4.html">   33</a></span>&#160;  <span class="keyword">struct </span><a class="code" href="struct_tiled_array_1_1is__dense.html">is_dense</a>&lt;<a class="code" href="class_tiled_array_1_1_dense_shape.html">DenseShape</a>, void&gt; : <span class="keyword">public</span> std::true_type { };</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="struct_tiled_array_1_1is__dense_3_01_t_00_01detail_1_1is__type_3_01typename_01_t_1_1shape__type_01_4_01_4.html">   36</a></span>&#160;  <span class="keyword">struct </span><a class="code" href="struct_tiled_array_1_1is__dense.html">is_dense</a>&lt;T, detail::is_type&lt;typename T::shape_type&gt; &gt; :</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;      <span class="keyword">public</span> <a class="code" href="struct_tiled_array_1_1is__dense.html">is_dense</a>&lt;typename T::shape_type&gt;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  { };</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}  <span class="comment">// namespace TiledArray</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span>, <span class="keyword">typename</span>&gt; <span class="keyword">class </span>DistArray;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> S&gt;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="struct_tiled_array_1_1is__dense.html">   32</a></span>&#160;  <span class="keyword">struct </span><a class="code" href="struct_tiled_array_1_1is__dense.html">is_dense</a> : <span class="keyword">public</span> std::false_type { };</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keyword">template</span> &lt;&gt;</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="struct_tiled_array_1_1is__dense_3_01_dense_shape_01_4.html">   35</a></span>&#160;  <span class="keyword">struct </span><a class="code" href="struct_tiled_array_1_1is__dense.html">is_dense</a>&lt;<a class="code" href="class_tiled_array_1_1_dense_shape.html">DenseShape</a>&gt; : <span class="keyword">public</span> std::true_type { };</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> Tile, <span class="keyword">typename</span> Policy&gt;</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="struct_tiled_array_1_1is__dense_3_01_dist_array_3_01_tile_00_01_policy_01_4_01_4.html">   38</a></span>&#160;  <span class="keyword">struct </span><a class="code" href="struct_tiled_array_1_1is__dense.html">is_dense</a>&lt;<a class="code" href="class_tiled_array_1_1_dist_array.html">DistArray</a>&lt;<a class="code" href="class_tiled_array_1_1_tile.html">Tile</a>, Policy&gt; &gt; :</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;      <span class="keyword">public</span> <a class="code" href="struct_tiled_array_1_1is__dense.html">is_dense</a>&lt;typename DistArray&lt;Tile, Policy&gt;::shape_type&gt;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  { };</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#endif // TILEDARRAY_SHAPE_H__INCLUDED</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}  <span class="comment">// namespace TiledArray</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#endif // TILEDARRAY_SHAPE_H__INCLUDED</span></div>
 <div class="ttc" id="sparse__shape_8h_html"><div class="ttname"><a href="sparse__shape_8h.html">sparse_shape.h</a></div></div>
 <div class="ttc" id="class_tiled_array_1_1_dense_shape_html"><div class="ttname"><a href="class_tiled_array_1_1_dense_shape.html">TiledArray::DenseShape</a></div><div class="ttdoc">Dense shape of an array. </div><div class="ttdef"><b>Definition:</b> <a href="dense__shape_8h_source.html#l00054">dense_shape.h:54</a></div></div>
 <div class="ttc" id="namespace_tiled_array_html"><div class="ttname"><a href="namespace_tiled_array.html">TiledArray</a></div><div class="ttdef"><b>Definition:</b> <a href="conjgrad_8h_source.html#l00034">conjgrad.h:34</a></div></div>
-<div class="ttc" id="struct_tiled_array_1_1is__dense_html"><div class="ttname"><a href="struct_tiled_array_1_1is__dense.html">TiledArray::is_dense</a></div><div class="ttdoc">Type trait to detect dense shape types. </div><div class="ttdef"><b>Definition:</b> <a href="shape_8h_source.html#l00030">shape.h:30</a></div></div>
+<div class="ttc" id="struct_tiled_array_1_1is__dense_html"><div class="ttname"><a href="struct_tiled_array_1_1is__dense.html">TiledArray::is_dense</a></div><div class="ttdoc">Type trait to detect dense shape types. </div><div class="ttdef"><b>Definition:</b> <a href="shape_8h_source.html#l00032">shape.h:32</a></div></div>
+<div class="ttc" id="class_tiled_array_1_1_dist_array_html"><div class="ttname"><a href="class_tiled_array_1_1_dist_array.html">TiledArray::DistArray</a></div><div class="ttdoc">Forward declarations. </div><div class="ttdef"><b>Definition:</b> <a href="clone_8h_source.html#l00032">clone.h:32</a></div></div>
 <div class="ttc" id="dense__shape_8h_html"><div class="ttname"><a href="dense__shape_8h.html">dense_shape.h</a></div></div>
+<div class="ttc" id="class_tiled_array_1_1_tile_html"><div class="ttname"><a href="class_tiled_array_1_1_tile.html">TiledArray::Tile</a></div><div class="ttdoc">An N-dimensional shallow copy wrapper for tile objects. </div><div class="ttdef"><b>Definition:</b> <a href="tile_8h_source.html#l00079">tile.h:79</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53ef4fd72a57002f3857d5373dfad4b8.html">TiledArray</a></li><li class="navelem"><a class="el" href="shape_8h.html">shape.h</a></li>
-    <li class="footer">Generated on Fri Oct 23 2015 09:53:44 for TiledArray by
+    <li class="footer">Generated on Fri Apr 29 2016 12:03:06 for TiledArray by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

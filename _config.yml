@@ -1,16 +1,16 @@
 # Site settings
 title: Valeev Research Group
 description: "Valeev Research Group at Virginia Tech"
-url: "https://valeevgroup.github.io/valeev_research_group"
+url: "https://valeevgroup.github.io"
 
 
 
 
 # Secondary Parameters
-baseurl: "/valeev_research_group"
+baseurl: ""
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
-logo: /valeev_research_group/img/logos/valeev_group_logo.png
+logo: /img/logos/valeev_group_logo.png
 
 # Tertiary Parameters
 github_username:  ValeevGroup

@@ -1,5 +1,6 @@
 ---
 layout: page
+title: News
 ---
 
 # 2017 

@@ -2,7 +2,7 @@
 layout: person
 nav-menu: false 
 tags: ['person','postdoc']
-title: Varun Rishi 
+title: Dr. Varun Rishi 
 author: Valeev Group 
 description: Postdoctoral Associate
 image: img/people/varun_rishi.jpg

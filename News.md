@@ -3,16 +3,10 @@ layout: page
 title: News
 ---
 
-# 2017 
-- News
-
 # 2016
 - May 19, 2016 
 
 Farewell to Jinmei Zhang and Justus Calvin! Jinmei is starting her new job as a Postdoctoral Associate at Lawrence Berkeley Lab with Dr. Chao Yang. Justus is starting his new job at Apple. He will be back to defend his Ph.D. later this summer. Best wishes!
-
-# 2015
-- News
 
 # 2014 
 - December 9, 2014

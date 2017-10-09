@@ -14,3 +14,6 @@ email: pchong90@vt.edu
 - BS (2008-2012), Southwest University, Chongqing, China.
 
 - Research Interest: Coupled-cluster Theory, Reduced-scaling Approaches, High Performance Computing
+
+- Publications:
+    [Chong Peng Google Scholar](https://scholar.google.com/citations?user=m6jpgr4AAAAJ&hl=en&authuser=1)

@@ -235,7 +235,7 @@ JP Kenny, CL Janssen, EF Valeev, TL Windus
 
 - "Variational formulation of perturbative explicitly-correlated coupled-cluster methods"  
 M Torheyden, EF Valeev  
-[Physical Chemistry Chemical Physics 10 (23), 3410-3420	](http://pubs.rsc.org/en/content/articlelanding/2008/cp/b803620a/unauth#!divAbstract)
+[Physical Chemistry Chemical Physics 10 (23), 3410-3420](http://pubs.rsc.org/en/content/articlelanding/2008/cp/b803620a/unauth#!divAbstract)
 
 - "Equations of explicitly-correlated coupled-cluster methods"  
 T Shiozaki, M Kamiya, S Hirata, EF Valeev  

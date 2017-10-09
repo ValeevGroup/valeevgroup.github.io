@@ -2,7 +2,7 @@
 layout: person
 nav-menu: false
 tags: ['person','grad_student']
-title: Fabijan Pavosevic
+title: Fabijan Pavošević
 author: Valeev Group
 description: Graduate Student
 image: img/people/fabijan_pavosevic.jpg
@@ -17,4 +17,4 @@ email: fabijan@vt.edu
   2. Green’s function methods
 
 - Publications:
-    [Fabijan Pavosevic Google Scholar](https://scholar.google.com/citations?user=q2lveLEAAAAJ&hl=en)
+    [Fabijan Pavošević Google Scholar](https://scholar.google.com/citations?user=q2lveLEAAAAJ&hl=en)

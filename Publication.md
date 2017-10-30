@@ -102,6 +102,10 @@ C Riplinger, P Pinski, U Becker, EF Valeev, F Neese
  
 # 2014   
 ------------
+
+ - "Geminal-spanning orbitals make explicitly correlated reduced-scaling coupled-cluster methods robust, yet simple"  
+ F Pavošević, F Neese, EF Valeev  
+ [The Journal of chemical physics 141 (5), 054106](http://aip.scitation.org/doi/abs/10.1063/1.4890002)
  
  - "Semi-exact concentric atomic density fitting: Reduced cost and increased accuracy compared to standard density fitting"  
  DS Hollman, HF Schaefer, EF Valeev  
@@ -120,10 +124,10 @@ C Riplinger, P Pinski, U Becker, EF Valeev, F Neese
 -------------
  
  - "Assessment of perturbative explicitly correlated methods for prototypes of multiconfiguration electronic structure"  
-LB Roskop, L Kong, EF Valeev, MS Gordon, TL Windus  
+ LB Roskop, L Kong, EF Valeev, MS Gordon, TL Windus  
  [Journal of chemical theory and computation 10 (1), 90-101](http://pubs.acs.org/doi/abs/10.1021/ct4006773)
  
- - "Computing molecular correlation energies with guaranteed precision" 
+ - "Computing molecular correlation energies with guaranteed precision"   
  FA Bischoff, EF Valeev  
 [The Journal of chemical physics 139 (11), 114106](http://aip.scitation.org/doi/abs/10.1063/1.4820404)
  
@@ -165,7 +169,7 @@ LB Roskop, L Kong, EF Valeev, MS Gordon, TL Windus
  [The Journal of chemical physics 134 (21), 214109](http://aip.scitation.org/doi/abs/10.1063/1.3596948)
  
  
- - "Low-order tensor approximations for electronic wave functions: Hartree–Fock method with guaranteed precision"  
+ - "Low-order tensor approximations for electronic wave functions: Hartree–Fock method with guaranteed precision"    
  FA Bischoff, EF Valeev  
  [The Journal of chemical physics 134 (10), 104104](http://aip.scitation.org/doi/abs/10.1063/1.3560091)
  
@@ -188,7 +192,7 @@ L Kong, EF Valeev
 G Ozer, EF Valeev, S Quirk, R Hernandez  
 [Journal of chemical theory and computation 6 (10), 3026-3038	](http://pubs.acs.org/doi/abs/10.1021/ct100320g)
 
-- "Scalar relativistic explicitly correlated R12 methods"  
+- "Scalar relativistic explicitly correlated R12 methods"    
 FA Bischoff, EF Valeev, W Klopper, CL Janssen  
 [The Journal of chemical physics 132 (21), 214104](http://aip.scitation.org/doi/abs/10.1063/1.3417984)
 

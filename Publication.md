@@ -7,9 +7,10 @@ description: "Publications at Valeev Research Group"
 # 2017
 ---------------
 
-- "Communication: Explicitly correlated formalism for second-order single-particle Green’s function"   
+- "Communication: Explicitly correlated formalism for second-order single-particle Green’s function"    
 F Pavošević, C Peng, JV Ortiz, EF Valeev  
-[The Journal of Chemical Physics 147 (12), 121101](http://aip.scitation.org/doi/full/10.1063/1.5000916)
+**Editor's Pick** [The Journal of Chemical Physics 147 (12), 121101](http://aip.scitation.org/doi/full/10.1063/1
+.5000916) 
 
 - "Fast construction of the exchange operator in an atom-centred basis with concentric atomic density fitting"  
 DS Hollman, HF Schaefer, EF Valeev   

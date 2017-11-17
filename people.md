@@ -9,9 +9,8 @@ header-img: "img/home-bg.jpg"
 {% include people_tiles.html %}
 
 
-## Former Member
 
-- **Jessi Shroads** (graduate student, 2014-2016)
+- **Jessi Shroads** (graduate student, 2014-2017)
 
 - **Justus Calvin** (graduate student, 2010-2016), now at Apple Inc.
 

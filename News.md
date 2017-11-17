@@ -4,6 +4,10 @@ title: News
 ---
 
 # 2016
+
+- August, 2016 
+Welcome postdoc research Dr. Xiao Wang to join Valeev Research Group!
+
 - May 19, 2016 
 
 Farewell to Jinmei Zhang and Justus Calvin! Jinmei is starting her new job as a Postdoctoral Associate at Lawrence Berkeley Lab with Dr. Chao Yang. Justus is starting his new job at Apple. He will be back to defend his Ph.D. later this summer. Best wishes!

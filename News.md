@@ -5,7 +5,8 @@ title: News
 
 # 2016
 
-- August, 2016 
+- August, 2016  
+
 Welcome postdoc research Dr. Xiao Wang to join Valeev Research Group!
 
 - May 19, 2016 

@@ -3,11 +3,19 @@ layout: page
 title: News
 ---
 
+# 2017  
+
+- August 2017  
+
+Welcome Dr. Varun Rishi, our newest postdoctoral associate! Varun received his PhD from the University of Florida working
+under Prof. Rodney J. Barlett.
+
 # 2016
 
 - August 2016  
 
-Welcome Dr. Xiao Wang, our newest postdoctoral researcher!
+Welcome Dr. Xiao Wang, our newest postdoctoral associate! Xiao received his PhD from the University of Georgia working
+under Prof. Henry F. Shaefer III.
 
 - May 19, 2016 
 

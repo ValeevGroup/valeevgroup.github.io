@@ -7,7 +7,7 @@ title: News
 
 - December 6, 2017 
 
-Congratuations to Fabijan Pavosevic for successfully defending his dissertation! Dr. Pavosevic is headed to Yale to
+Congratulations to Fabijan Pavosevic for successfully defending his dissertation! Dr. Pavosevic is headed to Yale to
 work as a postdoctoral associate with Prof. Sharon Hammes-Schiffer.
 
 - August 2017  

@@ -5,6 +5,11 @@ title: News
 
 # 2017  
 
+- December 6, 2017 
+
+Congratuations to Fabijan Pavosevic for successfully defending his dissertation! Dr. Pavosevic is headed to Yale to
+work as a postdoctoral associate with Prof. Sharon Hammes-Schiffer.
+
 - August 2017  
 
 Welcome Dr. Varun Rishi, our newest postdoctoral associate! Varun received his PhD from the University of Florida working

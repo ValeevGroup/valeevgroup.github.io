@@ -17,6 +17,9 @@ work as a postdoctoral associate with Prof. Sharon Hammes-Schiffer.
 
 - August 2017  
 
+Congratulations to Fabijan Pavosevic for being awarded a Graduate School Doctoral Assistanship from the Department of
+Chemistry for fall 2017!
+
 Welcome Dr. Varun Rishi, our newest postdoctoral associate! Varun received his PhD from the University of Florida working
 under Prof. Rodney J. Barlett.
 

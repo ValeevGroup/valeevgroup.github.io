@@ -5,6 +5,11 @@ title: News
 
 # 2017  
 
+- December 8, 2017
+
+Congratulations to Chong Peng for being awarded a Graduate School Doctoral Assistanship from the Department of Chemistry for 
+spring 2018!
+
 - December 6, 2017 
 
 Congratulations to Fabijan Pavosevic for successfully defending his dissertation! Dr. Pavosevic is headed to Yale to

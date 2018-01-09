@@ -56,14 +56,14 @@
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>Students</h1>
+			<h1>Graduate Students</h1>
 			<br>
 		</header>
 	</div>
 </section>
 <section id="one" class="tiles2">
 
-	{% for page in site.posts limit:100 %}
+	{% for page in site.posts reversed limit:100 %}
 	{% if page.tags contains 'grad_student' %}
 	<article>
 		<span class="image">
@@ -82,7 +82,7 @@
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>Former Member</h1>
+			<h1>Former Members</h1>
 			<br>
 		</header>
 	</div>

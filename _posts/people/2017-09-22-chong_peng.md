@@ -10,10 +10,14 @@ googlescholar_url:
 linkedin_url : 
 email: pchong90@vt.edu
 ---
-- Graduate Student (2012-current), Valeev Research Group, Virginia Tech
+- Graduate Student (2012-current), Valeev Research Group, Virginia Tech  
+
 - BS (2008-2012), Southwest University, Chongqing, China.
 
-- Research Interest: Coupled-cluster Theory, Reduced-scaling Approaches, High Performance Computing
-
-- Publications:
+- Research Interest: 
+    - High Performance Computing
+    - Coupled-cluster Theory
+    - Reduced-scaling Approaches   
+    
+- Publications:  
     [Chong Peng Google Scholar](https://scholar.google.com/citations?user=m6jpgr4AAAAJ&hl=en&authuser=1)

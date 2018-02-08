@@ -3,6 +3,13 @@ layout: page
 title: News
 ---
 
+# 2018 
+
+- February 8, 2018
+
+Congratulations to Chong Peng for successfully defending his dissertation! Dr. Peng will be remaining with the Valeev group
+as a research scientist.
+
 # 2017  
 
 - December 8, 2017

@@ -10,8 +10,7 @@ title: News
 Congratulations to Chong Peng for successfully defending his dissertation! Dr. Peng will be remaining with the Valeev group
 as a research scientist.
 
-![Chong opening champagne](../img/group/2018-02-08_chong-defense-champagne.jpg){:class="img-responsive"}
-Chong opening his celebratory bottle of Champagne
+![Chong opening champagne](../img/group/2018-02-08_chong-defense-champagne.jpg){:class="img-responsive"}Chong opening his celebratory bottle of Champagne | ![Chong with EFV](../img/group/2018-02-08_chong-defense-efv.jpg){:class="img-responsive"}Drs. Valeev and Peng
 
 # 2017  
 

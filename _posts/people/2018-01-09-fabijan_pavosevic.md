@@ -2,7 +2,7 @@
 layout: person
 nav-menu: false
 tags: ['person','former']
-title: Fabijan Pavošević
+title: Dr. Fabijan Pavošević
 author: Valeev Group
 description: Graduate Student
 image: img/people/fabijan_pavosevic.jpg

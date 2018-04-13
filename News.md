@@ -5,6 +5,11 @@ title: News
 
 # 2018 
 
+- April 13, 2018
+
+Congratulations to Drew Lewis for successfully defending his dissertation! Dr. Lewis will be moving to California to
+work as a postdoc at Sandia.
+
 - February 8, 2018
 
 Congratulations to Chong Peng for successfully defending his dissertation! Dr. Peng will be remaining with the Valeev group

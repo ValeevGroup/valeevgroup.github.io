@@ -20,4 +20,3 @@ email: drew90@vt.edu
 
 - Hobbies:
   Hiking, Baking, Photography, and Talking.
-

@@ -12,7 +12,7 @@ email: akumar1@vt.edu
 phone:
 ---
 - Postdoctoral associate in Valeev Research Group (2018-current)
-- PhD (2013-2018), Virginia Tech, Blacksburg, VA. Supervisor: Prof. T. Daniel Crawford
+- PhD (2013-2018), Virginia Tech, Blacksburg, VA. Supervisor: [Prof. T. Daniel Crawford](https://www.crawford.chem.vt.edu)
 - Integrated MSc. (2008-2013), IIT Kharagpur, West Bengal, India.
 
 - Research Interest:
@@ -20,4 +20,4 @@ phone:
 I am interested in developing and implementing massively parallel reduced scaling algorithms in conjunction with explicit correlation techniques for both closed and open shell systems at coupled cluster level of theory.
 
 - Publications:
-  [Ashiutosh Kumar Google Scholar](https://scholar.google.com/citations?user=pJj9TRoAAAAJ&hl=en)
+  [Ashutosh Kumar Google Scholar](https://scholar.google.com/citations?user=pJj9TRoAAAAJ&hl=en)

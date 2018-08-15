@@ -6,7 +6,8 @@ title: News
 # 2018 
 
 - July 25, 2018
-Welcome Dr. Ashutosh Kumar, our newest postdoctoral associate! Ashutosh received his PhD from the Virginia Tech working
+
+Welcome Dr. Ashutosh Kumar, our newest postdoctoral associate! Dr. Kumar received his PhD from Virginia Tech working
 under Prof. T. Daniel Crawford.
 
 - April 13, 2018

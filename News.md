@@ -9,8 +9,7 @@ title: News
 
 Valeev group members Varun Rishi, Nakul Teke, Karl Pierce, and Marjory Clement attended the MolSSI
 Parallel Computing in Molecular Sciences Summer School and Workshop hosted by Berkeley Lab in Berkeley, CA.
-Prof. Valeev served as one of the organizers and teachers. More information can be found here:
-http://crd.lbl.gov/news-and-publications/news/2018/exascale-education/
+Prof. Valeev served as one of the organizers and teachers. More information can be found [here](http://crd.lbl.gov/news-and-publications/news/2018/exascale-education/).
 
 - July 25, 2018
 

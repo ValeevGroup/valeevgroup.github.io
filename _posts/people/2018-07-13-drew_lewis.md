@@ -1,14 +1,18 @@
 ---
 layout: person
 nav-menu: false
-tags: ['person','grad_student']
-title: Drew Lewis
+tags: ['person','former']
+title: Dr. Drew Lewis
 author: Valeev Group
 description: Graduate Student
 image: img/people/drew_lewis.jpg
 email: drew90@vt.edu
 ---
-- Graduate Student (2012-current), Valeev Research Group, Virginia Tech
+
+
+- Postdoc (2018-), Sandia National Laboratories
+
+- Graduate Student (2012-2018), Valeev Research Group, Virginia Tech
 
 
 - Research Interest:
@@ -16,4 +20,3 @@ email: drew90@vt.edu
 
 - Hobbies:
   Hiking, Baking, Photography, and Talking.
-

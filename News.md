@@ -5,6 +5,17 @@ title: News
 
 # 2018 
 
+- August 6-9, 2018
+
+Valeev group members Varun Rishi, Nakul Teke, Karl Pierce, and Marjory Clement attended the MolSSI
+Parallel Computing in Molecular Sciences Summer School and Workshop hosted by Berkeley Lab in Berkeley, CA.
+Prof. Valeev served as one of the organizers and teachers. More information can be found [here](http://crd.lbl.gov/news-and-publications/news/2018/exascale-education/).
+
+- July 25, 2018
+
+Welcome Dr. Ashutosh Kumar, our newest postdoctoral associate! Dr. Kumar received his PhD from Virginia Tech working
+under Prof. T. Daniel Crawford.
+
 - April 13, 2018
 
 Congratulations to Drew Lewis for successfully defending his dissertation! Dr. Lewis will be moving to California to

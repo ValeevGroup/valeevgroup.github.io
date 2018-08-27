@@ -1,0 +1,107 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classmpqc_1_1math_1_1_function.html" title="mpqc::math::Function\l\&lt; Params, std::tuple\&lt;\&gt; \&gt;" alt="" coords="283,20,450,59"/>
+<area shape="rect" id="node2" href="$classmpqc_1_1math_1_1_optimizer.html" title="It is itself a Function, namely Function&lt;Params, std::tuple&lt;&gt;&gt;. " alt="" coords="583,20,738,59"/>
+<area shape="rect" id="node3" href="$classmpqc_1_1math_1_1_quasi_newton_optimizer.html" title="It is itself a Function, namely Function&lt;Params, OptimizerParams&gt;. " alt="" coords="860,5,1095,44"/>
+<area shape="rect" id="node4" href="$classmpqc_1_1math_1_1_function.html" title="mpqc::math::Function\l\&lt; TaylorExpansionCoefficients\l\&lt; double \&gt;, MolecularCoordinates \&gt;" alt="" coords="544,236,777,288"/>
+<area shape="rect" id="node5" href="$classmpqc_1_1math_1_1_taylor_expansion_function.html" title="mpqc::math::TaylorExpansion\lFunction\&lt; double, MolecularCoordinates \&gt;" alt="" coords="841,68,1114,107"/>
+<area shape="rect" id="node6" href="$classmpqc_1_1_wavefunction_property.html" title="mpqc::WavefunctionProperty\l\&lt; double \&gt;" alt="" coords="1186,568,1378,607"/>
+<area shape="rect" id="node7" href="$classmpqc_1_1_energy.html" title="Taylor expansion of the molecular energy computed by a Wavefunction. " alt="" coords="1498,560,1602,585"/>
+<area shape="rect" id="node8" href="$classmpqc_1_1_g_f_real_pole.html" title="mpqc::GFRealPole" alt="" coords="1483,609,1617,635"/>
+<area shape="rect" id="node9" href="$classmpqc_1_1math_1_1_function.html" title="mpqc::math::Function\l\&lt; TaylorExpansionCoefficients\l\&lt; std::vector\&lt; double \&gt; \&gt;,\l MolecularCoordinates \&gt;" alt="" coords="560,819,760,884"/>
+<area shape="rect" id="node10" href="$classmpqc_1_1math_1_1_taylor_expansion_function.html" title="mpqc::math::TaylorExpansion\lFunction\&lt; std::vector\&lt; double\l \&gt;, MolecularCoordinates \&gt;" alt="" coords="879,817,1076,869"/>
+<area shape="rect" id="node11" href="$classmpqc_1_1_wavefunction_property.html" title="mpqc::WavefunctionProperty\l\&lt; std::vector\&lt; double \&gt; \&gt;" alt="" coords="1186,764,1378,803"/>
+<area shape="rect" id="node12" href="$classmpqc_1_1_excitation_energy.html" title="mpqc::ExcitationEnergy" alt="" coords="1469,679,1631,704"/>
+<area shape="rect" id="node13" href="$classmpqc_1_1math_1_1_function.html" title="mpqc::math::Function\l\&lt; TaylorExpansionCoefficients\l\&lt; Value \&gt;, MolecularCoordinates \&gt;" alt="" coords="253,749,479,801"/>
+<area shape="rect" id="node14" href="$classmpqc_1_1math_1_1_taylor_expansion_function.html" title="mpqc::math::TaylorExpansion\lFunction\&lt; Value, MolecularCoordinates \&gt;" alt="" coords="527,756,793,795"/>
+<area shape="rect" id="node15" href="$classmpqc_1_1math_1_1_finite_difference_derivative.html" title="mpqc::math::FiniteDifference\lDerivative\&lt; Order, Value,\l MolecularCoordinates \&gt;" alt="" coords="882,632,1073,684"/>
+<area shape="rect" id="node17" href="$classmpqc_1_1_wavefunction_property.html" title="WavefunctionProperty computes a Taylor expansion of a molecular property using a visiting Wavefunctio..." alt="" coords="1186,701,1378,740"/>
+<area shape="rect" id="node16" href="$classmpqc_1_1_molecular_finite_difference_derivative.html" title="Evaluates FiniteDifferenceDerivative with respect to molecular coordinates. " alt="" coords="1176,639,1388,677"/>
+<area shape="rect" id="node18" href="$classmpqc_1_1math_1_1_function.html" title="mpqc::math::Function\l\&lt; TaylorExpansionCoefficients\l\&lt; Value \&gt;, Parameters \&gt;" alt="" coords="5,111,205,163"/>
+<area shape="rect" id="node19" href="$classmpqc_1_1math_1_1_taylor_expansion_function.html" title="mpqc::math::TaylorExpansion\lFunction\&lt; Value, Parameters \&gt;" alt="" coords="264,117,469,156"/>
+<area shape="rect" id="node20" href="$classmpqc_1_1math_1_1_finite_difference_derivative.html" title="Computes finite&#45;difference approximation to function derivatives. " alt="" coords="565,111,756,163"/>
+<area shape="rect" id="node21" href="$classmpqc_1_1_described_class.html" title="mpqc::DescribedClass" alt="" coords="289,543,444,568"/>
+<area shape="rect" id="node22" href="$classmpqc_1_1lcao_1_1_factory.html" title="mpqc::lcao::Factory\l\&lt; T, DT \&gt;" alt="" coords="591,644,729,683"/>
+<area shape="rect" id="node23" href="$classmpqc_1_1_debugger.html" title="mpqc::Debugger" alt="" coords="600,187,720,212"/>
+<area shape="rect" id="node24" href="$classmpqc_1_1lcao_1_1_factory.html" title="mpqc::lcao::Factory\l\&lt; Array, DirectArray \&gt;" alt="" coords="586,312,735,351"/>
+<area shape="rect" id="node29" href="$classmpqc_1_1lcao_1_1gaussian_1_1_basis.html" title="mpqc::lcao::gaussian\l::Basis" alt="" coords="587,909,734,948"/>
+<area shape="rect" id="node31" href="$classmpqc_1_1lcao_1_1_orbital_localizer.html" title="Localizes orbitals using LCAO&#45;specific info (e.g. AO&#45;basis operators) " alt="" coords="567,431,753,469"/>
+<area shape="rect" id="node34" href="$classmpqc_1_1_molecular_coordinates.html" title="mpqc::MolecularCoordinates" alt="" coords="565,493,756,519"/>
+<area shape="rect" id="node36" href="$classmpqc_1_1_molecule.html" title="Molecule is a class which contains a vector of AtomBasedClusterables. " alt="" coords="1749,1727,1864,1752"/>
+<area shape="rect" id="node38" href="$classmpqc_1_1_task.html" title="mpqc::Task" alt="" coords="616,707,705,732"/>
+<area shape="rect" id="node40" href="$classmpqc_1_1_wavefunction.html" title="mpqc::Wavefunction" alt="" coords="589,1237,731,1263"/>
+<area shape="rect" id="node90" href="$classmpqc_1_1_wavefunction_world.html" title="WavefunctionWorld is an environment for one or more collaborating Wavefunction objects. " alt="" coords="572,543,748,568"/>
+<area shape="rect" id="node25" href="$classmpqc_1_1lcao_1_1gaussian_1_1_a_o_factory.html" title="Atomic Integral Class. " alt="" coords="888,256,1067,295"/>
+<area shape="rect" id="node26" href="$classmpqc_1_1lcao_1_1gaussian_1_1_periodic_a_o_factory.html" title="Periodic Integral Class. " alt="" coords="903,319,1052,371"/>
+<area shape="rect" id="node27" href="$classmpqc_1_1lcao_1_1_l_c_a_o_factory.html" title="Molecule Integral computation class This class computes molecular integrals using a Formula object..." alt="" coords="890,131,1064,169"/>
+<area shape="rect" id="node28" href="$classmpqc_1_1lcao_1_1_periodic_l_c_a_o_factory.html" title="mpqc::lcao::PeriodicLCAOFactory\l\&lt; Tile, Policy \&gt;" alt="" coords="866,193,1088,232"/>
+<area shape="rect" id="node30" href="$classmpqc_1_1lcao_1_1gaussian_1_1_atomic_basis.html" title="mpqc::lcao::gaussian\l::AtomicBasis" alt="" coords="904,911,1051,949"/>
+<area shape="rect" id="node32" href="$classmpqc_1_1lcao_1_1scf_1_1_foster_boys_localizer.html" title="mpqc::lcao::scf::FosterBoys\lLocalizer\&lt; Tile, Policy \&gt;" alt="" coords="885,395,1070,433"/>
+<area shape="rect" id="node33" href="$classmpqc_1_1lcao_1_1scf_1_1_r_r_q_r_localizer.html" title="mpqc::lcao::scf::RRQRLocalizer\l\&lt; Tile, Policy \&gt;" alt="" coords="872,457,1083,496"/>
+<area shape="rect" id="node35" href="$classmpqc_1_1_cart_molecular_coordinates.html" title="mpqc::CartMolecularCoordinates" alt="" coords="869,520,1086,545"/>
+<area shape="rect" id="node37" href="$classmpqc_1_1_unit_cell.html" title="mpqc::UnitCell" alt="" coords="2003,1727,2111,1752"/>
+<area shape="rect" id="node39" href="$classmpqc_1_1_property.html" title="mpqc::Property" alt="" coords="922,708,1033,733"/>
+<area shape="rect" id="node41" href="$classmpqc_1_1lcao_1_1_wavefunction.html" title="mpqc::lcao::Wavefunction" alt="" coords="891,1160,1064,1185"/>
+<area shape="rect" id="node42" href="$classmpqc_1_1lcao_1_1_l_c_a_o_wavefunction.html" title="mpqc::lcao::LCAOWavefunction\l\&lt; Tile, TA::SparsePolicy \&gt;" alt="" coords="1177,1091,1387,1129"/>
+<area shape="rect" id="node52" href="$classmpqc_1_1lcao_1_1_a_o_wavefunction.html" title="AOWavefunction is a Wavefunction with an gaussian::AOFactory. " alt="" coords="1186,1028,1379,1067"/>
+<area shape="rect" id="node59" href="$classmpqc_1_1lcao_1_1_l_c_a_o_wavefunction.html" title="LCAOWavefunction is a Wavefunction with an LCAOFactory. " alt="" coords="1177,1551,1387,1589"/>
+<area shape="rect" id="node80" href="$classmpqc_1_1lcao_1_1_periodic_a_o_wavefunction.html" title="PeriodicAOWavefunction is a Wavefunction with a gaussian::PeriodicAOFactory. " alt="" coords="1162,1153,1403,1192"/>
+<area shape="rect" id="node43" href="$classmpqc_1_1lcao_1_1_c_c_s_d.html" title="mpqc::lcao::CCSD\&lt; Tile,\l TA::SparsePolicy \&gt;" alt="" coords="1466,1153,1633,1192"/>
+<area shape="rect" id="node47" href="$classmpqc_1_1lcao_1_1_g_f2_f12.html" title="GF2F12 class keyval name for this class GF2F12. " alt="" coords="1479,728,1621,767"/>
+<area shape="rect" id="node49" href="$classmpqc_1_1lcao_1_1_r_m_p2_f12.html" title="MP2F12 method for closed shell. " alt="" coords="1473,1028,1626,1067"/>
+<area shape="rect" id="node44" href="$classmpqc_1_1lcao_1_1_c_c_s_d___t.html" title="mpqc::lcao::CCSD_T\l\&lt; Tile, TA::SparsePolicy \&gt;" alt="" coords="1720,1417,1893,1456"/>
+<area shape="rect" id="node46" href="$classmpqc_1_1lcao_1_1_c_c_s_d___f12.html" title="mpqc::lcao::CCSD_F12\l\&lt; Tile \&gt;" alt="" coords="1726,1480,1887,1519"/>
+<area shape="rect" id="node45" href="$classmpqc_1_1lcao_1_1_c_c_s_d___t___f12.html" title="CCSD(T)F12 class. " alt="" coords="1984,1448,2130,1487"/>
+<area shape="rect" id="node48" href="$classmpqc_1_1lcao_1_1_d_b_g_f2_f12.html" title="Dual Basis GF2F12 class keyval name for this class DBGF2F12. " alt="" coords="1726,477,1887,516"/>
+<area shape="rect" id="node50" href="$classmpqc_1_1lcao_1_1_r_i_r_m_p2_f12.html" title="MP2F12 method for closed shell with RI. " alt="" coords="1723,853,1890,892"/>
+<area shape="rect" id="node51" href="$classmpqc_1_1lcao_1_1_r_i_d_b_r_m_p2_f12.html" title="Dual Basis MP2F12 method for closed shell with RI. " alt="" coords="1964,853,2149,892"/>
+<area shape="rect" id="node53" href="$classmpqc_1_1lcao_1_1_r_h_f.html" title="Closed&#45;Shell (Spin&#45;)Restricted SCF. " alt="" coords="1472,791,1628,829"/>
+<area shape="rect" id="node54" href="$classmpqc_1_1lcao_1_1_c_a_d_f_r_h_f.html" title="mpqc::lcao::CADFRHF\l\&lt; Tile, Policy \&gt;" alt="" coords="1728,728,1885,767"/>
+<area shape="rect" id="node55" href="$classmpqc_1_1lcao_1_1_direct_r_h_f.html" title="mpqc::lcao::DirectRHF\l\&lt; Tile, Policy \&gt;" alt="" coords="1729,791,1884,829"/>
+<area shape="rect" id="node56" href="$classmpqc_1_1lcao_1_1_direct_r_i_r_h_f.html" title="mpqc::lcao::DirectRIRHF\l\&lt; Tile, Policy \&gt;" alt="" coords="1722,540,1891,579"/>
+<area shape="rect" id="node57" href="$classmpqc_1_1lcao_1_1_r_i_j_e_x_a_c_t_k_r_h_f.html" title="mpqc::lcao::RIJEXACTKRHF\l\&lt; Tile, Policy \&gt;" alt="" coords="1710,603,1904,641"/>
+<area shape="rect" id="node58" href="$classmpqc_1_1lcao_1_1_r_i_r_h_f.html" title="mpqc::lcao::RIRHF\&lt;\l Tile, Policy \&gt;" alt="" coords="1736,665,1878,704"/>
+<area shape="rect" id="node60" href="$classmpqc_1_1lcao_1_1_c_c3.html" title="mpqc::lcao::CC3\&lt; Tile,\l Policy \&gt;" alt="" coords="1472,1581,1628,1620"/>
+<area shape="rect" id="node61" href="$classmpqc_1_1lcao_1_1_c_c_s_d.html" title="mpqc::lcao::CCSD\&lt; Tile,\l Policy \&gt;" alt="" coords="1466,2009,1633,2048"/>
+<area shape="rect" id="node68" href="$classmpqc_1_1lcao_1_1_c_c_s_d_t.html" title="mpqc::lcao::CCSDT\&lt;\l Tile, Policy \&gt;" alt="" coords="1476,1393,1623,1432"/>
+<area shape="rect" id="node69" href="$classmpqc_1_1lcao_1_1_c_c_s_d_t1.html" title="mpqc::lcao::CCSDT1\l\&lt; Tile, Policy \&gt;" alt="" coords="1477,1456,1623,1495"/>
+<area shape="rect" id="node70" href="$classmpqc_1_1lcao_1_1_c_c_s_d_t1b.html" title="mpqc::lcao::CCSDT1b\l\&lt; Tile, Policy \&gt;" alt="" coords="1473,1519,1627,1557"/>
+<area shape="rect" id="node71" href="$classmpqc_1_1lcao_1_1_c_c_s_d_t2.html" title="mpqc::lcao::CCSDT2\l\&lt; Tile, Policy \&gt;" alt="" coords="1477,1644,1623,1683"/>
+<area shape="rect" id="node72" href="$classmpqc_1_1lcao_1_1_c_c_s_d_t3.html" title="mpqc::lcao::CCSDT3\l\&lt; Tile, Policy \&gt;" alt="" coords="1477,1707,1623,1745"/>
+<area shape="rect" id="node73" href="$classmpqc_1_1lcao_1_1_c_c_s_d_t4.html" title="mpqc::lcao::CCSDT4\l\&lt; Tile, Policy \&gt;" alt="" coords="1477,1769,1623,1808"/>
+<area shape="rect" id="node74" href="$classmpqc_1_1lcao_1_1_c_i_s.html" title="mpqc::lcao::CIS\&lt; Tile,\l Policy \&gt;" alt="" coords="1731,1821,1882,1860"/>
+<area shape="rect" id="node75" href="$classmpqc_1_1lcao_1_1_gamma_point_m_p2.html" title="mpqc::lcao::GammaPointMP2\l\&lt; Tile, Policy \&gt;" alt="" coords="1451,1268,1649,1307"/>
+<area shape="rect" id="node76" href="$classmpqc_1_1lcao_1_1_r_m_p2.html" title="MP2 class for closed&#45;shell system. " alt="" coords="1467,1331,1633,1369"/>
+<area shape="rect" id="node62" href="$classmpqc_1_1lcao_1_1_c_c_s_d___p_n_o.html" title="CCSD_PNO class. " alt="" coords="1723,2072,1890,2111"/>
+<area shape="rect" id="node63" href="$classmpqc_1_1lcao_1_1_c_c_s_d___t.html" title="CCSD_T class that compute CCSD(T) triple calculation. " alt="" coords="1733,2135,1880,2173"/>
+<area shape="rect" id="node64" href="$classmpqc_1_1lcao_1_1_e_o_m___c_c_s_d.html" title="Implements closed&#45;shell EOM&#45;EA&#45;CCSD. " alt="" coords="1722,2009,1891,2048"/>
+<area shape="rect" id="node65" href="$classmpqc_1_1lcao_1_1_e_o_m___e_a___c_c_s_d.html" title="mpqc::lcao::EOM_EA\l_CCSD\&lt; Tile, Policy \&gt;" alt="" coords="1730,1884,1883,1923"/>
+<area shape="rect" id="node66" href="$classmpqc_1_1lcao_1_1_e_o_m___i_p___c_c_s_d.html" title="mpqc::lcao::EOM_IP\l_CCSD\&lt; Tile, Policy \&gt;" alt="" coords="1730,1947,1883,1985"/>
+<area shape="rect" id="node67" href="$classmpqc_1_1lcao_1_1_gamma_point_c_c_s_d.html" title="mpqc::lcao::GammaPointCCSD\l\&lt; Tile, Policy \&gt;" alt="" coords="1702,2197,1911,2236"/>
+<area shape="rect" id="node77" href="$classmpqc_1_1lcao_1_1_d_b_r_m_p2.html" title="mpqc::lcao::DBRMP2\l\&lt; Tile, Policy \&gt;" alt="" coords="1732,1543,1881,1581"/>
+<area shape="rect" id="node79" href="$classmpqc_1_1lcao_1_1_r_i_r_m_p2.html" title="MP2 class for closed&#45;shell system with density fitting. " alt="" coords="1735,1605,1878,1644"/>
+<area shape="rect" id="node78" href="$classmpqc_1_1lcao_1_1_r_i_d_b_r_m_p2.html" title="mpqc::lcao::RIDBRMP2\l\&lt; Tile, Policy \&gt;" alt="" coords="1976,1543,2138,1581"/>
+<area shape="rect" id="node81" href="$classmpqc_1_1lcao_1_1z_r_h_f.html" title="mpqc::lcao::zRHF\&lt; Tile,\l Policy \&gt;" alt="" coords="1468,1091,1631,1129"/>
+<area shape="rect" id="node82" href="$classmpqc_1_1lcao_1_1_d_fz_r_h_f.html" title="DFzRHF class uses density fitting for Coulomb and 4&#45;center&#45;K for exchange. " alt="" coords="1734,916,1879,955"/>
+<area shape="rect" id="node83" href="$classmpqc_1_1lcao_1_1_four_center_j_c_a_d_f_kz_r_h_f.html" title="FourCenterJCADFKzRHF uses four&#45;center&#45;J for coulomb and CADF&#45;K for exchange. " alt="" coords="1697,979,1916,1017"/>
+<area shape="rect" id="node84" href="$classmpqc_1_1lcao_1_1_four_centerz_r_h_f.html" title="four&#45;center zRHF class uses shell&#45;level&amp;screening 4&#45;center Fock builder " alt="" coords="1709,1041,1904,1080"/>
+<area shape="rect" id="node85" href="$classmpqc_1_1lcao_1_1_m_a_four_center_j_c_a_d_f_kz_r_h_f.html" title="MAFourCenterJCADFK uses four&#45;center&#45;J (CNF) and MA (CFF) for Coulomb and CADF&#45;K for exchange..." alt="" coords="1710,1104,1904,1143"/>
+<area shape="rect" id="node86" href="$classmpqc_1_1lcao_1_1_m_a_four_centerz_r_h_f.html" title="MAFourCenterzRHF uses MA for Coulomb CFF and four&#45;center&#45;JK for Coulomb and exchange CNF..." alt="" coords="1713,1167,1900,1205"/>
+<area shape="rect" id="node87" href="$classmpqc_1_1lcao_1_1_m_a_r_i_j_c_a_d_f_kz_r_h_f.html" title="MARIJCADFKzRHF uses MA&#45;RI&#45;J for coulomb and CADF&#45;K for exchange. " alt="" coords="1700,1229,1913,1268"/>
+<area shape="rect" id="node88" href="$classmpqc_1_1lcao_1_1_m_a_r_i_j_four_center_kz_r_h_f.html" title="MARIJFourCenterKzRHF uses MA&#45;RI&#45;J for coulomb and four&#45;center&#45;K for exchange. " alt="" coords="1706,1292,1907,1331"/>
+<area shape="rect" id="node89" href="$classmpqc_1_1lcao_1_1_r_i_j_c_a_d_f_kz_r_h_f.html" title="RIJCADFKzRHF uses RI&#45;J for coulomb and CADF&#45;K for exchange. " alt="" coords="1710,1355,1903,1393"/>
+<area shape="rect" id="node91" href="$classmpqc_1_1lcao_1_1_wavefunction_world.html" title="specialization of mpqc::WavefunctionWorld to the LCAO case " alt="" coords="891,569,1064,608"/>
+<area shape="rect" id="node92" href="$classmpqc_1_1lcao_1_1gaussian_1_1_integral_builder.html" title="Builds integrals from an array of bases and an integral engine pool. " alt="" coords="1207,2260,1358,2312"/>
+<area shape="rect" id="node93" href="$classmpqc_1_1lcao_1_1gaussian_1_1_direct_integral_builder.html" title="mpqc::lcao::gaussian\l::DirectIntegralBuilder\l\&lt; Tile, Engine \&gt;" alt="" coords="1475,2260,1625,2312"/>
+<area shape="rect" id="node94" href="$classmpqc_1_1utility_1_1_observer.html" title="helps to set up messaging between objects via the Observer pattern " alt="" coords="289,1212,443,1237"/>
+<area shape="rect" id="node96" href="$classmpqc_1_1_provides.html" title="Base for classes that provide Properties . " alt="" coords="1184,979,1381,1004"/>
+<area shape="rect" id="node97" href="$classmpqc_1_1_provides.html" title="mpqc::Provides\&lt; Energy \&gt;" alt="" coords="1193,1432,1371,1457"/>
+<area shape="rect" id="node98" href="$classmpqc_1_1_provides.html" title="mpqc::Provides\&lt; Energy,\l CanonicalOrbitalSpace\l\&lt; TA::DistArray\&lt; Tile,\l Policy \&gt; \&gt;, PopulatedOrbitalSpace\l\&lt; TA::DistArray\&lt; Tile, Policy \&gt; \&gt; \&gt;" alt="" coords="1168,876,1396,955"/>
+<area shape="rect" id="node99" href="$classmpqc_1_1_provides.html" title="mpqc::Provides\&lt; Excitation\lEnergy \&gt;" alt="" coords="1459,1947,1641,1985"/>
+<area shape="rect" id="node100" href="$classmpqc_1_1_provides.html" title="mpqc::Provides\&lt; GFRealPole \&gt;" alt="" coords="1178,827,1387,852"/>
+<area shape="rect" id="node102" href="$classmpqc_1_1lcao_1_1gaussian_1_1_direct_d_f_integral_builder.html" title="mpqc::lcao::gaussian\l::DirectDFIntegralBuilder\l\&lt; Tile, Policy \&gt;" alt="" coords="1466,2184,1634,2236"/>
+<area shape="rect" id="node103" href="$classmpqc_1_1math_1_1_group.html" title="Group is an abstract discrete group. " alt="" coords="1482,2135,1618,2160"/>
+<area shape="rect" id="node106" href="$classmpqc_1_1utility_1_1_observable.html" title="helps to set up messaging between objects via the Observer pattern " alt="" coords="1466,2072,1634,2111"/>
+<area shape="rect" id="node107" href="$classmpqc_1_1utility_1_1_observable.html" title="mpqc::utility::Observable\l\&lt; Molecule \&gt;" alt="" coords="1466,1884,1634,1923"/>
+<area shape="rect" id="node104" href="$classmpqc_1_1math_1_1groups_1_1_supercell_translation_group.html" title="SupercellTranslationGroup is a discrete group of translations of a lattice. " alt="" coords="1713,2309,1900,2348"/>
+<area shape="rect" id="node105" href="$classmpqc_1_1math_1_1groups_1_1_z1.html" title="Z1 is the trivial group. " alt="" coords="1726,2260,1888,2285"/>
+</map>

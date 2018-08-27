@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classmpqc_1_1lcao_1_1_screener.html" title="Base class for screeners will never skip any integrals. " alt="" coords="5,31,153,56"/>
+<area shape="rect" id="node2" href="$classmpqc_1_1lcao_1_1gaussian_1_1_schwarz_screen.html" title="Class for Schwarz based screening. " alt="" coords="201,24,347,63"/>
+<area shape="rect" id="node3" href="$classmpqc_1_1lcao_1_1gaussian_1_1_q_q_r.html" title="Class to implement QQR Screening. " alt="" coords="395,5,580,31"/>
+<area shape="rect" id="node4" href="$classmpqc_1_1lcao_1_1gaussian_1_1_q_vl.html" title="Class to implement QVL Screening. " alt="" coords="399,55,576,80"/>
+</map>

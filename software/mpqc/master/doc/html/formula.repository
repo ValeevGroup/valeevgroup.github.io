@@ -1,0 +1,41 @@
+\form#0:$ \sqrt{||r_1||_2^2 + ||r_2||_2^2}/(\mathrm{size}(r_1) + \mathrm{size}(r_2)) $
+\form#1:$ U^{ij}_{\rho\sigma} \equiv \left( t^{ij}_{\mu \nu} + t^{i}_{\mu} t^{j}_{\nu} \right) (\mu \rho| \nu \sigma) $
+\form#2:$V_{ij}^{ij}$
+\form#3:$V_{ij}^{ji}$
+\form#4:$X_{ij}^{ij}$
+\form#5:$X_{ij}^{ji}$
+\form#6:$B_{ij}^{ij}$
+\form#7:$B_{ij}^{ji}$
+\form#8:$V_{ia}^{xy}$
+\form#9:$V_{xy}^{ab} \equiv R_{xy}^{\alpha \beta} g_{\alpha \beta}^{a b}$
+\form#10:$C_{ij}^{ab} $
+\form#11:$T_{ab}^{ij} * (V_{xy}^{ab} + C_{xy}^{ab})$
+\form#12:$V_{\rho \sigma}^{\mu \nu}$
+\form#13:$T_{a}^{i} * V_{ia}^{xy}$
+\form#14:$V_{pq}^{rs} \equiv R_{pq}^{\alpha \beta} g_{\alpha \beta}^{r s}$
+\form#15:$V_{pq}^{sr} \equiv R_{pq}^{\alpha \beta} g_{\alpha \beta}^{r s}$
+\form#16:$ g \to R $
+\form#17:$ - \exp(- A r_{12})/A \approx \sum\limits_{i=1}^N c_i \exp(- \alpha_i r_{12}^2) $
+\form#18:$ I^{ij}_{ij} $
+\form#19:$ I^{ji}_{ij} $
+\form#20:$ I^{ij}_{kl} $
+\form#21:$ c^{ij}_{ij} I^{ij}_{ij} + c^{ji}_{ij} I^{ij}_{ji} $
+\form#22:$ i=j $
+\form#23:$ |E_i - E_{i-1}|/E_i $
+\form#24:$ ||\mathbf{F},\mathbf{P}||_2 / n^2 $
+\form#25:$ \sim 0.3~{\rm meV} $
+\form#26:$ \sim 3~{\rm meV} $
+\form#27:$^{-1}$
+\form#28:$ \mathcal{O}(\delta^2) $
+\form#29:$ \mathcal{O}(\delta^24) $
+\form#30:$ {i_1, i_2, i_3, ... i_N} $
+\form#31:$ i_1 \leq i_2 \leq i_3 ... \leq i_N $
+\form#32:$ O = n \times (n+1) \times (n+O-1) / (1 \times 2 \times O) $
+\form#33:$ \mathbf{n} = \{n_a, n_b, n_c\} $
+\form#34:$ \mathbf{L} = \{ L_a, L_b, L_c \} $
+\form#35:$ \{k_a, k_b, k_c\} = \{ \frac{\pi (2 K_a - (n_a-1))}{L_a (n_a-1)}, \frac{\pi (2 K_b - (n_b-1))}{L_b (n_b-1)}, \frac{\pi (2 K_c - (n_c-1))}{L_c (n_c-1)} \} $
+\form#36:$ K_a = [0..n_a) $
+\form#37:$ \{ K_a, K_b, K_c \} $
+\form#38:$ a,b $
+\form#39:$ ||a|-|b||/(|a|+|b|) \leq \epsilon $
+\form#40:$ \epsilon $

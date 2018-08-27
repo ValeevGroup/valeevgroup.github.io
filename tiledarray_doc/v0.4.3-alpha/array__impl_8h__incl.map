@@ -1,9 +1,0 @@
-<map id="TiledArray/array_impl.h" name="TiledArray/array_impl.h">
-<area shape="rect" id="node2" href="$tensor__impl_8h.html" title="TiledArray/tensor_impl.h" alt="" coords="352,172,518,197"/>
-<area shape="rect" id="node9" href="$distributed__storage_8h.html" title="TiledArray/distributed\l_storage.h" alt="" coords="212,79,359,117"/>
-<area shape="rect" id="node11" href="$transform__iterator_8h.html" title="TiledArray/transform\l_iterator.h" alt="" coords="33,79,175,117"/>
-<area shape="rect" id="node13" href="$type__traits_8h.html" title="TiledArray/type_traits.h" alt="" coords="800,85,958,111"/>
-<area shape="rect" id="node3" href="$error_8h.html" title="TiledArray/error.h" alt="" coords="373,252,497,277"/>
-<area shape="rect" id="node6" href="$madness_8h.html" title="TiledArray/madness.h" alt="" coords="169,252,319,277"/>
-<area shape="rect" id="node10" href="$pmap_8h.html" title="TiledArray/pmap/pmap.h" alt="" coords="161,172,328,197"/>
-</map>

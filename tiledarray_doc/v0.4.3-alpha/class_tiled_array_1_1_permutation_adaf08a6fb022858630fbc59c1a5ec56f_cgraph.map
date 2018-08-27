@@ -1,6 +1,0 @@
-<map id="TiledArray::Permutation::operator^=" name="TiledArray::Permutation::operator^=">
-<area shape="rect" id="node2" href="$namespace_tiled_array_1_1detail.html#a9ecba5efe7b319458a9f16df0563472b" title="Copies an iterator range into an array type container. " alt="" coords="214,5,335,44"/>
-<area shape="rect" id="node4" href="$namespace_tiled_array_1_1detail.html#a1d6fcb450ef829c3ad4e8e1db5be514a" title="TiledArray::detail\l::swap" alt="" coords="214,68,335,107"/>
-<area shape="rect" id="node3" href="$namespace_tiled_array_1_1detail.html#a5d281f943194c67e7b0a491f03d49e02" title="Array size accessor. " alt="" coords="383,5,504,44"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1detail_1_1_bitset.html#a2209fb744965af00ca19f67a95dd5ea5" title="TiledArray::detail\l::Bitset::swap" alt="" coords="383,68,504,107"/>
-</map>

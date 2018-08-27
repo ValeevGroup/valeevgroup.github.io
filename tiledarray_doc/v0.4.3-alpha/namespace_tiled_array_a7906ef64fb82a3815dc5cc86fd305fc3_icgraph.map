@@ -1,6 +1,0 @@
-<map id="TiledArray::neg" name="TiledArray::neg">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1math_1_1_neg.html#a447893d4f7f059897676a5ec7111a670" title="TiledArray::math::Neg\l::permute" alt="" coords="166,5,317,44"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1math_1_1_neg.html#ae15cc32604c04b7944e95a3fc9592b8d" title="TiledArray::math::Neg\l::no_permute" alt="" coords="166,68,317,107"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1math_1_1_subt.html#a4448c7f730d8a161d5ab75ded61000a2" title="TiledArray::math::Subt\l::permute" alt="" coords="165,131,318,169"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1math_1_1_subt.html#a910e127965e9fd1222b36e72848938d2" title="TiledArray::math::Subt\l::no_permute" alt="" coords="165,193,318,232"/>
-</map>

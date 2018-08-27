@@ -1,7 +1,0 @@
-<map id="TiledArray::elem_to_array" name="TiledArray::elem_to_array">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1_array.html#abbd24e50054c29f002b4eb0cfbb61ee5" title="Tiled range accessor. " alt="" coords="201,5,329,44"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1_array.html#a64b20d5c01b6b29270460154750ea933" title="Begin iterator factory function. " alt="" coords="201,68,329,107"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1_array.html#aac912ce54367f0dcc7635619e269aab1" title="End iterator factory function. " alt="" coords="190,131,340,156"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1_array.html#a49518c730fc0ee4cec712934cd5ff247" title="Tile range accessor. " alt="" coords="201,180,329,219"/>
-<area shape="rect" id="node6" href="$namespace_tiled_array.html#a0546b52f47c152ae177713f52508c0f5" title="TiledArray::copy" alt="" coords="206,243,324,268"/>
-</map>

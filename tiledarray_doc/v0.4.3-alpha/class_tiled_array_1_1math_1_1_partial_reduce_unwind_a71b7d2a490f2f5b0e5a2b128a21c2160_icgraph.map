@@ -1,5 +1,0 @@
-<map id="TiledArray::math::PartialReduceUnwind::row_reduce" name="TiledArray::math::PartialReduceUnwind::row_reduce">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1math_1_1_partial_reduce_unwind.html#a8ce5179e7c6a6f42fbefb1bb4f0fdaa5" title="TiledArray::math::Partial\lReduceUnwind::row_reduce" alt="" coords="242,5,431,44"/>
-<area shape="rect" id="node3" href="$namespace_tiled_array_1_1math.html#ad14d32aaef7223d44d7b868471a783d1" title="Reduce the rows of a matrix. " alt="" coords="263,68,410,107"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1detail_1_1_size_array.html#ada0bc07b5eea703ee594cf03657e8407" title="Row reduce operation. " alt="" coords="479,61,633,113"/>
-</map>

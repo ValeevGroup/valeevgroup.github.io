@@ -1,9 +1,0 @@
-<map id="TiledArray::Range::idx" name="TiledArray::Range::idx">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1_range.html#a3a3abcd8d459ba1fb77f582bf230792a" title="Check the coordinate to make sure it is within the range. " alt="" coords="206,61,342,100"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1_range.html#addacb51bcc4dfe2b0d08a041174e9f01" title="Dimension accessor. " alt="" coords="390,12,547,37"/>
-<area shape="rect" id="node6" href="$class_tiled_array_1_1_range.html#a755ea88c3a86fbce2368ef9978223246" title="Index iterator factory. " alt="" coords="390,124,548,149"/>
-<area shape="rect" id="node7" href="$class_tiled_array_1_1_range.html#a18e71ac7b8c6e8cae92e8ddc27c18f29" title="Range weight accessor. " alt="" coords="206,176,342,215"/>
-<area shape="rect" id="node8" href="$class_tiled_array_1_1detail_1_1_size_array.html#a437988f2295f6ebdf55ccb85a2e7d99b" title="TiledArray::detail\l::SizeArray::data" alt="" coords="213,239,334,277"/>
-<area shape="rect" id="node3" href="$namespace_tiled_array_1_1detail.html#a5d281f943194c67e7b0a491f03d49e02" title="Array size accessor. " alt="" coords="408,61,529,100"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1detail_1_1_size_array.html#a7c88bdea8b86bbc4d390d2a9a51ae423" title="TiledArray::detail\l::SizeArray::size" alt="" coords="596,5,717,44"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="TiledArray::squared_norm" name="TiledArray::squared_norm">
-<area shape="rect" id="node2" href="$namespace_tiled_array.html#a8c1849a2e321bf74370b677f99c562f8" title="TiledArray::norm2" alt="" coords="255,12,382,37"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1math_1_1_squared_norm_reduction.html#aed99eb5a896d17e518298a73edb2e822" title="TiledArray::math::Squared\lNormReduction::operator()" alt="" coords="228,61,408,100"/>
-<area shape="rect" id="node3" href="$struct_tiled_array_1_1_conjugate_gradient_solver.html#ae3a281e82d2974cdb9decefcd69dff73" title="TiledArray::ConjugateGradient\lSolver::operator()" alt="" coords="456,5,657,44"/>
-</map>

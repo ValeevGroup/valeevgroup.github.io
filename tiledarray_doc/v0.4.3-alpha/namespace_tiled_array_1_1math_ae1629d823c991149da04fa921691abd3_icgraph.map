@@ -1,4 +1,0 @@
-<map id="TiledArray::math::transpose_block" name="TiledArray::math::transpose_block">
-<area shape="rect" id="node2" href="$namespace_tiled_array_1_1math.html#a683b3d585ff8347d581caf923fe4e863" title="Matrix transpose and initialization. " alt="" coords="238,5,434,44"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1_tensor.html#af2b00c6602a288fad2097caf0363218c" title="Construct a permuted tensor copy. " alt="" coords="482,5,638,44"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="TiledArray::SparseShape::SparseShape" name="TiledArray::SparseShape::SparseShape">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1_tensor.html#a26c81ab595b2582f7542b9a24f722d0e" title="TiledArray::Tensor\l::empty" alt="" coords="237,5,366,44"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1_tensor.html#a6521f4ce917ca6a41bb3ada9ef3b4d1c" title="Tensor range object accessor. " alt="" coords="237,68,366,107"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1_tiled_range.html#a596b5d98e2691343f6cc701c4118eeaf" title="Access the range information on the tiles. " alt="" coords="223,131,380,169"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1_tensor.html#a4598d2ea75c448d596533476acee21f7" title="Data direct access. " alt="" coords="237,193,366,232"/>
-<area shape="rect" id="node6" href="$class_tiled_array_1_1_tensor.html#ae424ed4ba8d09a72a8ffa824e603b081" title="Tensor dimension size accessor. " alt="" coords="237,256,366,295"/>
-</map>

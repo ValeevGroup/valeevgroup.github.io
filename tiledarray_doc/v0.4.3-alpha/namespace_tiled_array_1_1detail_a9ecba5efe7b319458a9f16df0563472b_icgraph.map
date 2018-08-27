@@ -1,6 +1,0 @@
-<map id="TiledArray::detail::permute_array" name="TiledArray::detail::permute_array">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1_permutation.html#adaf08a6fb022858630fbc59c1a5ec56f" title="return *this ^ other " alt="" coords="174,5,335,44"/>
-<area shape="rect" id="node3" href="$namespace_tiled_array.html#a45417e3bf8bf028b9c2d2cd158fa8a46" title="permute a std::array " alt="" coords="182,68,327,93"/>
-<area shape="rect" id="node4" href="$namespace_tiled_array.html#a8ff9ff8e700c0a10ab9c4150eea39b9b" title="TiledArray::operator^=" alt="" coords="178,117,331,143"/>
-<area shape="rect" id="node5" href="$namespace_tiled_array_1_1detail.html#ab6380cc72b3e0cd113f2c094906d4d6e" title="TiledArray::detail\l::operator^" alt="" coords="194,167,315,205"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="TiledArray::BinaryInterface::permutation" name="TiledArray::BinaryInterface::permutation">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1math_1_1_add.html#a1fbbef6e394a26bf20feb7e09aff4526" title="TiledArray::math::Add\l::permute" alt="" coords="247,5,397,44"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1math_1_1_mult.html#accdd8806d36f603dd3f2665b7a141331" title="TiledArray::math::Mult\l::permute" alt="" coords="246,68,397,107"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1math_1_1_scal_add.html#a9b7737281d82f726c74744d5f0e7cad6" title="TiledArray::math::ScalAdd\l::permute" alt="" coords="234,131,410,169"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1math_1_1_scal_mult.html#afdc03d72d3c2b9b17a4de5bc8a83e512" title="TiledArray::math::ScalMult\l::permute" alt="" coords="233,193,410,232"/>
-<area shape="rect" id="node6" href="$class_tiled_array_1_1math_1_1_scal_subt.html#a516af0006ad116d4bc4512813ef6b57d" title="TiledArray::math::ScalSubt\l::permute" alt="" coords="232,256,411,295"/>
-<area shape="rect" id="node7" href="$class_tiled_array_1_1math_1_1_subt.html#a0e5c9c93149fbd70da8025ab99799297" title="TiledArray::math::Subt\l::permute" alt="" coords="245,319,398,357"/>
-</map>

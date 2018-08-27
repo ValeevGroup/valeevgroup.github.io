@@ -1,8 +1,0 @@
-<map id="TiledArray::Tensor::binary" name="TiledArray::Tensor::binary">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1_sparse_shape.html#acb392dc35c08c2948872d8dcc6f3e31d" title="Add shapes. " alt="" coords="182,33,382,59"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1_tensor.html#a7dae35b9fc66718622cdbc46f7366f73" title="Add this and other to construct a new tensors. " alt="" coords="213,83,351,121"/>
-<area shape="rect" id="node6" href="$class_tiled_array_1_1_tensor.html#a3754935963571b8b3ae35ed937b41093" title="Subtract this and other to construct a new tensor. " alt="" coords="211,145,353,184"/>
-<area shape="rect" id="node7" href="$class_tiled_array_1_1_tensor.html#a6673b2fe3295cb914b06dd89808e73ae" title="Multiply this by other to create a new tensor. " alt="" coords="211,208,353,247"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1_sparse_shape.html#aeda51db2bf70b837c950977685da4b4d" title="TiledArray::SparseShape::add" alt="" coords="430,5,629,31"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1_sparse_shape.html#a974dbbf5d500c2f195480846dacef7c0" title="TiledArray::SparseShape\l::subt" alt="" coords="445,55,614,93"/>
-</map>

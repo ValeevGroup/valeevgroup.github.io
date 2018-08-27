@@ -1,5 +1,0 @@
-<map id="TiledArray::detail::ArrayImpl::get" name="TiledArray::detail::ArrayImpl::get">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1detail_1_1_tensor_impl.html#ab918df58721624c25906748e1217ecde" title="Query for a zero tile. " alt="" coords="185,5,329,44"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1detail_1_1_distributed_storage.html#a3e68e41e8a694d1676a21bbeb769ae8a" title="Get local or remote node. " alt="" coords="174,68,339,107"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1detail_1_1_tensor_impl.html#a57876ec050c51607cc7cdd7716251d10" title="Tiled range accessor. " alt="" coords="187,131,326,169"/>
-</map>

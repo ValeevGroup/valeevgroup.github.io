@@ -1,6 +1,0 @@
-<map id="TiledArray::mult" name="TiledArray::mult">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1math_1_1_mult.html#accdd8806d36f603dd3f2665b7a141331" title="TiledArray::math::Mult\l::permute" alt="" coords="181,5,332,44"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1math_1_1_mult.html#a7d6da5a22bb070ad92ac2f9180c9c298" title="TiledArray::math::Mult\l::no_permute" alt="" coords="181,68,332,107"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1math_1_1_scal_mult.html#afdc03d72d3c2b9b17a4de5bc8a83e512" title="TiledArray::math::ScalMult\l::permute" alt="" coords="168,131,345,169"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1math_1_1_scal_mult.html#ac131dbff79fc702e88e83b78ff209e22" title="TiledArray::math::ScalMult\l::no_permute" alt="" coords="168,193,345,232"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="TiledArray::Array::make_replicated" name="TiledArray::Array::make_replicated">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1_array.html#aa615837bd378eb01f778b74469056127" title="World accessor. " alt="" coords="193,5,322,44"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1_array.html#acbf5e87d0a384e3205b60f50a35c35e6" title="TiledArray::Array::size" alt="" coords="182,68,334,93"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1_array.html#abbd24e50054c29f002b4eb0cfbb61ee5" title="Tiled range accessor. " alt="" coords="193,117,322,156"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1_array.html#a4a48fa5e5f0616c84c2eaf6b765d2917" title="Shape map accessor. " alt="" coords="193,180,322,219"/>
-<area shape="rect" id="node6" href="$class_tiled_array_1_1_array.html#a9c7be2da474e47306a3c2f916d4539ee" title="Copy constructor. " alt="" coords="193,243,322,281"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="TiledArray::SparseShape::subt" name="TiledArray::SparseShape::subt">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1_sparse_shape.html#acb392dc35c08c2948872d8dcc6f3e31d" title="Add shapes. " alt="" coords="223,75,423,100"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1_tensor.html#a26c81ab595b2582f7542b9a24f722d0e" title="TiledArray::Tensor\l::empty" alt="" coords="491,5,620,44"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1_sparse_shape.html#a43a2a6238cb04e4b318ee17216e60764" title="Threshold accessor. " alt="" coords="471,68,640,107"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1_tensor.html#a5c6c8573252f8f71ca3666b77e965175" title="Use a binary, element wise operation to construct a new tensor. " alt="" coords="491,131,620,169"/>
-</map>

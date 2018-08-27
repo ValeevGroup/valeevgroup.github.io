@@ -1,8 +1,0 @@
-<map id="TiledArray::detail::Bitset::swap" name="TiledArray::detail::Bitset::swap">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1detail_1_1_bitset.html#a74e819d5ddaaf4e60dd9b106181d1d60" title="Assignment operator. " alt="" coords="174,24,301,63"/>
-<area shape="rect" id="node3" href="$namespace_tiled_array_1_1detail.html#a1d6fcb450ef829c3ad4e8e1db5be514a" title="TiledArray::detail\l::swap" alt="" coords="177,87,298,125"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1_array.html#ae8e11306b2fb083c10a830d5032fd678" title="Swap this array with other. " alt="" coords="350,5,509,31"/>
-<area shape="rect" id="node5" href="$class_tiled_array_1_1_permutation.html#adaf08a6fb022858630fbc59c1a5ec56f" title="return *this ^ other " alt="" coords="349,55,510,93"/>
-<area shape="rect" id="node6" href="$class_tiled_array_1_1_tensor.html#ab7f33f8afac53cb621c12cac5e1d256a" title="Swap tensor data. " alt="" coords="356,117,503,156"/>
-<area shape="rect" id="node7" href="$class_tiled_array_1_1detail_1_1_val_array.html#afdff76007156bea6e89eadd6468f5a7c" title="TiledArray::detail\l::ValArray::swap" alt="" coords="369,180,490,219"/>
-</map>

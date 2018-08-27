@@ -1,5 +1,0 @@
-<map id="TiledArray::swap" name="TiledArray::swap">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1_tiled_range.html#a348bcd96541cb2bc8588cfc333778455" title="TiledArray::TiledRange\l::swap" alt="" coords="173,37,330,76"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1_tiled_range.html#ab90bd6a088860c5ab99398dafe2be406" title="TiledRange assignment operator. " alt="" coords="378,5,535,44"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1_tiled_range.html#a19332222277298a083edc0fe32c01c7b" title="In place permutation of this range. " alt="" coords="378,68,535,107"/>
-</map>

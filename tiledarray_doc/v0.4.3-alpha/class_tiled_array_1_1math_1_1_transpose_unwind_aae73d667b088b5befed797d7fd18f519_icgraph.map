@@ -1,5 +1,0 @@
-<map id="TiledArray::math::TransposeUnwind::gather_trans" name="TiledArray::math::TransposeUnwind::gather_trans">
-<area shape="rect" id="node2" href="$namespace_tiled_array_1_1math.html#ae1629d823c991149da04fa921691abd3" title="TiledArray::math::transpose\l_block" alt="" coords="242,5,427,44"/>
-<area shape="rect" id="node3" href="$namespace_tiled_array_1_1math.html#a683b3d585ff8347d581caf923fe4e863" title="Matrix transpose and initialization. " alt="" coords="475,5,670,44"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1_tensor.html#af2b00c6602a288fad2097caf0363218c" title="Construct a permuted tensor copy. " alt="" coords="718,5,874,44"/>
-</map>

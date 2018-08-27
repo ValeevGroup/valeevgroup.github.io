@@ -1,5 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_tiled_array_1_1math_1_1_binary_interface_base.html" title="TiledArray::math::Binary\lInterfaceBase\&lt; ScalMult\l\&lt; Result, Left, Right, LeftConsumable,\l RightConsumable \&gt; \&gt;" alt="" coords="5,5,252,71"/>
-<area shape="rect" id="node2" href="$class_tiled_array_1_1_binary_interface.html" title="TiledArray::BinaryInterface\l\&lt; ScalMult\&lt; Result, Left,\l Right, LeftConsumable, RightConsumable \&gt; \&gt;" alt="" coords="300,12,597,64"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1math_1_1_scal_mult.html" title="Tile multiplication and scale operation. " alt="" coords="645,12,892,64"/>
-</map>

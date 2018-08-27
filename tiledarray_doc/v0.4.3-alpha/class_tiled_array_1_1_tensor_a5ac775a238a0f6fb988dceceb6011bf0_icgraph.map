@@ -1,5 +1,0 @@
-<map id="TiledArray::Tensor::inplace_binary" name="TiledArray::Tensor::inplace_binary">
-<area shape="rect" id="node2" href="$class_tiled_array_1_1_tensor.html#a552b1fdbd0cb1a706aa1c7a5a671cc97" title="Add other to this tensor. " alt="" coords="184,5,341,44"/>
-<area shape="rect" id="node3" href="$class_tiled_array_1_1_tensor.html#a58f23846d8037c330dd95b066558686e" title="Subtract other from this tensor. " alt="" coords="182,68,342,107"/>
-<area shape="rect" id="node4" href="$class_tiled_array_1_1_tensor.html#a84b4a2413e76781c7eb89d97636c9823" title="Multiply this tensor by other. " alt="" coords="182,131,342,169"/>
-</map>

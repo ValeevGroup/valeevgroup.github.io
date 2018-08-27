@@ -1,4 +1,0 @@
-var struct_tiled_array_1_1detail_1_1is__iterator_3_01_t_00_01typename_01std_1_1enable__if_3_01is__tyf33ee9a886ca9d82cca7639bd5722af8 =
-[
-    [ "iterator_category", "struct_tiled_array_1_1detail_1_1is__iterator_3_01_t_00_01typename_01std_1_1enable__if_3_01is__tyf33ee9a886ca9d82cca7639bd5722af8.html#a0ad157dca145e31c2cfa180b2d8a100b", null ]
-];

@@ -1,0 +1,2 @@
+<map id="TiledArray::detail::has_conversion_operator&lt; From, To, typename std::enable_if&lt; is_type&lt; decltype(std::declval&lt; From &gt;().operator To())&gt;::value &gt;::type &gt;" name="TiledArray::detail::has_conversion_operator&lt; From, To, typename std::enable_if&lt; is_type&lt; decltype(std::declval&lt; From &gt;().operator To())&gt;::value &gt;::type &gt;">
+</map>

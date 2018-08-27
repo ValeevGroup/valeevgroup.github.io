@@ -1,0 +1,8 @@
+<map id="TiledArray::shift" name="TiledArray::shift">
+<area shape="rect" id="node2" href="$class_tiled_array_1_1expressions_1_1_expr.html#a10319000c0fd7c82c1428782621df81b" title="Evaluate this object and assign it to tsr. " alt="" coords="179,5,360,57"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1_sparse_shape.html#a549436f74139ee1b7bcdfbe50b1fafc2" title="Create a copy of a sub&#45;block of the shape. " alt="" coords="184,81,354,120"/>
+<area shape="rect" id="node5" href="$group___tile_interface.html#ga91b9ad4c6f5c4ce7928e61669c37844a" title="Shift the range of arg. " alt="" coords="213,144,326,169"/>
+<area shape="rect" id="node6" href="$class_tiled_array_1_1tile__interface_1_1_shift.html#ae41095dcbe777304303fc0baef920ab3" title="TiledArray::tile_interface\l::Shift\&lt; Result, Arg \&gt;::\loperator()" alt="" coords="187,193,352,245"/>
+<area shape="rect" id="node7" href="$class_tiled_array_1_1tile__interface_1_1_shift_3_01_result_00_01_arg_00_01typename_01std_1_1enaba1f16f35b49d9bf454dc63eca4f57dd4.html#a28c60f6bf6db66a86c9a30eeb5dcdc8d" title="TiledArray::tile_interface\l::Shift\&lt; Result, Arg, typename\l std::enable_if\&lt; ! std::is_same\l\&lt; Result, result_of_shift_t\&lt; Arg\l \&gt; \&gt;::value \&gt;::type \&gt;::operator()" alt="" coords="167,269,372,348"/>
+<area shape="rect" id="node4" href="$class_tiled_array_1_1_sparse_shape.html#ac31c86f6d199f7a5ee8cef404de0c449" title="Create a copy of a sub&#45;block of the shape. " alt="" coords="420,81,590,120"/>
+</map>

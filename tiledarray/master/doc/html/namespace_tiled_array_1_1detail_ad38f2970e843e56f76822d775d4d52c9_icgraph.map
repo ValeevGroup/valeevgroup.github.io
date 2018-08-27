@@ -1,0 +1,26 @@
+<map id="TiledArray::detail::dummy_annotation" name="TiledArray::detail::dummy_annotation">
+<area shape="rect" id="node2" href="$namespace_tiled_array.html#a3558ec56f9d00590c35846d8f13c1b76" title="TiledArray::zero" alt="" coords="219,140,334,165"/>
+<area shape="rect" id="node9" href="$namespace_tiled_array.html#afc4078d3b132757efef1b74e42575149" title="TiledArray::minabs\l_value" alt="" coords="679,193,811,232"/>
+<area shape="rect" id="node11" href="$namespace_tiled_array.html#a8553a88a5735149954d4d04e491e7358" title="TiledArray::maxabs\l_value" alt="" coords="209,251,345,289"/>
+<area shape="rect" id="node12" href="$namespace_tiled_array.html#a297fc199c0e4a33cd3d6122b7c71f514" title="TiledArray::vec_multiply" alt="" coords="195,313,358,339"/>
+<area shape="rect" id="node13" href="$namespace_tiled_array.html#abc0b1ca917df616d05128c35276462fd" title="TiledArray::dot_product" alt="" coords="197,363,356,388"/>
+<area shape="rect" id="node16" href="$namespace_tiled_array.html#a90e2f4b420375c45a2c21049e27377aa" title="TiledArray::scale" alt="" coords="217,756,337,781"/>
+<area shape="rect" id="node23" href="$namespace_tiled_array.html#a299983d3798619c4de88f351bbe369ae" title="TiledArray::axpy" alt="" coords="446,437,563,463"/>
+<area shape="rect" id="node25" href="$namespace_tiled_array.html#ad096df7fd3592ff4515f97a0fc3f98ef" title="TiledArray::norm2" alt="" coords="213,528,340,553"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1_d_i_i_s.html#a06b179576a5abf9a2b066cee36269573" title="TiledArray::DIIS::extrapolate" alt="" coords="410,144,598,169"/>
+<area shape="rect" id="node4" href="$class_tiled_array_1_1detail_1_1_bitset.html#aea1cb8c3bbaa37ad3209373c72f2ab89" title="Construct a bitset that contains s bits. " alt="" coords="444,19,565,57"/>
+<area shape="rect" id="node5" href="$class_tiled_array_1_1detail_1_1_bitset.html#af6ac8b2ce6b551e0f13df10c42c74ed1" title="Set all bits. " alt="" coords="444,81,565,120"/>
+<area shape="rect" id="node6" href="$class_tiled_array_1_1detail_1_1_bitset.html#a19ac1d02d6e0ff46da6d47d2a9ceb7ae" title="TiledArray::detail\l::Bitset::operator\&lt;\&lt;=" alt="" coords="673,131,816,169"/>
+<area shape="rect" id="node7" href="$class_tiled_array_1_1detail_1_1_bitset.html#ae6babfe6e53e686d7bd4f496b5e76b56" title="TiledArray::detail\l::Bitset::operator\&gt;\&gt;=" alt="" coords="673,5,816,44"/>
+<area shape="rect" id="node8" href="$class_tiled_array_1_1detail_1_1_bitset.html#a08005e43683b3ee3d2ba855278369974" title="Set a bit value. " alt="" coords="684,68,805,107"/>
+<area shape="rect" id="node10" href="$struct_tiled_array_1_1_conjugate_gradient_solver.html#ae3a281e82d2974cdb9decefcd69dff73" title="TiledArray::ConjugateGradient\lSolver::operator()" alt="" coords="887,377,1088,416"/>
+<area shape="rect" id="node14" href="$class_tiled_array_1_1_d_i_i_s.html#adba4b9aeb0b361453aeb9c48c1dd992a" title="TiledArray::DIIS::compute\l_extrapolation_parameters" alt="" coords="414,496,594,535"/>
+<area shape="rect" id="node15" href="$class_tiled_array_1_1_d_i_i_s.html#a6fd568abd2246acbc0f6ea1ee6e20905" title="TiledArray::DIIS::extrapolate" alt="" coords="650,509,839,535"/>
+<area shape="rect" id="node17" href="$group___tile_interface.html#gaebe37fcda193946fcc4501b42796e9cc" title="Scalar the tile argument. " alt="" coords="444,841,564,867"/>
+<area shape="rect" id="node18" href="$group___tile_interface.html#gad452632b571bcbcc3be78b202e8a0a75" title="Scale tile operator. " alt="" coords="432,891,576,916"/>
+<area shape="rect" id="node19" href="$class_tiled_array_1_1tile__interface_1_1_scale.html#a6399e0a5c2048cfcbd4332b0d8bf2f42" title="TiledArray::tile_interface\l::Scale\&lt; Result, Arg, Scalar\l \&gt;::operator()" alt="" coords="412,940,596,992"/>
+<area shape="rect" id="node20" href="$class_tiled_array_1_1tile__interface_1_1_scale_3_01_result_00_01_arg_00_01_scalar_00_01typename_fbbb6b916c02e7c08977e87d208f321e.html#abcea4ac4ba21d246fade20533a526e70" title="TiledArray::tile_interface\l::Scale\&lt; Result, Arg, Scalar,\l typename std::enable_if\&lt; !\l std::is_same\&lt; Result, result\l_of_scale_t\&lt; Arg, Scalar \&gt; \&gt;::\lvalue \&gt;::type \&gt;::operator()" alt="" coords="406,611,602,703"/>
+<area shape="rect" id="node21" href="$class_tiled_array_1_1detail_1_1_scal_shift.html#a47e1706841cce77ac84f234c6f80312c" title="TiledArray::detail\l::ScalShift::eval" alt="" coords="444,779,565,817"/>
+<area shape="rect" id="node22" href="$class_tiled_array_1_1detail_1_1_scal_shift.html#ad1bc34cea69e4271db8b2bb42a966959" title="Shift and permute operator. " alt="" coords="671,779,818,817"/>
+<area shape="rect" id="node24" href="$namespacebtas.html#aafe8c6db2e1b1dc51b57424a46b21b27" title="result[i] += arg[i] " alt="" coords="697,460,792,485"/>
+</map>

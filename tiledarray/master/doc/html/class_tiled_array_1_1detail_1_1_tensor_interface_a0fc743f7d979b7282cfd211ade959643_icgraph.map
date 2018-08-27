@@ -1,0 +1,11 @@
+<map id="TiledArray::detail::TensorInterface::reduce" name="TiledArray::detail::TensorInterface::reduce">
+<area shape="rect" id="node2" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a081774a07ad844f21135bc9cb248b41b" title="Sum of elements. " alt="" coords="253,5,406,44"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a7798b8a0dd74454df7253bc8c9fc43dc" title="Product of elements. " alt="" coords="243,68,415,107"/>
+<area shape="rect" id="node4" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#afdf8ff6dede6f80fcef6c48eeffa30f5" title="Square of vector 2&#45;norm. " alt="" coords="222,131,436,169"/>
+<area shape="rect" id="node6" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#ad4261a44ff666309159d6bbd4332c67a" title="Minimum element. " alt="" coords="254,193,404,232"/>
+<area shape="rect" id="node7" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a323ce82713ac209600ae5a47e6f858ae" title="Maximum element. " alt="" coords="253,256,406,295"/>
+<area shape="rect" id="node8" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a904224147ac9f4987473e6edc87d5607" title="Absolute minimum element. " alt="" coords="240,319,418,357"/>
+<area shape="rect" id="node9" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#ad398d3bad05eb83e635b316984e31994" title="Absolute maximum element. " alt="" coords="238,381,420,420"/>
+<area shape="rect" id="node10" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a342be68250ef09785f8d08ed2c951e6e" title="Vector dot product. " alt="" coords="256,444,402,483"/>
+<area shape="rect" id="node5" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a3da3d7e2c563c86416219238880bc3f7" title="Vector 2&#45;norm. " alt="" coords="484,131,643,169"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="TiledArray::detail::tensor_reduce" name="TiledArray::detail::tensor_reduce">
+<area shape="rect" id="node2" href="$class_tiled_array_1_1_tensor.html#ac7e2825494e7578e27becf11d2a6b794" title="Unary reduction operation. " alt="" coords="180,163,337,201"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a0fc743f7d979b7282cfd211ade959643" title="Unary reduction operation. " alt="" coords="174,225,343,264"/>
+<area shape="rect" id="node4" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a081774a07ad844f21135bc9cb248b41b" title="Sum of elements. " alt="" coords="421,5,575,44"/>
+<area shape="rect" id="node5" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a7798b8a0dd74454df7253bc8c9fc43dc" title="Product of elements. " alt="" coords="412,68,584,107"/>
+<area shape="rect" id="node6" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#afdf8ff6dede6f80fcef6c48eeffa30f5" title="Square of vector 2&#45;norm. " alt="" coords="391,131,605,169"/>
+<area shape="rect" id="node8" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#ad4261a44ff666309159d6bbd4332c67a" title="Minimum element. " alt="" coords="423,193,573,232"/>
+<area shape="rect" id="node9" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a323ce82713ac209600ae5a47e6f858ae" title="Maximum element. " alt="" coords="421,256,575,295"/>
+<area shape="rect" id="node10" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a904224147ac9f4987473e6edc87d5607" title="Absolute minimum element. " alt="" coords="409,319,587,357"/>
+<area shape="rect" id="node11" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#ad398d3bad05eb83e635b316984e31994" title="Absolute maximum element. " alt="" coords="407,381,589,420"/>
+<area shape="rect" id="node12" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a342be68250ef09785f8d08ed2c951e6e" title="Vector dot product. " alt="" coords="425,444,571,483"/>
+<area shape="rect" id="node7" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a3da3d7e2c563c86416219238880bc3f7" title="Vector 2&#45;norm. " alt="" coords="653,131,811,169"/>
+</map>

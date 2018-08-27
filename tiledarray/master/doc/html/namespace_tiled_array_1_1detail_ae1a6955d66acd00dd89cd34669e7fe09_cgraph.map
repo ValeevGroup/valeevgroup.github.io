@@ -1,0 +1,20 @@
+<map id="TiledArray::detail::permute" name="TiledArray::detail::permute">
+<area shape="rect" id="node2" href="$namespace_tiled_array_1_1math.html#a27697ba2d56b48030427ed8996104fda" title="TiledArray::math::vector\l_ptr_op" alt="" coords="185,19,348,57"/>
+<area shape="rect" id="node7" href="$namespace_tiled_array_1_1detail.html#aa3f00e852b717ed4084f8fd331d4e6c2" title="Compute the fused dimensions for permutation. " alt="" coords="202,105,331,144"/>
+<area shape="rect" id="node10" href="$namespace_tiled_array_1_1math.html#a0734d99af5ce0b09816a2934366c9071" title="Matrix transpose and initialization. " alt="" coords="174,171,359,196"/>
+<area shape="rect" id="node3" href="$namespace_tiled_array_1_1math.html#a814ebc5ab1105e95a4f1047cad8e598a" title="TiledArray::math::vector\l_ptr_op_serial" alt="" coords="421,5,583,44"/>
+<area shape="rect" id="node4" href="$namespace_tiled_array_1_1math.html#a91290718834db1912be15860e26759ba" title="TiledArray::math::for\l_each_block_ptr" alt="" coords="890,89,1031,128"/>
+<area shape="rect" id="node6" href="$namespace_tiled_array_1_1math.html#a91a501b77b43ce96e37799f22096012b" title="TiledArray::math::for\l_each_block_ptr_n" alt="" coords="668,59,810,97"/>
+<area shape="rect" id="node5" href="$struct_tiled_array_1_1math_1_1_vector_op_unwind.html#affa1c31a72285787675d68a07476d942" title="TiledArray::math::Vector\lOpUnwind::for_each_ptr" alt="" coords="1088,89,1254,128"/>
+<area shape="rect" id="node8" href="$class_tiled_array_1_1_permutation.html#adcbda98293f80a06b9fe773ac9d33c7e" title="Domain size accessor. " alt="" coords="407,68,597,93"/>
+<area shape="rect" id="node9" href="$namespace_tiled_array_1_1detail.html#a5d281f943194c67e7b0a491f03d49e02" title="Array size accessor. " alt="" coords="441,117,562,156"/>
+<area shape="rect" id="node11" href="$namespace_tiled_array_1_1math.html#abb08079140fa4ea486e8d6e77baf7158" title="TiledArray::math::transpose\l_block" alt="" coords="409,180,594,219"/>
+<area shape="rect" id="node12" href="$class_tiled_array_1_1math_1_1_transpose_unwind.html#a4f8998233c204a3e00403d3533a96137" title="TiledArray::math::Transpose\lUnwind::gather_trans" alt="" coords="645,184,833,223"/>
+<area shape="rect" id="node19" href="$class_tiled_array_1_1math_1_1_transpose_unwind.html#af2a30045172f690528b7854f863f3c23" title="TiledArray::math::Transpose\lUnwind::block_scatter" alt="" coords="645,121,833,160"/>
+<area shape="rect" id="node13" href="$namespace_tiled_array_1_1math.html#a9a5d7ed52ec58b94cc8c9532624a45ad" title="TiledArray::math::for\l_each_block" alt="" coords="890,152,1031,191"/>
+<area shape="rect" id="node15" href="$class_tiled_array_1_1math_1_1_block.html#a5b8fd799fcafd39809f7f7a5dcc2493f" title="TiledArray::math::Block\l::scatter_to" alt="" coords="881,215,1040,253"/>
+<area shape="rect" id="node14" href="$struct_tiled_array_1_1math_1_1_vector_op_unwind.html#a7588c344a42c08298668d265cf82b607" title="TiledArray::math::Vector\lOpUnwind::for_each" alt="" coords="1089,152,1253,191"/>
+<area shape="rect" id="node16" href="$namespace_tiled_array_1_1math.html#a6137a96c445b26d23187018efa876aa5" title="TiledArray::math::scatter\l_block" alt="" coords="1088,215,1254,253"/>
+<area shape="rect" id="node18" href="$class_tiled_array_1_1math_1_1_block.html#a8541624decd7fa535c52f85c9499a0e1" title="TiledArray::math::Block\l::data" alt="" coords="1092,277,1250,316"/>
+<area shape="rect" id="node17" href="$struct_tiled_array_1_1math_1_1_vector_op_unwind.html#ad76cb4c4568102c1faaefb5fab603a3c" title="TiledArray::math::Vector\lOpUnwind::scatter" alt="" coords="1302,215,1466,253"/>
+</map>

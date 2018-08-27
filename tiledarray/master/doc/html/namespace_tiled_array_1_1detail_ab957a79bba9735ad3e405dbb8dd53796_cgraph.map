@@ -1,0 +1,10 @@
+<map id="TiledArray::detail::tensor_reduce" name="TiledArray::detail::tensor_reduce">
+<area shape="rect" id="node2" href="$namespace_tiled_array_1_1detail.html#a2b25c9db0387e3327718de2cbc9112c6" title="Test for empty tensors in an empty list. " alt="" coords="208,5,329,44"/>
+<area shape="rect" id="node3" href="$namespace_tiled_array_1_1detail.html#a0d75a0a0d43e9a5d8beec072cdbe678c" title="Test that the ranges of a permuted tensor is congruent with itself. " alt="" coords="183,68,355,107"/>
+<area shape="rect" id="node4" href="$namespace_tiled_array_1_1math.html#a31eade2ac2d813846fc814cdc9238a10" title="TiledArray::math::reduce_op" alt="" coords="174,183,363,208"/>
+<area shape="rect" id="node5" href="$namespace_tiled_array_1_1symmetry.html#ab88cc83a558d388cedeec00d2457827d" title="identity for group of objects of type T " alt="" coords="421,125,568,164"/>
+<area shape="rect" id="node6" href="$namespace_tiled_array_1_1math.html#ad9f624a1f3753b2b2f03c88c80eec453" title="TiledArray::math::reduce\l_op_serial" alt="" coords="411,188,578,227"/>
+<area shape="rect" id="node7" href="$namespace_tiled_array_1_1math.html#aadfeae00d061d08d80824c75f5c1855c" title="TiledArray::math::reduce\l_block" alt="" coords="626,156,793,195"/>
+<area shape="rect" id="node9" href="$namespace_tiled_array_1_1math.html#ad4c48eda75480eb3d3d267635eed78bb" title="TiledArray::math::reduce\l_block_n" alt="" coords="626,219,793,257"/>
+<area shape="rect" id="node8" href="$struct_tiled_array_1_1math_1_1_vector_op_unwind.html#a7dbbd437980c5ccbd2680aedf70f1357" title="TiledArray::math::Vector\lOpUnwind::reduce" alt="" coords="841,156,1005,195"/>
+</map>

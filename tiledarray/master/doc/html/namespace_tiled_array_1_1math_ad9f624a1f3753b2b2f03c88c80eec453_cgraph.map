@@ -1,0 +1,5 @@
+<map id="TiledArray::math::reduce_op_serial" name="TiledArray::math::reduce_op_serial">
+<area shape="rect" id="node2" href="$namespace_tiled_array_1_1math.html#aadfeae00d061d08d80824c75f5c1855c" title="TiledArray::math::reduce\l_block" alt="" coords="220,5,387,44"/>
+<area shape="rect" id="node4" href="$namespace_tiled_array_1_1math.html#ad4c48eda75480eb3d3d267635eed78bb" title="TiledArray::math::reduce\l_block_n" alt="" coords="220,68,387,107"/>
+<area shape="rect" id="node3" href="$struct_tiled_array_1_1math_1_1_vector_op_unwind.html#a7dbbd437980c5ccbd2680aedf70f1357" title="TiledArray::math::Vector\lOpUnwind::reduce" alt="" coords="435,5,599,44"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_tiled_array_1_1detail_1_1_contract_reduce_base.html" title="TiledArray::detail\l::ContractReduceBase\l\&lt; value_type, typename\l eval_trait\&lt; typename left\l_type::value_type \&gt;::type,\l typename eval_trait\&lt; typename\l right_type::value_type \&gt;::type,\l scalar_type \&gt;" alt="" coords="5,5,217,124"/>
+<area shape="rect" id="node2" href="$class_tiled_array_1_1detail_1_1_contract_reduce.html" title="TiledArray::detail\l::ContractReduce\&lt; value\l_type, typename eval_trait\l\&lt; typename left_type::value\l_type \&gt;::type, typename eval\l_trait\&lt; typename right_type::\lvalue_type \&gt;::type, scalar_type \&gt;" alt="" coords="265,12,482,117"/>
+</map>

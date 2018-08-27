@@ -1,0 +1,51 @@
+<map id="TiledArray::math::VectorOpUnwind::for_each" name="TiledArray::math::VectorOpUnwind::for_each">
+<area shape="rect" id="node2" href="$namespace_tiled_array_1_1math.html#a9a5d7ed52ec58b94cc8c9532624a45ad" title="TiledArray::math::for\l_each_block" alt="" coords="217,741,359,780"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1math_1_1_outer_vector_op_unwind_3_010_01_4.html#a45f11a4e5b3b9181d14f9ea37f21765c" title="TiledArray::math::OuterVector\lOpUnwind\&lt; 0 \&gt;::outer" alt="" coords="654,151,852,189"/>
+<area shape="rect" id="node4" href="$class_tiled_array_1_1math_1_1_outer_vector_op_unwind_3_010_01_4.html#ab4d469516396b013ef6f2c76eb805db8" title="TiledArray::math::OuterVector\lOpUnwind\&lt; 0 \&gt;::fill" alt="" coords="654,213,852,252"/>
+<area shape="rect" id="node5" href="$class_tiled_array_1_1math_1_1_outer_vector_op_unwind.html#a934ffd63110875cc602b568579ef5192" title="TiledArray::math::OuterVector\lOpUnwind::outer" alt="" coords="654,276,852,315"/>
+<area shape="rect" id="node6" href="$namespace_tiled_array_1_1math.html#a79f23f474e674e836e56de43b7357d60" title="Compute the outer of x and y to modify a. " alt="" coords="931,269,1087,295"/>
+<area shape="rect" id="node9" href="$class_tiled_array_1_1math_1_1_outer_vector_op_unwind.html#a79049ecc80dc165a58908e7497931a31" title="TiledArray::math::OuterVector\lOpUnwind::fill" alt="" coords="654,972,852,1011"/>
+<area shape="rect" id="node11" href="$namespace_tiled_array_1_1math.html#a89ff3fb5ad1a86bf9b9842a55f4f4c5f" title="Compute and store outer of x and y in a. " alt="" coords="921,979,1097,1004"/>
+<area shape="rect" id="node17" href="$class_tiled_array_1_1math_1_1_partial_reduce_unwind_3_010_01_4.html#a504f11e0e1e852eac643dd89ea781576" title="TiledArray::math::Partial\lReduceUnwind\&lt; 0 \&gt;::col_reduce" alt="" coords="646,1035,860,1073"/>
+<area shape="rect" id="node18" href="$class_tiled_array_1_1math_1_1_partial_reduce_unwind.html#a3c48db0184c45edfe097cf8b60c7da24" title="TiledArray::math::Partial\lReduceUnwind::col_reduce" alt="" coords="661,391,845,429"/>
+<area shape="rect" id="node22" href="$namespace_tiled_array_1_1math.html#a5acd091094a00c0418ade7e1f6bc38a4" title="Reduce the rows of a matrix. " alt="" coords="935,839,1083,877"/>
+<area shape="rect" id="node25" href="$class_tiled_array_1_1math_1_1_transpose_unwind_3_010_01_4.html#ab4095fabb8bc2f8b9421c750c0df9c9d" title="TiledArray::math::Transpose\lUnwind\&lt; 0 \&gt;::gather_trans" alt="" coords="407,1212,595,1251"/>
+<area shape="rect" id="node26" href="$class_tiled_array_1_1math_1_1_transpose_unwind.html#a4f8998233c204a3e00403d3533a96137" title="TiledArray::math::Transpose\lUnwind::gather_trans" alt="" coords="407,1316,595,1355"/>
+<area shape="rect" id="node29" href="$namespace_tiled_array_1_1math.html#a9085136f802b954e3a2bd643cd13d8b5" title="TiledArray::math::copy\l_block" alt="" coords="424,599,578,637"/>
+<area shape="rect" id="node40" href="$namespace_tiled_array_1_1math.html#a3fd6348022ed6ff4698c20bc8ec1a759" title="TiledArray::math::inplace\l_vector_op_serial" alt="" coords="417,36,585,75"/>
+<area shape="rect" id="node44" href="$namespace_tiled_array_1_1math.html#a356d7efc30a68fb86f8296bcea7fd8d0" title="TiledArray::math::vector\l_op_serial" alt="" coords="420,1149,582,1188"/>
+<area shape="rect" id="node7" href="$class_tiled_array_1_1detail_1_1_size_array.html#a9b3dda799f523dfcb72132c8624cc624" title="Outer operation. " alt="" coords="1193,263,1318,301"/>
+<area shape="rect" id="node8" href="$class_tiled_array_1_1detail_1_1_val_array.html#aeb7b31eb82314fafbfd4b7806e61bb5d" title="Outer operation. " alt="" coords="1428,263,1549,301"/>
+<area shape="rect" id="node10" href="$class_tiled_array_1_1math_1_1_outer_vector_op_unwind.html#ad1d72932f69965d9bdf1ed80078f2d60" title="TiledArray::math::OuterVector\lOpUnwind::fill" alt="" coords="911,916,1108,955"/>
+<area shape="rect" id="node12" href="$class_tiled_array_1_1detail_1_1_size_array.html#a8c710040cd50de2b7c1f2390c10b8413" title="Outer fill operation. " alt="" coords="1183,967,1328,1005"/>
+<area shape="rect" id="node14" href="$class_tiled_array_1_1_sparse_shape.html#a6e638781d0d2ec4347947b7ed627b9e5" title="TiledArray::SparseShape::add" alt="" coords="1156,1029,1355,1055"/>
+<area shape="rect" id="node15" href="$class_tiled_array_1_1_sparse_shape.html#a369e1a3d9a37069ede03c6726f0c6005" title="TiledArray::SparseShape\l::gemm" alt="" coords="1171,1108,1340,1147"/>
+<area shape="rect" id="node13" href="$class_tiled_array_1_1detail_1_1_val_array.html#af224734fb71eaeefb4d229631fcb1dc1" title="Outer fill operation. " alt="" coords="1420,967,1557,1005"/>
+<area shape="rect" id="node16" href="$class_tiled_array_1_1_sparse_shape.html#aa31679be37deccd633495b5901868d3b" title="TiledArray::SparseShape\l::gemm" alt="" coords="1403,1108,1573,1147"/>
+<area shape="rect" id="node19" href="$class_tiled_array_1_1math_1_1_partial_reduce_unwind.html#ae0bbc7a687f572ae839f53c917622449" title="TiledArray::math::Partial\lReduceUnwind::col_reduce" alt="" coords="917,405,1101,444"/>
+<area shape="rect" id="node20" href="$namespace_tiled_array_1_1math.html#a9f1007e79aa7792c2036a82d5124f7f5" title="Reduce the columns of a matrix. " alt="" coords="938,343,1081,381"/>
+<area shape="rect" id="node21" href="$class_tiled_array_1_1detail_1_1_size_array.html#a0bfe643fa49af010cdf17918b279294f" title="Column reduce operation. " alt="" coords="1176,343,1335,381"/>
+<area shape="rect" id="node23" href="$class_tiled_array_1_1detail_1_1_size_array.html#ada0bc07b5eea703ee594cf03657e8407" title="Row reduce operation. " alt="" coords="1174,839,1337,877"/>
+<area shape="rect" id="node24" href="$class_tiled_array_1_1detail_1_1_val_array.html#a2e5b79e6666b7cc88443bde033eec690" title="Reduce row operation. " alt="" coords="1410,839,1566,877"/>
+<area shape="rect" id="node27" href="$namespace_tiled_array_1_1math.html#abb08079140fa4ea486e8d6e77baf7158" title="TiledArray::math::transpose\l_block" alt="" coords="661,1397,845,1436"/>
+<area shape="rect" id="node28" href="$namespace_tiled_array_1_1math.html#a0734d99af5ce0b09816a2934366c9071" title="Matrix transpose and initialization. " alt="" coords="917,1445,1102,1471"/>
+<area shape="rect" id="node30" href="$class_tiled_array_1_1math_1_1_partial_reduce_unwind_3_010_01_4.html#a011951da23deb7ab29e1785a74c0505d" title="TiledArray::math::Partial\lReduceUnwind\&lt; 0 \&gt;::row_reduce" alt="" coords="643,631,863,669"/>
+<area shape="rect" id="node31" href="$class_tiled_array_1_1math_1_1_partial_reduce_unwind.html#a1ff936549c0c26def684d70ef498e803" title="TiledArray::math::Partial\lReduceUnwind::row_reduce" alt="" coords="659,756,847,795"/>
+<area shape="rect" id="node33" href="$class_tiled_array_1_1math_1_1_block.html#aa38276e359fae8167fb37c37cd84ceda" title="TiledArray::math::Block\l::load" alt="" coords="674,568,832,607"/>
+<area shape="rect" id="node35" href="$class_tiled_array_1_1math_1_1_block.html#a19333b411770e31611cbddf94d5c5747" title="TiledArray::math::Block\l::store" alt="" coords="674,453,832,492"/>
+<area shape="rect" id="node36" href="$namespace_tiled_array_1_1math.html#a807ec5e087fea7a3340f203e1de88b3f" title="TiledArray::math::copy\l_vector" alt="" coords="676,693,830,732"/>
+<area shape="rect" id="node32" href="$class_tiled_array_1_1math_1_1_partial_reduce_unwind.html#a35ed1013af3d948f7e9684f452497790" title="TiledArray::math::Partial\lReduceUnwind::row_reduce" alt="" coords="915,776,1104,815"/>
+<area shape="rect" id="node34" href="$class_tiled_array_1_1math_1_1_block.html#aae5da03caa2bd35bdacea37d22b89139" title="TiledArray::math::Block\l::Block" alt="" coords="930,512,1089,551"/>
+<area shape="rect" id="node37" href="$namespace_tiled_array_1_1math.html#a4109c1f984a5b8a9242385a13ed812f7" title="TiledArray::math::uninitialized\l_copy_vector" alt="" coords="911,575,1107,613"/>
+<area shape="rect" id="node38" href="$class_tiled_array_1_1detail_1_1_size_array.html#a5f630bf09c1305742a97baa4b1ac0ee4" title="TiledArray::detail\l::SizeArray::operator=" alt="" coords="934,637,1085,676"/>
+<area shape="rect" id="node39" href="$class_tiled_array_1_1detail_1_1_size_array.html#aec0fed7b8d00bcaf4ab13a55afa488d7" title="TiledArray::detail\l::SizeArray::array\&lt;\l U, N \&gt;" alt="" coords="943,700,1075,752"/>
+<area shape="rect" id="node41" href="$namespace_tiled_array_1_1math.html#af3538be07513fbf1cb420e6ff0631e52" title="TiledArray::math::inplace\l_vector_op" alt="" coords="669,36,837,75"/>
+<area shape="rect" id="node42" href="$class_tiled_array_1_1_sparse_shape.html#acf0399cdc088cd6ebe7be0749613a621" title="Transform the norm tensor with an operation. " alt="" coords="924,68,1094,107"/>
+<area shape="rect" id="node43" href="$namespace_tiled_array_1_1detail.html#ac7c2574bd1506d0e811e2c0eb58fb1e3" title="In&#45;place tensor operations with contiguous data. " alt="" coords="940,5,1078,44"/>
+<area shape="rect" id="node45" href="$namespace_tiled_array_1_1math.html#aceed918876c18aeee95f1c735ae0b46f" title="TiledArray::math::vector_op" alt="" coords="661,1156,845,1181"/>
+<area shape="rect" id="node46" href="$namespace_tiled_array_1_1math.html#acb497714b42b1864d60ac8ef64909289" title="TiledArray::math::fill\l_vector" alt="" coords="940,1195,1079,1233"/>
+<area shape="rect" id="node47" href="$namespace_tiled_array_1_1math.html#a63bd7408688d316eb91ba464ec85d47c" title="TiledArray::math::uninitialized\l_unary_vector_op" alt="" coords="911,1257,1107,1296"/>
+<area shape="rect" id="node48" href="$namespace_tiled_array_1_1math.html#a8aa10c21cf1e8449c17f61d3eb4006af" title="TiledArray::math::uninitialized\l_binary_vector_op" alt="" coords="911,1320,1107,1359"/>
+<area shape="rect" id="node49" href="$class_tiled_array_1_1detail_1_1_size_array.html#ad7d0c881ad836d9d1bef1f22d673a89d" title="Binary vector operation. " alt="" coords="944,1383,1074,1421"/>
+<area shape="rect" id="node50" href="$class_tiled_array_1_1detail_1_1_size_array.html#a4908aaa7fc71c2a82d1ced5b586e50cb" title="Unary vector operation. " alt="" coords="946,1080,1073,1119"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="TiledArray::MaxReduction&lt; Tile, typename std::enable_if&lt; detail::is_strictly_ordered&lt; detail::numeric_t&lt; Tile &gt; &gt;::value &gt;::type &gt;::operator()" name="TiledArray::MaxReduction&lt; Tile, typename std::enable_if&lt; detail::is_strictly_ordered&lt; detail::numeric_t&lt; Tile &gt; &gt;::value &gt;::type &gt;::operator()">
+<area shape="rect" id="node2" href="$group___tile_interface.html#gace24afac354bfe849d2ca90df6ab8232" title="Maximum element of a tile. " alt="" coords="248,7,362,32"/>
+<area shape="rect" id="node3" href="$kronecker__delta_8h.html#a08a5e38335a5bd02f089294968dfc391" title="max" alt="" coords="282,56,328,81"/>
+</map>

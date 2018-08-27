@@ -1,0 +1,4 @@
+<map id="TiledArray::make_const_map" name="TiledArray::make_const_map">
+<area shape="rect" id="node2" href="$namespace_tiled_array.html#aeefa8ea4cb95ebb8c9d9b3809f12dc4d" title="Copy a block of a btas::Tensor into a TiledArray::Tensor. " alt="" coords="248,12,428,51"/>
+<area shape="rect" id="node3" href="$namespace_tiled_array_1_1detail.html#a8aab6018796760c407b5cc53295568ed" title="Task function for converting btas::Tensor subblock to a TiledArray::DistArray. " alt="" coords="476,5,651,57"/>
+</map>

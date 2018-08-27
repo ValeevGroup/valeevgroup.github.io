@@ -1,0 +1,11 @@
+<map id="TiledArray::Tensor::size" name="TiledArray::Tensor::size">
+<area shape="rect" id="node2" href="$namespace_tiled_array.html#af872c21673f2fd74250d0257fb80f2bb" title="Construct a const Eigen::Map object for a given Tensor object. " alt="" coords="190,61,345,87"/>
+<area shape="rect" id="node9" href="$class_tiled_array_1_1_sparse_shape.html#ac0bbddd7b0f9c0d3c2bbfe06999720b8" title="Collective &quot;dense&quot; constructor. " alt="" coords="182,111,352,149"/>
+<area shape="rect" id="node10" href="$class_tiled_array_1_1_sparse_shape.html#aae62469f5bebdf8bfd59c8b8ce37d482" title="Sparsity of the shape. " alt="" coords="182,173,352,212"/>
+<area shape="rect" id="node3" href="$namespace_tiled_array.html#adfc30c5c9b3f17a6ab4d8b7a4b2a84b9" title="Construct a const Eigen::Map object for a given Tensor object. " alt="" coords="416,5,571,31"/>
+<area shape="rect" id="node4" href="$namespace_tiled_array.html#add789e43efcee8db349c7ec5c6218664" title="Copy a block of an Eigen matrix into a tensor. " alt="" coords="400,55,587,93"/>
+<area shape="rect" id="node6" href="$namespace_tiled_array.html#a6a1e016346f447dcd7b5b4d7f29246b6" title="Copy the content of a tensor into an Eigen matrix block. " alt="" coords="421,120,566,159"/>
+<area shape="rect" id="node5" href="$namespace_tiled_array_1_1detail.html#af50d31c15b208288edec33a0129649b0" title="Task function for converting Eigen submatrix to a tensor. " alt="" coords="635,44,816,96"/>
+<area shape="rect" id="node7" href="$namespace_tiled_array_1_1detail.html#afe493525138ef355ba76900e56ae8cf2" title="Task function for assigning a tensor to an Eigen submatrix. " alt="" coords="656,120,795,172"/>
+<area shape="rect" id="node8" href="$namespace_tiled_array.html#ad4ffc6de9b633a34e7d724191cd11f3f" title="Convert an Array object into an Eigen matrix object. " alt="" coords="864,127,1002,165"/>
+</map>

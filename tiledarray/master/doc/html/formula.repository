@@ -1,0 +1,88 @@
+\form#0:$ f(x) = 0 $
+\form#1:$ f(x) $
+\form#2:$ x $
+\form#3:$ x_i $
+\form#4:$ e_i = f(x_i) $
+\form#5:$ e $
+\form#6:$ x_{i+1} = x_i + g(e_i) $
+\form#7:$ \epsilon $
+\form#8:$ ||x_{i+1} - x_i|| < \epsilon $
+\form#9:$ x \equiv \mathbf{P} $
+\form#10:$ f(\mathbf{P}) \equiv [\mathbf{F}, \mathbf{P}] $
+\form#11:$ \mathbf{F} = \mathbf{F}(\mathbf{P}) $
+\form#12:$ \mathbf{F} $
+\form#13:$ x \equiv \mathbf{F} $
+\form#14:$ f(\mathbf{F}) \equiv [\mathbf{F}, \mathbf{P}] $
+\form#15:$ f(\mathbf{F}) \equiv \{ F_i^a \} $
+\form#16:$ i $
+\form#17:$ a $
+\form#18:$ \{ x_k \}, k=0..i $
+\form#19:$ \{ e_k \} $
+\form#20:$ \{ C_k \} $
+\form#21:$ x_{\mathrm{extrap},i+1} = \sum\limits_{k=0}^i C_{k,i} x_{k} $
+\form#22:$ x_{\mathrm{extrap},i+1} = \sum\limits_{k=0}^i C_{k,i} ( (1-f) x_{k} + f x_{extrap,k} ) $
+\form#23:$ \left( \begin{tabular}{ccccc} 0 & 1 & 2 & 3 & 4 \\ 0 & 2 & 3 & 1 & 4 \end{tabular} \right) $
+\form#24:$ \{0, 2, 3, 1, 4\} $
+\form#25:$ \{1, 2, 3\} $
+\form#26:$ \{0, 2, 3, 1\} $
+\form#27:$ \{ 1 \to 2, 2 \to 3, 3 \to 1 \} $
+\form#28:$ P^n $
+\form#29:$ P $
+\form#30:$ \{3, 2, 1, 0 \} $
+\form#31:$ P \times P^{-1} = I $
+\form#32:$ I $
+\form#33:$ \{ k | k \in [0,N) \} $
+\form#34:$ \{ \{i,j\} | i \in [0,N_{\rm row}),j\in[0,N_{\rm col})\} $
+\form#35:$ k $
+\form#36:$ \{ k_{\rm row}, k_{\rm col} \} \equiv \{ k / N_{\rm col}, k \% N_{\rm col} \} $
+\form#37:$ P_{\rm row} $
+\form#38:$ P_{\rm cols} $
+\form#39:$ p \equiv \{ p_{\rm row}, p_{\rm col} \} $
+\form#40:$ \{ k_{\rm row}, k_{\rm col} \} $
+\form#41:$ \{ p_{\rm row}, p_{\rm col} \} = \{ k_{\rm row} \% N_{\rm row}, k_{\rm col} \% N_{\rm col} \} $
+\form#42:\[ T = \frac{MK}{P_{\rm{row}}} \left(\alpha + \frac{mk}{\beta}\right) \left((P/P_{\rm{row}}) - 1\right) + \frac{KN}{P/P_{\rm{row}}} \left(\alpha + \frac{kn}{\beta}\right) \left(P_{\rm{row}} - 1\right) \]
+\form#43:$P_{\rm{row}}$
+\form#44:$M$
+\form#45:$N$
+\form#46:$K$
+\form#47:$m$
+\form#48:$n$
+\form#49:$k$
+\form#50:$P$
+\form#51:$\alpha$
+\form#52:$\beta$
+\form#53:$dT/dP_{\rm{row}} = 0$
+\form#54:$\alpha \approx 0$
+\form#55:\[ Nn(2 P_{\rm{row}}^4 - P_{\rm{row}}^3) + Mm(P P_{\rm{row}} - P^2) = 0 \]
+\form#56:$ Z^n $
+\form#57:\[ {\rm{shape}}_{ij...} = \frac{\|A_{ij...}\|}{N_i N_j ...} \]
+\form#58:$ij...$
+\form#59:$\|A_{ij}\|$
+\form#60:$N_i N_j ...$
+\form#61:\[ {(\rm{result})}_{ij...} = |(\rm{factor})| (\rm{this})_{ij...} \]
+\form#62:\[ {(\rm{result})}_{ji...} = \rm{perm}(j,i) |(\rm{factor})| (\rm{this})_{ij...} \]
+\form#63:\[ {(\rm{result})}_{ij...} = (\rm{this})_{ij...} + (\rm{other})_{ij...} \]
+\form#64:\[ {(\rm{result})}_{ji...} = \rm{perm}(i,j) (\rm{this})_{ij...} + (\rm{other})_{ij...} \]
+\form#65:\[ {(\rm{result})}_{ij...} = |(\rm{factor})| ((\rm{this})_{ij...} + (\rm{other})_{ij...}) \]
+\form#66:$ S_n $
+\form#67:$ M $
+\form#68:$ n $
+\form#69:$ M_i $
+\form#70:$ (i = 0, \dots , n-1) $
+\form#71:$ S_3 $
+\form#72:\[ \begin{tabular}{ c c c } Young tableaux & partition [$\mu$] & Yamanouchi symbols M \\ & & \\ \begin{tabular}{ |c| } \hline 1 \\ \hline 2 \\ \hline 3 \\ \hline \end{tabular} & [111] & 123 \\ & & \\ \begin{tabular}{ |c|c|c| } \hline 1 & 2 & 3 \\ \hline \end{tabular} & [3] & 111 \\ & & \\ \begin{tabular}{ |c|c } \hline 1 & \multicolumn{1}{|c|}{2} \\ \hline 3 \\ \cline{1-1} \end{tabular} & [21] & 112 \\ & & \\ \begin{tabular}{ |c|c } \hline 1 & \multicolumn{1}{|c|}{3} \\ \hline 2 \\ \cline{1-1} \end{tabular} & [21] & 121 \\ \end{tabular} \]
+\form#73:$ \{0 \to 3, 1 \to 2, 2 \to 1, 0 \to 3 \} $
+\form#74:$ \{1->3, 2->1, 3->2\} $
+\form#75:$ P \times P^{-1} = P^{-1} \times P = I $
+\form#76:$ \{x_0, x_1, \dots x_{n-1}\} $
+\form#77:$ G $
+\form#78:$ h $
+\form#79:$ \{ a: a = h g h^{-1}, \forall g \in G \} $
+\form#80:$ \{ 0, 1, \dots \} $
+\form#81:$ G = S_2 $
+\form#82:$ \{0,1\} $
+\form#83:$ h = {1->2, 2->1} $
+\form#84:$ S_2 $
+\form#85:$ \{0,2\} $
+\form#86:$ \{0, 1, \dots n-1\} $
+\form#87:\[ {\rm norm}(z) = zz^* = {\rm Re}(z)^2 + {\rm Im}(z)^2 \]

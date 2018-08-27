@@ -1,0 +1,14 @@
+<map id="TiledArray::detail::SizeArray::col_reduce" name="TiledArray::detail::SizeArray::col_reduce">
+<area shape="rect" id="node2" href="$namespace_tiled_array_1_1math.html#a9f1007e79aa7792c2036a82d5124f7f5" title="Reduce the columns of a matrix. " alt="" coords="213,123,356,161"/>
+<area shape="rect" id="node3" href="$namespace_tiled_array_1_1math.html#a9085136f802b954e3a2bd643cd13d8b5" title="TiledArray::math::copy\l_block" alt="" coords="643,5,797,44"/>
+<area shape="rect" id="node6" href="$class_tiled_array_1_1math_1_1_partial_reduce_unwind.html#a3c48db0184c45edfe097cf8b60c7da24" title="TiledArray::math::Partial\lReduceUnwind::col_reduce" alt="" coords="404,60,588,99"/>
+<area shape="rect" id="node7" href="$namespace_tiled_array_1_1math.html#a9e1b4b91971f158442e36a9172045a83" title="TiledArray::math::gather\l_block" alt="" coords="414,123,578,161"/>
+<area shape="rect" id="node9" href="$namespace_tiled_array_1_1math.html#aadfeae00d061d08d80824c75f5c1855c" title="TiledArray::math::reduce\l_block" alt="" coords="412,185,579,224"/>
+<area shape="rect" id="node11" href="$namespace_tiled_array_1_1math.html#af3538be07513fbf1cb420e6ff0631e52" title="TiledArray::math::inplace\l_vector_op" alt="" coords="412,248,580,287"/>
+<area shape="rect" id="node4" href="$namespace_tiled_array_1_1math.html#a9a5d7ed52ec58b94cc8c9532624a45ad" title="TiledArray::math::for\l_each_block" alt="" coords="852,63,994,101"/>
+<area shape="rect" id="node5" href="$struct_tiled_array_1_1math_1_1_vector_op_unwind.html#a7588c344a42c08298668d265cf82b607" title="TiledArray::math::Vector\lOpUnwind::for_each" alt="" coords="1042,63,1206,101"/>
+<area shape="rect" id="node8" href="$struct_tiled_array_1_1math_1_1_vector_op_unwind.html#a968a99ba63c4bee7199ea1c7bab1fceb" title="TiledArray::math::Vector\lOpUnwind::gather" alt="" coords="638,123,802,161"/>
+<area shape="rect" id="node10" href="$struct_tiled_array_1_1math_1_1_vector_op_unwind.html#a7dbbd437980c5ccbd2680aedf70f1357" title="TiledArray::math::Vector\lOpUnwind::reduce" alt="" coords="638,185,802,224"/>
+<area shape="rect" id="node12" href="$namespace_tiled_array_1_1math.html#a3fd6348022ed6ff4698c20bc8ec1a759" title="TiledArray::math::inplace\l_vector_op_serial" alt="" coords="636,248,804,287"/>
+<area shape="rect" id="node13" href="$namespace_tiled_array_1_1math.html#a75bfae8d964e10120d677654383c2d3b" title="TiledArray::math::for\l_each_block_n" alt="" coords="852,248,994,287"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="TiledArray::permute" name="TiledArray::permute">
+<area shape="rect" id="node2" href="$class_tiled_array_1_1tile__interface_1_1_permute.html#a71242190a31dfc7bea92e1a78159f509" title="TiledArray::tile_interface\l::Permute\&lt; Result, Arg \&gt;\l::operator()" alt="" coords="204,5,372,57"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1tile__interface_1_1_permute_3_01_result_00_01_arg_00_01typename_01std_1_1en812316f74441eca8e20a0e4b131d53a4.html#af08af1ff540dd0d9ed89bf6e362f5377" title="TiledArray::tile_interface\l::Permute\&lt; Result, Arg,\l typename std::enable_if\l\&lt; ! std::is_same\&lt; Result,\l result_of_permute_t\&lt; Arg \&gt;\l \&gt;::value \&gt;::type \&gt;::operator()" alt="" coords="191,81,385,173"/>
+<area shape="rect" id="node4" href="$group___tile_interface.html#ga49621c8ce21243534fb83247c3cfb6ea" title="Create a permuted copy of arg. " alt="" coords="219,197,357,223"/>
+<area shape="rect" id="node5" href="$group___tile_interface.html#ga5617e099b3bb93c7f6d0bf98e89e5a4e" title="Permute tile operator. " alt="" coords="216,247,360,272"/>
+</map>

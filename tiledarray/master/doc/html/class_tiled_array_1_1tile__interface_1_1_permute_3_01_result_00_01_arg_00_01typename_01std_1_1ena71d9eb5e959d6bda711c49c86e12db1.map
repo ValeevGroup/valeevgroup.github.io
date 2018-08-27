@@ -1,0 +1,4 @@
+<map id="TiledArray::tile_interface::Permute&lt; Result, Arg, typename std::enable_if&lt; ! std::is_same&lt; Result, result_of_permute_t&lt; Arg &gt; &gt;::value &gt;::type &gt;" name="TiledArray::tile_interface::Permute&lt; Result, Arg, typename std::enable_if&lt; ! std::is_same&lt; Result, result_of_permute_t&lt; Arg &gt; &gt;::value &gt;::type &gt;">
+<area shape="rect" id="node2" href="$class_tiled_array_1_1_cast.html" title="TiledArray::Cast\&lt; Result,\l result_of_permute_t\&lt; Arg \&gt; \&gt;" alt="" coords="5,105,203,144"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1tile__interface_1_1_cast.html" title="TiledArray::tile_interface\l::Cast\&lt; Result, result_of\l_permute_t\&lt; Arg \&gt;, Enabler \&gt;" alt="" coords="6,5,203,57"/>
+</map>

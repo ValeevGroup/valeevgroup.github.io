@@ -1,0 +1,26 @@
+<map id="TiledArray::math::inplace_vector_op_serial" name="TiledArray::math::inplace_vector_op_serial">
+<area shape="rect" id="node2" href="$namespace_tiled_array_1_1math.html#af3538be07513fbf1cb420e6ff0631e52" title="TiledArray::math::inplace\l_vector_op" alt="" coords="222,100,390,139"/>
+<area shape="rect" id="node3" href="$namespace_tiled_array_1_1math.html#a79f23f474e674e836e56de43b7357d60" title="Compute the outer of x and y to modify a. " alt="" coords="445,16,601,41"/>
+<area shape="rect" id="node6" href="$namespace_tiled_array_1_1math.html#a9f1007e79aa7792c2036a82d5124f7f5" title="Reduce the columns of a matrix. " alt="" coords="451,68,594,107"/>
+<area shape="rect" id="node9" href="$class_tiled_array_1_1_sparse_shape.html#acf0399cdc088cd6ebe7be0749613a621" title="Transform the norm tensor with an operation. " alt="" coords="438,131,608,169"/>
+<area shape="rect" id="node10" href="$namespace_tiled_array_1_1detail.html#ac7c2574bd1506d0e811e2c0eb58fb1e3" title="In&#45;place tensor operations with contiguous data. " alt="" coords="454,297,592,336"/>
+<area shape="rect" id="node4" href="$class_tiled_array_1_1detail_1_1_size_array.html#a9b3dda799f523dfcb72132c8624cc624" title="Outer operation. " alt="" coords="699,5,823,44"/>
+<area shape="rect" id="node5" href="$class_tiled_array_1_1detail_1_1_val_array.html#aeb7b31eb82314fafbfd4b7806e61bb5d" title="Outer operation. " alt="" coords="943,5,1064,44"/>
+<area shape="rect" id="node7" href="$class_tiled_array_1_1detail_1_1_size_array.html#a0bfe643fa49af010cdf17918b279294f" title="Column reduce operation. " alt="" coords="682,68,841,107"/>
+<area shape="rect" id="node8" href="$class_tiled_array_1_1detail_1_1_val_array.html#af6bd2b2b66b41199ad48194bfe13c16c" title="Reduce column operation. " alt="" coords="928,68,1079,107"/>
+<area shape="rect" id="node11" href="$class_tiled_array_1_1detail_1_1_shift_wrapper.html#a6f2e00b7e50f7ba5858e3fa472d3e917" title="Assignment operator. " alt="" coords="676,131,847,169"/>
+<area shape="rect" id="node12" href="$class_tiled_array_1_1_tensor.html#a864d3eed3caa265526a36b1e042aaeb9" title="TiledArray::Tensor\l\&lt; value_type \&gt;::operator=" alt="" coords="674,193,848,232"/>
+<area shape="rect" id="node13" href="$class_tiled_array_1_1_tensor.html#a272585651b1233bb8f90d23c88a12c61" title="Use a binary, element wise operation to modify this tensor. " alt="" coords="682,256,841,308"/>
+<area shape="rect" id="node14" href="$class_tiled_array_1_1_tensor.html#af23df0d855cd33e6e977bd39e780ca9a" title="Use a unary, element wise operation to modify this tensor. " alt="" coords="662,332,861,371"/>
+<area shape="rect" id="node15" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a83acf090e9a7de9165981577d80fe54d" title="TiledArray::detail\l::TensorInterface::operator=" alt="" coords="669,395,854,433"/>
+<area shape="rect" id="node16" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a46a945ea3c88f00a52de46e667ce9ee0" title="Use a binary, element wise operation to modify this tensor. " alt="" coords="676,457,846,509"/>
+<area shape="rect" id="node21" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a8647a75373e134bca3a70713c5498562" title="Use a unary, element wise operation to modify this tensor. " alt="" coords="656,561,867,600"/>
+<area shape="rect" id="node17" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#ae2d0943dc0d6a8b208e0a48424401c6b" title="Add other to this tensor. " alt="" coords="919,356,1088,395"/>
+<area shape="rect" id="node19" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#aac121bc0cd56e31321951667ba39dc37" title="Subtract right from this tensor. " alt="" coords="918,419,1090,457"/>
+<area shape="rect" id="node20" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a7669954a348702b2cf4f6f25b26f7369" title="Multiply this tensor by right. " alt="" coords="918,481,1090,520"/>
+<area shape="rect" id="node18" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a20530f66b536a7941cb23a55dd898d15" title="Subtract a constant from this tensor. " alt="" coords="1141,356,1312,395"/>
+<area shape="rect" id="node22" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a2cd0a563ba38d684f2fa124fcc182d75" title="Scale this tensor. " alt="" coords="915,544,1093,583"/>
+<area shape="rect" id="node24" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a7137f78d0b44663c90b7d8170f0aba9f" title="Add a constant to this tensor. " alt="" coords="919,607,1088,645"/>
+<area shape="rect" id="node25" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#ab908e6e24c3bfc6f16949cf913741d8e" title="Negate elements of this tensor. " alt="" coords="919,669,1088,708"/>
+<area shape="rect" id="node23" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#ae72e40cb8cf82a93f9162297deb644e5" title="Complex conjugate this tensor. " alt="" coords="1141,544,1312,583"/>
+</map>

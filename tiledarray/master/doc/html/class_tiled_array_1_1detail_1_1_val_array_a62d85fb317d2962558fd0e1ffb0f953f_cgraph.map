@@ -1,0 +1,11 @@
+<map id="TiledArray::detail::ValArray::reduce" name="TiledArray::detail::ValArray::reduce">
+<area shape="rect" id="node2" href="$class_tiled_array_1_1detail_1_1_size_array.html#acca3c890ec0aeacf730d251a54105ac4" title="TiledArray::detail\l::SizeArray::size" alt="" coords="187,5,308,44"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1detail_1_1_size_array.html#a44ccd459ad8c0c9faf8e5ab410a666ca" title="Binary reduction operation. " alt="" coords="180,68,315,107"/>
+<area shape="rect" id="node10" href="$class_tiled_array_1_1detail_1_1_size_array.html#a24ad428f8712d70a77c0f01c613bae53" title="TiledArray::detail\l::SizeArray::data" alt="" coords="187,131,308,169"/>
+<area shape="rect" id="node4" href="$namespace_tiled_array_1_1math.html#a31eade2ac2d813846fc814cdc9238a10" title="TiledArray::math::reduce_op" alt="" coords="363,75,552,100"/>
+<area shape="rect" id="node5" href="$namespace_tiled_array_1_1symmetry.html#ab88cc83a558d388cedeec00d2457827d" title="identity for group of objects of type T " alt="" coords="610,36,757,75"/>
+<area shape="rect" id="node6" href="$namespace_tiled_array_1_1math.html#ad9f624a1f3753b2b2f03c88c80eec453" title="TiledArray::math::reduce\l_op_serial" alt="" coords="600,99,767,137"/>
+<area shape="rect" id="node7" href="$namespace_tiled_array_1_1math.html#aadfeae00d061d08d80824c75f5c1855c" title="TiledArray::math::reduce\l_block" alt="" coords="815,67,982,105"/>
+<area shape="rect" id="node9" href="$namespace_tiled_array_1_1math.html#ad4c48eda75480eb3d3d267635eed78bb" title="TiledArray::math::reduce\l_block_n" alt="" coords="815,129,982,168"/>
+<area shape="rect" id="node8" href="$struct_tiled_array_1_1math_1_1_vector_op_unwind.html#a7dbbd437980c5ccbd2680aedf70f1357" title="TiledArray::math::Vector\lOpUnwind::reduce" alt="" coords="1030,67,1194,105"/>
+</map>

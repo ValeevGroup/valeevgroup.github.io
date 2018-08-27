@@ -1,0 +1,13 @@
+digraph "TiledArray::permute"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node214 [label="TiledArray::permute",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node214 -> Node215 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node215 [label="TiledArray::tile_interface\l::Permute\< Result, Arg \>\l::operator()",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tiled_array_1_1tile__interface_1_1_permute.html#a71242190a31dfc7bea92e1a78159f509"];
+  Node214 -> Node216 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node216 [label="TiledArray::tile_interface\l::Permute\< Result, Arg,\l typename std::enable_if\l\< ! std::is_same\< Result,\l result_of_permute_t\< Arg \>\l \>::value \>::type \>::operator()",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tiled_array_1_1tile__interface_1_1_permute_3_01_result_00_01_arg_00_01typename_01std_1_1en812316f74441eca8e20a0e4b131d53a4.html#af08af1ff540dd0d9ed89bf6e362f5377"];
+  Node214 -> Node217 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node217 [label="TiledArray::operator*",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___tile_interface.html#ga5617e099b3bb93c7f6d0bf98e89e5a4e",tooltip="Permute tile operator. "];
+}

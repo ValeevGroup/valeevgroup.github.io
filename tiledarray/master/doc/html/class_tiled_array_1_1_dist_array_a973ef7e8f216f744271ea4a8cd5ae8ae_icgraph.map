@@ -1,0 +1,51 @@
+<map id="TiledArray::DistArray::trange" name="TiledArray::DistArray::trange">
+<area shape="rect" id="node2" href="$namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70" title="TiledArray::size" alt="" coords="221,297,333,322"/>
+<area shape="rect" id="node11" href="$namespace_tiled_array.html#a3558ec56f9d00590c35846d8f13c1b76" title="TiledArray::zero" alt="" coords="219,1245,334,1270"/>
+<area shape="rect" id="node18" href="$namespace_tiled_array.html#afc4078d3b132757efef1b74e42575149" title="TiledArray::minabs\l_value" alt="" coords="680,202,812,241"/>
+<area shape="rect" id="node19" href="$namespace_tiled_array.html#a8553a88a5735149954d4d04e491e7358" title="TiledArray::maxabs\l_value" alt="" coords="678,505,814,543"/>
+<area shape="rect" id="node20" href="$namespace_tiled_array.html#a297fc199c0e4a33cd3d6122b7c71f514" title="TiledArray::vec_multiply" alt="" coords="665,567,827,593"/>
+<area shape="rect" id="node21" href="$namespace_tiled_array.html#abc0b1ca917df616d05128c35276462fd" title="TiledArray::dot_product" alt="" coords="197,1137,357,1162"/>
+<area shape="rect" id="node24" href="$namespace_tiled_array.html#a90e2f4b420375c45a2c21049e27377aa" title="TiledArray::scale" alt="" coords="217,862,337,887"/>
+<area shape="rect" id="node31" href="$namespace_tiled_array.html#a299983d3798619c4de88f351bbe369ae" title="TiledArray::axpy" alt="" coords="446,618,563,643"/>
+<area shape="rect" id="node33" href="$namespace_tiled_array.html#ad096df7fd3592ff4515f97a0fc3f98ef" title="TiledArray::norm2" alt="" coords="683,59,810,85"/>
+<area shape="rect" id="node34" href="$namespace_tiled_array.html#a692c0867d32b1147008f2bbe483168db" title="Convert a TiledArray::DistArray object into a btas::Tensor object. " alt="" coords="208,1294,346,1333"/>
+<area shape="rect" id="node35" href="$namespace_tiled_array.html#a7c9fa503cbbd6e5627b1e1878cf51141" title="Create a deep copy of an array. " alt="" coords="216,1195,337,1221"/>
+<area shape="rect" id="node39" href="$namespace_tiled_array.html#a3fe2d157bfac3a81e84b52461e754c96" title="Function to convert a dense array into a block sparse array. " alt="" coords="203,1357,351,1382"/>
+<area shape="rect" id="node40" href="$namespace_tiled_array.html#ad4ffc6de9b633a34e7d724191cd11f3f" title="Convert an Array object into an Eigen matrix object. " alt="" coords="208,1406,346,1445"/>
+<area shape="rect" id="node41" href="$namespace_tiled_array.html#aa9380eed8edcb28bcde6b05f2a2e85f2" title="TiledArray::to_dense" alt="" coords="205,1469,349,1494"/>
+<area shape="rect" id="node42" href="$namespace_tiled_array.html#a177c1ea27ad85cca7df258e71c7d9739" title="Function to convert an array to a new array with a different tile type. " alt="" coords="211,1518,343,1557"/>
+<area shape="rect" id="node43" href="$class_tiled_array_1_1_dist_array.html#a740c01f878f645a3ab53274c912e0b72" title="Initialize (local) tiles with a user provided functor. " alt="" coords="205,1594,349,1633"/>
+<area shape="rect" id="node47" href="$class_tiled_array_1_1_dist_array.html#ab6d6a8154d95e480234a02493bf618cc" title="Convert a distributed array into a replicated array. " alt="" coords="205,1657,349,1695"/>
+<area shape="rect" id="node48" href="$namespace_tiled_array_1_1detail.html#a31b41f257f8f107174ffbfd3b9e7c0c3" title="TiledArray::detail\l::write_tiles_to_array" alt="" coords="205,1726,349,1765"/>
+<area shape="rect" id="node3" href="$struct_tiled_array_1_1_conjugate_gradient_solver.html#ae3a281e82d2974cdb9decefcd69dff73" title="TiledArray::ConjugateGradient\lSolver::operator()" alt="" coords="888,611,1089,650"/>
+<area shape="rect" id="node4" href="$class_tiled_array_1_1_block_range.html#a05bebb6ba9b6cfbbc3c1215b45d6a102" title="calculate the coordinate index of the ordinal index, index. " alt="" coords="424,115,585,154"/>
+<area shape="rect" id="node5" href="$namespacebtas.html#a78a456bd67717bd0752681a9dc5f000b" title="btas::squared_norm" alt="" coords="434,178,574,203"/>
+<area shape="rect" id="node6" href="$class_tiled_array_1_1math_1_1_matrix_block_task.html#a452518cd6c715380db1a21d408fb8d74" title="TiledArray::math::Matrix\lBlockTask::result" alt="" coords="423,227,586,266"/>
+<area shape="rect" id="node7" href="$class_tiled_array_1_1_dense_policy.html#a2fee774f3a4b7b5d3c9aba3ea8af7c3f" title="Create a default process map. " alt="" coords="423,290,586,329"/>
+<area shape="rect" id="node8" href="$class_tiled_array_1_1_sparse_policy.html#a94a435055f28049a34bf37fc563882d7" title="Create a default process map. " alt="" coords="421,353,588,391"/>
+<area shape="rect" id="node9" href="$class_tiled_array_1_1_range.html#ae5e7eefde499cee60bc2bd63c47f63bb" title="calculate the coordinate index of the ordinal index, index. " alt="" coords="428,415,581,441"/>
+<area shape="rect" id="node10" href="$class_tiled_array_1_1_sparse_shape.html#a6e638781d0d2ec4347947b7ed627b9e5" title="TiledArray::SparseShape::add" alt="" coords="405,66,604,91"/>
+<area shape="rect" id="node12" href="$class_tiled_array_1_1_d_i_i_s.html#a06b179576a5abf9a2b066cee36269573" title="TiledArray::DIIS::extrapolate" alt="" coords="410,1426,598,1451"/>
+<area shape="rect" id="node13" href="$class_tiled_array_1_1detail_1_1_bitset.html#aea1cb8c3bbaa37ad3209373c72f2ab89" title="Construct a bitset that contains s bits. " alt="" coords="444,1475,565,1514"/>
+<area shape="rect" id="node14" href="$class_tiled_array_1_1detail_1_1_bitset.html#af6ac8b2ce6b551e0f13df10c42c74ed1" title="Set all bits. " alt="" coords="444,1538,565,1577"/>
+<area shape="rect" id="node15" href="$class_tiled_array_1_1detail_1_1_bitset.html#a19ac1d02d6e0ff46da6d47d2a9ceb7ae" title="TiledArray::detail\l::Bitset::operator\&lt;\&lt;=" alt="" coords="675,1443,817,1482"/>
+<area shape="rect" id="node16" href="$class_tiled_array_1_1detail_1_1_bitset.html#ae6babfe6e53e686d7bd4f496b5e76b56" title="TiledArray::detail\l::Bitset::operator\&gt;\&gt;=" alt="" coords="675,1506,817,1545"/>
+<area shape="rect" id="node17" href="$class_tiled_array_1_1detail_1_1_bitset.html#a08005e43683b3ee3d2ba855278369974" title="Set a bit value. " alt="" coords="686,1569,807,1607"/>
+<area shape="rect" id="node22" href="$class_tiled_array_1_1_d_i_i_s.html#adba4b9aeb0b361453aeb9c48c1dd992a" title="TiledArray::DIIS::compute\l_extrapolation_parameters" alt="" coords="414,1073,594,1111"/>
+<area shape="rect" id="node23" href="$class_tiled_array_1_1_d_i_i_s.html#a6fd568abd2246acbc0f6ea1ee6e20905" title="TiledArray::DIIS::extrapolate" alt="" coords="652,718,840,743"/>
+<area shape="rect" id="node25" href="$group___tile_interface.html#gaebe37fcda193946fcc4501b42796e9cc" title="Scalar the tile argument. " alt="" coords="444,782,564,807"/>
+<area shape="rect" id="node26" href="$group___tile_interface.html#gad452632b571bcbcc3be78b202e8a0a75" title="Scale tile operator. " alt="" coords="432,831,576,857"/>
+<area shape="rect" id="node27" href="$class_tiled_array_1_1tile__interface_1_1_scale.html#a6399e0a5c2048cfcbd4332b0d8bf2f42" title="TiledArray::tile_interface\l::Scale\&lt; Result, Arg, Scalar\l \&gt;::operator()" alt="" coords="412,881,596,933"/>
+<area shape="rect" id="node28" href="$class_tiled_array_1_1tile__interface_1_1_scale_3_01_result_00_01_arg_00_01_scalar_00_01typename_fbbb6b916c02e7c08977e87d208f321e.html#abcea4ac4ba21d246fade20533a526e70" title="TiledArray::tile_interface\l::Scale\&lt; Result, Arg, Scalar,\l typename std::enable_if\&lt; !\l std::is_same\&lt; Result, result\l_of_scale_t\&lt; Arg, Scalar \&gt; \&gt;::\lvalue \&gt;::type \&gt;::operator()" alt="" coords="406,957,603,1049"/>
+<area shape="rect" id="node29" href="$class_tiled_array_1_1detail_1_1_scal_shift.html#a47e1706841cce77ac84f234c6f80312c" title="TiledArray::detail\l::ScalShift::eval" alt="" coords="444,719,565,758"/>
+<area shape="rect" id="node30" href="$class_tiled_array_1_1detail_1_1_scal_shift.html#ad1bc34cea69e4271db8b2bb42a966959" title="Shift and permute operator. " alt="" coords="673,819,820,858"/>
+<area shape="rect" id="node32" href="$namespacebtas.html#aafe8c6db2e1b1dc51b57424a46b21b27" title="result[i] += arg[i] " alt="" coords="699,617,794,642"/>
+<area shape="rect" id="node36" href="$class_tiled_array_1_1tile__interface_1_1_clone.html#a376265d1f2ebd6ba898c665f269cae01" title="TiledArray::tile_interface\l::Clone\&lt; Result, Arg \&gt;::\loperator()" alt="" coords="422,1287,587,1339"/>
+<area shape="rect" id="node37" href="$class_tiled_array_1_1_dist_array.html#a7f1586d7c20390d1a25c9f2a4432731b" title="Create a deep copy of this array. " alt="" coords="432,1363,576,1402"/>
+<area shape="rect" id="node38" href="$group___tile_interface.html#gaec378f0f4b197546fb0b69f16748bfa1" title="Create a copy of arg. " alt="" coords="444,1238,565,1263"/>
+<area shape="rect" id="node44" href="$class_tiled_array_1_1_dist_array.html#a3ae16a62d1f3a7f64f67a80b6ccad8bb" title="Fill all local tiles. " alt="" coords="432,1601,576,1639"/>
+<area shape="rect" id="node46" href="$class_tiled_array_1_1_dist_array.html#a415c792db252572ee66bf3dc6e8827e6" title="Initialize (local) elements with a user provided functor. " alt="" coords="432,1663,576,1702"/>
+<area shape="rect" id="node45" href="$class_tiled_array_1_1_dist_array.html#a9bdb00980508272f34246ae2e251fcb4" title="Fill all local tiles. " alt="" coords="674,1631,818,1670"/>
+<area shape="rect" id="node49" href="$namespace_tiled_array.html#a1ddaca49af12c55a7e2087ad77aa8035" title="TiledArray::dense_diagonal\l_array" alt="" coords="413,1726,596,1765"/>
+<area shape="rect" id="node50" href="$namespace_tiled_array.html#ae8fd6c6add8ea900d7d2350fbe652390" title="TiledArray::sparse\l_diagonal_array" alt="" coords="440,1789,569,1827"/>
+</map>

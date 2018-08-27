@@ -1,0 +1,7 @@
+<map id="btas::squared_norm" name="btas::squared_norm">
+<area shape="rect" id="node2" href="$namespace_tiled_array.html#afc51ed34e98a417052d745d91994de70" title="TiledArray::size" alt="" coords="209,75,322,100"/>
+<area shape="rect" id="node5" href="$namespace_tiled_array_1_1math.html#a9c0ffd5e94287ad2c4074b4fabace4a3" title="TiledArray::math::dot" alt="" coords="193,127,338,152"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1_dist_array.html#a2978e91e67813dcd47b83864865e9134" title="TiledArray::DistArray\l::size" alt="" coords="410,5,554,44"/>
+<area shape="rect" id="node4" href="$class_tiled_array_1_1_dist_array.html#a973ef7e8f216f744271ea4a8cd5ae8ae" title="Tiled range accessor. " alt="" coords="410,68,554,107"/>
+<area shape="rect" id="node6" href="$namespace_tiled_array_1_1math.html#a1c4b7045a9549b064453440da7b7708c" title="Construct a const Eigen::Map object for a given Tensor object. " alt="" coords="386,131,578,156"/>
+</map>

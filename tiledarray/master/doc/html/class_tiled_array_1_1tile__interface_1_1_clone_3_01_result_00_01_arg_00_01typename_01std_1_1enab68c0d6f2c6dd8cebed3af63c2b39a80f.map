@@ -1,0 +1,4 @@
+<map id="TiledArray::tile_interface::Clone&lt; Result, Arg, typename std::enable_if&lt; ! std::is_same&lt; Result, typename clone_trait&lt; Arg &gt;::type &gt;::value &gt;::type &gt;" name="TiledArray::tile_interface::Clone&lt; Result, Arg, typename std::enable_if&lt; ! std::is_same&lt; Result, typename clone_trait&lt; Arg &gt;::type &gt;::value &gt;::type &gt;">
+<area shape="rect" id="node2" href="$class_tiled_array_1_1_cast.html" title="TiledArray::Cast\&lt; Result,\l Arg \&gt;" alt="" coords="24,92,193,131"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1tile__interface_1_1_cast.html" title="TiledArray::tile_interface\l::Cast\&lt; Result, Arg, Enabler \&gt;" alt="" coords="10,5,207,44"/>
+</map>

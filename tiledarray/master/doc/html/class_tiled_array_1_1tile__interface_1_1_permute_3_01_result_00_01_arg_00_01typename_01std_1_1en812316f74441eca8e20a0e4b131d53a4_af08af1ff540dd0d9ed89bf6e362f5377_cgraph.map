@@ -1,0 +1,3 @@
+<map id="TiledArray::tile_interface::Permute&lt; Result, Arg, typename std::enable_if&lt; ! std::is_same&lt; Result, result_of_permute_t&lt; Arg &gt; &gt;::value &gt;::type &gt;::operator()" name="TiledArray::tile_interface::Permute&lt; Result, Arg, typename std::enable_if&lt; ! std::is_same&lt; Result, result_of_permute_t&lt; Arg &gt; &gt;::value &gt;::type &gt;::operator()">
+<area shape="rect" id="node2" href="$namespace_tiled_array.html#ad7ce148a0f9ea7a739139fd97e16bc4c" title="TiledArray::permute" alt="" coords="247,39,385,64"/>
+</map>

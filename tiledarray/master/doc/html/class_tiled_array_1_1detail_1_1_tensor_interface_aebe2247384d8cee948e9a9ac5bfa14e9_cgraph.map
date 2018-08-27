@@ -1,0 +1,5 @@
+<map id="TiledArray::detail::TensorInterface::conj" name="TiledArray::detail::TensorInterface::conj">
+<area shape="rect" id="node2" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#a9d166c17d51ef50c4b61dfcc513521e8" title="Construct a scaled copy of this tensor. " alt="" coords="206,5,365,44"/>
+<area shape="rect" id="node4" href="$namespace_tiled_array_1_1detail.html#a78aafa383b1b3e69b6e57b6b78c61306" title="ComplexConjugate operator factory function. " alt="" coords="225,68,346,107"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1detail_1_1_tensor_interface.html#afb4a32b0ab9c5cfd9cf0781284befafe" title="Use a unary, element wise operation to construct a new tensor. " alt="" coords="413,5,574,44"/>
+</map>

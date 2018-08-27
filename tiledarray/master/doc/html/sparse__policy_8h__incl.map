@@ -1,0 +1,33 @@
+<map id="TiledArray/policies/sparse_policy.h" name="TiledArray/policies/sparse_policy.h">
+<area shape="rect" id="node2" href="$tiled__range_8h.html" title="TiledArray/tiled_range.h" alt="" coords="402,339,565,364"/>
+<area shape="rect" id="node30" href="$blocked__pmap_8h.html" title="TiledArray/pmap/blocked\l_pmap.h" alt="" coords="31,92,200,131"/>
+<area shape="rect" id="node32" href="$sparse__shape_8h.html" title="TiledArray/sparse_shape.h" alt="" coords="624,99,804,124"/>
+<area shape="rect" id="node3" href="$tiled__range1_8h.html" title="TiledArray/tiled_range1.h" alt="" coords="427,812,596,837"/>
+<area shape="rect" id="node15" href="$range_8h.html" title="TiledArray/range.h" alt="" coords="790,572,921,597"/>
+<area shape="rect" id="node4" href="$error_8h.html" title="TiledArray/error.h" alt="" coords="596,972,720,997"/>
+<area shape="rect" id="node8" href="$type__traits_8h.html" title="TiledArray/type_traits.h" alt="" coords="1338,892,1496,917"/>
+<area shape="rect" id="node16" href="$range__iterator_8h.html" title="TiledArray/range_iterator.h" alt="" coords="621,812,799,837"/>
+<area shape="rect" id="node17" href="$permutation_8h.html" title="TiledArray/permutation.h" alt="" coords="1044,725,1211,751"/>
+<area shape="rect" id="node26" href="$size__array_8h.html" title="TiledArray/size_array.h" alt="" coords="777,645,934,671"/>
+<area shape="rect" id="node18" href="$utility_8h.html" title="TiledArray/utility.h" alt="" coords="823,812,949,837"/>
+<area shape="rect" id="node19" href="$madness_8h.html" title="TiledArray/madness.h" alt="" coords="199,892,349,917"/>
+<area shape="rect" id="node27" href="$outer_8h.html" title="TiledArray/math/outer.h" alt="" coords="542,725,702,751"/>
+<area shape="rect" id="node28" href="$partial__reduce_8h.html" title="TiledArray/math/partial\l_reduce.h" alt="" coords="726,719,881,757"/>
+<area shape="rect" id="node31" href="$pmap_8h.html" title="TiledArray/pmap/pmap.h" alt="" coords="5,812,172,837"/>
+<area shape="rect" id="node33" href="$tensor_8h.html" title="TiledArray/tensor.h" alt="" coords="862,179,995,204"/>
+<area shape="rect" id="node46" href="$tensor__interface_8h.html" title="TiledArray/tensor/tensor\l_interface.h" alt="" coords="1163,252,1326,291"/>
+<area shape="rect" id="node47" href="$shift__wrapper_8h.html" title="TiledArray/tensor/shift\l_wrapper.h" alt="" coords="1364,252,1515,291"/>
+<area shape="rect" id="node49" href="$val__array_8h.html" title="TiledArray/val_array.h" alt="" coords="415,412,565,437"/>
+<area shape="rect" id="node34" href="$tensor_2tensor_8h.html" title="TiledArray/tensor/tensor.h" alt="" coords="966,259,1140,284"/>
+<area shape="rect" id="node40" href="$block__range_8h.html" title="TiledArray/block_range.h" alt="" coords="858,492,1027,517"/>
+<area shape="rect" id="node45" href="$tensor__map_8h.html" title="TiledArray/tensor/tensor\l_map.h" alt="" coords="445,485,608,524"/>
+<area shape="rect" id="node48" href="$operators_8h.html" title="TiledArray/tensor/operators.h" alt="" coords="640,339,834,364"/>
+<area shape="rect" id="node35" href="$gemm__helper_8h.html" title="TiledArray/math/gemm\l_helper.h" alt="" coords="196,805,352,844"/>
+<area shape="rect" id="node36" href="$blas_8h.html" title="TiledArray/math/blas.h" alt="" coords="1168,812,1322,837"/>
+<area shape="rect" id="node38" href="$kernels_8h.html" title="TiledArray/tensor/kernels.h" alt="" coords="1356,339,1536,364"/>
+<area shape="rect" id="node44" href="$complex_8h.html" title="TiledArray/tensor/complex.h" alt="" coords="1145,339,1332,364"/>
+<area shape="rect" id="node37" href="$math_2eigen_8h.html" title="TiledArray/math/eigen.h" alt="" coords="1152,892,1314,917"/>
+<area shape="rect" id="node39" href="$tensor_2utility_8h.html" title="TiledArray/tensor/utility.h" alt="" coords="996,412,1163,437"/>
+<area shape="rect" id="node43" href="$tensor_2permute_8h.html" title="TiledArray/tensor/permute.h" alt="" coords="1448,412,1634,437"/>
+<area shape="rect" id="node41" href="$tensor_2type__traits_8h.html" title="TiledArray/tensor/type\l_traits.h" alt="" coords="682,485,834,524"/>
+</map>

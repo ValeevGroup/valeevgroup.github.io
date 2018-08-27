@@ -1,0 +1,8 @@
+<map id="TiledArray::SparseShape::perm" name="TiledArray::SparseShape::perm">
+<area shape="rect" id="node2" href="$class_tiled_array_1_1_sparse_shape.html#ac31c86f6d199f7a5ee8cef404de0c449" title="Create a copy of a sub&#45;block of the shape. " alt="" coords="238,5,408,44"/>
+<area shape="rect" id="node3" href="$class_tiled_array_1_1_sparse_shape.html#a6d88b251d00a33d069ac2fa7247b7b15" title="Scale and permute shape. " alt="" coords="238,68,408,107"/>
+<area shape="rect" id="node4" href="$class_tiled_array_1_1_sparse_shape.html#ac938e939bbee5c1c282449b1c90496fb" title="Add and permute shapes. " alt="" coords="223,131,423,156"/>
+<area shape="rect" id="node5" href="$class_tiled_array_1_1_sparse_shape.html#afe0457a4b10618bc45e70f728bdfdf2c" title="TiledArray::SparseShape\l::subt" alt="" coords="238,180,408,219"/>
+<area shape="rect" id="node6" href="$class_tiled_array_1_1_sparse_shape.html#a99fcacc89afbf7ee29146bb899fc2f5c" title="TiledArray::SparseShape\l::mult" alt="" coords="238,243,408,281"/>
+<area shape="rect" id="node7" href="$class_tiled_array_1_1_sparse_shape.html#aa31679be37deccd633495b5901868d3b" title="TiledArray::SparseShape\l::gemm" alt="" coords="238,305,408,344"/>
+</map>

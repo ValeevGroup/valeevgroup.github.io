@@ -1,0 +1,6 @@
+<map id="TiledArray::symmetry::Permutation::inv" name="TiledArray::symmetry::Permutation::inv">
+<area shape="rect" id="node2" href="$class_tiled_array_1_1symmetry_1_1_permutation.html#ac2000af0420428267ac8b3789ca69653" title="Raise this permutation to the n&#45;th power. " alt="" coords="200,5,347,44"/>
+<area shape="rect" id="node4" href="$namespace_tiled_array_1_1symmetry.html#aa1d33636c14426da1d4d61c596941307" title="Inverse permutation operator. " alt="" coords="200,68,347,107"/>
+<area shape="rect" id="node5" href="$group__symmetry.html#gafe7e52830e4e09dc6af3a75d5162d06f" title="Computes conjugate permutation group obtained by the action of a permutation. " alt="" coords="200,131,347,169"/>
+<area shape="rect" id="node3" href="$namespace_tiled_array_1_1symmetry.html#a7d7b41363e7bd01645b5d108a4776bb0" title="Raise perm to the n&#45;th power. " alt="" coords="395,5,542,44"/>
+</map>

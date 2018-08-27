@@ -1,0 +1,18 @@
+<map id="TiledArray::math::vector_op_serial" name="TiledArray::math::vector_op_serial">
+<area shape="rect" id="node2" href="$namespace_tiled_array_1_1math.html#aceed918876c18aeee95f1c735ae0b46f" title="TiledArray::math::vector_op" alt="" coords="216,213,400,239"/>
+<area shape="rect" id="node3" href="$namespace_tiled_array_1_1math.html#a89ff3fb5ad1a86bf9b9842a55f4f4c5f" title="Compute and store outer of x and y in a. " alt="" coords="458,67,634,92"/>
+<area shape="rect" id="node6" href="$class_tiled_array_1_1_sparse_shape.html#a6e638781d0d2ec4347947b7ed627b9e5" title="TiledArray::SparseShape::add" alt="" coords="692,5,892,31"/>
+<area shape="rect" id="node7" href="$class_tiled_array_1_1_sparse_shape.html#a369e1a3d9a37069ede03c6726f0c6005" title="TiledArray::SparseShape\l::gemm" alt="" coords="707,117,877,156"/>
+<area shape="rect" id="node9" href="$namespace_tiled_array_1_1math.html#acb497714b42b1864d60ac8ef64909289" title="TiledArray::math::fill\l_vector" alt="" coords="477,175,616,213"/>
+<area shape="rect" id="node12" href="$namespace_tiled_array_1_1math.html#a63bd7408688d316eb91ba464ec85d47c" title="TiledArray::math::uninitialized\l_unary_vector_op" alt="" coords="448,237,644,276"/>
+<area shape="rect" id="node13" href="$namespace_tiled_array_1_1math.html#a8aa10c21cf1e8449c17f61d3eb4006af" title="TiledArray::math::uninitialized\l_binary_vector_op" alt="" coords="448,300,644,339"/>
+<area shape="rect" id="node14" href="$class_tiled_array_1_1detail_1_1_size_array.html#ad7d0c881ad836d9d1bef1f22d673a89d" title="Binary vector operation. " alt="" coords="481,363,611,401"/>
+<area shape="rect" id="node16" href="$class_tiled_array_1_1detail_1_1_size_array.html#a4908aaa7fc71c2a82d1ced5b586e50cb" title="Unary vector operation. " alt="" coords="483,425,610,464"/>
+<area shape="rect" id="node4" href="$class_tiled_array_1_1detail_1_1_size_array.html#a8c710040cd50de2b7c1f2390c10b8413" title="Outer fill operation. " alt="" coords="720,55,864,93"/>
+<area shape="rect" id="node5" href="$class_tiled_array_1_1detail_1_1_val_array.html#af224734fb71eaeefb4d229631fcb1dc1" title="Outer fill operation. " alt="" coords="956,55,1093,93"/>
+<area shape="rect" id="node8" href="$class_tiled_array_1_1_sparse_shape.html#aa31679be37deccd633495b5901868d3b" title="TiledArray::SparseShape\l::gemm" alt="" coords="940,117,1109,156"/>
+<area shape="rect" id="node10" href="$namespace_tiled_array_1_1math.html#aaf9f781b35670b8ac67559cee0210197" title="TiledArray::math::uninitialized\l_fill_vector" alt="" coords="694,243,890,281"/>
+<area shape="rect" id="node11" href="$class_tiled_array_1_1detail_1_1_size_array.html#ac330b716d183056d329ce6b393833655" title="TiledArray::detail\l::SizeArray::assign" alt="" coords="726,180,858,219"/>
+<area shape="rect" id="node15" href="$class_tiled_array_1_1detail_1_1_val_array.html#ae86ef36f5f564d6e5be1f1af33c1469c" title="Binary vector operation. " alt="" coords="730,363,853,401"/>
+<area shape="rect" id="node17" href="$class_tiled_array_1_1detail_1_1_val_array.html#a955e74c5d4fd195e79c8b6d6f0ae30cf" title="Unary vector operation. " alt="" coords="731,425,852,464"/>
+</map>

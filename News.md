@@ -5,11 +5,21 @@ title: News
 
 # 2018 
 
+- September 25, 2018
+
+"State-Averaged Pair Natural Orbitals for Excited States: A Route toward Efficient Equation of Motion Coupled-Cluster"
+has been accepted for publication in the [*Journal of Chemical Theory and Computation*](https://pubs.acs.org/doi/full/10.1021/acs.jctc.8b00171)
+
 - August 6-9, 2018
 
 Valeev group members Varun Rishi, Nakul Teke, Karl Pierce, and Marjory Clement attended the MolSSI
 Parallel Computing in Molecular Sciences Summer School and Workshop hosted by Berkeley Lab in Berkeley, CA.
 Prof. Valeev served as one of the organizers and teachers. More information can be found [here](http://crd.lbl.gov/news-and-publications/news/2018/exascale-education/).
+
+- August 2, 2018
+
+"Optimized Pair Natural Orbitals for the Coupled Cluster Methods" has been accepted for publication
+in the [*Journal of Chemical Theory and Computation*](https://pubs.acs.org/doi/10.1021/acs.jctc.8b00294)
 
 - July 25, 2018
 

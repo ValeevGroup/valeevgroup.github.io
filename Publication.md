@@ -4,13 +4,23 @@ title: "Publication"
 description: "Publications at Valeev Research Group"
 ---
 
+# 2018
+---------------
+- "State-Averaged Pair Natural Orbitals for Excited States: A Route toward
+Efficient Equation of Motion Coupled-Cluster"  
+C Peng, MC Clement, EF Valeev  
+[Journal of Chemical Theory and Computation](https://pubs.acs.org/doi/full/10.1021/acs.jctc.8b00171)
+
+- "Optimized Pair Natural Orbitals for the Coupled Cluster Methods"  
+MC Clement, J Zhang, CA Lewis, C Yang, EF Valeev  
+[Journal of Chemical Theory and Computation 14(9), 4581-4589](https://pubs.acs.org/doi/10.1021/acs.jctc.8b00294)
+
 # 2017
 ---------------
 
 - "Communication: Explicitly correlated formalism for second-order single-particle Green’s function"    
 F Pavošević, C Peng, JV Ortiz, EF Valeev  
-**Editor's Pick** [The Journal of Chemical Physics 147 (12), 121101](http://aip.scitation.org/doi/full/10.1063/1
-.5000916) 
+**Editor's Pick** [The Journal of Chemical Physics 147 (12), 121101](http://aip.scitation.org/doi/full/10.1063/1.5000916) 
 
 - "Fast construction of the exchange operator in an atom-centred basis with concentric atomic density fitting"  
 DS Hollman, HF Schaefer, EF Valeev   

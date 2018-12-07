@@ -6,6 +6,11 @@ header-img: "img/home-bg.jpg"
 ---
 
 -------
+## Valeev Research Group Fall 2018
+![Group 2018](../img/group/valeevgroup_2018_fall.jpg){:class="img-responsive"}
+Group Party at Prof. Valeev's House
+
+-------
 ## Valeev Research Group Summer 2018
 ![Group 2018](../img/group/valeevgroup_2018_summer.jpg){:class="img-responsive"}
 Nakul, Marjory, Varun, Xiao, Karl, Ashutosh, Yue, Chong and Prof. Valeev

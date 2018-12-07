@@ -36,7 +36,7 @@
 </section>
 <section id="one" class="tiles2">
 
-	{% for page in site.posts limit:100 %}
+	{% for page in site.posts reversed limit:100 %}
 	{% if page.tags contains 'postdoc' %}
 	<article>
 		<span class="image">

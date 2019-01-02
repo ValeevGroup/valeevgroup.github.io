@@ -5,6 +5,11 @@ title: News
 
 # 2018 
 
+- December 28, 2018
+
+Farewell to Dr. Xiao Wang, who has accepted a position as a Research Fellow at the Flatiron Institute
+under Dr. Timothy Berkelbach. Best wishes, Xiao!
+
 - September 25, 2018
 
 "State-Averaged Pair Natural Orbitals for Excited States: A Route toward Efficient Equation of Motion Coupled-Cluster"

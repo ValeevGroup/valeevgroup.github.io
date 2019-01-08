@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_wide
 title: "Group"
 description: "Activities at Valeev Research Group "
 header-img: "img/home-bg.jpg"

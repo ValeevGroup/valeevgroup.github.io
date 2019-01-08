@@ -9,7 +9,7 @@ image: img/people/fabijan_pavosevic.jpg
 github_url: https://github.com/fabijan5
 email: fabijan@vt.edu
 ---
-- Postdoc (2018-), Department of Chemistry, Yale University. [The Hammes-Schiffer Research Group](http://hammes-schiffer-group.org/)  
+- Postdoc (2018-) at Yale University under Prof. Sharon Hammes-Schiffer. [The Hammes-Schiffer Research Group](http://hammes-schiffer-group.org/)
 
 - PhD (2012-2017), Virginia Tech, Blacksburg, VA. USA. Supervisor: Edward F. Valeev  
 

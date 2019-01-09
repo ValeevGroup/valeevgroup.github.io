@@ -13,7 +13,7 @@ header-img: "img/home-bg.jpg"
 # Explicitly Correlated Electronic Structure Methods
 ![f12](../img/research/explicitly_correlated.jpg){:class="img-responsive"}
 
-# Reduced-Complexity Electronic Strucutre Methods
+# Reduced-Complexity Electronic Structure Methods
 ![reduced_complexity](../img/research/reduced_complexity.jpg){:class="img-responsive"}
 
 # Electronic Structure Methods for Periodic Systems

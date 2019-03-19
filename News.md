@@ -2,6 +2,13 @@
 layout: page
 title: News
 ---
+# 2019 
+
+- February 17-22, 2019
+
+Congratulations to Dr. Varun Rishi for receiving the 2018 Sanibel Award, given annually to the Quantum Theory
+Project's outstanding graduate student of the year! Varun delivered his award lecture during the 59th annual Sanibel
+Symposium, held at St. Simons Island, GA, from February 17-22, 2019.
 
 # 2018 
 

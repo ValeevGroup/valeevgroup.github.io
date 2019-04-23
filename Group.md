@@ -6,6 +6,11 @@ header-img: "img/home-bg.jpg"
 ---
 
 -------
+## Valeev Research Group Spring 2019
+![Group 2018](../img/group/valeevgroup_2019_spring.jpg){:class="img-responsive"}
+Prof. Valeev, Ashutosh, Nakul, Marjory, Yue, Bimal, Karl, Chong, Sam and Varun
+
+-------
 ## Valeev Research Group Fall 2018
 ![Group 2018](../img/group/valeevgroup_2018_fall.jpg){:class="img-responsive"}
 Group Party at Prof. Valeev's House

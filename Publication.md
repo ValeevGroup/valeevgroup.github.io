@@ -1,15 +1,29 @@
 ---
 layout: page
-title: "Publication"
+title: "Publications"
 description: "Publications at Valeev Research Group"
 ---
 
+# 2019
+---------------
+- "Coupled‐cluster singles, doubles and perturbative triples with density fitting approximation for massively
+parallel heterogeneous platforms"
+C Peng, JA Calvin, EF Valeev
+[International Journal of Quantum Chemistry](https://onlinelibrary.wiley.com/doi/abs/10.1002/qua.25894)
+
+
+
 # 2018
 ---------------
+
+- "Developing a computational chemistry framework for the exascale era"
+RM Richard, C Bertoni, JS Boschen, K Keipert, B Pritchard, EF Valeev, ...
+[Computing in Science & Engineering, 21(2), 48-58](https://ieeexplore.ieee.org/abstract/document/8565936)
+
 - "State-Averaged Pair Natural Orbitals for Excited States: A Route toward
 Efficient Equation of Motion Coupled-Cluster"  
 C Peng, MC Clement, EF Valeev  
-[Journal of Chemical Theory and Computation](https://pubs.acs.org/doi/full/10.1021/acs.jctc.8b00171)
+[Journal of Chemical Theory and Computation, 14(11), 5597–5607](https://pubs.acs.org/doi/full/10.1021/acs.jctc.8b00171)
 
 - "Optimized Pair Natural Orbitals for the Coupled Cluster Methods"  
 MC Clement, J Zhang, CA Lewis, C Yang, EF Valeev  

@@ -6,6 +6,11 @@ description: "Publications at Valeev Research Group"
 
 # 2019
 ---------------
+- "Explicitly correlated renormalized second-order Green’s function for accurate ionization potentials
+of closed-shell molecules"
+NK Teke, F Pavošević, C Peng, EF Valeev
+[Journal of Chemical Physics](https://aip.scitation.org/doi/10.1063/1.5090983)
+
 - "Coupled‐cluster singles, doubles and perturbative triples with density fitting approximation for massively
 parallel heterogeneous platforms"
 C Peng, JA Calvin, EF Valeev

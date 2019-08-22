@@ -15,6 +15,12 @@ We hope to see you here as a graduate student, Pratiksha!
 |Dr. Valeev and Pratiksha |     | Pratiksha with the Valeev Group |
 
 
+- July 5, 2019
+
+Congratulations to graduate student Nakul Teke on his poster, "Explicitly Correlated Green's Function
+Methods for Electron Binding Energies of Closed-Shell Molecules",
+which won a poster prize at the 2019 Molecular Quantum Mechanics conference in Heidelberg, Germany!
+
 - February 17-22, 2019
 
 Congratulations to Dr. Varun Rishi for receiving the 2018 Sanibel Award, given annually to the Quantum Theory

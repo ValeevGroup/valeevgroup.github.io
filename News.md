@@ -4,6 +4,12 @@ title: News
 ---
 # 2019 
 
+- June - July 2019
+
+The Valeev group was pleased to host Pratiksha Gaikwad, an undergraduate student from the Indian Institue of
+Technology (IIT) Kharagpur. While here, Pratiksha studied the fundamentals of electronic structure theory.
+We hope to see you here as a graduate student, Pratiksha!
+
 - February 17-22, 2019
 
 Congratulations to Dr. Varun Rishi for receiving the 2018 Sanibel Award, given annually to the Quantum Theory

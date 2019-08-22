@@ -12,7 +12,7 @@ We hope to see you here as a graduate student, Pratiksha!
 
 |   |   |   |
 |![Pratiksha with EFV](../img/group/2019-07-24_efv-pratiksha-gaikwad.jpg){:class="img-responsive"} |     |![Pratiksha with group](../img/group/2019-07-24_group-with-pratiksha-gaikwad.jpg){:class="img-responsive"} |
-|Dr. Valeev and Pratiksha |     | Pratiksha with the Valeev Group |  
+|Dr. Valeev and Pratiksha |     | Pratiksha with the Valeev Group |
 
 - July 5, 2019
 

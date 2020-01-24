@@ -9,11 +9,11 @@
         "url": "https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE"
     },
     "devDependencies": {
-        "grunt": "~1.0.3",
-        "grunt-contrib-less": "~2.0.0",
-        "grunt-contrib-watch": "~1.1.0",
+        "grunt": "^1.0.4",
         "grunt-banner": "~0.6.0",
-        "grunt-contrib-uglify": "~4.0.0"
+        "grunt-contrib-less": "~2.0.0",
+        "grunt-contrib-uglify": "~4.0.0",
+        "grunt-contrib-watch": "~1.1.0"
     },
     "repository": {
         "type": "git",

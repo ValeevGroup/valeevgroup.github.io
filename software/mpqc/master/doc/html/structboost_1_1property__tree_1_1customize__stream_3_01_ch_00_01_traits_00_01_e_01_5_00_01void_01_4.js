@@ -1,4 +1,0 @@
-var structboost_1_1property__tree_1_1customize__stream_3_01_ch_00_01_traits_00_01_e_01_5_00_01void_01_4 =
-[
-    [ "stored_t", "structboost_1_1property__tree_1_1customize__stream_3_01_ch_00_01_traits_00_01_e_01_5_00_01void_01_4.html#adb1869bcf09ffce48ef90a2e472d40eb", null ]
-];

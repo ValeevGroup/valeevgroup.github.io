@@ -1,8 +1,0 @@
-<map id="mpqc::ExcitationEnergy" name="mpqc::ExcitationEnergy">
-<area shape="rect" id="node2" href="$classmpqc_1_1_wavefunction_property.html" title="mpqc::WavefunctionProperty\l\&lt; std::vector\&lt; double \&gt; \&gt;" alt="" coords="701,55,893,93"/>
-<area shape="rect" id="node3" href="$classmpqc_1_1math_1_1_taylor_expansion_function.html" title="mpqc::math::TaylorExpansion\lFunction\&lt; std::vector\&lt; double\l \&gt;, MolecularCoordinates \&gt;" alt="" coords="456,15,653,67"/>
-<area shape="rect" id="node4" href="$classmpqc_1_1math_1_1_function.html" title="mpqc::math::Function\l\&lt; TaylorExpansionCoefficients\l\&lt; std::vector\&lt; double \&gt; \&gt;,\l MolecularCoordinates \&gt;" alt="" coords="208,5,408,71"/>
-<area shape="rect" id="node5" href="$classmpqc_1_1_property.html" title="mpqc::Property" alt="" coords="499,92,610,117"/>
-<area shape="rect" id="node6" href="$classmpqc_1_1_task.html" title="mpqc::Task" alt="" coords="264,95,352,120"/>
-<area shape="rect" id="node7" href="$classmpqc_1_1_described_class.html" title="mpqc::DescribedClass" alt="" coords="5,95,160,120"/>
-</map>

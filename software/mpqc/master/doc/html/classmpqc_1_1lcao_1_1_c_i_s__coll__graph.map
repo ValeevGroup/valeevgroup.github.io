@@ -1,8 +1,0 @@
-<map id="mpqc::lcao::CIS&lt; Tile, Policy &gt;" name="mpqc::lcao::CIS&lt; Tile, Policy &gt;">
-<area shape="rect" id="node2" href="$classmpqc_1_1lcao_1_1_l_c_a_o_wavefunction.html" title="LCAOWavefunction is a Wavefunction with an LCAOFactory. " alt="" coords="67,225,277,264"/>
-<area shape="rect" id="node3" href="$classmpqc_1_1lcao_1_1_wavefunction.html" title="mpqc::lcao::Wavefunction" alt="" coords="85,152,259,177"/>
-<area shape="rect" id="node4" href="$classmpqc_1_1_wavefunction.html" title="mpqc::Wavefunction" alt="" coords="101,79,243,104"/>
-<area shape="rect" id="node5" href="$classmpqc_1_1_described_class.html" title="mpqc::DescribedClass" alt="" coords="5,5,160,31"/>
-<area shape="rect" id="node6" href="$classmpqc_1_1utility_1_1_observer.html" title="helps to set up messaging between objects via the Observer pattern " alt="" coords="184,5,338,31"/>
-<area shape="rect" id="node7" href="$classmpqc_1_1_provides.html" title="mpqc::Provides\&lt; Excitation\lEnergy \&gt;" alt="" coords="301,225,483,264"/>
-</map>

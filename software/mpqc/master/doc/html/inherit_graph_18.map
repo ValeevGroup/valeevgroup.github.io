@@ -1,6 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classmpqc_1_1_cluster_concept.html" title="mpqc::ClusterConcept" alt="" coords="5,31,159,56"/>
-<area shape="rect" id="node2" href="$classmpqc_1_1_atom_based_cluster_concept.html" title="mpqc::AtomBasedClusterConcept" alt="" coords="207,5,429,31"/>
-<area shape="rect" id="node4" href="$classmpqc_1_1_cluster_model.html" title="mpqc::ClusterModel\&lt; T \&gt;" alt="" coords="232,55,403,80"/>
-<area shape="rect" id="node3" href="$classmpqc_1_1_atom_based_cluster_model.html" title="mpqc::AtomBasedClusterModel\&lt; T \&gt;" alt="" coords="477,5,716,31"/>
-</map>

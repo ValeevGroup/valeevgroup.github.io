@@ -1,6 +1,0 @@
-<map id="mpqc::detail::SubTreeKeyVal" name="mpqc::detail::SubTreeKeyVal">
-<area shape="rect" id="node2" href="$classmpqc_1_1_key_val.html" title="KeyVal specifies C++ primitive data (booleans, integers, reals, string) and user&#45;defined objects obta..." alt="" coords="369,55,472,80"/>
-<area shape="rect" id="node3" href="$structmpqc_1_1_key_val_1_1is__nonnegative__t.html" title="mpqc::KeyVal::is_nonnegative_t" alt="" coords="5,5,216,31"/>
-<area shape="rect" id="node4" href="$structmpqc_1_1_key_val_1_1is__positive__t.html" title="mpqc::KeyVal::is_positive_t" alt="" coords="19,55,202,80"/>
-<area shape="rect" id="node5" href="$structmpqc_1_1_key_val_1_1dummy__validator__t.html" title="mpqc::KeyVal::dummy\l_validator_t" alt="" coords="34,104,188,143"/>
-</map>

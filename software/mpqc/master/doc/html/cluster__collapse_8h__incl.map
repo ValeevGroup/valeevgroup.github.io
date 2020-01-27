@@ -1,9 +1,0 @@
-<map id="mpqc/chemistry/molecule/cluster_collapse.h" name="mpqc/chemistry/molecule/cluster_collapse.h">
-<area shape="rect" id="node2" href="$atom_8h.html" title="mpqc/chemistry/molecule\l/atom.h" alt="" coords="799,92,971,131"/>
-<area shape="rect" id="node6" href="$eigen_8h.html" title="mpqc/math/external\l/eigen/eigen.h" alt="" coords="648,179,786,217"/>
-<area shape="rect" id="node8" href="$keyval_8h.html" title="mpqc/util/keyval/keyval.h" alt="" coords="860,185,1029,211"/>
-<area shape="rect" id="node21" href="$predicates_8h.html" title="mpqc/util/meta/predicates.h" alt="" coords="1269,272,1453,297"/>
-<area shape="rect" id="node24" href="$stream_8h.html" title="mpqc/util/meta/stream.h" alt="" coords="1476,272,1640,297"/>
-<area shape="rect" id="node22" href="$get__type_8h.html" title="mpqc/util/meta/get\l_type.h" alt="" coords="1296,352,1426,391"/>
-<area shape="rect" id="node23" href="$type__traits_8h.html" title="type_traits.h" alt="" coords="1314,439,1408,464"/>
-</map>

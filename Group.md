@@ -7,7 +7,7 @@ header-img: "img/home-bg.jpg"
 
 -------
 ## Valeev Research Group Spring 2020
-![Group 2020](){:class="img-responsive"}
+![Group 2020](../img/group/valeevgroup_2020_spring.JPG){:class="img-responsive"}
 Yue, Nakul, Bimal, Sam, Marjory, Karl, Conner, Ashutosh, Andrey, and Prof. Valeev
 
 -------

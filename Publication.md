@@ -4,6 +4,13 @@ title: "Publications"
 description: "Publications at Valeev Research Group"
 ---
 
+# 2020
+---------------
+- "Massively Parallel Quantum Chemistry: A high-performance research platform for electronic structure"  
+EF Valeev, et al.   
+[Journal of Chemical Physics](https://doi.org/10.1063/5.0005889)
+
+
 # 2019
 ---------------
 - "Explicitly correlated renormalized second-order Green’s function for accurate ionization potentials

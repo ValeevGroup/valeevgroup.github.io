@@ -2,6 +2,15 @@
 layout: page
 title: News
 ---
+# 2020
+- May, 2020
+
+  Adam Holmes joins the group as a postdoc. Welcome to the group Adam!
+
+- February, 2020
+
+  Andrey Asadchev joins the group as a research scientist. Welcome to the group Andrey!
+
 # 2019 
 
 - June - July 2019

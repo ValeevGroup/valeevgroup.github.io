@@ -1,6 +1,6 @@
 ---
 layout: person
-tags: ['person','postdoc']
+tags: ['person','former']
 title: Dr. Chong Peng 
 author: Valeev Group 
 description: Research Scientist 
@@ -11,7 +11,9 @@ linkedin_url :
 email: pchong90@vt.edu
 ---
 
-- Research Scientist (2018-current), Valeev Research Group, Virginia Tech
+- Quantitative Developer (2019-present), JP Morgan, New York.
+
+- Research Scientist (2018-2019), Valeev Research Group, Virginia Tech
 
 - Graduate Student (2012-2018), Valeev Research Group, Virginia Tech  
 

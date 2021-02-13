@@ -11,7 +11,7 @@ linkedin_url :
 email: pchong90@vt.edu
 ---
 
-- Quantitative Developer (2019-present), JP Morgan, New York.
+- Quantitative Developer (2019-), JP Morgan, New York.
 
 - Research Scientist (2018-2019), Valeev Research Group, Virginia Tech
 

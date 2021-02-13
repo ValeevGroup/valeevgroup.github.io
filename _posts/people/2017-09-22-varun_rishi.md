@@ -10,7 +10,7 @@ github_url : https://github.com/varunrishi
 googlescholar_url: https://scholar.google.com/citations?user=nGopRpIAAAAJ&hl=en
 email: vrishi@vt.edu
 ---
-- Postdoctoral Associate (2019-prsent), California Institute of Technology, Miller Group
+- Postdoctoral Associate (2019-), California Institute of Technology, Miller Group
 - Postdoctoral Associate (2017-2019), Virginia Tech, Supervisor: Prof. Ed Valeev
 - PhD (2011 -2017), University Of Florida, Gainesville, Fl. Supervisor: Prof. Rodney J. Bartlett 
 - BS-MS (2006-2011), Indian Institute Of Science, Education And Research (IISER), Pune, India

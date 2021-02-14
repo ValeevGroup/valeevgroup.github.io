@@ -5,6 +5,7 @@ tags: ['person','postdoc']
 title: Dr. Adam Holmes
 author: Valeev Group
 description: Postdoctoral Associate
+image: img/people/adam_holmes.jpg
 github_url :
 googlescholar_url:
 email:

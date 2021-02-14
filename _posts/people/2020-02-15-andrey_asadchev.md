@@ -5,6 +5,7 @@ tags: ['person','postdoc']
 title: Andrey Asadchev (PhD)
 author: Valeev Group
 description: Research Scientist
+image: img/people/andrey_asadchev.jpg
 github_url :
 googlescholar_url:
 email:

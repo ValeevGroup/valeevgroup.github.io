@@ -4,6 +4,13 @@ title: "Publications"
 description: "Publications at Valeev Research Group"
 ---
 
+# 2021
+- "Robust Approximation of Tensor Networks: Application to Grid-Free Tensor
+  Factorization of the Coulomb Interaction"
+  Karl Pierce, Varun Rishi, and Edward F. Valeev
+  [Journal of Chemical Theory and Computation](https://pubs.acs.org/doi/10.1021/acs.jctc.0c01310)
+
+
 # 2020
 ---------------
 - "Massively Parallel Quantum Chemistry: A high-performance research platform for electronic structure"  

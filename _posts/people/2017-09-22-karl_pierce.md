@@ -4,11 +4,12 @@ nav-menu: false
 tags: ['person','former']
 title: Dr. Karl Pierce
 author: Valeev Group
-description: Graduate Student
+description: Research Scientist
 image: img/people/karl_pierce.jpg
 github_url: https://github.com/kpierce15
 email: kmp5@vt.edu
 ---
+- Research Scientist (2021-present), Virginia Tech, VA. Supervisor: Edward Valeev
 - PhD (2016-2021), Virginia Tech, VA. Supervisor: Edward Valeev
 - BS (2012-2016), Rice University, Houston, Texas.
 

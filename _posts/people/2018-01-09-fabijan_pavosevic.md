@@ -9,7 +9,7 @@ image: img/people/fabijan_pavosevic.jpg
 github_url: https://github.com/fabijan5
 email: fabijan@vt.edu
 ---
-- Research Fellow, Center for Computational Quantum Physics, Flatiron Institute
+- Research Fellow, Center for Computational Quantum Physics, Flatiron Institute (2021-present)
 
 - Postdoc (2018-2021) at Yale University under Prof. Sharon Hammes-Schiffer. [The Hammes-Schiffer Research Group](http://hammes-schiffer-group.org/)
 

@@ -9,7 +9,9 @@ image: img/people/fabijan_pavosevic.jpg
 github_url: https://github.com/fabijan5
 email: fabijan@vt.edu
 ---
-- Postdoc (2018-) at Yale University under Prof. Sharon Hammes-Schiffer. [The Hammes-Schiffer Research Group](http://hammes-schiffer-group.org/)
+- Research Fellow, Center for Computational Quantum Physics, Flatiron Institute
+
+- Postdoc (2018-2021) at Yale University under Prof. Sharon Hammes-Schiffer. [The Hammes-Schiffer Research Group](http://hammes-schiffer-group.org/)
 
 - PhD (2012-2017), Virginia Tech, Blacksburg, VA. USA. Supervisor: Edward F. Valeev  
 

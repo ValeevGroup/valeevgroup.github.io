@@ -9,6 +9,7 @@ image: img/people/marjory_clement.jpg
 github_url : https://github.com/mclement1
 email: mcclem@vt.edu
 ---
+- Valley Classical School (2021-present)
 - Graduate Student (2016-2021), Valeev Research Group, Virginia Tech
 - BS (2012-2016), Belhaven University, Jackson, MS
 

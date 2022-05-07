@@ -8,11 +8,13 @@ description: Graduate Student
 image: img/people/drew_lewis.jpg
 email: drew90@vt.edu
 ---
+- Senior Software Engineer, Google (2022-present)
 
+- Senior Member of Technical Staff, Sandia National Laboratories (2019-2022)
 
-- Postdoc (2018-), Sandia National Laboratories
+- Postdoctoral Researcher, Sandia National Laboratories  (2018-2019)
 
-- Graduate Student (2012-2018), Valeev Research Group, Virginia Tech
+- Graduate Student, Valeev Research Group, Virginia Tech (2012-2018)
 
 
 - Research Interest:

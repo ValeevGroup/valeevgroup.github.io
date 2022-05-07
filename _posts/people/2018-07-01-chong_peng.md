@@ -10,8 +10,9 @@ googlescholar_url:
 linkedin_url : 
 email: pchong90@vt.edu
 ---
+- Software Development Engineer, Amazon AWS (2021-present)
 
-- Quantitative Developer (2019-), JP Morgan, New York.
+- Quantitative Software Developer (2019-2021), JP Morgan, New York.
 
 - Research Scientist (2018-2019), Valeev Research Group, Virginia Tech
 

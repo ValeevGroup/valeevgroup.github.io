@@ -5,6 +5,7 @@ tags: ['person','grad_student']
 title: Ashawini Thakur
 author: Valeev Group
 description: Graduate Student
+image: img/people/ashawini_thakur.jpg
 github_url: https://github.com/Ashawini27
 email: ashawinithakur@vt.edu
 ---

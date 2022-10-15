@@ -3,12 +3,44 @@ layout: page
 title: "Publications"
 description: "Publications at Valeev Research Group"
 ---
+# 2022
+- "Quantum Simulation of Molecular Electronic States with a Transcorrelated Hamiltonian: Higher Accuracy with Fewer Qubits"
+  A Kumar, A Asthana, C Masteran, EF Valeev, Y Zhang, L Cincio, S Tretiak, PA Dub
+  [Journal of Chemical Theory and Computation, 18(9), 5312-5324](https://pubs.acs.org/doi/abs/10.1021/acs.jctc.2c00520)
+
+- "Generalized Flow-Graph Programming Usage Template Task-Graphs: Initial Implementation and Assessment"
+  J Schuchart, P Nookala, MM Javanmard, T Herault, EF Valeev, G Bosilica, and RJ Harrison
+  [Conference paper: 2022 IEEE International Parallel and Distributed Processing Symposium](https://ieeexplore.ieee.org/abstract/document/9820613/)
 
 # 2021
+- "Robust Pipek–Mezey Orbital Localization in Periodic Solids"
+  MC Clement, X Wang, and EF Valeev
+  Journal of Chemical Theory and Computation, 17(12), 7406-7515](https:doi.org/10.1021/acs.jctc.1c00238)
+
+- "Efficient Four-Component Dirac–Coulomb–Gaunt Hartree–Fock in the Pauli Spinor Representation"
+  S Sun, TF Stetina, T Zhang, H Hu, EF Valeev, Q Sun, and X Li
+  [Journal of Chemical Theory and Computation, 17(6), 3388-3402](https://pubs.acs.org/doi/abs/10.1021/acs.jctc.1c00137)
+
+- "Distributed-memory multi-GPU block-sparse tensor contraction for electronic structure"
+  T Harault, Y Robert, G Bosilca, RJ Harrison, CA Lewis, EF Valeev, and JJ Dongarra
+  [2021 IEEE International Parallel and Distributed Processing Symposium (IPDPS)](https://ieeexplore.ieee.org/abstract/document/9460455/)
+
+- "Toward the minimal floating operation count Cholesky decomposition of electron repulsion integrals"
+  T Zhang, X Liu, EF Valeev, and X Li
+  [The Journal of Physical Chemistry A, 125(19), 4258-4265](https://pubs.acs.org/doi/abs/10.1021/acs.jpca.1c02317)
+
+- "From NWChem to NWChemEx: Evolving with the computational chemistry landscape"
+  EF Valeev, et al.
+  [Chemical Reviews](https://doi.org/10.1021/acs.chemrev.0c00998)
+
 - "Robust Approximation of Tensor Networks: Application to Grid-Free Tensor
   Factorization of the Coulomb Interaction"
-  Karl Pierce, Varun Rishi, and Edward F. Valeev
+  K Pierce, V Rishi, and EF Valeev
   [Journal of Chemical Theory and Computation](https://pubs.acs.org/doi/10.1021/acs.jctc.0c01310)
+
+- "An Introduction to High Performance Computing and Its Intersection with Advances in Modeling Rare Earth Elements and Actinides"
+  DA Penchoff, EF Valeev, H Jagode, P Luszczek, A Danalis, G Bosilca, RJ Harrison, J Dongarra, TL Windus
+  [Rare Earth Elements and Actinides: Progress in Computational Science Applications](https://doi.org/10.1021/bk-2021-1388.ch001)
 
 
 # 2020

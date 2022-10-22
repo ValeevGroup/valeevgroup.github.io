@@ -3,6 +3,23 @@ layout: page
 title: "Publications"
 description: "Publications at Valeev Research Group"
 ---
+# Preprints
+- "Memory-Efficient Recursive Evaluation of 3-Center Gaussian Integrals"
+  A Asadchev and EF Valeev
+  [ArXiv preprint, 2022-10-06](https://arxiv.org/abs/2210.03192)
+
+- "Efficient Construction of Canonical Polyadic Approximations of Tensor Networks"
+  K Pierce and EF Valeev
+  [ArXiv preprint, 2022-08-22](https://arxiv.org/abs/2208.09992)
+
+- "Is There Evidence for Exponential Quantum Advantage in Quantum Chemistry?"
+  EF Valeev, et al.
+  [ArXiv preprint, 2022-08-03](https://arxiv.org/abs/2208.02199)
+
+- "Direct Determination of Optimal Real-Space Orbitals for Correlated Electronic Structure of Molecules"
+  EF Valeev, RJ Harrison, CC Peterson, and DA Penchoff
+  [ArXiv preprint, 2022-07-22](https://arxiv.org/abs/2207.10841)
+
 # 2022
 - "Quantum Simulation of Molecular Electronic States with a Transcorrelated Hamiltonian: Higher Accuracy with Fewer Qubits"
   A Kumar, A Asthana, C Masteran, EF Valeev, Y Zhang, L Cincio, S Tretiak, PA Dub

@@ -21,6 +21,11 @@ description: "Publications at Valeev Research Group"
   [ArXiv preprint, 2022-07-22](https://arxiv.org/abs/2207.10841)
 
 # 2022
+- "Pushing the Boundaries of Small Tasks: Scalable Low-Overhead Data-Flow Programming in TTG"
+  J Schuchart, P Nookala, T Herault, EF Valeev, G Bosilica
+  [2022 IEEE International Conference on Cluster Computing (CLUSTER)](https://ieeexplore.ieee.org/abstract/document/9912704/)
+  
+
 - "Quantum Simulation of Molecular Electronic States with a Transcorrelated Hamiltonian: Higher Accuracy with Fewer Qubits"
   A Kumar, A Asthana, C Masteran, EF Valeev, Y Zhang, L Cincio, S Tretiak, PA Dub
   [Journal of Chemical Theory and Computation, 18(9), 5312-5324](https://pubs.acs.org/doi/abs/10.1021/acs.jctc.2c00520)
@@ -32,7 +37,7 @@ description: "Publications at Valeev Research Group"
 # 2021
 - "Robust Pipek–Mezey Orbital Localization in Periodic Solids"
   MC Clement, X Wang, and EF Valeev
-  Journal of Chemical Theory and Computation, 17(12), 7406-7515](https:doi.org/10.1021/acs.jctc.1c00238)
+  [Journal of Chemical Theory and Computation, 17(12), 7406-7515](https:doi.org/10.1021/acs.jctc.1c00238)
 
 - "Efficient Four-Component Dirac–Coulomb–Gaunt Hartree–Fock in the Pauli Spinor Representation"
   S Sun, TF Stetina, T Zhang, H Hu, EF Valeev, Q Sun, and X Li
@@ -62,10 +67,25 @@ description: "Publications at Valeev Research Group"
 
 # 2020
 ---------------
+- "Many-body quantum chemistry on massively parallel computers"
+JA Calvin, C Peng, V Rishi, A Kumar, EF Valeev
+[Chemical Reviews, 121(3), 1203-1231](https://pubs.acs.org/doi/abs/10.1021/acs.chemrev.0c00006)
+
+- "Efficient evaluation of exact exchange for periodic systems via concentric atomic density fitting"
+X Wang, CA Lewis, EF Valeev
+[Journal of Chemical Physics, 153(12), 124116](https://aip.scitation.org/doi/abs/10.1063/5.0016856)
+
 - "Massively Parallel Quantum Chemistry: A high-performance research platform for electronic structure"  
 EF Valeev, et al.   
-[Journal of Chemical Physics](https://doi.org/10.1063/5.0005889)
+[Journal of Chemical Physics, 154(4), 094105](https://doi.org/10.1063/5.0005889)
 
+- "Direct determination of optimal pair-natural orbitals in a real-space representation: the second-order Moller–Plesset energy"
+JS Kottmann, FA Bischoff, EF Valeev
+[Journal of Chemical Physics, 152(7), 074105](https://aip.scitation.org/doi/abs/10.1063/1.5141880)
+
+- "Quantum simulation of electronic structure with a transcorrelated Hamiltonian: improved accuracy with a smaller footprint on the quantum computer"
+M Motta, TP Gujarati, JE Rice, A Kumar, C Masteran, JA Latone, E Lee, EF Valeev, TY Takeshita
+[Phtsical Chemistry Chemical Physics, 22(42), 24270-24281](https://pubs.rsc.org/en/content/articlehtml/2020/cp/d0cp04106h)
 
 # 2019
 ---------------
@@ -79,6 +99,13 @@ parallel heterogeneous platforms"
 C Peng, JA Calvin, EF Valeev   
 [International Journal of Quantum Chemistry](https://onlinelibrary.wiley.com/doi/abs/10.1002/qua.25894)
 
+- "Combined Relativistic Ab Initio Multireference and Experimental Study of the Electronic Structure of Terbium Luminescent Compound"
+C-X Wang, Y Li, Z-F Li, Z-J Liu, EF Valeev, LV Moskaleva
+[Journal of Physical Chemistry A](https://pubs.acs.org/doi/abs/10.1021/acs.jpca.9b11089)
+
+- "Can the distinguishable cluster approximation be improved systematically by including connected triples?"
+V Rishi, EF Valeev
+[Journal of Chemical Physics, 151(6), 064102](https://aip.scitation.org/doi/abs/10.1063/1.5097150)
 
 
 # 2018

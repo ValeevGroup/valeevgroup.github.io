@@ -2,6 +2,23 @@
 layout: page
 title: News
 ---
+# 2022
+- December 2022
+
+  VRG members EFV (far left), Bimal Gaudel (front, second from right), and Kshitij Surjuse (front, far right) with collaborators from LBNL, University of Washington, and Florida State University at a SciDAC meeting in Berkeley, CA.
+
+| |
+| ![VRG members with collaborators at a SciDAC meeting](../img/group/2022-12-12_SciDAC.jpg){:class="img-responsive"} |
+| VRG members and collaborators at a SciDAC meeting |
+
+- December 5th, 2022
+  
+  Congratulations to Dr. Nakul Teke for successfully defending his thesis! Nakul has accepted a position with Synopsys in North Carolina.  
+
+| | | |
+| ![Nakul and EFV after the defence](../img/group/2022-12-05_nakul-defense-efv.jpg){:class="img-responsive"} | | ![Nakul and the group after the defense](../img/group/2022-12-05_nakul-defense-group.jpg){:class="img-responsive"} |
+| Drs. Valeev and Teke | | Nakul and the VRG members left behind |
+
 # 2020
 - May, 2020
 

@@ -9,7 +9,8 @@ image: img/people/karl_pierce.jpg
 github_url: https://github.com/kpierce15
 email: kmp5@vt.edu
 ---
-- Research Scientist (2021-present), Virginia Tech, VA. Supervisor: Edward Valeev
+- Postdoctoral Associate (September 2022), Flatiron Institute, NY, NY. 
+- Research Scientist (December 2021-August 2022), Virginia Tech, VA. Supervisor: Edward Valeev
 - PhD (2016-2021), Virginia Tech, VA. Supervisor: Edward Valeev
 - BS (2012-2016), Rice University, Houston, Texas.
 

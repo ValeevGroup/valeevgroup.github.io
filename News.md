@@ -17,7 +17,45 @@ title: News
 
 | | | |
 | ![Nakul and EFV after the defence](../img/group/2022-12-05_nakul-defense-efv.jpg){:class="img-responsive"} | | ![Nakul and the group after the defense](../img/group/2022-12-05_nakul-defense-group.jpg){:class="img-responsive"} |
-| Drs. Valeev and Teke | | Nakul and the VRG members left behind |
+| Drs. Teke and Valeev | | Nakul and the VRG members left behind |
+
+# 2021
+
+- December 10th, 2021
+
+  Congratulations to Dr. Karl Pierce for successfully defending his thesis! Karl will be joining the Flatiron Institute in NYC as a postdoc. 
+
+| |
+| ![Drs. Pierce, Valeev, and Clement at graduation](../img/group/2022-05-11_Pierce_Clement_graduation.jpg){:class="img-responsive"} |
+| Drs. Pierce, Valeev, and Clement at graduation, May 2022 |
+
+- August 2021
+
+  Congratulations to Karl, who  was awarded a Graduate School Doctoral Assistantship for 2021-2022!
+
+- July 15th, 2022
+
+  Congratulations to Dr. Marjory Clement for successfully defending her thesis! Marjory will be teaching at Valley Classical School in Blacksburg, VA.
+
+| |
+| ![Dr. Clement opening her celebratory champagne](../img/group/2021-12-15_Marjory-phd-celebration.jpg){:class="img-responsive"} |
+| Dr. Clement opening her celebratory champagne |
+
+- April 29th, 2022
+
+  Undergraduate member Jaden Yon presented a research poster at the Department of Chemistry's Undergraduate Poster Symposium. 
+
+| |
+| ![Jaden Yon and coworkers by the research poster](../img/group/2022-04-29_Yon_Masteran_Powell_UG-symposium.jpg){:class="img-responsive"} |
+| (L-R) Samuel Powell, Conner Masteran, and primary author Jaden Yon by the research poster |
+
+- April 22nd, 2022
+  
+  Group member Samuel Powell presented a poster at the ICTAS research symposium.
+
+| |
+| ![Samuel Powell presents a poster at the ICTAS research symposium](../img/group/2022-04-22_S_Powell_ICTAS_poster.jpg){:class="img-responsive"} |
+| |
 
 # 2020
 - May, 2020

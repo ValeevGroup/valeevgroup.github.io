@@ -6,6 +6,11 @@ header-img: "img/home-bg.jpg"
 ---
 
 -------
+## Valeev Research Group Spring 2023
+![Group 2023](../img/group/2023-01-08_VRG_julian_christmas_party.jpg){:class="img-responsive"}
+Prof. Valeev, Nakul, Marjory, Ashawini, Sam, Kshitij, Samuel, Conner, Andrei, Drew (in the back), Bimal, and Ajay
+
+-------
 ## Valeev Research Group Spring 2020
 ![Group 2020](../img/group/valeevgroup_2020_spring.JPG){:class="img-responsive"}
 Yue, Nakul, Bimal, Sam, Marjory, Karl, Conner, Ashutosh, Andrey, and Prof. Valeev

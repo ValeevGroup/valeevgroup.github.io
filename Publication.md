@@ -37,7 +37,7 @@ description: "Publications at Valeev Research Group"
 # 2021
 - "Robust Pipek–Mezey Orbital Localization in Periodic Solids"
   MC Clement, X Wang, and EF Valeev
-  [Journal of Chemical Theory and Computation, 17(12), 7406-7515](https:doi.org/10.1021/acs.jctc.1c00238)
+  [Journal of Chemical Theory and Computation, 17(12), 7406-7515](https://doi.org/10.1021/acs.jctc.1c00238)
 
 - "Efficient Four-Component Dirac–Coulomb–Gaunt Hartree–Fock in the Pauli Spinor Representation"
   S Sun, TF Stetina, T Zhang, H Hu, EF Valeev, Q Sun, and X Li

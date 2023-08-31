@@ -1,7 +1,7 @@
 ---
 layout: person
 nav-menu: false
-tags: ['person','postdoc']
+tags: ['person','former']
 title: Dr. Adam Holmes
 author: Valeev Group
 description: Postdoctoral Associate
@@ -11,4 +11,4 @@ googlescholar_url:
 email:
 phone:
 ---
-- Postdoctoral associate at Valeev Group (2020-present)
+- Postdoctoral associate at Valeev Group (2020-2022)

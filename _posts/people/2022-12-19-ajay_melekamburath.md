@@ -13,4 +13,4 @@ email: ajaymk22@vt.edu
 - Research Fellow (2021 - 2022), R. S. Swathi Group, Indian Institute of Science Education and Research (IISER) Thiruvananthapuram.
 - BS-MS (2016 - 2021), Indian Institute of Science Education and Research (IISER) Thiruvananthapuram.
 
-- Research Interests: TBA
+- Research Interests: Automated implementation of many-body methods, Higher-order coupled cluster methods

@@ -1,14 +1,14 @@
 ---
 layout: page_wide
 title: "Group"
-description: "Activities at Valeev Research Group "
+description: "Activities at Valeev Research Group"
 header-img: "img/home-bg.jpg"
 ---
 
 -------
 ## Valeev Research Group Fall 2023
 ![Group 2023](../img/group/2023-12-02_VRG_fall_party.jpg){:class="img-responsive"}
-Sam (with Jack), Ajay, Kshitij, Samuel, Hyndavi, Bimal, Conner, Jonathon, Prof. Valeyev (with Nikoli and Nadia)
+Sam (with Jack), Ajay, Kshitij, Samuel, Hyndavi, Bimal, Conner, Jonathon, Prof. Valeev (with Nikoli and Nadia)
 
 ## Valeev Research Group Spring 2023
 ![Group 2023](../img/group/2023-01-08_VRG_julian_christmas_party.jpg){:class="img-responsive"}

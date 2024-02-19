@@ -1,7 +1,7 @@
 ---
 layout: person
 nav-menu: false
-tags: ['person','grad_student', 'former']
+tags: ['person', 'former']
 title: Ashawini Thakur
 author: Valeev Group
 description: Graduate Student

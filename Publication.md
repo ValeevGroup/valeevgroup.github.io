@@ -4,14 +4,19 @@ title: "Publications"
 description: "Publications at Valeev Research Group"
 ---
 # Preprints
-- "Economical Quasi-Newton Self Consistent Field Solver"
-SA Slattery, K Surjuse, EF Valeev
-[ArXiv Preprint, July 2023](https://arxiv.org/abs/2307.00560)
+- "CoNST: Code Generator for Sparse Tensor Networks"
+S Raje, Y Xu, A Rountev, EF Valeev, S Sadayappan
+[ArXiv Preprint](https://arxiv.org/abs/2401.04836)
+
+# 2024
+- "Economical Quasi-Newton Unitary Optimization of Electronic Orbitals"
+SA Slattery, KA Surjuse, CC Peterson, DA Penchoff, EF Valeev
+[Physical Chemistry Chemical Physics 26 (8)](https://doi.org/10.1039/D3CP05557D)
 
 # 2023
 - "High-performance evaluation of high angular momentum 4-center Gaussian integrals on modern accelerated processors"
 A Asadchev, EF Valeev
-[The Journal of Physical Chemistry A](https://doi.org/10.1021/acs.jpca.3c04574)
+[The Journal of Physical Chemistry A 127 (51)](https://doi.org/10.1021/acs.jpca.3c04574)
 - "Cluster-in-Molecule Approach with Explicitly Correlated Methods for Large Molecules"
 Y Wang, Y Guo, F Neese, EF Valeev, W Li, S Li
 [Journal of Chemical Theory and Computation 19 (22)](https://doi.org/10.1021/acs.jctc.3c00627)

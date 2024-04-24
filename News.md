@@ -2,6 +2,14 @@
 layout: page
 title: News
 ---
+# 2024
+- April 24th, 2024
+  Congratulations to Dr. Samuel Slattery for successfully defending his thesis, _From Hartree Product to Kohn-Sham and Beyond: Exploring  Self-Interaction in Self-Consistent Field Theory_! 
+
+| | | |
+| ![Sam making his thesis defense](../img/group/2024-04-24_sam_defense1.jpg){:class="img-responsive"} | | ![Sam answering audience questions](../img/group/2024-04-24_sam_defense1.jpg){:class="img-responsive"} |
+| Sam's defense | | Sam answering questions |
+
 # 2022
 - December 2022
 
@@ -13,7 +21,7 @@ title: News
 
 - December 5th, 2022
   
-  Congratulations to Dr. Nakul Teke for successfully defending his thesis! Nakul has accepted a position with Synopsys in North Carolina.  
+  Congratulations to Dr. Nakul Teke for successfully defending his thesis! Nakul has accepted a position with [Synopsys](https://www.synopsys.com) in North Carolina.  
 
 | | | |
 | ![Nakul and EFV after the defence](../img/group/2022-12-05_nakul-defense-efv.jpg){:class="img-responsive"} | | ![Nakul and the group after the defense](../img/group/2022-12-05_nakul-defense-group.jpg){:class="img-responsive"} |

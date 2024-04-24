@@ -22,6 +22,7 @@ title: News
 - December 5th, 2022
   
   Congratulations to Dr. Nakul Teke for successfully defending his thesis! Nakul has accepted a position with [Synopsys](https://www.synopsys.com) in North Carolina.  
+  Congratulations to Dr. Nakul Teke for successfully defending his thesis! Nakul has accepted a position with [Synopsys](https://www.synopsys.com) in North Carolina.  
 
 | | | |
 | ![Nakul and EFV after the defence](../img/group/2022-12-05_nakul-defense-efv.jpg){:class="img-responsive"} | | ![Nakul and the group after the defense](../img/group/2022-12-05_nakul-defense-group.jpg){:class="img-responsive"} |

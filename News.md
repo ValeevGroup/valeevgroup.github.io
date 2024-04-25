@@ -4,7 +4,7 @@ title: News
 ---
 # 2024
 - April 24th, 2024
-  Congratulations to Dr. Samuel Slattery for successfully defending his thesis, _From Hartree Product to Kohn-Sham and Beyond: Exploring  Self-Interaction in Self-Consistent Field Theory_! 
+  Congratulations to Dr. Samuel Slattery for successfully defending his thesis, _From Hartree Product to Kohn-Sham and Beyond: Exploring  Self-Interaction in Self-Consistent Field Theory_! Sam has accepted a position with the Army Corps of Engineers in Mississippi.  
 
 | | | |
 | ![Sam making his thesis defense](../img/group/2024-04-24_sam_defense1.jpg){:class="img-responsive"} | | ![Sam answering audience questions](../img/group/2024-04-24_sam_defense2.jpg){:class="img-responsive"} |

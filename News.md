@@ -3,12 +3,27 @@ layout: page
 title: News
 ---
 # 2024
+- April 26th, 2024
+
+  Congratulations to Jaden Yon, whose poster won an Honorable Mention at the Chemistry department's Undergraduate Research Symposium! Congratulations also to Prof. Valeev for receiving the John C. Schug Research Award from the Department of Chemistry!
+
+  | | | |
+  | ![Professor Valeev, primary author Jaden Yon, and Sam Slattery by Jaden's postery at the undergraduate research symposium](../img/group/2024-04-26_yon_ug_poster.jpg){:class="img-responsive"} | | ![Jaden Yon and Professor Valeev with their awards](../img/group/2024-04-27_valeev_yon_awards.jpg){:class="img-responsive"} |
+  | EFV, Jaden, and Sam by Jaden's poster | | Congratulations Jaden and Professor Valeev! |
+
 - April 24th, 2024
-  Congratulations to Dr. Samuel Slattery for successfully defending his thesis, _From Hartree Product to Kohn-Sham and Beyond: Exploring  Self-Interaction in Self-Consistent Field Theory_! Sam has accepted a position with the Army Corps of Engineers in Mississippi.  
+
+  Congratulations to Dr. Samuel Slattery for successfully defending his thesis, _From Hartree Product to Kohn-Sham and Beyond: Exploring  Self-Interaction in Self-Consistent Field Methods_! Sam has accepted a position with the Army Corps of Engineers in Mississippi.  
 
 | | | |
-| ![Sam making his thesis defense](../img/group/2024-04-24_sam_defense1.jpg){:class="img-responsive"} | | ![Sam answering audience questions](../img/group/2024-04-24_sam_defense2.jpg){:class="img-responsive"} |
-| Sam's defense | | Sam answering questions |
+| ![Sam presenting his thesis defense](../img/group/2024-04-24_sam_defense1.jpg){:class="img-responsive"} | | ![Sam popping his champaign](../img/group/2024-04-26_slattery_defense_celebration_2.jpg){:class="img-responsive"} |
+| Sam's defense | | Congratulations, Sam! |
+
+
+| |
+| ![EFV and Sam celebrating a successful defense](../img/group/2024-04-26_slattery_defense_celebration_1.jpg){:class="img-responsive"} |
+| Drs. Valeev and Slattery |
+
 
 # 2022
 - December 2022
@@ -21,8 +36,7 @@ title: News
 
 - December 5th, 2022
   
-  Congratulations to Dr. Nakul Teke for successfully defending his thesis! Nakul has accepted a position with [Synopsys](https://www.synopsys.com) in North Carolina.  
-  Congratulations to Dr. Nakul Teke for successfully defending his thesis! Nakul has accepted a position with [Synopsys](https://www.synopsys.com) in North Carolina.  
+  Congratulations to Dr. Nakul Teke for successfully defending his thesis! Nakul has accepted a position with [Synopsys](https://www.synopsys.com) in North Carolina. 
 
 | | | |
 | ![Nakul and EFV after the defence](../img/group/2022-12-05_nakul-defense-efv.jpg){:class="img-responsive"} | | ![Nakul and the group after the defense](../img/group/2022-12-05_nakul-defense-group.jpg){:class="img-responsive"} |

@@ -1,7 +1,7 @@
 ---
 layout: person
 nav-menu: false
-tags: ['person','post_doc']
+tags: ['person','postdoc']
 title: Jonathon Misiewicz
 author: Valeev Group
 description: Postdoc

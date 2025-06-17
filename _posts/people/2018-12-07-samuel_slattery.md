@@ -1,7 +1,7 @@
 ---
 layout: person
 nav-menu: false
-tags: ['person','grad_student']
+tags: ['person','former']
 title: Samuel Slattery
 author: Valeev Group
 description: Graduate Student
@@ -10,7 +10,7 @@ email: samwise@vt.edu
 ---
 
 
-- PhD (2018-Present), Virginia Tech, VA. Supervisor: Edward Valeev
+- PhD (2018-2024), Virginia Tech, VA. Supervisor: Edward Valeev
 - Researcher (2017-2018) Kanai Group at UNC-CH, Chapel Hill, North Carolina
 - Digital Analyst (2016-2017), Lowes, Mooresville, North Carolina
 - BS (2012-2016), University of North Carolina, Chapel Hill, North Carolina

@@ -2,7 +2,19 @@
 layout: page
 title: News
 ---
+# 2025
+- May 10th, 2025
+
+![Sam receiving his a ward from the conference organizers](../img/group/2025-05-10_powell_setca_poster.jpg){:class="img-responsive"}
+
+  Congratulations to Sam, who won the best poster award for the first day of SETCA 2025 in Memphis, TN!
+
+
 # 2024
+- November 22nd, 2024
+
+  Curran Watson and Levi Mailloux have officially joined the Valeev group as our newest graduate students. Welcome, Curran and Levi!
+
 - April 26th, 2024
 
   Congratulations to Jaden Yon, whose poster won an Honorable Mention at the Chemistry department's Undergraduate Research Symposium! Congratulations also to Prof. Valeev for receiving the John C. Schug Research Award from the Department of Chemistry!

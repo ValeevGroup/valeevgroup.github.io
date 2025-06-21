@@ -21,12 +21,12 @@ SA Slattery, EF Valeev
 [ArXiv Preprint](https://arxiv.org/abs/2407.09680)
 
 # 2025
-"Model Assisted Refinement of Metamorphic Relations for Scientific Software"
+- "Model Assisted Refinement of Metamorphic Relations for Scientific Software"
 C Stevens, K Kjeer, R Richard, E Valeev, MB Cohen
 [2025 IEEE/ACM 47th International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER)](https://doi.org/10.1109/ICSE-NIER66352.2025.00012)
 
 # 2024
-"CoNST: Code Generator for Sparse Tensor Networks"
+- "CoNST: Code Generator for Sparse Tensor Networks"
 S Raje, Y Xu, A Rountev, EF Valeev, P Sadayappan
 [ACM Transactions on Architecture and Code Optimization 21 (4)](https://doi.org/10.1145/3689342)
 
@@ -62,45 +62,56 @@ SA Slattery, KA Surjuse, CC Peterson, DA Penchoff, EF Valeev
 - "High-performance evaluation of high angular momentum 4-center Gaussian integrals on modern accelerated processors"
 A Asadchev, EF Valeev
 [The Journal of Physical Chemistry A 127 (51)](https://doi.org/10.1021/acs.jpca.3c04574)
+
 - "Cluster-in-Molecule Approach with Explicitly Correlated Methods for Large Molecules"
 Y Wang, Y Guo, F Neese, EF Valeev, W Li, S Li
 [Journal of Chemical Theory and Computation 19 (22)](https://doi.org/10.1021/acs.jctc.3c00627)
+
 - "Direct Determination of Optimal Real-Space Orbitals for Correlated Electronic Structure of Molecules"
   EF Valeev, RJ Harrison, CC Peterson, DA Penchoff
   [Journal of Chemical Theory and Computation 19 (20), 7230-7241](https://doi.org/10.1021/acs.jctc.3c00732)
+
 - "A perspective on sustainable computational chemistry software development and integration"
 R Di Felice, ML Mayes, RM Richard, DB Williams-Young, GKL Chan, WA de Jong, N Govind, M Head-Gordon, MR Hermes, K Kowalski, X Li, H Lischka, KT Mueller, EMutlu, AMN Niklasson, MR Pederson, B Peng, Ron Shepard, EF Valeev, M van Schilfgaarde, BVlaisavljevich, TL Windus, SS Xantheas, X Zhang, PM Zimmerman
 [Journal of Chemical Theory and Computation 19 (20), 7056-7076](https://doi.org/10.1021/acs.jctc.3c00419)
+
 - "Distributed memory, GPU accelerated Fock construction for hybrid, Gaussian basis density functional theory"
 DB Williams-Young, A Asadchev, DT Popovici, D Clark, J Waldrop, TL Windus, EF Valeev, WA de Jong
 [The Journal of Chemical Physics 158 (23)](https://doi.org/10.1063/5.0151070)
+
 - "PluginPlay: Enabling exascale scientific software one module at a time"
 RM Richard, K Keipert, J Waldrop, M Keçeli, D Williams-Young, R Bair,  J Boschen, Z Crandall, K Gasperich, QI Mahmud, A Panyala, EF Valeev, H van Dam, WA de Jong, TL Windus
 [The Journal of Chemical Physics 158 (18)](https://doi.org/10.1063/5.0147903)
+
 - "Evaluating the evidence for exponential quantum advantage in ground-state quantum chemistry"
   S Lee, J Lee, H Zhai, Y Tong, AM Dalzell, A Kumar, P Helms, J Gray, Z- Cui, W Liu, M Kastoryano, R Babbush, J Preskill, DR Reichman, ET Campbell, EF Valeev, L Lin, G K-L Chan
   [Nature Communications, 14, (1952)](https://doi.org/10.1038/s41467-023-37587-6)
+
 - "SparseMaps—A systematic infrastructure for reduced-scaling electronic structure methods. VI. Linear-scaling explicitly correlated N-electron valence state perturbation theory with pair natural orbital" 
 Y Guo, F Pavošević, K Sivalingam, U Becker, EF Valeev, F Neese
 [The Journal of Chemical Physics 158 (12)](https://doi.org/10.1063/5.0144260)
+
 - "Memory-Efficient Recursive Evaluation of 3-Center Gaussian Integrals"
   A Asadchev and EF Valeev
   [Journal of Chemical Theory and Computation 19 (6), 1698-1710](https://doi.org/10.1021/acs.jctc.2c00995)
+
 # 2022
 - "Efficient Construction of Canonical Polyadic Approximations of Tensor Networks"
   K Pierce and EF Valeev
   [Journal of Chemical Theory and Computation 19 (1), 71-81](https://doi.org/10.1021/acs.jctc.2c00861)
+  
 - "Evaluations of molecular modeling and machine learning for predictive capabilities in binding of lanthanum and actinium with carboxylic acids"
 DA Penchoff, CC Peterson, EM Wrancher, G Bosilca, RJ Harrison, EF Valeev, PD Benny
 [Journal of Radioanalytical and Nuclear Chemistry 331 (12), 5469-5485](https://doi.org/10.1007/s10967-022-08620-7)
+
 - "Composition of Algorithmic Building Blocks in Template Task Graphs"
 T Herault, J Schuchart, EF Valeev, G Bosilca
 [2022 IEEE/ACM Parallel Applications Workshop: Alternatives To MPI+ X (PAW-ATM)](https://doi.org/10.1109/PAW-ATM56565.2022.00008)
+
 - "Pushing the Boundaries of Small Tasks: Scalable Low-Overhead Data-Flow Programming in TTG"
   J Schuchart, P Nookala, T Herault, EF Valeev, G Bosilica
   [2022 IEEE International Conference on Cluster Computing (CLUSTER)](https://ieeexplore.ieee.org/abstract/document/9912704/)
   
-
 - "Quantum Simulation of Molecular Electronic States with a Transcorrelated Hamiltonian: Higher Accuracy with Fewer Qubits"
   A Kumar, A Asthana, C Masteran, EF Valeev, Y Zhang, L Cincio, S Tretiak, PA Dub
   [Journal of Chemical Theory and Computation, 18(9), 5312-5324](https://pubs.acs.org/doi/abs/10.1021/acs.jctc.2c00520)

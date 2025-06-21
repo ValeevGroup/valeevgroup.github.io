@@ -6,9 +6,13 @@ header-img: "img/home-bg.jpg"
 ---
 
 -------
+## Valeev Research Group Fall 2024
+![Group Holiday Party 2024](../img/group/2024-12-07_VRG_holiday_party.jpg){:class="img-responsive"}
+Prof. Valeev, Conner, Ajay, Levi, Bimal, Nadia, Sam, Erica, Jonathon, Azam, Curran, Nikolai, and Kate
+
 ## Valeev Research Group Fall 2023
 ![Group 2023](../img/group/2023-12-02_VRG_fall_party.jpg){:class="img-responsive"}
-Sam (with Jack), Ajay, Kshitij, Samuel, Hyndavi, Bimal, Conner, Jonathon, Prof. Valeev (with Nikoli and Nadia)
+Sam (with Jack), Ajay, Kshitij, Samuel, Hyndavi, Bimal, Conner, Jonathon, Prof. Valeev (with Nikolai and Nadia)
 
 ## Valeev Research Group Spring 2023
 ![Group 2023](../img/group/2023-01-08_VRG_julian_christmas_party.jpg){:class="img-responsive"}

@@ -5,7 +5,7 @@ tags: ['person','grad_student']
 title: Levi Mailloux
 author: Valeev Group
 description: Graduate Student
-image: 
+image: img/people/levi_mailloux.jpg
 github_url: https://github.com/lamailloux
 email: lmailloux@vt.edu
 ---

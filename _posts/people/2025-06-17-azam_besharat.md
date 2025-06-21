@@ -5,7 +5,7 @@ tags: ['person','grad_student']
 title: Azam Besharat
 author: Valeev Group
 description: Graduate Student
-image: 
+image: img/people/azam_besharat.jpg
 github_url: https://github.com/ABesharat
 email: besharat@vt.edu
 ---

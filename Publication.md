@@ -4,11 +4,56 @@ title: "Publications"
 description: "Publications at Valeev Research Group"
 ---
 # Preprints
-- "CoNST: Code Generator for Sparse Tensor Networks"
-S Raje, Y Xu, A Rountev, EF Valeev, S Sadayappan
-[ArXiv Preprint](https://arxiv.org/abs/2401.04836)
+- "Efficient vectorized evaluation of Gaussian AO integrals on modern central processing units"
+A Asadchev, EF Valeev
+[ArXiv Preprint](https://arxiv.org/abs/2506.12501)
+
+- "Slimmer Geminals For Accurate F12 Electronic Structure Models"
+SR Powell, EF Valeev
+[ArXiv Preprint](https://arxiv.org/abs/2506.10780)
+
+- "Relativistic Core-Valence-Separated Molecular Mean-Field Exact-Two-Component Equation-of-Motion Coupled Cluster Theory: Applications to L-edge X-ray Absorption Spectroscopy"
+S Banerjee, RR Li, BC Cooper, T Zhang, EF Valeev, X Li, AE DePrince III
+[ArXiv Preprint](https://arxiv.org/abs/2506.09008)
+
+- Orbital Anatomy of Self-Interaction in Kohn-Sham Density Functional Theory
+SA Slattery, EF Valeev
+[ArXiv Preprint](https://arxiv.org/abs/2407.09680)
+
+# 2025
+"Model Assisted Refinement of Metamorphic Relations for Scientific Software"
+C Stevens, K Kjeer, R Richard, E Valeev, MB Cohen
+[2025 IEEE/ACM 47th International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER)](https://doi.org/10.1109/ICSE-NIER66352.2025.00012)
 
 # 2024
+"CoNST: Code Generator for Sparse Tensor Networks"
+S Raje, Y Xu, A Rountev, EF Valeev, P Sadayappan
+[ACM Transactions on Architecture and Code Optimization 21 (4)](https://doi.org/10.1145/3689342)
+
+- "Roadmap on methods and software for electronic structure based simulations in chemistry and materials"
+V Blum, ..., EF Valeev, ..., TL Windus
+[Electronic Structure 6 (4)](https://doi.org/10.1088/2516-1075/ad48ec)
+
+- ""Best" Iterative Coupled-Cluster Triples Model? More Evidence for 3CC"
+NK Teke, A Melekamburath, B Gaudel, EF Valeev
+[The Journal of Physical Chemistry A 128 (45)](https://doi.org/10.1021/acs.jpca.4c04667)
+
+- "Revisiting artifacts of Kohn–Sham density functionals for biosimulation"
+SA Slattery, JC Yon, EF Valeev
+[Journal of Chemical Theory and Computation 20 (15)](https://doi.org/10.1021/acs.jctc.4c00712)
+
+- "Relativistic coupled cluster with completely renormalized and perturbative triples corrections"
+SH Yuwono, RR Li, T Zhang, KA Surjuse, EF Valeev, X Li, AE DePrince III
+[The Journal of Physical Chemistry A 128 (31)](https://doi.org/10.1021/acs.jpca.4c02583)
+
+- "3-center and 4-center 2-particle Gaussian AO integrals on modern accelerated processors"
+A Asadchev, EF Valeev
+[The Journal of Chemical Physics 160 (24)](https://doi.org/10.1063/5.0217001)
+
+- "Dirac–Coulomb–Breit Molecular Mean-Field Exact-Two-Component Relativistic Equation-of-Motion Coupled-Cluster Theory"
+T Zhang, S Banerjee, LN Koulias, EF Valeev, AE DePrince III, X Li
+[The Journal of Physical Chemistry A 128 (17)](https://doi.org/10.1021/acs.jpca.3c08167)
+
 - "Economical Quasi-Newton Unitary Optimization of Electronic Orbitals"
 SA Slattery, KA Surjuse, CC Peterson, DA Penchoff, EF Valeev
 [Physical Chemistry Chemical Physics 26 (8)](https://doi.org/10.1039/D3CP05557D)
